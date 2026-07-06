@@ -101,7 +101,7 @@ const INITIAL_QUESTIONS = [
   }
 ];
 
-export default function App({ initialQuestions = null }: { initialQuestions?: any[] | null }) {
+export default function App({ initialQuestions = null, initialCategories = [] }: { initialQuestions?: any[] | null, initialCategories?: any[] }) {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [questions, setQuestions] = useState(initialQuestions && initialQuestions.length > 0 ? initialQuestions : INITIAL_QUESTIONS);
   const [savedQuestions, setSavedQuestions] = useState([1, 3]); // default saved question ids
@@ -465,6 +465,41 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               </div>
             </div>
 
+            {/* Category / Test Grid */}
+            {initialCategories && initialCategories.length > 0 && (
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 flex items-center">
+                    <span className="w-2 h-6 bg-indigo-500 rounded-full mr-3"></span>
+                    Popüler Deneme Sınavları
+                  </h3>
+                  <Link href="/testler" className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300">
+                    Tümünü Gör &rarr;
+                  </Link>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                  {initialCategories.slice(0, 4).map((cat) => (
+                    <Link key={cat.category_id} href={`/kategori/${cat.category_id}`} className="group">
+                      <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-md transition-all h-full flex flex-col justify-between hover:border-indigo-200 dark:hover:border-indigo-800">
+                        <div>
+                          <div className="text-3xl mb-3">{cat.icon}</div>
+                          <h4 className="font-bold text-slate-800 dark:text-slate-100 mb-1 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            {cat.title}
+                          </h4>
+                          <p className="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mb-4">
+                            {cat.description}
+                          </p>
+                        </div>
+                        <div className="w-full text-center py-2 rounded-xl bg-slate-50 dark:bg-slate-900/50 text-indigo-600 dark:text-indigo-400 font-semibold text-xs group-hover:bg-indigo-50 dark:group-hover:bg-indigo-900/50 transition-colors">
+                          Sınavlara Göz At
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Main Dashboard Layout (Split Column) */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Question of the Day & Activity */}
@@ -552,27 +587,18 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                 <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
                   <h3 className="font-bold text-sm text-slate-500 uppercase tracking-wider">⚡ Hızlı Başlangıç</h3>
                   <div className="space-y-2">
-                    <button 
-                      onClick={() => { setActiveTab('exams'); setSelectedExam('Hepsi'); setSelectedSubject('Matematik'); }}
-                      className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
-                    >
-                      <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">📐 TYT-AYT Matematik</span>
-                      <span className="text-xs text-slate-500">&rarr;</span>
-                    </button>
-                    <button 
-                      onClick={() => { setActiveTab('exams'); setSelectedExam('Hepsi'); setSelectedSubject('Türkçe'); }}
-                      className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
-                    >
-                      <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">📝 Türkçe Paragraf</span>
-                      <span className="text-xs text-slate-500">&rarr;</span>
-                    </button>
-                    <button 
-                      onClick={() => { setActiveTab('exams'); setSelectedExam('Hepsi'); setSelectedSubject('Fizik'); }}
-                      className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
-                    >
-                      <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">⚡ AYT Fizik Kampı</span>
-                      <span className="text-xs text-slate-500">&rarr;</span>
-                    </button>
+                    {initialCategories.slice(0, 3).map((cat) => (
+                      <Link 
+                        key={cat.category_id}
+                        href={`/kategori/${cat.category_id}`}
+                        className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
+                      >
+                        <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">
+                          <span className="mr-2">{cat.icon}</span>{cat.title}
+                        </span>
+                        <span className="text-xs text-slate-500">&rarr;</span>
+                      </Link>
+                    ))}
                     <Link
                       href="/genel-deneme"
                       className="w-full text-left p-3 rounded-xl bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 dark:from-amber-950/20 dark:to-orange-950/20 dark:hover:from-amber-950/30 dark:hover:to-orange-950/30 flex items-center justify-between transition-colors group border border-amber-200/50 dark:border-amber-800/30"

@@ -23,9 +23,17 @@ function renderBlockMath(text: string): string {
   })
 }
 
+function unescapeUnicode(str: string): string {
+  if (!str) return str;
+  return str.replace(/\\u([\dA-Fa-f]{4})/gi, (match, grp) => {
+    return String.fromCharCode(parseInt(grp, 16));
+  });
+}
+
 export default function KatexContent({ text, as = 'span' }: { text: string; as?: 'span' | 'div' }) {
   const html = useMemo(() => {
-    const withBlocks = renderBlockMath(text)
+    const unescaped = unescapeUnicode(text)
+    const withBlocks = renderBlockMath(unescaped)
     const withInline = renderInlineMath(withBlocks)
     return withInline
   }, [text])

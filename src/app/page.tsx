@@ -5,11 +5,18 @@ export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   let formattedQuestions: any[] = [];
+  let categories: any[] = [];
   try {
-    const dbQuestions = await sql`
-      SELECT id, question, options, correct_answer, explanation, category_id
-      FROM questions ORDER BY id DESC LIMIT 20
-    `;
+    const [dbQuestions, dbCategories] = await Promise.all([
+      sql`
+        SELECT id, question, options, correct_answer, explanation, category_id
+        FROM questions ORDER BY id DESC LIMIT 20
+      `,
+      sql`SELECT * FROM categories ORDER BY title ASC`
+    ]);
+
+    categories = dbCategories;
+
     formattedQuestions = dbQuestions.map((q: any) => {
       let optionsArr: string[] = [];
       try {
@@ -42,5 +49,5 @@ export default async function Home() {
     console.error("Database fetch failed:", error);
   }
 
-  return <SoruBankasiApp initialQuestions={formattedQuestions} />;
+  return <SoruBankasiApp initialQuestions={formattedQuestions} initialCategories={categories} />;
 }
