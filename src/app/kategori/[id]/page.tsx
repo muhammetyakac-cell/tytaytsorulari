@@ -60,76 +60,103 @@ export default async function CategoryPage({ params }: { params: Promise<{ id: s
   };
 
   return (
-    <section className={`page-section theme-${categoryId}`}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
-      />
-      <div className="breadcrumb">
-        <Link href="/" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>Ana Sayfa</Link> &gt;
-        <span style={{ color: 'var(--primary)' }}> {category.title}</span>
-      </div>
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 p-4 sm:p-8">
+      <div className="max-w-7xl mx-auto space-y-6">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        />
+        
+        {/* Breadcrumb */}
+        <div className="flex items-center space-x-2 text-sm text-slate-500 dark:text-slate-400 mb-2">
+          <Link href="/" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Ana Sayfa</Link>
+          <span>&gt;</span>
+          <span className="font-semibold text-indigo-600 dark:text-indigo-400">{category.title}</span>
+        </div>
 
-      <div className="card" style={{ padding: '1.5rem', marginBottom: '2rem' }}>
-        <div style={{ fontSize: '2.5rem', marginBottom: '0.75rem' }}>{category.icon}</div>
-        <h2 className="gradient-text" style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>{category.title}</h2>
-        <p style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>
-          {category.description}
-        </p>
-        <p style={{ marginTop: '0.75rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-          Toplam {totalQuestions} soru, {totalTests} test
-        </p>
-      </div>
+        {/* Header Card */}
+        <div className="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm">
+          <div className="text-4xl mb-4">{category.icon}</div>
+          <h2 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 mb-3">
+            {category.title}
+          </h2>
+          <p className="text-lg text-slate-600 dark:text-slate-300">
+            {category.description}
+          </p>
+          <div className="mt-4 flex items-center space-x-4">
+            <span className="bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 px-3 py-1 rounded-full text-sm font-semibold">
+              {totalQuestions} Soru
+            </span>
+            <span className="bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 px-3 py-1 rounded-full text-sm font-semibold">
+              {totalTests} Deneme
+            </span>
+          </div>
+        </div>
 
-      <h3 style={{ marginBottom: '1rem' }}>Deneme Sınavları</h3>
+        <div>
+          <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-6 flex items-center">
+            <span className="w-2 h-6 bg-indigo-500 rounded-full mr-3"></span>
+            Deneme Sınavları
+          </h3>
 
-      {tests.length === 0 ? (
-        <p className="text-muted">Bu kategoriye ait henüz test bulunmuyor.</p>
-      ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
-          <Link
-            href="/genel-deneme"
-            style={{ textDecoration: 'none', color: 'inherit' }}
-          >
-            <div className="card" style={{ padding: '1.25rem', cursor: 'pointer', border: '2px dashed var(--primary)', background: 'linear-gradient(135deg, rgba(99,102,241,0.05), rgba(245,158,11,0.05))' }}>
-              <div style={{ fontSize: '2rem', marginBottom: '0.5rem', textAlign: 'center' }}>🎯</div>
-              <h4 style={{ margin: 0, textAlign: 'center', color: 'var(--primary)' }}>Karma Deneme Başlat</h4>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textAlign: 'center', marginTop: '0.5rem' }}>
-                Tüm derslerden karışık sorularla genel deneme sınavı oluştur.
-              </p>
+          {tests.length === 0 ? (
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 text-center">
+              <p className="text-slate-500 dark:text-slate-400">Bu kategoriye ait henüz test bulunmuyor.</p>
             </div>
-          </Link>
-          {tests.map((t) => {
-            const isSolved = solvedTests.has(t.index);
-            return (
-              <Link
-                key={t.index}
-                href={`/test/${categoryId}/${t.index}`}
-                style={{ textDecoration: 'none', color: 'inherit' }}
-              >
-                <div className="card" style={{ padding: '1.25rem', cursor: 'pointer', position: 'relative' }}>
-                  {isSolved && (
-                    <div style={{ position: 'absolute', top: '-8px', right: '-8px', background: 'var(--success)', color: 'white', borderRadius: '50%', width: '28px', height: '28px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px', boxShadow: '0 4px 10px rgba(0,0,0,0.2)', zIndex: 10 }}>
-                      ✓
-                    </div>
-                  )}
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                    <h4 style={{ margin: 0 }}>Test {t.index + 1}</h4>
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{t.count} Soru</span>
-                  </div>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1rem', fontStyle: 'italic' }}>
-                    &quot;{t.previewText}&quot;
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {/* Karma Deneme Card */}
+              <Link href="/genel-deneme" className="group">
+                <div className="h-full bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 p-6 rounded-3xl border-2 border-dashed border-indigo-200 dark:border-indigo-800 hover:border-indigo-400 dark:hover:border-indigo-500 transition-all cursor-pointer flex flex-col justify-center text-center">
+                  <div className="text-4xl mb-3 group-hover:scale-110 transition-transform">🎯</div>
+                  <h4 className="text-lg font-bold text-indigo-700 dark:text-indigo-400 mb-2">Karma Deneme Başlat</h4>
+                  <p className="text-sm text-indigo-600/70 dark:text-indigo-400/70">
+                    Tüm derslerden karışık sorularla genel deneme sınavı oluştur.
                   </p>
-                  <button className={isSolved ? "btn-outline" : "btn-primary"} style={{ width: '100%', padding: '0.6rem', fontSize: '0.9rem', color: isSolved ? 'var(--success)' : undefined, borderColor: isSolved ? 'var(--success)' : undefined }}>
-                    {isSolved ? '✓ Çözüldü (Tekrar Çöz)' : '▶ Başla'}
-                  </button>
                 </div>
               </Link>
-            )
-          })}
+
+              {/* Test Cards */}
+              {tests.map((t) => {
+                const isSolved = solvedTests.has(t.index);
+                return (
+                  <Link key={t.index} href={`/test/${categoryId}/${t.index}`} className="group">
+                    <div className={`h-full flex flex-col bg-white dark:bg-slate-800 p-6 rounded-3xl border shadow-sm transition-all hover:shadow-md relative ${isSolved ? 'border-emerald-200 dark:border-emerald-800' : 'border-slate-100 dark:border-slate-800 hover:border-indigo-200 dark:hover:border-indigo-800'}`}>
+                      {isSolved && (
+                        <div className="absolute -top-3 -right-3 bg-emerald-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-lg shadow-emerald-500/30">
+                          ✓
+                        </div>
+                      )}
+                      <div className="flex justify-between items-center mb-3">
+                        <h4 className="font-bold text-lg text-slate-800 dark:text-slate-100">Test {t.index + 1}</h4>
+                        <span className="text-xs font-semibold bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 px-2 py-1 rounded-md">
+                          {t.count} Soru
+                        </span>
+                      </div>
+                      <p className="text-sm text-slate-500 dark:text-slate-400 mb-6 italic line-clamp-2">
+                        &quot;{t.previewText}&quot;
+                      </p>
+                      
+                      <div className="mt-auto pt-4">
+                        {isSolved ? (
+                          <div className="w-full text-center py-2.5 rounded-xl border-2 border-emerald-500 text-emerald-600 dark:text-emerald-400 font-semibold text-sm hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-colors">
+                            ✓ Çözüldü (Tekrar Çöz)
+                          </div>
+                        ) : (
+                          <div className="w-full text-center py-2.5 rounded-xl bg-indigo-600 text-white font-semibold text-sm group-hover:bg-indigo-700 transition-colors shadow-md shadow-indigo-600/20">
+                            ▶ Başla
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          )}
         </div>
-      )}
-    </section>
+      </div>
+    </div>
   );
 }
 
