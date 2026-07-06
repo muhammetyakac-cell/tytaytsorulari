@@ -1,15 +1,15 @@
-import { randInt, pick, shuffle, makeQuestion, makeOptions, generateUnique } from './shared.mjs';
+import { pick, shuffle, makeQuestion, makeOptions, generateUnique } from './shared.mjs';
 
-const r = (a, b) => randInt(a, b);
-
-// ─── Tarih2 ───────────────────────────────────────────────────────────────────
+// ─── Tarih-2 ───────────────────────────────────────────────────────────────────
 
 function templateCumhuriyetDonemi() {
   const q = pick([
-    { q: 'Türkiye Cumhuriyeti\'nin ilk anayasası aşağıdakilerden hangisidir?', a: '1921 Teşkilat-ı Esasiye', w: ['1876 Kanun-i Esasi', '1924 Anayasası', '1961 Anayasası', '1982 Anayasası'], e: '1921 Teşkilat-ı Esasiye, Cumhuriyet\'in ilk anayasasıdır. 1924 Anayasası ise ilk cumhuriyet anayasasıdır.' },
-    { q: 'Cumhuriyet\'in ilan edildi\\ği tarih aşağıdakilerden hangisidir?', a: '29 Ekim 1923', w: ['23 Nisan 1920', '19 Mayıs 1919', '9 Eylül 1922', '24 Temmuz 1923'], e: 'Cumhuriyet, 29 Ekim 1923\'te ilan edilmiştir. 23 Nisan 1920 TBMM\'nin açılışıdır.' },
-    { q: 'Halifeli\\ğin kaldırıldı\\ğı tarih aşağıdakilerden hangisidir?', a: '3 Mart 1924', w: ['29 Ekim 1923', '20 Nisan 1924', '30 A\\ğustos 1925', '10 Kasım 1938'], e: 'Halifelik, 3 Mart 1924\'te çıkarılan kanunla kaldırılmıştır.' },
-    { q: 'Türkiye\'de çok partili hayata ilk geçiş denemesi hangi partiyle yapılmıştır?', a: 'Terakkiperver Cumhuriyet Fırkası', w: ['Serbest Cumhuriyet Fırkası', 'Demokrat Parti', 'Millet Partisi', 'Adalet Partisi'], e: 'İlk çok partili geçiş denemesi 1924\'te kurulan Terakkiperver Cumhuriyet Fırkası ile yapılmıştır.' },
+    { q: 'Türkiye Cumhuriyeti\'nin ilk anayasası aşağıdakilerden hangisidir?', a: '1921 Teşkilat-ı Esasiye', w: ['1876 Kanun-i Esasi', '1924 Anayasası', '1961 Anayasası', '1982 Anayasası'], e: '1921 Teşkilat-ı Esasiye, TBMM\'nin kurduğu yeni devletin ilk anayasasıdır.' },
+    { q: 'Cumhuriyet\'in ilan edildiği tarih aşağıdakilerden hangisidir?', a: '29 Ekim 1923', w: ['23 Nisan 1920', '19 Mayıs 1919', '9 Eylül 1922', '24 Temmuz 1923'], e: 'Cumhuriyet, 29 Ekim 1923\'te ilan edilerek devletin rejimi belirlenmiştir.' },
+    { q: 'Halifeliğin kaldırıldığı tarih aşağıdakilerden hangisidir?', a: '3 Mart 1924', w: ['29 Ekim 1923', '20 Nisan 1924', '30 Ağustos 1925', '10 Kasım 1938'], e: 'Halifelik, 3 Mart 1924\'te çıkarılan kanunla (Tevhid-i Tedrisat vb. kanunlarla aynı gün) kaldırılmıştır.' },
+    { q: 'Türkiye\'de çok partili hayata ilk geçiş denemesi hangi siyasi partiyle yapılmıştır?', a: 'Terakkiperver Cumhuriyet Fırkası', w: ['Serbest Cumhuriyet Fırkası', 'Demokrat Parti', 'Millet Partisi', 'Ahali Cumhuriyet Fırkası'], e: 'İlk çok partili geçiş denemesi 1924\'te kurulan Kazım Karabekir liderliğindeki Terakkiperver Cumhuriyet Fırkası ile yapılmıştır.' },
+    { q: 'Cumhuriyet döneminde yapılan inkılaplara karşı çıkan ilk büyük isyan aşağıdakilerden hangisidir?', a: 'Şeyh Sait İsyanı', w: ['Menemen Olayı (Kubilay Vakası)', 'Koçgiri İsyanı', 'Demirci Mehmet Efe İsyanı', 'Çerkez Ethem İsyanı'], e: '1925\'te çıkan Şeyh Sait isyanı rejime karşı ilk büyük isyandır ve Terakkiperver Fırka\'nın kapatılmasına neden olmuştur.' },
+    { q: 'Montrö Boğazlar Sözleşmesi (1936) ile Türkiye aşağıdakilerden hangisini başarmıştır?', a: 'Boğazlar Komisyonunu kaldırarak Boğazlarda tam egemenlik sağlamıştır', w: ['Hatay\'ı anavatana katmıştır', 'Musul sorununu çözmüştür', 'Yabancı okullar meselesini halletmiştir', 'Kapitülasyonları kaldırmıştır'], e: 'Lozan\'da kurulan Boğazlar Komisyonu Montrö ile kaldırılmış ve Türk askerinin Boğazlara girmesi sağlanmıştır.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
@@ -18,10 +18,12 @@ function templateCumhuriyetDonemi() {
 
 function templateAtaturkIlkeleri() {
   const q = pick([
-    { q: 'Aşağıdaki Atatürk ilkelerinden hangisi di\\ğerlerine göre daha öncelikli ve kapsayıcıdır?', a: 'Cumhuriyetçilik', w: ['Laiklik', 'Milliyetçilik', 'Devletçilik', 'Halkçılık'], e: 'Cumhuriyetçilik, Atatürk ilkelerinin temelini oluşturur ve di\\ğer ilkelerin uygulanmasını sa\\ğlar.' },
-    { q: 'Laiklik ilkesi aşağıdaki inkılaplardan hangisiyle do\\ğrudan ilişkilidir?', a: 'Halifeli\\ğin kaldırılması', w: ['Şapka Kanunu', 'Soyadı Kanunu', 'Medeni Kanun\'un kabulü', 'Kıyafet inkılabı'], e: 'Laiklik ilkesi do\\ğrultusunda 1924\'te halifelik kaldırılmış, din-devlet işleri ayrılmıştır.' },
-    { q: 'Devletçilik ilkesinin Türkiye\'de uygulanmasının temel nedeni aşağıdakilerden hangisidir?', a: 'Özel sermayenin yetersiz olması', w: ['Liberal ekonominin başarısız olması', 'Dış borçların ödenmesi', 'Savaş tehlikesi', 'Nüfusun az olması'], e: '1930\'larda özel sermaye yetersiz oldu\\ğu için devlet öncülü\\ğünde sanayileşme politikası (devletçilik) uygulanmıştır.' },
-    { q: '"Egemenlik kayıtsız şartsız milletindir" sözü aşağıdaki ilkelerden hangisiyle do\\ğrudan ilgilidir?', a: 'Cumhuriyetçilik', w: ['Milliyetçilik', 'Halkçılık', 'Laiklik', 'İnkılapçılık'], e: 'Bu söz, Cumhuriyetçilik ilkesinin özünü oluşturur. Egemenli\\ğin millete ait oldu\\ğunu ifade eder.' },
+    { q: 'Aşağıdaki Atatürk ilkelerinden hangisi diğerlerine göre daha öncelikli ve siyasi rejimi belirleyici niteliktedir?', a: 'Cumhuriyetçilik', w: ['Laiklik', 'Milliyetçilik', 'Devletçilik', 'Halkçılık'], e: 'Cumhuriyetçilik, devletin yönetim şeklini belirler ve diğer ilkelerin uygulanmasına zemin hazırlar.' },
+    { q: 'Laiklik ilkesi aşağıdaki inkılaplardan hangisiyle doğrudan ilişkilidir?', a: 'Halifeliğin kaldırılması', w: ['Şapka Kanunu', 'Soyadı Kanunu', 'Kabotaj Kanunu', 'Kıyafet inkılabı'], e: 'Halifeliğin kaldırılması, din ve devlet işlerinin ayrılması (laiklik) yolunda en büyük adımdır.' },
+    { q: 'Devletçilik ilkesinin Türkiye\'de 1930\'larda uygulanmasının temel nedeni aşağıdakilerden hangisidir?', a: 'Özel sermayenin yetersiz olması ve 1929 Dünya Ekonomik Buhranı', w: ['Liberal ekonominin tamamen başarısız olması', 'Dış borçların ödenmesi gerekliliği', 'Komünizme geçiş hazırlığı', 'Siyasi partilerin baskısı'], e: 'Sermaye yetersizliği ve 1929 krizinin etkileri devleti ekonomiye doğrudan müdahaleye (devletçilik) itmiştir.' },
+    { q: '"Egemenlik kayıtsız şartsız milletindir" sözü aşağıdaki ilkelerden hangisiyle doğrudan ilgilidir?', a: 'Cumhuriyetçilik', w: ['Milliyetçilik', 'Halkçılık', 'Laiklik', 'İnkılapçılık'], e: 'Bu söz, milli iradeyi ve egemenliğin millete ait olduğunu vurguladığı için Cumhuriyetçilikle ilgilidir.' },
+    { q: 'Atatürk\'ün milliyetçilik anlayışı için aşağıdakilerden hangisi söylenemez?', a: 'Irk esasına dayanır.', w: ['Birleştirici ve bütünleştiricidir.', 'Barışçıldır.', 'Laik ve demokratiktir.', 'Sınıf çatışmasını reddeder.'], e: 'Atatürk milliyetçiliği ırkçı değildir; "Ne mutlu Türküm diyene" sözüyle kültürel birliği ve vatandaşlığı esas alır.' },
+    { q: 'Medeni Kanun\'un kabulü (1926) ile kadın-erkek eşitliğinin sağlanması, en çok hangi Atatürk ilkesiyle ilişkilidir?', a: 'Halkçılık', w: ['Devletçilik', 'Cumhuriyetçilik', 'Milliyetçilik', 'Laiklik'], e: 'Halkçılık ilkesi eşitliği, sınıf ayrımı gözetmemeyi savunur; Medeni Kanun bu yönüyle halkçılıktır.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
@@ -30,23 +32,25 @@ function templateAtaturkIlkeleri() {
 
 function templateCokPartiliSogukSavas() {
   const q = pick([
-    { q: 'Türkiye\'de 1950 seçimlerini kazanarak iktidara gelen parti aşağıdakilerden hangisidir?', a: 'Demokrat Parti', w: ['Cumhuriyet Halk Partisi', 'Millet Partisi', 'Adalet Partisi', 'Terakkiperver Cumhuriyet Fırkası'], e: '1950 seçimlerini DP kazanmış, 27 yıllık CHP iktidarı sona ermiştir.' },
-    { q: 'So\\ğuk Savaş döneminde Türkiye\'nin hangi örgüte üye olması batı blokuna dahil oldu\\ğunu göstermiştir?', a: 'NATO', w: ['Varşova Paktı', 'Birleşmiş Milletler', 'Avrupa Birli\\ği', 'Ba\\ğdat Paktı'], e: 'Türkiye, 1952\'de NATO\'ya üye olarak batı blokunda yerini almıştır.' },
-    { q: '1961 Anayasası\'nın hazırlanmasına neden olan askeri müdahale aşağıdakilerden hangisidir?', a: '27 Mayıs 1960', w: ['12 Mart 1971', '12 Eylül 1980', '28 Şubat 1997', '15 Temmuz 2016'], e: '27 Mayıs 1960 askeri müdahalesi sonrası 1961 Anayasası hazırlanmış ve kabul edilmiştir.' },
-    { q: 'So\\ğuk Savaş\'ın sona ermesine neden olan gelişme aşağıdakilerden hangisidir?', a: 'SSCB\'nin da\\ğılması', w: ['Berlin Duvarı\'nın yıkılması', 'ABD\'nin üstünlük kurması', 'Çin\'in yükselişi', 'Avrupa Birli\\ği\'nin kurulması'], e: '1991\'de SSCB\'nin da\\ğılması So\\ğuk Savaş\'ı sona erdirmiştir.' },
+    { q: 'Türkiye\'de 1950 seçimlerini "Yeter söz milletindir" sloganıyla kazanarak 27 yıllık tek parti dönemini bitiren parti hangisidir?', a: 'Demokrat Parti', w: ['Cumhuriyet Halk Partisi', 'Millet Partisi', 'Adalet Partisi', 'Serbest Cumhuriyet Fırkası'], e: 'Celal Bayar ve Adnan Menderes öncülüğünde kurulan Demokrat Parti, 1950 seçimleriyle iktidara gelmiştir.' },
+    { q: 'Soğuk Savaş döneminde Türkiye\'nin hangi örgüte üye olması Batı blokuna kesin olarak dahil olduğunu göstermiştir?', a: 'NATO', w: ['Varşova Paktı', 'Birleşmiş Milletler', 'Avrupa Konseyi', 'Bağdat Paktı'], e: 'Türkiye, Kore Savaşı\'na asker göndermesinin ardından 1952\'de NATO\'ya üye olmuştur.' },
+    { q: '1961 Anayasası\'nın hazırlanmasına neden olan askeri müdahale aşağıdakilerden hangisidir?', a: '27 Mayıs 1960', w: ['12 Mart 1971', '12 Eylül 1980', '28 Şubat 1997', '15 Temmuz 2016'], e: '27 Mayıs 1960 darbesiyle DP iktidarı sonlandırılmış ve 1961 Anayasası yürürlüğe girmiştir.' },
+    { q: 'Soğuk Savaş\'ın sona ermesine ve iki kutuplu dünyanın bitmesine neden olan temel gelişme aşağıdakilerden hangisidir?', a: 'SSCB\'nin dağılması (1991)', w: ['Berlin Duvarı\'nın yıkılması', 'Küba Füze Krizi', 'Vietnam Savaşı\'nın bitmesi', 'Çin\'in yükselişi'], e: '1991\'de SSCB\'nin resmen dağılmasıyla Soğuk Savaş bitmiş, ABD tek süper güç olarak kalmıştır.' },
+    { q: 'ABD\'nin II. Dünya Savaşı sonrası Avrupa ülkelerine ekonomik yardım yaptığı ve Türkiye\'nin de yararlandığı planın adı nedir?', a: 'Marshall Planı', w: ['Truman Doktrini', 'Dawes Planı', 'Eisenhower Doktrini', 'Schuman Planı'], e: 'Marshall Planı (1947), yıkıma uğrayan Avrupa\'yı kalkındırmak ve Sovyet etkisini kırmak için yapılmış ekonomik yardımdır.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
   return makeQuestion('tarih2', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
-// ─── Coğrafya2 ────────────────────────────────────────────────────────────────
+// ─── Coğrafya-2 ────────────────────────────────────────────────────────────────
 
 function templateNufus() {
   const q = pick([
-    { q: 'Türkiye\'de nüfus yo\\ğunlu\\ğu en fazla olan bölge aşağıdakilerden hangisidir?', a: 'Marmara Bölgesi', w: ['İç Anadolu Bölgesi', 'Ege Bölgesi', 'Akdeniz Bölgesi', 'Karadeniz Bölgesi'], e: 'Sanayi, ticaret ve ulaşım olanaklarının fazla oldu\\ğu Marmara Bölgesi en yo\\ğun nüfuslu bölgedir.' },
-    { q: 'Aşağıdakilerden hangisi Türkiye\'de nüfusun da\\ğılışını etkileyen do\\ğal faktörlerden biri de\\ğildir?', a: 'Sanayi tesisleri', w: ['İklim', 'Yer şekilleri', 'Su kaynakları', 'Toprak verimlili\\ği'], e: 'Sanayi tesisleri beşeri faktördür. İklim, yer şekilleri, su kaynakları ve toprak verimlili\\ği do\\ğal faktörlerdir.' },
-    { q: 'Türkiye\'de nüfus artış hızını düşürmek amacıyla uygulanan politikalar hangi dönemde başlamıştır?', a: '1960\'lı yıllar', w: ['1923\'te Cumhuriyet\'in ilanıyla', '1950\'lerde çok partili hayata geçişle', '1980\'lerde ekonomik liberalleşmeyle', '2000\'li yıllarda AB süreciyle'], e: '1960\'lı yıllardan itibaren nüfus artış hızını düşürmeye yönelik politikalar uygulanmaya başlanmıştır.' },
+    { q: 'Türkiye\'de nüfus yoğunluğu en fazla olan bölge aşağıdakilerden hangisidir?', a: 'Marmara Bölgesi', w: ['İç Anadolu Bölgesi', 'Ege Bölgesi', 'Akdeniz Bölgesi', 'Karadeniz Bölgesi'], e: 'Sanayi, ticaret ve ulaşım olanaklarının gelişmiş olması nedeniyle Marmara Bölgesi en yoğun nüfusludur.' },
+    { q: 'Aşağıdakilerden hangisi Türkiye\'de nüfusun dağılışını etkileyen doğal faktörlerden biri değildir?', a: 'Sanayi tesisleri', w: ['İklim', 'Yer şekilleri', 'Su kaynakları', 'Toprak verimliliği'], e: 'Sanayi tesisleri, tarım, ulaşım gibi faktörler beşeri; iklim ve yer şekilleri doğal faktördür.' },
+    { q: 'Türkiye\'de nüfus artış hızını düşürmek amacıyla uygulanan (aile planlaması) politikalar hangi dönemde başlamıştır?', a: '1965 sonrası dönem', w: ['1923\'te Cumhuriyet\'in ilanıyla', '1950\'lerde çok partili hayata geçişle', '1980\'lerde ekonomik liberalleşmeyle', '2000\'li yıllarda'], e: '1923-1965 arası nüfus artırıcı, 1965\'ten itibaren ise nüfus artış hızını düşürücü politikalar uygulanmıştır.' },
+    { q: 'Bir ülkede genç bağımlı nüfus oranının yüksek olması aşağıdakilerden hangisinin göstergesidir?', a: 'Doğum oranlarının yüksek olduğunun', w: ['Ortalama yaşam süresinin uzun olduğunun', 'Gelişmişlik düzeyinin çok yüksek olduğunun', 'Eğitim seviyesinin yüksek olduğunun', 'Kırsal nüfusun azaldığının'], e: 'Genç nüfusun (0-14 yaş) fazla olması, o ülkede doğum oranlarının yüksek olduğunu gösterir.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
@@ -55,34 +59,25 @@ function templateNufus() {
 
 function templateSehirlesme() {
   const q = pick([
-    { q: 'Türkiye\'de şehirleşme hızının en fazla oldu\\ğu dönem aşağıdakilerden hangisidir?', a: '1950\'lerden sonra sanayileşmeyle', w: ['Cumhuriyet\'in ilk yılları', 'Osmanlı\'nın son dönemi', '2000\'li yıllardan sonra', 'Kurtuluş Savaşı yıllarında'], e: '1950\'lerde sanayileşme ve kırdan kente gçle birlikte şehirleşme hızlanmıştır.' },
-    { q: 'Aşağıdakilerden hangisi Türkiye\'de şehirlerin fonksiyonlarına göre sınıflandırılmasında kullanılan kategorilerden biri de\\ğildir?', a: 'Akdeniz şehirleri', w: ['Sanayi şehirleri', 'İdari şehirler', 'Liman şehirleri', 'Tarım şehirleri'], e: 'Şehirler fonksiyonlarına göre sanayi, idari, liman, tarım, turizm vb. şeklinde sınıflandırılır.' },
-    { q: 'Türkiye\'de gecekondulaşma sorununun temel nedeni aşağıdakilerden hangisidir?', a: 'Hızlı nüfus artışı ve kente gç', w: ['Deprem riski', 'Sanayi tesislerinin azlı\\ğı', 'Tarım alanlarının verimsizli\\ği', 'E\\ğitim düzeyinin düşüklü\\ğü'], e: 'Kırdan kente hızlı gç ve nüfus artışı, konut ihtiyacını karşılayamamakta, gecekondulaşmaya neden olmaktadır.' },
+    { q: 'Türkiye\'de şehirleşme hızının sıçrama yaptığı ve kırdan kente göçün ivme kazandığı dönem hangisidir?', a: '1950\'ler sonrası', w: ['Cumhuriyet\'in ilk yılları', 'Osmanlı\'nın son dönemi', '2000\'li yıllar', 'Kurtuluş Savaşı yılları'], e: '1950\'lerde tarımda makineleşme ve sanayileşme çabaları kırdan kente göçü hızlandırmıştır.' },
+    { q: 'Aşağıdakilerden hangisi Türkiye\'de şehirlerin fonksiyonlarına göre sınıflandırılmasında kullanılan bir kavram değildir?', a: 'İklim şehirleri', w: ['Sanayi şehirleri', 'İdari şehirler (Başkentler)', 'Liman şehirleri', 'Turizm şehirleri'], e: 'Şehirler işlevlerine göre sanayi, ticaret, liman, maden, turizm vb. olarak sınıflandırılır.' },
+    { q: 'Türkiye\'de büyük şehirlerde yaşanan gecekondulaşma sorununun temel nedeni aşağıdakilerden hangisidir?', a: 'Hızlı kırdan kente göç ve konut yetersizliği', w: ['Deprem riski', 'Sanayi tesislerinin azlığı', 'Tarım alanlarının verimsizliği', 'Yabancı göçmen akını'], e: 'Hızlı nüfus artışı ve göç, şehirlerde planlı konut üretimini aşmış ve çarpık kentleşmeye (gecekondu) yol açmıştır.' },
+    { q: 'Bir kentin etki alanının genişliğini belirleyen en önemli faktör aşağıdakilerden hangisidir?', a: 'Sahip olduğu fonksiyonların çeşitliliği ve büyüklüğü', w: ['Yüz ölçümünün büyüklüğü', 'Tarihi geçmişinin eski olması', 'İkliminin ılıman olması', 'Tarım alanlarının genişliği'], e: 'Küresel, bölgesel veya yerel etkiye sahip olmak, kentin (finans, sanayi, borsa gibi) fonksiyonlarına bağlıdır.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
   return makeQuestion('cografya2', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
-function templateEkonomi() {
-  const q = pick([
-    { q: 'Türkiye\'de en fazla ekim alanına sahip tarım ürünü aşağıdakilerden hangisidir?', a: 'Bu\\ğday', w: ['Arpa', 'Mısır', 'Pamuk', 'Ayçiçe\\ği'], e: 'Bu\\ğday, Türkiye\'de en geniş ekim alanına sahip tarım ürünüdür. İç Anadolu başta olmak üzere yaygın olarak yetiştirilir.' },
-    { q: 'Türkiye\'nin en önemli enerji kaynaklarından biri olan ve Do\\ğu Anadolu\'da yaygın olan maden aşağıdakilerden hangisidir?', a: 'Linyit', w: ['Taş kömürü', 'Petrol', 'Do\\ğal gaz', 'Bor'], e: 'Linyit yatakları Türkiye\'de yaygındır ve özellikle Do\\ğu Anadolu\'da (Elbistan) büyük rezervler bulunur.' },
-    { q: 'Türkiye\'de turizm gelirlerinin en yüksek oldu\\ğu bölge aşağıdakilerden hangisidir?', a: 'Akdeniz Bölgesi', w: ['Ege Bölgesi', 'Marmara Bölgesi', 'Karadeniz Bölgesi', 'İç Anadolu Bölgesi'], e: 'Akdeniz Bölgesi, deniz turizmi ve tarihi zenginlikleriyle en fazla turist çeken bölgedir.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('cografya2', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
-}
+// ─── Felsefe Grubu ────────────────────────────────────────────────────────────
 
-// ─── Felsefe ──────────────────────────────────────────────────────────────────
-
-function templateIslamFelsefesi() {
+function templateİslamFelsefesi() {
   const q = pick([
-    { q: 'İslam felsefesinin öncüsü olarak kabul edilen ve "Kindî" olarak bilinen filozofun tam adı aşağıdakilerden hangisidir?', a: 'Eb\\u00fb Y\\u00fbsuf Ya\'k\\u00fbb el-Kindî', w: ['Eb\\u00fb Ali el-Üsincân\\u00ee', 'Muhammed bin M\\u00fbse el-H\\u00e2rizmî', 'Eb\\u00fb Nasr el-F\\u00e2r\\u00e2bî', 'Eb\\u00fb Ali ibn S\\u00een\\u00e2'], e: 'Kindî, İslam felsefesinin kurucusu kabul edilir ve 9. yüzyılda yaşamıştır.' },
-    { q: '"El-Medinetü\'l-F\\u00e2zıla" (Erdemli Şehir) eseri aşağıdaki İslam filozoflarından hangisine aittir?', a: 'F\\u00e2r\\u00e2bî', w: ['İbn S\\u00een\\u00e2', 'İbn Rüşd', 'Gaz\\u00e2lî', 'Kindî'], e: 'F\\u00e2r\\u00e2bî, Erdemli Şehir (Medinetü\'l-F\\u00e2zıla) adlı eserinde ideal toplum düzenini anlatmıştır.' },
-    { q: 'İbn S\\u00een\\u00e2\'nın tıp alanındaki ünlü eseri aşağıdakilerden hangisidir?', a: 'El-Kanun fi\'t-Tıb', w: ['Kit\\u00e2bü\'ş-Şif\\u00e2', 'Teh\\u00e2fütü\'l-Fel\\u00e2sife', 'F\\u00fbs\\u00fbsu\'l-Hikem', 'İhy\\u00e2-u Ul\\u00fbmi\'d-D\\u00een'], e: 'İbn S\\u00een\\u00e2\'nın El-Kanun fi\'t-Tıb adlı eseri, Avrupa\'da yüzyıllar boyunca tıp alanında temel kaynak olarak kullanılmıştır.' },
-    { q: 'Gaz\\u00e2lî\'nin felsefeye yöneltti\\ği eleştirileri içeren eseri aşağıdakilerden hangisidir?', a: 'Teh\\u00e2fütü\'l-Fel\\u00e2sife (Filozofların Tutarsızlı\\ğı)', w: ['El-Medinetü\'l-F\\u00e2zıla', 'Kit\\u00e2bü\'n-Nec\\u00e2t', 'Tuhfetü\'l-Hikem', 'Mîz\\u00e2nü\'l-Hikem'], e: 'Gaz\\u00e2lî, Teh\\u00e2fütü\'l-Fel\\u00e2sife adlı eserinde filozofların görüşlerini eleştirmiştir.' },
+    { q: 'İslam felsefesinin öncüsü (İlk İslam filozofu) olarak kabul edilen ve "Filozofların Arabı" olarak bilinen düşünür kimdir?', a: 'Kindî', w: ['İbn Sina', 'Farabi', 'Gazali', 'İbn Rüşd'], e: 'Kindî (El-Kindi), 9. yüzyılda Antik Yunan felsefesini İslam dünyasına taşıyan ilk filozoftur.' },
+    { q: '"El-Medinetü\'l-Fâzıla" (Erdemli Şehir) adlı eseriyle ideal devlet düzenini anlatan filozof kimdir?', a: 'Farabi', w: ['İbn Sina', 'İbn Haldun', 'Gazali', 'İbn Rüşd'], e: 'Muallim-i Sani (İkinci Öğretmen) olarak bilinen Farabi, bu eserinde ahlaklı ve erdemli bir toplumu tarif eder.' },
+    { q: 'Tıp alanında yüzyıllarca Avrupa\'da ders kitabı olarak okutulan "El-Kanun fi\'t-Tıb" (Tıbbın Kanunu) eseri kime aittir?', a: 'İbn Sina', w: ['El-Razi', 'Farabi', 'Biruni', 'Gazali'], e: 'Avrupa\'da Avicenna olarak bilinen İbn Sina, tıp ve felsefe alanında zirvedir.' },
+    { q: '"Tehafütü\'l-Felasife" (Filozofların Tutarsızlığı) eseriyle felsefecileri dinden çıkmakla eleştiren düşünür kimdir?', a: 'Gazali', w: ['İbn Rüşd', 'Mevlana', 'İbn Arabi', 'Sühreverdi'], e: 'Gazali bu eserinde Farabi ve İbn Sina gibi filozofları bazı görüşlerinden dolayı şiddetle eleştirmiştir.' },
+    { q: 'Gazali\'nin eleştirilerine karşılık felsefeyi savunan "Tehafütü\'t-Tehafüt" (Tutarsızlığın Tutarsızlığı) eserini yazan Endülüslü filozof kimdir?', a: 'İbn Rüşd', w: ['İbn Bacce', 'İbn Tufeyl', 'Farabi', 'Kindi'], e: 'Avrupa\'da Averroes olarak bilinen İbn Rüşd, akıl ile vahyin çatışmayacağını savunmuştur.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
@@ -91,57 +86,24 @@ function templateIslamFelsefesi() {
 
 function templateModernFelsefe() {
   const q = pick([
-    { q: '"Düşünüyorum, öyleyse varım" (Cogito ergo sum) sözü aşağıdaki filozoflardan hangisine aittir?', a: 'Descartes', w: ['Spinoza', 'Leibniz', 'Locke', 'Hume'], e: 'Descartes, modern felsefenin kurucusu kabul edilir ve bu sözle bilginin temelini şüpheyle başlatır.' },
-    { q: 'Aşağıdakilerden hangisi empirizm (deneycilik) akımının temsilcisidir?', a: 'John Locke', w: ['Descartes', 'Platon', 'Hegel', 'Kant'], e: 'Locke\'a göre zihin do\\ğuştan boş bir levha (tabula rasa) gibidir ve tüm bilgiler deneyimle kazanılır.' },
-    { q: 'Kant\'ın ahlak felsefesinde "kategorik imperatif" (koşulsuz buyruk) aşağıdakilerden hangisini ifade eder?', a: 'Koşulsuz olarak uyulması gereken ahlak yasasını', w: ['Mutlulu\\ğa ulaşma yöntemini', 'Toplumsal sözleşmeyi', 'Tanrının varlı\\ğını', 'Do\\ğal yasaları'], e: 'Kategorik imperatif, Kant\'a göre koşulsuz, evrensel ve herkes için geçerli olan ahlak yasasıdır.' },
-    { q: 'Varoluşçuluk (egzistansiyalizm) akımının öncüsü olan filozof aşağıdakilerden hangisidir?', a: 'Jean-Paul Sartre', w: ['Friedrich Nietzsche', 'Søren Kierkegaard', 'Martin Heidegger', 'Albert Camus'], e: 'Sartre, "Varoluş özden önce gelir" sözüyle varoluşçulu\\ğun temel ilkesini belirlemiştir.' },
+    { q: '"Düşünüyorum, öyleyse varım" (Cogito ergo sum) diyerek metodik şüpheyi kuran modern felsefenin öncüsü kimdir?', a: 'René Descartes', w: ['Baruch Spinoza', 'G.W. Leibniz', 'John Locke', 'David Hume'], e: 'Descartes, her şeyden şüphe ederek ulaştığı tek kesin gerçeğin "kendi şüphe eden zihni" olduğunu bulmuştur.' },
+    { q: 'İnsan zihninin doğuştan "boş bir levha" (tabula rasa) olduğunu savunan empirist düşünür kimdir?', a: 'John Locke', w: ['Descartes', 'Kant', 'Hegel', 'Rousseau'], e: 'Locke\'a göre hiçbir bilgi doğuştan (apriori) gelmez, hepsi deneyimlerle edinilir.' },
+    { q: 'Ahlak felsefesinde "Öyle hareket et ki, eyleminin kuralı herkes için geçerli evrensel bir yasa olsun" (Kategorik İmperatif) diyen filozof kimdir?', a: 'Immanuel Kant', w: ['Jeremy Bentham', 'J.S. Mill', 'Friedrich Nietzsche', 'Karl Marx'], e: 'Kant, ahlakın sonuca değil, niyete (ödeve) ve evrenselleştirilebilir kurallara dayanması gerektiğini savunur.' },
+    { q: '"Varoluş özden önce gelir" diyerek insanın kendi değerini kendisinin yarattığını savunan Varoluşçuluk (Egzistansiyalizm) öncüsü kimdir?', a: 'Jean-Paul Sartre', w: ['Søren Kierkegaard', 'Martin Heidegger', 'Albert Camus', 'Karl Jaspers'], e: 'Sartre\'a göre insan önce var olur, sonra kendi seçimleriyle kendini tanımlar (özünü yaratır).' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
   return makeQuestion('felsefe', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
-function templateBilimFelsefesi() {
-  const q = pick([
-    { q: 'Bilim felsefesinde "yanlışlanabilirlik" (falsification) ilkesini ortaya atan düşünür aşağıdakilerden hangisidir?', a: 'Karl Popper', w: ['Thomas Kuhn', 'Francis Bacon', 'Auguste Comte', 'David Hume'], e: 'Popper\'a göre bilimsel bir teorinin bilimsel sayılması için yanlışlanabilir olması gerekir.' },
-    { q: '"Paradigma" kavramını bilim felsefesine kazandıran düşünür aşağıdakilerden hangisidir?', a: 'Thomas Kuhn', w: ['Karl Popper', 'Paul Feyerabend', 'Imre Lakatos', 'Bertrand Russell'], e: 'Kuhn, "Bilimsel Devrimlerin Yapısı" adlı eserinde paradigma kavramını ortaya atmıştır.' },
-    { q: 'Pozitivizm (olguculuk) akımının kurucusu aşağıdakilerden hangisidir?', a: 'Auguste Comte', w: ['Karl Marx', 'Friedrich Engels', 'Emile Durkheim', 'Herbert Spencer'], e: 'Comte, insanlı\\ğın teolojik, metafizik ve pozitif olmak üzere üç aşamadan geçti\\ğini savunmuştur.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('felsefe', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
-}
-
-// ─── Din ──────────────────────────────────────────────────────────────────────
+// ─── Din Kültürü ──────────────────────────────────────────────────────────────
 
 function templateIslamDusunce() {
   const q = pick([
-    { q: 'İslam düşünce tarihinde \"Ehl-i Sünnet\" ekollerinden biri aşağıdakilerden hangisidir?', a: 'Maturidilik', w: ['Kaderilik', 'Cebrilik', 'Müşebbihe', 'Mülhidlik'], e: 'Maturidilik, Eb\\u00fb Mans\\u00fbr el-Maturîdî\'ye dayanan Ehl-i Sünnet akaid ekollerinden biridir.' },
-    { q: 'Aşağıdakilerden hangisi İslam düşüncesindeki itikadi (inançla ilgili) mezheplerden biridir?', a: 'Mutezile', w: ['Hanefilik', 'Şafilik', 'Malikilik', 'Hanbelilik'], e: 'Mutezile itikadi bir mezhep iken Hanefi, Şafi, Maliki ve Hanbeli fıkhi (amel\\u00ee) mezheplerdir.' },
-    { q: 'Cibril hadisi olarak bilinen rivayette aşağıdaki kavramlardan hangisi İslam\'ın temel esasları arasında sayılmamıştır?', a: 'Mezhep', w: ['İslam', 'İman', 'İhsan'], e: 'Cibril hadisinde İslam, iman ve ihsan kavramları sayılmıştır. Mezhep bu hadiste yer almamaktadır.' },
-    { q: 'Tasavvufi düşüncede \"vahdet-i vüc\\u00fbd\" (varlı\\ğın birli\\ği) anlayışının en önemli temsilcisi aşağıdakilerden hangisidir?', a: 'Muhyiddin İbnü\'l-Arabî', w: ['Mevl\\u00e2n\\u00e2 Cel\\u00e2ledd\\u00een-i R\\u00fbmî', 'Y\\u00fbnus Emre', 'Hacı Bayr\\u00e2m-ı Velî', 'Hacı Bektaş-ı Velî'], e: 'İbnü\'l-Arabî, "vahdet-i vüc\\u00fbd" ö\\ğretisinin sistemleştiricisidir.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('din', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
-}
-
-function templateGuncelDin() {
-  const q = pick([
-    { q: 'Fetva kavramı aşağıdakilerden hangisini ifade eder?', a: 'Dini bir sorunun uzmanı tarafından cevaplandırılması', w: ['İbadetlerin yerine getirilmesi', 'Kur\'an okuma kuralları', 'Peygamberin sözleri', 'Dini hükümlerin tümü'], e: 'Fetva, dini bir konuda yetkili bir kişi veya kurum tarafından verilen dini görüştür.' },
-    { q: 'Aşağıdakilerden hangisi güncel dini meselelerden biri olarak kabul edilmez?', a: 'Peygamberlerin sayısı', w: ['Organ nakli', 'Tüp bebek', 'Sigara içmenin hükmü', 'E-ticaret\'in dinili\\ği'], e: 'Peygamberlerin sayısı sabit bir inanç konusuyken organ nakli, tüp bebek, sigara ve e-ticaret güncel fıkhi meselelerdir.' },
-    { q: 'Kur\'an-ı Kerim\'in ana konuları arasında aşağıdakilerden hangisi yer almaz?', a: 'Ekonomik sistem detayları', w: ['İnanç (akaid)', 'İbadetler', 'Ahlaki ilkeler', 'Kıssalar (geçmiş toplum hikayeleri)'], e: 'Kur\'an\'da inanç, ibadet, ahlak ve kıssalar temel konulardır. Detaylı ekonomik sistem yerine temel ilkeler (helal-haram, faiz yasa\\ğı vb.) belirtilmiştir.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('din', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
-}
-
-function templateAhlakFelsefesi() {
-  const q = pick([
-    { q: 'Ahlak felsefesinde \"faydacılık\" (utilitarianism) anlayışının temsilcisi aşağıdakilerden hangisidir?', a: 'Jeremy Bentham', w: ['Immanuel Kant', 'Aristoteles', 'Friedrich Nietzsche', 'John Rawls'], e: 'Bentham\'a göre bir eylemin ahlaki de\\ğeri, sa\\ğladı\\ğı fayda veya mutlulukla ölçülür.' },
-    { q: 'İslam ahlak felsefesinde \"hüsn ve kubh\" (iyilik ve kötülük) kavramları aşağıdakilerden hangisiyle ilgilidir?', a: 'Fiillerin iyi veya kötü olmasının ölçütüyle', w: ['Namazın farz olmasıyla', 'Orucun vaktiyle', 'Zekatın miktarıyla', 'Haccın şartlarıyla'], e: 'Hüsn ve kubh, fiillerin akıl ve din açısından iyi veya kötü olarak nitelendirilmesini konu alır.' },
-    { q: '"Altın Kural" olarak bilinen \"Kendine yapılmasını istemedi\\ğin şeyi başkasına yapma\" ilkesi aşağıdaki düşünürlerden hangisiyle özdeşleşmiştir?', a: 'Konfüyus', w: ['Sokrates', 'Aristoteles', 'Farabi', 'Gazali'], e: 'Altın Kural, Konfüyus\'un ö\\ğretilerinde merkezi bir yere sahiptir ve birçok kültürde benzer şekilde ifade edilmiştir.' },
+    { q: 'İslam düşünce tarihinde, "Ehl-i Sünnet" (Sünnilik) inanç sisteminin iki büyük itikadi (inanç) mezhebi hangileridir?', a: 'Maturidilik ve Eşarilik', w: ['Hanefilik ve Şafiilik', 'Mutezile ve Cebriye', 'Haricilik ve Şiilik', 'Kaderiye ve Mürcie'], e: 'Maturidilik (İmam Maturidi) ve Eşarilik (İmam Eşari) Sünniliğin inanç boyutundaki mezhepleridir.' },
+    { q: 'İslam düşüncesinde "aklı" naklin (vahyin) önüne koyarak özgür iradeyi savunan ve "İslam\'ın Rasyonalistleri" olarak bilinen mezhep hangisidir?', a: 'Mutezile', w: ['Cebriye', 'Eşarilik', 'Zahirilik', 'Haricilik'], e: 'Mutezile, akla büyük önem verir ve büyük günah işleyenin dinden çıkmayıp arafta (el-Menzile) kalacağını savunur.' },
+    { q: 'Tasavvuf düşüncesinde, varlığın tek olduğunu ve her şeyin Allah\'ın tecellisi (yansıması) olduğunu savunan "Vahdet-i Vücûd" anlayışının kurucusu kimdir?', a: 'Muhyiddin İbnü\'l-Arabî', w: ['Mevlânâ Celâleddîn-i Rûmî', 'Yûnus Emre', 'Hacı Bektaş Veli', 'Gazali'], e: 'İbnü\'l-Arabi (Şeyh-i Ekber), Vahdet-i Vücud (Varlığın Birliği) felsefesini sistemleştiren mutasavvıftır.' },
+    { q: 'İnsan iradesini tamamen reddeden, insanın rüzgarın önündeki bir yaprak gibi Allah\'ın zorunlu kıldığı şeyleri yaptığını savunan mezhep hangisidir?', a: 'Cebriye', w: ['Kaderiye', 'Mutezile', 'Maturidilik', 'Şia'], e: 'Cebr (zorunluluk) kökünden gelen Cebriye, insanın hiçbir özgür iradesi olmadığını savunur.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
@@ -150,9 +112,9 @@ function templateAhlakFelsefesi() {
 
 const templates = [
   templateCumhuriyetDonemi, templateAtaturkIlkeleri, templateCokPartiliSogukSavas,
-  templateNufus, templateSehirlesme, templateEkonomi,
-  templateIslamFelsefesi, templateModernFelsefe, templateBilimFelsefesi,
-  templateIslamDusunce, templateGuncelDin, templateAhlakFelsefesi,
+  templateNufus, templateSehirlesme,
+  templateİslamFelsefesi, templateModernFelsefe,
+  templateIslamDusunce
 ];
 
 export function generate(count = 30) {

@@ -1,6 +1,6 @@
 import { randInt, pick, shuffle, makeQuestion, makeOptions, generateUnique } from './shared.mjs';
 
-const r = (a, b) => randInt(a, b);
+function r(a, b) { return randInt(a, b); }
 
 // ─── Fizik ────────────────────────────────────────────────────────────────────
 
@@ -11,7 +11,7 @@ function templateTork() {
   const wrong = shuffle([F, d, F + d, correct + r(5, 15), correct - r(5, 15), F * (d + 1)].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion('fizik',
-    `Bir cisme ${F} N büyüklüğünde bir kuvvet, dönme noktasından ${d} m uzaklığa dik olarak uygulanıyor. Buna göre tork kaç N·m dir?`,
+    `Bir cisme ${F} N büyüklüğünde bir kuvvet, dönme noktasından ${d} m uzaklığa dik olarak uygulanıyor. Buna göre cisme etki eden torkun büyüklüğü kaç N·m dir?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `Tork: $\\tau = F \\cdot d = ${F} \\cdot ${d} = ${correct}$ N·m.`);
@@ -26,10 +26,10 @@ function templateManyetizma() {
   const wrong = shuffle([B * i, B * L, i * L, B * i * (L + 0.5), (B + 1) * i * L].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion('fizik',
-    `$B = ${B}$ T manyetik alan içinde alana dik yerleştirilen $i = ${i}$ A akım taşıyan $L = ${L}$ m uzunluğundaki tele etki eden manyetik kuvvet kaç N dur?`,
+    `Şiddeti $B = ${B}$ T olan düzgün manyetik alan içinde, alan çizgilerine dik olarak yerleştirilen $i = ${i}$ A akım taşıyan $L = ${L}$ m uzunluğundaki tele etki eden manyetik kuvvet kaç N dur?`,
     makeOptions(...all.map(v => `$${v}$ N`)),
     all.indexOf(correct),
-    `$F = B \\cdot i \\cdot L = ${B} \\cdot ${i} \\cdot ${L} = ${correct}$ N.`);
+    `Manyetik Kuvvet Formülü: $F = B \\cdot i \\cdot L \\cdot \\sin(90^\\circ) = ${B} \\cdot ${i} \\cdot ${L} = ${correct}$ N.`);
 }
 
 function templateInduksiyon() {
@@ -40,56 +40,51 @@ function templateInduksiyon() {
   const wrong = shuffle([B * L, L * v, B * v, (B + 1) * L * v, B * L * (v + 1)].filter(vv => vv !== correct && vv > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion('fizik',
-    `$B = ${B}$ T manyetik alan içinde alana dik hareket eden $L = ${L}$ m boyundaki bir iletkenin hızı $v = ${v}$ m/s ise uçları arasında indüklenen emk kaç V tur?`,
+    `$B = ${B}$ T şiddetindeki düzgün manyetik alan içinde, manyetik alana dik olarak hareket ettirilen $L = ${L}$ m boyundaki iletken düz telin hızı $v = ${v}$ m/s dir. Telin uçları arasında oluşan indüksiyon elektromotor kuvveti (emk) kaç V olur?`,
     makeOptions(...all.map(vv => `$${vv}$`)),
     all.indexOf(correct),
-    `$\\varepsilon = B \\cdot L \\cdot v = ${B} \\cdot ${L} \\cdot ${v} = ${correct}$ V.`);
+    `$\\varepsilon = B \\cdot v \\cdot L \\cdot \\sin(90^\\circ) = ${B} \\cdot ${v} \\cdot ${L} = ${correct}$ V.`);
 }
 
-function templateBHH() {
+function templateAtis() {
+  const t = r(2, 6);
+  const g = 10;
+  const h = 5 * t * t;
+  const v = g * t;
+  
   const q = pick([
-    { q: 'Bir basit harmonik hareketlinin genliği A, periyodu T dir. Cismin denge konumundan geçerkenki maksimum hızı aşağıdakilerden hangisine eşittir?', a: '$\\frac{2\\pi A}{T}$', w: ['$\\frac{\\pi A}{T}$', '$\\frac{4\\pi A}{T}$', '$\\frac{2\\pi T}{A}$', '$\\frac{A}{T}$'], e: 'Maksimum hız $v_{max} = \\omega A = \\frac{2\\pi}{T} \\cdot A = \\frac{2\\pi A}{T}$ dir.' },
-    { q: 'Bir yay sarkacının periyodu T dir. Yay sabiti 4 katına çıkarılırsa yeni periyot kaç T olur?', a: '$\\frac{T}{2}$', w: ['$2T$', '$4T$', '$\\frac{T}{4}$', '$T$'], e: '$T \\propto \\frac{1}{\\sqrt{k}}$ olduğundan k 4 katına çıkarsa $T\' = \\frac{T}{2}$ olur.' },
-    { q: 'Bir basit sarkacın boyu 4 katına çıkarılırsa periyodu nasıl değişir?', a: '2 katına çıkar', w: ['4 katına çıkar', 'yarıya iner', 'değişmez', '\\u221a2 katına çıkar'], e: '$T \\propto \\sqrt{L}$ olduğundan L 4 katına çıkarsa $T\' = 2T$ olur.' },
-    { q: 'Bir basit harmonik harekette geri çağırıcı kuvvetin büyüklüğü aşağıdakilerden hangisiyle orantılıdır?', a: 'Uzanım', w: ['Hız', 'İvme', 'Genlik', 'Frekans'], e: 'Basit harmonik harekette $F = -kx$ olduğundan geri çağırıcı kuvvet uzanımla doğru orantılıdır.' },
+    {
+      text: `Sürtünmesiz ortamda serbest bırakılan bir cisim yere ${t} saniyede çarpıyor. Cismin bırakıldığı yükseklik (h) kaç metredir? (g=10 m/s²)`,
+      ans: h,
+      formula: `h = \\frac{1}{2} g t^2 = 5 \\cdot ${t}^2 = ${h} m`
+    },
+    {
+      text: `Sürtünmesiz ortamda belirli bir yükseklikten serbest bırakılan cisim yere çarptığı anda hızı ${v} m/s oluyor. Cisim havada kaç saniye kalmıştır? (g=10 m/s²)`,
+      ans: t,
+      formula: `v = g \\cdot t \\implies ${v} = 10 \\cdot t \\implies t = ${t} s`
+    }
   ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('fizik',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
-    all.indexOf(q.a),
-    q.e);
+  
+  const wrong = shuffle([q.ans + 10, q.ans - 10, q.ans * 2, q.ans / 2, q.ans + 5, q.ans - 5].filter(x => x > 0 && x !== q.ans)).slice(0, 4);
+  const all = shuffle([q.ans, ...wrong]);
+  return makeQuestion('fizik', q.text, makeOptions(...all.map(x => `$${x}$`)), all.indexOf(q.ans), q.formula);
 }
 
-function templateOptik() {
-  const f = pick([10, 15, 20]);
-  const d = pick([f + 5, f + 10, 2 * f, 3 * f]);
-  const di = (f * d) / (d - f);
-  if (di % 1 !== 0 && di * 10 % 1 !== 0) return null;
-  const correct = Math.round(di * 10) / 10;
-  const wrong = shuffle([(f * d) / (d + f), f, d, Math.round(correct * 1.5), Math.round(correct * 0.5)].filter(v => v !== correct && v > 0)).slice(0, 4);
-  const all = shuffle([correct, ...wrong]);
+function templateYayEnerjisi() {
+  const k = r(10, 50) * 10; // 100 to 500
+  const x_cm = pick([10, 20, 30, 40]);
+  const x = x_cm / 100;
+  const E = 0.5 * k * x * x;
+  
+  const wrong = shuffle([E * 2, E / 2, E * 10, E + 5, E - 2].filter(v => v !== E && v > 0)).slice(0, 4);
+  const all = shuffle([E, ...wrong]);
+  
   return makeQuestion('fizik',
-    `Odak uzaklığı ${f} cm olan ince kenarlı bir mercekte cismin merceğe uzaklığı ${d} cm ise görüntünün merceğe uzaklığı kaç cm dir?`,
+    `Yay sabiti $k = ${k}$ N/m olan esnek bir yay, denge konumundan $x = ${x_cm}$ cm sıkıştırılıyor. Yayda depolanan esneklik potansiyel enerjisi kaç Joule'dür?`,
     makeOptions(...all.map(v => `$${v}$`)),
-    all.indexOf(correct),
-    `$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{${di}} = \\frac{1}{${f}} - \\frac{1}{${d}} \\implies d_i = ${correct}$ cm.`);
-}
-
-function templateOptikAyna() {
-  const q = pick([
-    { q: 'Çukur aynada tıpkı odak ile merkez arasına konulan bir cismin görüntüsü için aşağıdakilerden hangisi doğrudur?', a: 'Gerçek, ters ve büyük', w: ['Gerçek, ters ve küçük', 'Sanal, düz ve büyük', 'Sanal, düz ve küçük', 'Gerçek, düz ve büyük'], e: 'Çukur aynada cisim F ile M arasında ise görüntü gerçek, ters ve büyüktür.' },
-    { q: 'Düz aynada oluşan görüntü için aşağıdakilerden hangisi yanlıştır?', a: 'Tersdir', w: ['Sanaldır', 'Düzdür', 'Boyu cismin boyuna eşittir', 'Simetriktir'], e: 'Düz aynada görüntü sanal, düz, ters değil ve cisimle simetriktir.' },
-    { q: 'Odak uzaklığı f olan tümsek aynaya gelen ışınlar için aşağıdakilerden hangisi doğrudur?', a: 'Görüntü daima sanaldır', w: ['Görüntü daima gerçektir', 'Odak uzaklığı pozitiftir', 'Görüntü ters oluşur', 'Merkezde gerçek görüntü oluşur'], e: 'Tümsek aynada görüntü daima sanaldır. Odak uzaklığı negatiftir.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('fizik',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
+    all.indexOf(E),
+    `$x = ${x_cm}$ cm = ${x} m. $E_p = \\frac{1}{2} k x^2 = \\frac{1}{2} \\cdot ${k} \\cdot (${x})^2 = ${E}$ Joule.`
+  );
 }
 
 // ─── Kimya ────────────────────────────────────────────────────────────────────
@@ -97,165 +92,83 @@ function templateOptikAyna() {
 function templateOrganik() {
   const q = pick([
     { q: 'Aşağıdakilerden hangisi bir alkoldür?', a: 'CH₃CH₂OH', w: ['CH₃OCH₃', 'CH₃CHO', 'CH₃COOH', 'CH₃COCH₃'], e: 'CH₃CH₂OH (etanol) bir alkol olup -OH fonksiyonel grubuna sahiptir.' },
-    { q: 'Aşağıdaki fonksiyonel gruplardan hangisi karbonil (C=O) içermez?', a: 'Alkol', w: ['Aldehit', 'Keton', 'Karboksilik asit', 'Ester'], e: 'Alkoller -OH grubuna sahiptir, C=O içermezler.' },
-    { q: 'Aromatik hidrokarbon aşağıdakilerden hangisidir?', a: 'C₆H₆', w: ['C₂H₆', 'C₃H₈', 'C₄H₁₀', 'C₅H₁₂'], e: 'Benzen (C₆H₆) aromatik hidrokarbondur ve halka yapısına sahiptir.' },
-    { q: 'Aşağıdakilerden hangisi bir esterdir?', a: 'CH₃COOCH₂CH₃', w: ['CH₃CH₂COOH', 'CH₃CH₂CHO', 'CH₃COCH₃', 'CH₃CH₂OH'], e: 'CH₃COOCH₂CH₃ (etil asetat) bir esterdir. Esterler -COO- grubu içerir.' },
-    { q: 'Aşağıdakilerden hangisi doymamış hidrokarbondur?', a: 'C₂H₄', w: ['CH₄', 'C₂H₆', 'C₃H₈', 'C₄H₁₀'], e: 'C₂H₄ (eten) ikili bağ içerdiğinden doymamış hidrokarbondur.' },
+    { q: 'Aşağıdaki fonksiyonel gruplardan hangisi karbonil (C=O) içermez?', a: 'Alkol', w: ['Aldehit', 'Keton', 'Karboksilik asit', 'Ester'], e: 'Alkoller (R-OH) hidroksil grubuna sahiptir, karbonil (C=O) içermezler.' },
+    { q: 'Aromatik hidrokarbonların en basit üyesi aşağıdakilerden hangisidir?', a: 'Benzen (C₆H₆)', w: ['Etan (C₂H₆)', 'Siklohekzan (C₆H₁₂)', 'Metan (CH₄)', 'Toluen (C₇H₈)'], e: 'Benzen (C₆H₆), 6 karbonlu ve üç çift bağ içeren aromatik halkanın en basit üyesidir.' },
+    { q: 'Aşağıdakilerden hangisi bir esterdir?', a: 'CH₃COOCH₂CH₃', w: ['CH₃CH₂COOH', 'CH₃CH₂CHO', 'CH₃COCH₃', 'CH₃CH₂OH'], e: 'CH₃COOCH₂CH₃ (etil asetat) bir esterdir. Esterler R-COO-R\' yapısındadır.' },
+    { q: 'Alkinlerin (asetilen sınıfı) genel formülü aşağıdakilerden hangisidir?', a: '$C_nH_{2n-2}$', w: ['$C_nH_{2n+2}$', '$C_nH_{2n}$', '$C_nH_{2n+1}OH$', '$C_nH_{2n}O$'], e: 'Alkanlar $C_nH_{2n+2}$, alkenler $C_nH_{2n}$, alkinler ise üçlü bağ içerdikleri için $C_nH_{2n-2}$ genel formülüne sahiptir.' },
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('kimya',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
+  return makeQuestion('kimya', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
-function templateTepkimeHizi() {
-  const q = pick([
-    { q: 'Bir tepkimenin hız sabiti k ve derişimler [A], [B] olmak üzere hız = k[A][B]² şeklindedir. Tepkimenin mertebesi kaçtır?', a: '3', w: ['1', '2', '4', '5'], e: 'Hız bağıntısında üsler toplamı: $1 + 2 = 3$ olduğundan tepkime 3. mertebedendir.' },
-    { q: 'Sıcaklık 10°C artırıldığında bir tepkimenin hızı 2 katına çıkıyorsa sıcaklık 30°C artırıldığında hız kaç katına çıkar?', a: '8', w: ['2', '4', '6', '16'], e: 'Her 10°C\'de 2 kat artarsa 30°C\'de $2^3 = 8$ katına çıkar.' },
-    { q: 'Bir tepkimede sıcaklık artışı ile aşağıdakilerden hangisi kesinlikle artar?', a: 'Birim zamandaki çarpışma sayısı', w: ['Aktifleşme enerjisi', 'Denge sabiti', 'Verim', 'Derişim'], e: 'Sıcaklık artarsa moleküllerin ortalama kinetik enerjisi artar, çarpışma sayısı artar.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
+function templateMolarite() {
+  const n = pick([0.1, 0.2, 0.4, 0.5, 1.0]);
+  const v_ml = pick([100, 200, 250, 500]);
+  const v = v_ml / 1000;
+  const M = n / v;
+  
+  const wrong = shuffle([M * 10, M / 10, M * 2, M / 2, n * v_ml].filter(x => x !== M && x > 0)).slice(0, 4);
+  const all = shuffle([M, ...wrong]);
+  
   return makeQuestion('kimya',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
-    all.indexOf(q.a),
-    q.e);
+    `İçerisinde ${n} mol NaOH çözünmüş ${v_ml} mL sulu çözeltinin molaritesi (M) kaçtır?`,
+    makeOptions(...all.map(x => `$${x}$ M`)),
+    all.indexOf(M),
+    `Hacim: $V = ${v_ml} mL = ${v} L$. Molarite: $M = \\frac{n}{V} = \\frac{${n}}{${v}} = ${M} M$.`
+  );
 }
 
 function templateDenge() {
   const q = pick([
-    { q: '$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ tepkimesi için $K_c = \\frac{[NH_3]^2}{[N_2][H_2]^3}$ tür. Aynı tepkimenin $K_p$ ile $K_c$ arasındaki ilişki aşağıdakilerden hangisidir?', a: '$K_p = K_c(RT)^{-2}$', w: ['$K_p = K_c(RT)^{2}$', '$K_p = K_c(RT)^{-1}$', '$K_p = K_cRT$', '$K_p = K_c$'], e: '$\\Delta n = 2 - (1 + 3) = -2$ olduğundan $K_p = K_c(RT)^{-2}$ dir.' },
-    { q: 'Denge halindeki bir sisteme dışarıdan ürün eklenirse sistem nasıl tepki verir?', a: 'Girenler yönüne kayar', w: ['Ürünler yönüne kayar', 'Denge bozulmaz', 'Sıcaklık artar', 'Basınç artar'], e: 'Le Chatelier prensibine göre sistem eklenen maddenin derişimini azaltacak yönde hareket eder, yani girenler yönüne kayar.' },
-    { q: 'Denge sabiti K sıcaklıktan bağımsız mıdır?', a: 'Hayır, sıcaklıkla değişir', w: ['Evet', 'Yalnızca gaz fazında değişir', 'Yalnızca sıvı fazda değişir', 'Basınçla değişir'], e: 'Denge sabiti K sadece sıcaklığa bağlıdır, derişim ve basınç değişimlerinden etkilenmez.' },
+    { q: 'Kapalı bir kapta dengede olan $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g) \\quad \\Delta H < 0$ (ekzotermik) tepkimesine göre, sistemin sıcaklığı artırılırsa aşağıdakilerden hangisi gerçekleşir?', a: 'Denge girenler (sol) yönüne kayar ve $NH_3$ miktarı azalır.', w: ['Denge ürünler yönüne kayar', 'Denge sabiti (Kc) artar', 'Basınç kesinlikle azalır', 'Tepkime durur'], e: 'Ekzotermik tepkimelerde sıcaklık artarsa Le Chatelier ilkesine göre sistem ısıyı azaltmak için girenler yönüne kayar ve denge sabiti küçülür.' },
+    { q: 'Denge halindeki bir sisteme sabit sıcaklıkta ve hacimde inert (tepkimeye girmeyen) bir gaz eklenirse (örneğin He) kimyasal denge nasıl etkilenir?', a: 'Denge konumu değişmez.', w: ['Girenler yönüne kayar', 'Ürünler yönüne kayar', 'Denge sabiti artar', 'İleri hız artar'], e: 'Sabit hacimde inert gaz eklenmesi kısmi basınçları (derişimleri) değiştirmediği için dengeyi etkilemez.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('kimya',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
-    all.indexOf(q.a),
-    q.e);
-}
-
-function templateElektrokimya() {
-  const q = pick([
-    { q: 'Aşağıdakilerden hangisi bir elektrokimyasal hücrede anotta gerçekleşen olaydır?', a: 'Yükseltgenme', w: ['İndirgenme', 'Nötralleşme', 'Çökelme', 'Asit-baz tepkimesi'], e: 'Anotta yükseltgenme (oksidasyon) gerçekleşir, elektronlar devreye verilir.' },
-    { q: 'Bir galvanik hücrede aşağıdakilerden hangisi doğrudur?', a: 'Kimyasal enerji elektrik enerjisine dönüşür', w: ['Elektrik enerjisi kimyasal enerjiye dönüşür', 'Anot (+) kutuptur', 'Katot (-) kutuptur', 'Elektronlar dış devrede katottan anoda gider'], e: 'Galvanik hücrede kendiliğinden gerçekleşen redoks tepkimesi ile kimyasal enerji elektrik enerjisine dönüşür.' },
-    { q: 'Elektrolizde katotta hangi olay gerçekleşir?', a: 'İndirgenme', w: ['Yükseltgenme', 'Nötralleşme', 'Süblimleşme', 'Buharlaşma'], e: 'Elektrolizde katotta indirgenme gerçekleşir, elektronlar katoda gelir.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('kimya',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
-}
-
-function templateCozunurluk() {
-  const q = pick([
-    { q: 'Aşağıdakilerden hangisi çözünürlü\\ğü artırır?', a: 'Sıcaklı\\ğı artırmak (katılar için)', w: ['Sıcaklı\\ğı azaltmak', 'Basıncı artırmak', 'Çözeltiyi karı\\ştırmak', 'Ortak iyon eklemek'], e: 'Ço\\ğu katının çözünürlü\\ğü sıcaklıkla artar. Karıştırma çözünme hızını artırır ancak çözünürlü\\ğü etkilemez.' },
-    { q: '$AgCl$ katısının çözünürlük çarpımı ($K_{çç}$) aşağıdakilerden hangisidir?', a: '$[Ag^+][Cl^-]$', w: ['$[Ag^+][Cl^-]^2$', '$[Ag^+]^2[Cl^-]$', '$\\frac{[Ag^+]}{[Cl^-]}$', '$[AgCl]$'], e: '$AgCl(k) \\rightleftharpoons Ag^+(aq) + Cl^-(aq)$ için $K_{çç} = [Ag^+][Cl^-]$ dir.' },
-    { q: 'Ortak iyon etkisi ile ilgili aşağıdakilerden hangisi doğrudur?', a: 'Çözünürlü\\ğü azaltır', w: ['Çözünürlü\\ğü artırır', 'Çözünürlü\\ğü etkilemez', 'Yalnızca bazlar için geçerlidir', 'Yalnızca asitler için geçerlidir'], e: 'Ortak iyon etkisi, az çözünen tuzun çözünürlü\\ğünü azaltır (Le Chatelier prensibi).' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('kimya',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
-    all.indexOf(q.a),
-    q.e);
+  return makeQuestion('kimya', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
 // ─── Biyoloji ─────────────────────────────────────────────────────────────────
 
 function templateFotosentez() {
   const q = pick([
-    { q: 'Fotosentezin ışa ba\\ğımlı tepkimelerinde aşağıdakilerden hangisi üretilir?', a: 'ATP ve NADPH', w: ['Glikoz ve CO₂', 'CO₂ ve H₂O', 'ATP ve glikoz', 'NADPH ve glikoz'], e: 'Işa ba\\ğımlı tepkimelerde ATP ve NADPH üretilir. Bu moleküller Calvin döngüsünde kullanılır.' },
-    { q: 'Fotosentezin ıştan ba\\ğımsız tepkimeleri (Calvin döngüsü) nerede gerçekleşir?', a: 'Stroma', w: ['Granum', 'Tilakoid zar', 'Klorofil', 'Mitokondri'], e: 'Calvin döngüsü kloroplastın stromasında gerçekleşir.' },
-    { q: 'Fotosentez hızını sınırlandıran faktörler arasında aşağıdakilerden hangisi yer almaz?', a: 'Mitokondri sayısı', w: ['CO₂ derişimi', 'Işık şiddeti', 'Sıcaklık', 'Su miktarı'], e: 'Fotosentez hızını CO₂, ışık, sıcaklık ve su etkiler. Mitokondri sayısı solunumla ilgilidir.' },
-    { q: 'Fotosentezde açığa çıkan oksijen nereden gelir?', a: 'Sudan (H₂O)', w: ['CO₂\'den', 'Glikozdan', 'Klorofilden', 'ATP\'den'], e: 'Fotosentezin ışa ba\\ğımlı tepkimelerinde suyun fotolizi ile oksijen açığa çıkar.' },
+    { q: 'Fotosentezin ışığa bağımlı tepkimelerinde aşağıdakilerden hangisi üretilir?', a: 'ATP ve NADPH', w: ['Glikoz ve CO₂', 'CO₂ ve H₂O', 'ATP ve glikoz', 'NADPH ve glikoz'], e: 'Işığa bağımlı evrede su fotolize uğrar, oksijen çıkar. Aynı zamanda ATP ve NADPH üretilerek ışıktan bağımsız evreye aktarılır.' },
+    { q: 'Fotosentezin ışıktan bağımsız tepkimeleri (Calvin döngüsü) kloroplastın hangi bölgesinde gerçekleşir?', a: 'Stroma', w: ['Granum', 'Tilakoid zar', 'Matriks', 'Krista'], e: 'Calvin döngüsü kloroplastın sıvı kısmı olan stromada gerçekleşir.' },
+    { q: 'Fotosentezde atmosfere verilen oksijen gazının (O₂) kaynağı aşağıdakilerden hangisidir?', a: 'Su (H₂O)', w: ['Karbondioksit (CO₂)', 'Klorofil', 'Glikoz', 'Topraktaki mineraller'], e: 'Işığa bağımlı evrede suyun fotolizi (ışıkla parçalanması) sonucu H, e- ve O₂ açığa çıkar.' },
+    { q: 'Kemosentez yapan bir canlı için aşağıdakilerden hangisi kesinlikle doğrudur?', a: 'Prokaryot hücre yapısına sahiptir.', w: ['Klorofili vardır.', 'Sadece aydınlık ortamda besin üretir.', 'Ökaryot hücre yapısındadır.', 'Oksijensiz solunum yapar.'], e: 'Kemosentezi sadece bazı bakteriler ve arkeler (prokaryotlar) yapabilir.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('biyoloji',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
+  return makeQuestion('biyoloji', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
 function templateSolunum() {
   const q = pick([
-    { q: 'Oksijenli solunumda en fazla ATP hangi evrede üretilir?', a: 'Elektron taşıma sistemi', w: ['Glikoliz', 'Krebs döngüsü', 'Glikoliz ve Krebs döngüsü', 'Hazırlık evresi'], e: 'Elektron taşıma sisteminde (oksidatif fosforilasyon) 32-34 ATP üretilir.' },
-    { q: 'Glikoliz evresi nerede gerçekleşir?', a: 'Sitoplazma', w: ['Mitokondri iç zarı', 'Mitokondri matriksi', 'Kloroplast', 'Çekirdek'], e: 'Glikoliz, oksijenli veya oksijensiz tüm canlılarda sitoplazmada gerçekleşir.' },
-    { q: 'Oksijensiz solunum (fermentasyon) sonucu aşağıdakilerden hangisi oluşur?', a: '2 ATP ve etil alkol veya laktik asit', w: ['36 ATP ve CO₂', '2 ATP ve oksijen', '38 ATP ve su', '4 ATP ve asetaldehit'], e: 'Fermentasyonda net 2 ATP kazanılır ve son ürün olarak etil alkol veya laktik asit oluşur.' },
-    { q: 'Krebs döngüsünde aşağıdakilerden hangisi üretilmez?', a: 'Oksijen', w: ['CO₂', 'NADH', 'FADH₂', 'ATP'], e: 'Krebs döngüsünde CO₂, NADH, FADH₂ ve az miktarda ATP üretilir. Oksijen üretilmez.' },
+    { q: 'Oksijenli solunumda en fazla ATP hangi evrede üretilir?', a: 'Elektron taşıma sistemi (ETS)', w: ['Glikoliz', 'Krebs döngüsü', 'Pirüvat oksidasyonu', 'Fermantasyon'], e: 'ETS evresinde oksidatif fosforilasyon ile NADH ve FADH₂\'lerdeki elektronlar kullanılarak yoğun ATP (yaklaşık 28-32) üretilir.' },
+    { q: 'Tüm canlılarda ortak olarak gerçekleşen, glikozun pirüvata kadar parçalandığı evre aşağıdakilerden hangisidir?', a: 'Glikoliz', w: ['Krebs (Sitrik Asit) Döngüsü', 'ETS', 'Laktik asit fermantasyonu', 'Kemosentez'], e: 'Glikoliz evresi, oksijenli solunum ve fermantasyon yapan tüm canlılarda sitoplazmada ortak gerçekleşir.' },
+    { q: 'İnsanda çizgili kas hücreleri, aşırı egzersiz sırasında oksijen yetersizliğinde enerjiyi hangi yolla elde eder?', a: 'Laktik Asit Fermantasyonu', w: ['Etil Alkol Fermantasyonu', 'Kemosentez', 'Sadece Glikoliz', 'Oksijenli Solunum'], e: 'Kas hücreleri O₂ yetersizliğinde glikolizle üretilen pirüvatı laktik asite dönüştürerek ATP üretimini (fermantasyon) sürdürür.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('biyoloji',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
+  return makeQuestion('biyoloji', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
-function templateNoron() {
+function templateSistemler() {
   const q = pick([
-    { q: 'Bir nöronda impuls iletimi sırasında aşağıdakilerden hangisi gerçekleşir?', a: 'Na⁺ iyonları hücre içine girer', w: ['K⁺ iyonları hücre içine girer', 'Ca²⁺ iyonları hücre dışına çıkar', 'Cl⁻ iyonları hücre içine girer', 'Mg²⁺ iyonları taşınır'], e: 'Depolarizasyon sırasında Na⁺ kanalları açılır ve Na⁺ hücre içine girer.' },
-    { q: 'Sinapslarda impuls iletimi sırasında aşağıdakilerden hangisi rol oynar?', a: 'Nörotransmitter maddeler', w: ['Myelin kılıf', 'Ranvier boğumu', 'Akson', 'Dendrit'], e: 'Sinapslarda impuls iletimi, nörotransmitter maddeler (ör. asetilkolin) aracılı\\ğıyla sa\\ğlanır.' },
-    { q: 'Ranvier bo\\ğumlarının işlevi aşağıdakilerden hangisidir?', a: 'İmpuls iletimini hızlandırmak', w: ['Nörotransmitter üretmek', 'Hücreyi beslemek', 'Sinaps oluşturmak', 'Myelin üretmek'], e: 'Ranvier boğumları miyelinli nöronlarda sıçramalı iletim sa\\ğlayarak impuls hızını artırır.' },
+    { q: 'İnsan kalbinde kirli kanın (O₂\'ce fakir) bulunduğu ve akciğerlere pompalandığı odacık hangisidir?', a: 'Sağ Karıncık', w: ['Sol Karıncık', 'Sağ Kulakçık', 'Sol Kulakçık', 'Aort'], e: 'Sağ karıncıktaki kirli kan, akciğer atardamarı ile temizlenmek üzere akciğerlere pompalanır.' },
+    { q: 'Sindirim sisteminde yağların mekanik sindirimini sağlayan safra sıvısı hangi organda üretilir?', a: 'Karaciğer', w: ['Pankreas', 'Safra kesesi', 'Mide', 'İnce bağırsak'], e: 'Safra sıvısı karaciğerde üretilir, safra kesesinde ise sadece depolanır.' },
+    { q: 'Sinir hücresinde (nöron) uyartıların iletim hızını artıran yapıya ne ad verilir?', a: 'Miyelin Kılıf', w: ['Dendrit', 'Sinaps', 'Ranvier Boğumu', 'Akson ucu'], e: 'Miyelin kılıf, elektriksel yalıtım sağlayarak impulsun (uyartının) sıçramalı ve çok daha hızlı iletilmesini sağlar.' }
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('biyoloji',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
-}
-
-function templateDNA() {
-  const q = pick([
-    { q: 'DNA replikasyonu (eşlenmesi) ile ilgili aşağıdakilerden hangisi yanlıştır?', a: 'Yeni DNA zinciri 3\' → 5\' yönünde sentezlenir', w: ['DNA polimeraz enzimi görev yapar', 'Yarı korunumlu olarak gerçekleşir', 'Şablon olarak eski zincir kullanılır', 'Helikaz enzimi DNA\'yı açar'], e: 'DNA sentezi daima 5\' → 3\' yönünde gerçekleşir. 3\' → 5\' sentezi mümkün de\\ğildir.' },
-    { q: 'DNA\'nın yapısında aşağıdakilerden hangisi bulunmaz?', a: 'Urasil', w: ['Adenin', 'Guanin', 'Sitozin', 'Timin'], e: 'DNA\'da urasil bulunmaz. Urasil RNA\'ya özgüdür, DNA\'da timin bulunur.' },
-    { q: 'DNA eşlenmesi sırasında kesintisiz sentezlenen zincire ne ad verilir?', a: 'Öncü (lider) zincir', w: ['Gecikmeli (geride kalan) zincir', 'Tamamlayıcı zincir', 'Kodlayıcı zincir', 'Kalıp zincir'], e: 'Öncü zincir 5\' → 3\' yönünde kesintisiz sentezlenir. Gecikmeli zincir ise Okazaki parçaları halinde sentezlenir.' },
-    { q: 'Bir DNA molekülünde A nükleotit sayısı 600 ise toplam nükleotit sayısı en az kaçtır?', a: '1200', w: ['600', '900', '1500', '1800'], e: 'A = T ve G = C oldu\\ğundan A=600 ise T=600\'dür. A+T+G+C en az 1200 olur.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('biyoloji',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
-    all.indexOf(q.a),
-    q.e);
-}
-
-function templateEkosistem() {
-  const q = pick([
-    { q: 'Bir ekosistemde biyokütlenin en fazla oldu\\ğu trofik düzey aşağıdakilerden hangisidir?', a: 'Üreticiler', w: ['Birincil tüketiciler', 'İkincil tüketiciler', 'Üçüncül tüketiciler', 'Ayrıştırıcılar'], e: 'Ekolojik piramitte en alt basamakta bulunan üreticiler en fazla biyokütleye sahiptir.' },
-    { q: 'Aşağıdakilerden hangisi bir ekosistemdeki besin a\\ğının bozulmasına neden olabilir?', a: 'Biyolojik çeşitlili\\ğin azalması', w: ['Madde döngülerinin devam etmesi', 'Enerji akışının sürmesi', 'Popülasyonların dengede olması', 'Habitatların korunması'], e: 'Biyolojik çeşitlili\\ğin azalması besin a\\ğını zayıflatır ve ekosistemi bozar.' },
-    { q: 'Azot döngüsünde atmosferdeki N₂\'nin canlılar tarafından kullanılabilir hale gelmesini sa\\ğlayan olay aşağıdakilerden hangisidir?', a: 'Azot fiksasyonu (ba\\ğlanması)', w: ['Denitrifikasyon', 'Amonyaklaşma', 'Nitrifikasyon', 'Ayrışma'], e: 'Azot fiksasyonu, atmosferdeki N₂ gazının bakteriler tarafından NH₃\'e dönüştürülmesidir.' },
-    { q: 'Karbon döngüsünde aşağıdakilerden hangisi atmosferdeki CO₂ miktarını artırır?', a: 'Fosil yakıtların yakılması', w: ['Fotosentez', 'Kireçtaşı oluşumu', 'Okyanuslarda çözünme', 'A\\ğaçlandırma'], e: 'Fosil yakıtların yakılması atmosfere CO₂ salınımına neden olur. Fotosentez ise CO₂ tüketir.' },
-  ]);
-  const wrong = shuffle(q.w).slice(0, 4);
-  const all = shuffle([q.a, ...wrong]);
-  return makeQuestion('biyoloji',
-    q.q,
-    all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`),
-    all.indexOf(q.a),
-    q.e);
+  return makeQuestion('biyoloji', q.q, all.map((v, i) => `${String.fromCharCode(65 + i)}) ${v}`), all.indexOf(q.a), q.e);
 }
 
 const templates = [
-  templateTork, templateManyetizma, templateInduksiyon, templateBHH, templateOptik, templateOptikAyna,
-  templateOrganik, templateTepkimeHizi, templateDenge, templateElektrokimya, templateCozunurluk,
-  templateFotosentez, templateSolunum, templateNoron, templateDNA, templateEkosistem,
+  templateTork, templateManyetizma, templateInduksiyon, templateAtis, templateYayEnerjisi,
+  templateOrganik, templateMolarite, templateDenge,
+  templateFotosentez, templateSolunum, templateSistemler
 ];
 
 export function generate(count = 30) {
