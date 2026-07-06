@@ -81,6 +81,18 @@ export default async function CategoryPage({ params }: { params: Promise<{ id: s
         <p className="text-muted">Bu kategoriye ait henüz test bulunmuyor.</p>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
+          <Link
+            href="/genel-deneme"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="card" style={{ padding: '1.25rem', cursor: 'pointer', border: '2px dashed var(--primary)', background: 'linear-gradient(135deg, rgba(99,102,241,0.05), rgba(245,158,11,0.05))' }}>
+              <div style={{ fontSize: '2rem', marginBottom: '0.5rem', textAlign: 'center' }}>🎯</div>
+              <h4 style={{ margin: 0, textAlign: 'center', color: 'var(--primary)' }}>Karma Deneme Başlat</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textAlign: 'center', marginTop: '0.5rem' }}>
+                Tüm derslerden karışık sorularla genel deneme sınavı oluştur.
+              </p>
+            </div>
+          </Link>
           {tests.map((t) => {
             const isSolved = solvedTests.has(t.index);
             return (

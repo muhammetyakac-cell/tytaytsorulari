@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import KatexContent from '@/components/KatexContent';
 
 const INITIAL_QUESTIONS = [
@@ -402,6 +403,12 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                   >
                     ⭐ AYT Soruları
                   </button>
+                  <Link
+                    href="/genel-deneme"
+                    className="bg-amber-500/90 hover:bg-amber-500 text-white border border-amber-400/40 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5 inline-block"
+                  >
+                    🎯 Karma Deneme
+                  </Link>
                 </div>
               </div>
             </div>
@@ -554,6 +561,13 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                       <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">⚡ AYT Fizik Kampı</span>
                       <span className="text-xs text-slate-500">&rarr;</span>
                     </button>
+                    <Link
+                      href="/genel-deneme"
+                      className="w-full text-left p-3 rounded-xl bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 dark:from-amber-950/20 dark:to-orange-950/20 dark:hover:from-amber-950/30 dark:hover:to-orange-950/30 flex items-center justify-between transition-colors group border border-amber-200/50 dark:border-amber-800/30"
+                    >
+                      <span className="text-sm font-semibold group-hover:text-amber-600 dark:group-hover:text-amber-400">🎯 Karma Deneme Başlat</span>
+                      <span className="text-xs text-slate-500">&rarr;</span>
+                    </Link>
                   </div>
                 </div>
 
