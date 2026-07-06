@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { saveProgress } from '@/app/actions/progress'
+import KatexContent from '@/components/KatexContent'
 
 export default function QuizClient({ category, testIndex, questions }: any) {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -126,13 +127,13 @@ export default function QuizClient({ category, testIndex, questions }: any) {
                       {isCorrect ? '✓ Doğru' : '✗ Yanlış'}
                     </span>
                   </div>
-                  <div style={{ fontSize: '0.9rem', marginBottom: '0.5rem', opacity: 0.9 }}>{q.question}</div>
+                  <div style={{ fontSize: '0.9rem', marginBottom: '0.5rem', opacity: 0.9 }}><KatexContent text={q.question} as="div" /></div>
                   <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
                     Senin Cevabın: <strong>{labels[ans.selectedOption]}</strong> {isCorrect ? '' : ` | Doğru Cevap: ${labels[q.correctAnswer]}`}
                   </div>
                   {q.explanation && (
                     <div style={{ marginTop: '0.75rem', padding: '0.75rem', background: 'var(--bg-card-hover)', borderRadius: '0.5rem', fontSize: '0.85rem' }}>
-                      <strong>Açıklama:</strong> <span>{q.explanation}</span>
+                      <strong>Açıklama:</strong> <KatexContent text={q.explanation} />
                     </div>
                   )}
                 </div>
@@ -169,7 +170,7 @@ export default function QuizClient({ category, testIndex, questions }: any) {
       </div>
 
       <div className="card question-card">
-        <div className="question-text">{q.question}</div>
+        <div className="question-text"><KatexContent text={q.question} as="div" /></div>
 
         <div className="options-container">
           {q.options.map((opt: string, idx: number) => {
@@ -190,7 +191,7 @@ export default function QuizClient({ category, testIndex, questions }: any) {
                 disabled={isAnswered}
                 onClick={() => handleOptionClick(idx)}
               >
-                <span className="option-letter">{letter})</span> <span>{text}</span>
+                <span className="option-letter">{letter})</span> <KatexContent text={text} />
               </button>
             )
           })}
@@ -198,7 +199,7 @@ export default function QuizClient({ category, testIndex, questions }: any) {
 
         <div className={`explanation-box ${isAnswered ? 'show' : ''}`}>
           <strong>Çözüm / Açıklama:</strong>
-          <p style={{ marginTop: '0.5rem' }}>{q.explanation || 'Bu soru için açıklama bulunmamaktadır.'}</p>
+          <p style={{ marginTop: '0.5rem' }}><KatexContent text={q.explanation || 'Bu soru için açıklama bulunmamaktadır.'} as="div" /></p>
         </div>
       </div>
 

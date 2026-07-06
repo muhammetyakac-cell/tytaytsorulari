@@ -1,6 +1,7 @@
 import { sql } from '@/lib/db'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import KatexContent from '@/components/KatexContent'
 
 export const dynamic = 'force-dynamic'
 
@@ -45,7 +46,7 @@ export default async function SoruPage({ params }: { params: Promise<{ id: strin
           {q.category_title} Dersi Sorusu
         </h1>
 
-        <div className="question-text">{q.question}</div>
+        <div className="question-text"><KatexContent text={q.question} as="div" /></div>
 
         <div className="options-container" style={{ pointerEvents: 'none' }}>
           {options.map((opt: string, idx: number) => {
@@ -57,7 +58,7 @@ export default async function SoruPage({ params }: { params: Promise<{ id: strin
 
             return (
               <div key={idx} className={btnClass} style={{ opacity: isCorrect ? 1 : 0.6 }}>
-                <span className="option-letter">{letter})</span> <span>{text}</span>
+                <span className="option-letter">{letter})</span> <KatexContent text={text} />
               </div>
             )
           })}
@@ -65,7 +66,7 @@ export default async function SoruPage({ params }: { params: Promise<{ id: strin
 
         <div className="explanation-box show" style={{ marginTop: '1.5rem' }}>
           <strong>Çözüm / Açıklama:</strong>
-          <p style={{ marginTop: '0.5rem' }}>{q.explanation || 'Bu soru için açıklama bulunmamaktadır.'}</p>
+          <p style={{ marginTop: '0.5rem' }}><KatexContent text={q.explanation || 'Bu soru için açıklama bulunmamaktadır.'} as="div" /></p>
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>

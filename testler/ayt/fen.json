@@ -1,0 +1,135 @@
+[
+  {
+    "sub_category": "fizik",
+    "question": "Fotoelektrik olayda, metal bir yüzeye düşürülen ışığın frekansı artırıldığında kopan elektronlarla ilgili;\n\nI. Maksimum kinetik enerjileri artar.\nII. Metalden sökülme süreleri kısalır.\nIII. Oluşan fotoelektrik akımı artar.\n\nYargılarından hangileri kesinlikle doğrudur?",
+    "options": ["A) Yalnız I", "B) Yalnız II", "C) I ve II", "D) I ve III", "E) I, II ve III"],
+    "correct_answer": 0,
+    "explanation": "$E_f = hf = \\phi + E_k$. Frekans artarsa $E_k$ artar (I doğru). Sökülme süresi anlıktır (II yanlış). Akım ışık şiddetine bağlıdır (III kesin değil)."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Yay sabiti 400 N/m olan bir yay, 10 N kuvvet uygulanarak sıkıştırılıyor. Yayda depolanan potansiyel enerji kaç joule'dür?",
+    "options": ["A) 0,125", "B) 0,25", "C) 0,5", "D) 1", "E) 2"],
+    "correct_answer": 0,
+    "explanation": "$F = kx \\implies 10 = 400x \\implies x = 0,025$ m. $E_p = \\frac{1}{2}kx^2 = \\frac{1}{2} \\times 400 \\times (0,025)^2 = 0,125$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir bobinin öz indüksiyon katsayısı 0,5 henry'dir. Bobinden geçen akım 0,2 saniyede 4 A artarsa bobinde oluşan öz indüksiyon emk'si kaç volttur?",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 8", "E) 10"],
+    "correct_answer": 4,
+    "explanation": "$\\mathcal{E} = -L\\frac{\\Delta I}{\\Delta t} = -0,5 \\times \\frac{4}{0,2} = -10$ V (büyüklük olarak 10 V)."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir ses dalgasının havadaki hızı 340 m/s ve frekansı 170 Hz ise dalga boyu kaç metredir?",
+    "options": ["A) 0,5", "B) 1", "C) 2", "D) 3", "E) 5"],
+    "correct_answer": 2,
+    "explanation": "$v = f \\cdot \\lambda \\implies \\lambda = v/f = 340/170 = 2$ m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Sürtünmesiz ortamda 2 kg kütleli cisim 10 m/s hızla 3 kg'lık duran cisme çarpıp yapışıyor. Ortak hız kaç m/s'dir?",
+    "options": ["A) 2", "B) 4", "C) 5", "D) 6", "E) 8"],
+    "correct_answer": 1,
+    "explanation": "Momentum korunumu: $m_1v_1 = (m_1+m_2)v' \\implies 2 \\times 10 = 5v' \\implies v' = 4$ m/s."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "İdeal bir transformatörün girişinde 200 V, 2 A varken çıkışında 100 V ölçülüyorsa çıkış akımı kaç amperdir?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4", "E) 5"],
+    "correct_answer": 3,
+    "explanation": "Güç korunumu: $V_p \\cdot I_p = V_s \\cdot I_s \\implies 200 \\times 2 = 100 \\times I_s \\implies I_s = 4$ A."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir basit sarkacın periyodu 2 s'dir. Sarkacın boyu 4 katına çıkarılırsa yeni periyot kaç s olur?",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 6", "E) 8"],
+    "correct_answer": 2,
+    "explanation": "$T \\propto \\sqrt{L}$. Boy 4 katına çıkarsa $T' = \\sqrt{4} \\cdot T = 2T = 4$ s."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ tepkimesine göre 1 mol N$_2$ ve 3 mol H$_2$'den tam verimle kaç mol NH$_3$ oluşur?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4", "E) 5"],
+    "correct_answer": 1,
+    "explanation": "Tepkime katsayılarına göre 1 mol N$_2$ ve 3 mol H$_2$'den 2 mol NH$_3$ oluşur."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "pH değeri 3 olan bir çözeltinin pOH değeri kaçtır?",
+    "options": ["A) 3", "B) 5", "C) 7", "D) 9", "E) 11"],
+    "correct_answer": 4,
+    "explanation": "pH + pOH = 14 \\implies pOH = 14 - 3 = 11."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "$^{235}_{92}U$ atomunda kaç nötron vardır?",
+    "options": ["A) 92", "B) 143", "C) 235", "D) 327", "E) 92 ile 235 arası"],
+    "correct_answer": 1,
+    "explanation": "Nötron sayısı = Kütle numarası - Proton sayısı = 235 - 92 = 143."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdaki bileşiklerden hangisi aromatik hidrokarbondur?",
+    "options": ["A) CH$_4$", "B) C$_2$H$_6$", "C) C$_6$H$_6$", "D) C$_2$H$_2$", "E) C$_4$H$_{10}$"],
+    "correct_answer": 2,
+    "explanation": "Benzen (C$_6$H$_6$) halkalı yapısı ve konjuge çift bağlarıyla aromatiktir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "1 atm basınçta 27$^\\circ$C'de 0,2 mol ideal gaz kaç litre hacim kaplar? ($R = 0,082$ L·atm·mol$^{-1}$·K$^{-1}$)",
+    "options": ["A) 2,46", "B) 3,28", "C) 4,92", "D) 5,60", "E) 6,72"],
+    "correct_answer": 2,
+    "explanation": "$PV = nRT \\implies V = \\frac{nRT}{P} = \\frac{0,2 \\times 0,082 \\times 300}{1} = 4,92$ L."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "CH$_3$COOH molekülünde kaç tane sigma ($\\sigma$) bağı vardır?",
+    "options": ["A) 5", "B) 6", "C) 7", "D) 8", "E) 9"],
+    "correct_answer": 2,
+    "explanation": "CH$_3$COOH: 3 C-H, 1 C-C, 1 C=O (1$\\sigma$), 1 C-O, 1 O-H $\\to$ toplam 7 $\\sigma$ bağı."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Hücre bölünmesinin profaz evresinde aşağıdaki olaylardan hangisi gerçekleşir?",
+    "options": ["A) Kromozomların ekvatora dizilmesi", "B) Kromatin ipliklerin kromozom haline gelmesi", "C) Kardeş kromatitlerin ayrılması", "D) Sitoplazma bölünmesi", "E) DNA replikasyonu"],
+    "correct_answer": 1,
+    "explanation": "Profazda kromatin iplikler kısalıp kalınlaşarak kromozom haline gelir, çekirdekçik kaybolur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Aşağıdaki canlılardan hangisi prokaryot hücre yapısına sahiptir?",
+    "options": ["A) Amip", "B) Bira mayası", "C) Bakteri", "D) Bitki hücresi", "E) Hayvan hücresi"],
+    "correct_answer": 2,
+    "explanation": "Bakteriler zarla çevrili çekirdeğe sahip olmadıkları için prokaryottur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "İnsanda kan şekeri düştüğünde kana glikoz salgılanmasını sağlayan hormon aşağıdakilerden hangisidir?",
+    "options": ["A) İnsülin", "B) Glukagon", "C) Tiroksin", "D) Kortizol", "E) Adrenalin"],
+    "correct_answer": 1,
+    "explanation": "Glukagon, pankreasın alfa hücrelerinden salgılanır ve glikojenolizi uyarır."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Mayoz bölünme sonucunda bir hücreden kaç yeni hücre oluşur?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4", "E) 6"],
+    "correct_answer": 3,
+    "explanation": "Mayoz sonucu genetik olarak farklı 4 haploid hücre oluşur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "DNA'nın yapısında aşağıdaki organik bazlardan hangisi bulunmaz?",
+    "options": ["A) Adenin", "B) Guanin", "C) Sitozin", "D) Timin", "E) Urasil"],
+    "correct_answer": 4,
+    "explanation": "Urasil RNA'da bulunur. DNA'da adenin, guanin, sitozin ve timin bulunur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Bir enzimin çalışmasını hızlandıran ancak enzimin yapısına katılmayan organik moleküllere ne ad verilir?",
+    "options": ["A) Substrat", "B) Koenzim", "C) Apoenzim", "D) Holoenzim", "E) Aktivatör"],
+    "correct_answer": 1,
+    "explanation": "Koenzim, enzimin aktif bölgesine geçici bağlanarak katalitik aktiviteyi sağlayan organik yardımcı moleküldür."
+  }
+]

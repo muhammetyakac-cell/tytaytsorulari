@@ -1,0 +1,114 @@
+[
+  {
+    "sub_category": "tarih2",
+    "question": "Osmanlı Devleti'nde ilk defa medrese açan padişah aşağıdakilerden hangisidir?",
+    "options": ["A) Osman Gazi", "B) Orhan Gazi", "C) I. Murad", "D) Yıldırım Bayezid", "E) II. Mehmed"],
+    "correct_answer": 1,
+    "explanation": "Orhan Gazi, İznik'te ilk Osmanlı medresesini açmıştır."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Türkiye Cumhuriyeti'nin ilk anayasası aşağıdakilerden hangisidir?",
+    "options": ["A) 1876 Kanun-i Esasi", "B) 1921 Teşkilat-ı Esasiye", "C) 1924 Anayasası", "D) 1961 Anayasası", "E) 1982 Anayasası"],
+    "correct_answer": 1,
+    "explanation": "1921 Teşkilat-ı Esasiye, TBMM tarafından kabul edilen ilk anayasadır."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Aşağıdaki savaşlardan hangisi Osmanlı Devleti'nin Balkan topraklarını büyük ölçüde kaybetmesine neden olmuştur?",
+    "options": ["A) 93 Harbi (1877-78)", "B) Balkan Savaşı (1912-13)", "C) Trablusgarp Savaşı", "D) I. Dünya Savaşı", "E) Kırım Savaşı"],
+    "correct_answer": 1,
+    "explanation": "Balkan Savaşları sonucunda Osmanlı Balkanlardaki topraklarının çoğunu kaybetmiştir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "İlk TBMM'nin açılış tarihi aşağıdakilerden hangisidir?",
+    "options": ["A) 19 Mayıs 1919", "B) 23 Nisan 1920", "C) 23 Ağustos 1921", "D) 30 Ağustos 1922", "E) 29 Ekim 1923"],
+    "correct_answer": 1,
+    "explanation": "TBMM, 23 Nisan 1920'de Ankara'da açılmıştır."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Haritalarda yükselti ve çukur alanları göstermek için kullanılan yöntem aşağıdakilerden hangisidir?",
+    "options": ["A) Tarama", "B) İzohips (eş yükselti)", "C) Renklendirme", "D) Noktalama", "E) Kabartma"],
+    "correct_answer": 1,
+    "explanation": "İzohips eğrileri, aynı yükseltiye sahip noktaları birleştirerek yer şekillerini gösterir."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'nin en büyük gölü aşağıdakilerden hangisidir?",
+    "options": ["A) İznik Gölü", "B) Beyşehir Gölü", "C) Van Gölü", "D) Tuz Gölü", "E) Sapanca Gölü"],
+    "correct_answer": 2,
+    "explanation": "Van Gölü, 3.713 km² yüzölçümüyle Türkiye'nin en büyük gölüdür."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Dünya üzerinde gece-gündüz sürelerinin eşit olduğu tarihlere ne ad verilir?",
+    "options": ["A) Ekinoks", "B) Gündönümü", "C) Aphel", "D) Perihel", "E) Ay dönümü"],
+    "correct_answer": 0,
+    "explanation": "Ekinoks (gece-gündüz eşitliği), 21 Mart ve 23 Eylül'de yaşanır."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Akarsuların denize ulaştığı yere ne ad verilir?",
+    "options": ["A) Kaynak", "B) Yatak", "C) Ağız", "D) Havza", "E) Kol"],
+    "correct_answer": 2,
+    "explanation": "Akarsuyun denize ulaştığı noktaya \"ağız\" veya \"ağız kısmı\" denir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Bilgi, duyumlardan gelir; zihinde doğuştan hiçbir bilgi yoktur.\" görüşü aşağıdaki akımlardan hangisine aittir?",
+    "options": ["A) Rasyonalizm", "B) Empirizm", "C) Kritisizm", "D) Entüisyonizm", "E) Pozitivizm"],
+    "correct_answer": 1,
+    "explanation": "Empirizm (deneycilik), tüm bilginin deneyden geldiğini savunur. Temsilcileri Locke ve Hume'dur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Kategorik imperatif\" (koşulsuz buyruk) kavramı hangi filozofa aittir?",
+    "options": ["A) Sokrates", "B) Platon", "C) Kant", "D) Hegel", "E) Nietzsche"],
+    "correct_answer": 2,
+    "explanation": "Kant'a göre kategorik imperatif, koşulsuz olarak uyulması gereken ahlak yasasıdır."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Devlet, üç sınıftan oluşur: yöneticiler, bekçiler (askerler) ve üreticiler.\" diyen filozof aşağıdakilerden hangisidir?",
+    "options": ["A) Sokrates", "B) Platon", "C) Aristoteles", "D) Farabi", "E) İbn-i Sina"],
+    "correct_answer": 1,
+    "explanation": "Platon, \"Devlet\" adlı eserinde ideal devleti üç sınıfla açıklamıştır."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Varlığın temelini \"idea\" (düşünce) olarak kabul eden felsefi akım aşağıdakilerden hangisidir?",
+    "options": ["A) Materyalizm", "B) İdealizm", "C) Dualizm", "D) Pragmatizm", "E) Nihilizm"],
+    "correct_answer": 1,
+    "explanation": "İdealizm (düşüncecilik), varlığın temelinin düşünce olduğunu savunur. Platon öncüsüdür."
+  },
+  {
+    "sub_category": "din",
+    "question": "İslam'da ilk farz kılınan ibadet aşağıdakilerden hangisidir?",
+    "options": ["A) Oruç", "B) Namaz", "C) Zekât", "D) Hac", "E) Kelime-i şehadet"],
+    "correct_answer": 4,
+    "explanation": "Kelime-i şehadet getirmek, İslam'ın ilk şartıdır."
+  },
+  {
+    "sub_category": "din",
+    "question": "Kur'an-ı Kerim'de adı geçen ve Hz. İbrahim'in oğlu olan peygamber aşağıdakilerden hangisidir?",
+    "options": ["A) Hz. Musa", "B) Hz. İsmail", "C) Hz. Davud", "D) Hz. Süleyman", "E) Hz. Yunus"],
+    "correct_answer": 1,
+    "explanation": "Hz. İsmail, Hz. İbrahim'in oğludur ve Kâbe'nin inşasında babasına yardım etmiştir."
+  },
+  {
+    "sub_category": "din",
+    "question": "İslam'da \"zinne dayalı hüküm çıkarma yöntemi\" anlamına gelen kavram aşağıdakilerden hangisidir?",
+    "options": ["A) İcma", "B) Kıyas", "C) İçtihat", "D) İstihsan", "E) Taklit"],
+    "correct_answer": 1,
+    "explanation": "Kıyas, hakkında nas bulunmayan bir meselenin hükmünü, aralarındaki ortak illet sebebiyle benzer bir nassa dayanarak belirlemektir."
+  },
+  {
+    "sub_category": "din",
+    "question": "Aşağıdaki surelerden hangisi Kur'an-ı Kerim'in son suresidir?",
+    "options": ["A) Fatiha", "B) Bakara", "C) İhlas", "D) Felak", "E) Nas"],
+    "correct_answer": 4,
+    "explanation": "Nas Suresi, Kur'an-ı Kerim'in 114. ve son suresidir."
+  }
+]

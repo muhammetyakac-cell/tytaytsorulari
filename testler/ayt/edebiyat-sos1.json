@@ -1,0 +1,93 @@
+[
+  {
+    "sub_category": "edebiyat",
+    "question": "Aşağıdakilerden hangisi Tanzimat Edebiyatı sanatçılarından biri değildir?",
+    "options": ["A) Şinasi", "B) Namık Kemal", "C) Ziya Paşa", "D) Ahmet Hamdi Tanpınar", "E) Recaizade Mahmut Ekrem"],
+    "correct_answer": 3,
+    "explanation": "Ahmet Hamdi Tanpınar, Cumhuriyet Dönemi Türk edebiyatı yazarıdır."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Sana dar gelmeyecek makberi kimler kazsın? / Gömelim gel seni tarihe!\" sözü hangi şaire aittir?",
+    "options": ["A) Mehmet Akif Ersoy", "B) Yahya Kemal Beyatlı", "C) Tevfik Fikret", "D) Ziya Gökalp", "E) Faruk Nafiz Çamlıbel"],
+    "correct_answer": 1,
+    "explanation": "Bu mısralar Yahya Kemal Beyatlı'nın \"Süleymaniye'de Bayram Sabahı\" şiirindendir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Türk edebiyatında ilk yerli roman aşağıdakilerden hangisidir?",
+    "options": ["A) İntibah", "B) Taaşşuk-ı Talat ve Fitnat", "C) Araba Sevdası", "D) Sergüzeşt", "E) Cezmi"],
+    "correct_answer": 1,
+    "explanation": "Şemsettin Sami'nin \"Taaşşuk-ı Talat ve Fitnat\"ı ilk yerli romandır."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Aşağıdaki eserlerden hangisi Hüseyin Nihal Atsız'a aittir?",
+    "options": ["A) Safahat", "B) Bozkurtlar", "C) Çalıkuşu", "D) Yaban", "E) Sinekli Bakkal"],
+    "correct_answer": 1,
+    "explanation": "\"Bozkurtlar\", Hüseyin Nihal Atsız'ın tarihi romanlarından en bilinenidir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Edebiyatımızda \"vatan şairi\" olarak anılan sanatçı aşağıdakilerden hangisidir?",
+    "options": ["A) Mehmet Akif Ersoy", "B) Namık Kemal", "C) Tevfik Fikret", "D) Ziya Gökalp", "E) Yahya Kemal Beyatlı"],
+    "correct_answer": 1,
+    "explanation": "Namık Kemal, \"Vatan yahut Silistre\" gibi eserleriyle vatan şairi olarak anılır."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Servet-i Fünun edebiyatının kurucusu ve en önemli ismi aşağıdakilerden hangisidir?",
+    "options": ["A) Halit Ziya Uşaklıgil", "B) Mehmet Rauf", "C) Cenap Şahabettin", "D) Tevfik Fikret", "E) Hüseyin Cahit Yalçın"],
+    "correct_answer": 3,
+    "explanation": "Tevfik Fikret, Servet-i Fünun topluluğunun edebi yönden lideridir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Küçük Ağa\" romanının yazarı aşağıdakilerden hangisidir?",
+    "options": ["A) Yakup Kadri Karaosmanoğlu", "B) Halide Edib Adıvar", "C) Tarık Buğra", "D) Reşat Nuri Güntekin", "E) Kemal Tahir"],
+    "correct_answer": 2,
+    "explanation": "Tarık Buğra'nın \"Küçük Ağa\" romanı, Kurtuluş Savaşı'nı anlatır."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "Malazgirt Meydan Muharebesi hangi yıl yapılmıştır?",
+    "options": ["A) 1048", "B) 1071", "C) 1075", "D) 1085", "E) 1099"],
+    "correct_answer": 1,
+    "explanation": "Malazgirt Savaşı 1071'de yapılmış, Anadolu'nun kapılarını Türklere açmıştır."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "İstanbul'un fethi hangi padişah döneminde gerçekleşmiştir?",
+    "options": ["A) II. Murad", "B) Fatih Sultan Mehmed", "C) Yavuz Sultan Selim", "D) Kanuni Sultan Süleyman", "E) II. Bayezid"],
+    "correct_answer": 1,
+    "explanation": "İstanbul, II. Mehmed (Fatih) tarafından 1453'te fethedilmiştir."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "Osmanlı Devleti'nde ilk kez kapitülasyon (imtiyaz) hangi ülkeye verilmiştir?",
+    "options": ["A) İngiltere", "B) Fransa", "C) Venedik", "D) Ceneviz", "E) Rusya"],
+    "correct_answer": 1,
+    "explanation": "İlk kapitülasyonlar 1535'te Kanuni döneminde Fransa'ya verilmiştir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Türkiye'de en fazla yağış alan bölge aşağıdakilerden hangisidir?",
+    "options": ["A) Akdeniz", "B) Karadeniz", "C) Marmara", "D) Ege", "E) Doğu Anadolu"],
+    "correct_answer": 1,
+    "explanation": "Karadeniz Bölgesi, her mevsim yağış alarak en fazla yağışı alan bölgedir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Aşağıdaki illerden hangisi Türkiye'de nüfus yoğunluğu en az olan bölgelerdendir?",
+    "options": ["A) İstanbul", "B) İzmir", "C) Tunceli", "D) Ankara", "E) Bursa"],
+    "correct_answer": 2,
+    "explanation": "Tunceli, dağlık ve engebeli arazi yapısı nedeniyle nüfus yoğunluğu düşüktür."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Aşağıdaki yerlerden hangisi Türkiye'de görülen iklim tiplerinden biri değildir?",
+    "options": ["A) Akdeniz iklimi", "B) Karadeniz iklimi", "C) Karasal iklim", "D) Ekvatoral iklim", "E) Marmara (geçiş) iklimi"],
+    "correct_answer": 3,
+    "explanation": "Ekvatoral iklim Türkiye'de görülmez. Türkiye'de Akdeniz, Karadeniz ve karasal iklim görülür."
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "sub_category": "fizik",
+    "question": "Sürtünmesiz yatay bir düzlemde duran 5 kg kütleli bir cisme 20 N'lik yatay kuvvet uygulanıyor. Cismin ivmesi kaç m/s$^2$'dir?",
+    "options": ["A) 2", "B) 4", "C) 5", "D) 10", "E) 20"],
+    "correct_answer": 1,
+    "explanation": "Newton'ın 2. yasası: $F = m \\cdot a \\implies a = F/m = 20/5 = 4$ m/s$^2$."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir elektrik devresinde direnci 6 $\\Omega$ olan bir iletkenden 2 A akım geçmektedir. İletkenin uçları arasındaki potansiyel farkı kaç volttur?",
+    "options": ["A) 3", "B) 6", "C) 8", "D) 10", "E) 12"],
+    "correct_answer": 4,
+    "explanation": "Ohm yasası: $V = I \\cdot R = 2 \\times 6 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Kütlesi 2 kg olan bir cismin hızı 3 m/s ise kinetik enerjisi kaç joule'dür?",
+    "options": ["A) 3", "B) 6", "C) 9", "D) 12", "E) 18"],
+    "correct_answer": 2,
+    "explanation": "$E_k = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 2 \\times 3^2 = 1 \\times 9 = 9$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Sürtünmesiz ortamda serbest bırakılan bir cisim 4 saniyede yere düşüyor. Cismin bırakıldığı yükseklik kaç metredir? ($g = 10$ m/s$^2$)",
+    "options": ["A) 40", "B) 60", "C) 80", "D) 100", "E) 120"],
+    "correct_answer": 2,
+    "explanation": "Serbest düşme: $h = \\frac{1}{2}gt^2 = 5 \\times 16 = 80$ m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir dalganın frekansı 25 Hz ve dalga boyu 2 m'dir. Dalganın yayılma hızı kaç m/s'dir?",
+    "options": ["A) 25", "B) 50", "C) 75", "D) 100", "E) 125"],
+    "correct_answer": 1,
+    "explanation": "Dalga hızı: $v = f \\cdot \\lambda = 25 \\times 2 = 50$ m/s."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Düzgün doğrusal hareket yapan bir cisimle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": ["A) Hızı sürekli artar", "B) İvmesi sıfırdır", "C) Net kuvvet etkisindedir", "D) Yönü sürekli değişir", "E) Sürati azalır"],
+    "correct_answer": 1,
+    "explanation": "Düzgün doğrusal hareket sabit hızlı harekettir. Hız sabit olduğu için ivme sıfırdır."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Oda sıcaklığında yapılan deneylerde X çözeltisi mavi turnusolu kırmızıya çeviriyor, Y çözeltisi çinko metaliyle H$_2$ gazı çıkarıyor, Z çözeltisinin pH değeri 11'dir. X, Y ve Z'nin sınıflandırılması hangisidir?",
+    "options": ["A) X: Asit, Y: Asit, Z: Baz", "B) X: Baz, Y: Asit, Z: Asit", "C) X: Asit, Y: Baz, Z: Baz", "D) X: Baz, Y: Baz, Z: Asit", "E) X: Asit, Y: Asit, Z: Asit"],
+    "correct_answer": 0,
+    "explanation": "Turnusolü kırmızıya çeviren (asit), Zn ile H$_2$ çıkaran (asit), pH $> 7$ (baz)."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Periyodik cetvelde aynı grupta yukarıdan aşağı inildikçe aşağıdaki özelliklerden hangisi artar?",
+    "options": ["A) İyonlaşma enerjisi", "B) Elektronegatiflik", "C) Atom yarıçapı", "D) Elektron ilgisi", "E) Değerlik elektron sayısı"],
+    "correct_answer": 2,
+    "explanation": "Atom numarası arttıkça elektron kabuk sayısı artar, böylece atom yarıçapı büyür."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdaki maddelerden hangisi kovalent bağlı bir bileşiktir?",
+    "options": ["A) NaCl", "B) CaO", "C) H$_2$O", "D) KBr", "E) MgO"],
+    "correct_answer": 2,
+    "explanation": "H$_2$O (su), elektron ortaklaşması (kovalent bağ) ile oluşmuştur. Diğerleri iyoniktir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdakilerden hangisi fiziksel bir değişimdir?",
+    "options": ["A) Demirin paslanması", "B) Sütün ekşimesi", "C) Mumun erimesi", "D) Odunun yanması", "E) Yumurtanın haşlanması"],
+    "correct_answer": 2,
+    "explanation": "Mumun erimesi hal değişimidir, maddenin kimliği değişmez. Diğerleri kimyasal değişimdir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Canlıların en küçük yapı ve işlev birimi aşağıdakilerden hangisidir?",
+    "options": ["A) Doku", "B) Organ", "C) Sistem", "D) Hücre", "E) Organel"],
+    "correct_answer": 3,
+    "explanation": "Hücre, canlılığın temel birimidir. Tüm canlılar bir veya daha fazla hücreden oluşur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Bitkilerde fotosentez olayının gerçekleştiği organel aşağıdakilerden hangisidir?",
+    "options": ["A) Mitokondri", "B) Kloroplast", "C) Ribozom", "D) Golgi cisimciği", "E) Endoplazmik retikulum"],
+    "correct_answer": 1,
+    "explanation": "Kloroplast, klorofil pigmenti içerir ve ışık enerjisini kimyasal enerjiye dönüştürür."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "İnsan vücudunda kanın pıhtılaşmasında görev alan hücreler aşağıdakilerden hangisidir?",
+    "options": ["A) Akyuvarlar", "B) Alyuvarlar", "C) Trombositler", "D) Plazma hücreleri", "E) Mast hücreleri"],
+    "correct_answer": 2,
+    "explanation": "Trombositler (kan pulcukları), kanama durumunda pıhtılaşma faktörlerini salgılayarak kan kaybını önler."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "İnsan sindirim sisteminde proteinlerin sindirimi hangi organda başlar?",
+    "options": ["A) Ağız", "B) Mide", "C) İnce bağırsak", "D) Kalın bağırsak", "E) Yemek borusu"],
+    "correct_answer": 1,
+    "explanation": "Mide öz suyundaki pepsin enzimi protein sindirimini başlatır."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Mendel'in bezelye deneylerinde \"farklı karakterlerin genlerinin birbirinden bağımsız kalıtıldığını\" ifade eden ilke hangisidir?",
+    "options": ["A) Dominantlık ilkesi", "B) Ayrılma ilkesi", "C) Bağımsız dağılım ilkesi", "D) Baskınlık ilkesi", "E) Bağlı gen ilkesi"],
+    "correct_answer": 2,
+    "explanation": "Bağımsız dağılım ilkesine göre, farklı karakterlerin genleri birbirinden bağımsız olarak gametlere aktarılır."
+  }
+]

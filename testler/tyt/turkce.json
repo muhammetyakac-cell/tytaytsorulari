@@ -1,0 +1,114 @@
+[
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "\"Bu roman, yazarın en olgun dönem ürünüdür.\" cümlesindeki \"ürün\" sözcüğünün cümleye kattığı anlam aşağıdakilerden hangisidir?",
+    "options": ["A) Eser", "B) Kazanç", "C) Ticari mal", "D) Servet", "E) Getiri"],
+    "correct_answer": 0,
+    "explanation": "\"Ürün\" sözcüğü bu cümlede \"eser, yapıt\" anlamında kullanılmıştır. Yazarın ortaya koyduğu sanatsal çalışma kastedilmektedir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdaki cümlelerin hangisinde \"derin\" sözcüğü mecaz anlamda kullanılmıştır?",
+    "options": ["A) Kuyunun derinliği on metreyi buluyor.", "B) Derin bir nefes alıp konuşmaya başladı.", "C) Bu konuda derin bir bilgiye sahip değilim.", "D) Denizin bu bölümü oldukça derin.", "E) Yaranın derinliği doktoru endişelendirdi."],
+    "correct_answer": 2,
+    "explanation": "\"Derin\" sözcüğü C seçeneğinde \"yoğun, kapsamlı\" anlamında mecaz olarak kullanılmıştır. Diğer seçeneklerde gerçek anlamındadır."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük terim anlamıyla kullanılmıştır?",
+    "options": ["A) (Köşe) başında buluşmayı planladık.", "B) Konserde en (üst) balkonda oturduk.", "C) Bu (dize) bir şiirin en etkileyici bölümüydü.", "D) Sınıfın (arka) sıralarında oturmayı severdi.", "E) Defterin (kenar) kısmı yırtılmıştı."],
+    "correct_answer": 2,
+    "explanation": "\"Dize\" sözcüğü edebiyat terimi olarak \"mısra\" anlamında kullanıldığı için terim anlamlıdır."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "Aşağıdaki cümlelerin hangisinde \"amaç-sonuç\" ilişkisi vardır?",
+    "options": ["A) Yağmur yağdığı için maç ertelendi.", "B) Sınava iyi hazırlanmak için çok çalıştı.", "C) Arabayı yıkadı ama hava tekrar bulutlandı.", "D) Ödevini bitirince arkadaşlarıyla oynadı.", "E) Araba kullanmayı öğrendi ancak ehliyet almadı."],
+    "correct_answer": 1,
+    "explanation": "B seçeneğinde \"için\" edatı amaç bildirmektedir: \"Sınava iyi hazırlanmak\" amaç, \"çok çalışmak\" sonuçtur."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Bu roman, sadece gençlerin değil yetişkinlerin de ilgisini çekebilecek bir eser.\" cümlesindeki anlam ilişkisi aşağıdakilerden hangisidir?",
+    "options": ["A) Karşılaştırma", "B) Koşul", "C) Neden-sonuç", "D) Amaç-sonuç", "E) Varsayım"],
+    "correct_answer": 0,
+    "explanation": "Gençler ve yetişkinler karşılaştırılmaktadır. Romanın her iki grubun da ilgisini çekebileceği belirtilmektedir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Söylediklerine bakılırsa, onun da bu konuda pek bir fikri yok.\" cümlesinde aşağıdaki anlamlardan hangisi vardır?",
+    "options": ["A) Küçümseme", "B) Varsayım", "C) Tahmin", "D) Kesinlik", "E) Olasılık"],
+    "correct_answer": 2,
+    "explanation": "\"Bakılırsa\" ifadesi bir çıkarım ve tahmin anlamı taşımaktadır."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Sanat, insanın kendini ifade etme biçimlerinden yalnızca biridir. Ancak diğer ifade biçimlerinden farklı olarak sanat, evrensel bir dil kullanır. Bir resim, bir heykel ya da bir müzik eseri, hangi kültürden olursa olsun her insana aynı duyguyu yaşatabilir. Bu yönüyle sanat, insanlığın ortak mirasıdır.\n\nBu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+    "options": ["A) Sanat, kültürden kültüre değişen bir olgudur.", "B) Her insan aynı sanat eserinden farklı duygular hisseder.", "C) Sanatın en önemli özelliği evrensel olmasıdır.", "D) Sanat eserleri yalnızca belirli bir kitleye hitap eder.", "E) Kültürler arası iletişimde dil en önemli araçtır."],
+    "correct_answer": 2,
+    "explanation": "Parçada sanatın evrensel bir dil kullandığı ve insanlığın ortak mirası olduğu vurgulanmaktadır."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Günümüzde bilgiye ulaşmak hiç olmadığı kadar kolay. Ancak asıl mesele, bu bilgi yığını içinden doğru olanı seçebilmek. İnternette her gün milyonlarca yeni içerik yayımlanıyor. Bunların bir kısmı doğru ve güvenilirken, bir kısmı yanıltıcı olabiliyor. Bu nedenle bilgi okuryazarlığı, 21. yüzyılın en önemli becerilerinden biri haline gelmiştir.\n\nBu parçaya göre, bilgi okuryazarlığının önemi neye dayandırılmaktadır?",
+    "options": ["A) Bilginin herkes tarafından üretilebilmesine", "B) İnternetin daha fazla kullanılmasına", "C) Doğru bilgi ile yanlış bilginin bir arada bulunmasına", "D) Bilginin güncellenme hızının artmasına", "E) İnsanların bilgiye ücretsiz erişebilmesine"],
+    "correct_answer": 2,
+    "explanation": "Doğru ve yanlış bilginin bir arada bulunması, bilgi okuryazarlığını önemli hale getirmiştir."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "(I) Edebiyat, toplumun bir aynasıdır. (II) Her dönemin edebiyatı, o dönemin sosyal ve kültürel özelliklerini yansıtır. (III) Bu nedenle bir dönemi anlamak için o dönemin edebi eserlerini incelemek yeterlidir. (IV) Ancak edebiyat, toplumu yalnızca yansıtmakla kalmaz, onu şekillendirir. (V) Toplumsal değişimlerin öncüsü olan yazarlar, eserleriyle kitleleri etkilemiştir.\n\nBu parçadaki numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
+    "options": ["A) I", "B) II", "C) III", "D) IV", "E) V"],
+    "correct_answer": 2,
+    "explanation": "III. cümledeki \"yeterlidir\" ifadesi kesin ve abartılı bir yargıdır, parçanın akışına uymaz."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Bir dilin zenginliği, o dilin sözcük sayısıyla değil, anlatım olanaklarıyla ölçülür. Türkçe, bu açıdan son derece zengin bir dildir. Deyimler, atasözleri ve mecazlı anlatımlar sayesinde aynı düşünceyi pek çok farklı biçimde ifade edebiliriz.\n\nBu parçada Türkçenin hangi özelliği vurgulanmaktadır?",
+    "options": ["A) Sözcük sayısının fazla olması", "B) Tarihsel kökeninin eski olması", "C) Anlatım gücünün yüksek olması", "D) Yabancı dillerden etkilenmesi", "E) Dil bilgisi kurallarının karmaşık olması"],
+    "correct_answer": 2,
+    "explanation": "Türkçenin anlatım gücünün yüksek olduğu vurgulanmıştır."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Şehir hayatı, insanlara birçok kolaylık sunuyor olsa da beraberinde sorunlar da getirmektedir. Bunların başında, doğal çevreden uzaklaşma ve sürekli bir koşturma içinde olma hali geliyor. Oysa insan, doğayla iç içe olduğunda kendini daha huzurlu hissetmektedir.\n\nBu parçadan aşağıdakilerden hangisi çıkarılamaz?",
+    "options": ["A) Şehir hayatının zorlukları vardır.", "B) İnsanlar doğal ortamlarda daha huzurlu olur.", "C) Şehirler her geçen gün daha kalabalıklaşmaktadır.", "D) Şehir hayatı bazı kolaylıklar sağlamaktadır.", "E) Doğadan uzaklaşmak şehir hayatının bir sonucudur."],
+    "correct_answer": 2,
+    "explanation": "Parçada şehirlerin kalabalıklaşmasından söz edilmemektedir."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Günümüz dünyasında teknolojiye bağımlı bir yaşam sürüyoruz. Uyandığımız andan itibaren telefonlarımıza bakıyor, sosyal medyada vakit geçiriyoruz. Peki bu durum, bizi gerçek hayattan koparmıyor mu? Yapılan araştırmalar, teknoloji bağımlılığının özellikle gençler arasında yalnızlık hissini artırdığını gösteriyor.\n\nBu parçada aşağıdakilerden hangisine değinilmemiştir?",
+    "options": ["A) Teknolojinin günlük hayatın bir parçası olduğuna", "B) Teknoloji bağımlılığının olumsuz etkilerine", "C) Sosyal medya kullanımının yaş sınırına", "D) Gençlerin teknolojiden etkilendiğine", "E) Teknolojinin iş hayatında kullanıldığına"],
+    "correct_answer": 2,
+    "explanation": "Parçada sosyal medya kullanımı için yaş sınırı belirtilmemiştir."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Kitap okumak, insanın kelime dağarcığını geliştirir, düşünme becerisini artırır ve empati yeteneğini güçlendirir. Ancak günümüzde insanlar kitap okumaya yeterince vakit ayırmamaktadır. Özellikle dijital medyanın yaygınlaşmasıyla birlikte okuma alışkanlığı giderek azalmaktadır.\n\nBu parçanın anahtar sözcükleri aşağıdakilerden hangisidir?",
+    "options": ["A) Teknoloji, başarı, bilim", "B) Kitap, okuma, alışkanlık", "C) Dijital, medya, yaygınlaşma", "D) Empati, düşünce, gelişim", "E) Alışkanlık, başarı, zaman"],
+    "correct_answer": 1,
+    "explanation": "Parçada kitap okumanın önemi ve okuma alışkanlığının azalması ele alınmaktadır."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+    "options": ["A) Yarınki toplantıya katılacak mısın?", "B) Her şey yolunda gidiyordu ki bir anda herşey değişti.", "C) Hiçbir şey eskisi gibi olmayacak.", "D) Arkadaşım da bizimle gelecekmiş.", "E) Önümüzdeki hafta İzmir'e gidiyoruz."],
+    "correct_answer": 1,
+    "explanation": "\"Her şey\" ayrı yazılırken \"hiçbir\" bitişik yazılır. B seçeneğindeki \"herşey\" yanlış yazılmıştır."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Aşağıdaki cümlelerin hangisinde noktalama yanlışı vardır?",
+    "options": ["A) Ali, Ayşe ve Mehmet sinemaya gittiler.", "B) Ankara'ya; İstanbul'a ve İzmir'e gidecek.", "C) Peki, sen ne düşünüyorsun?", "D) Kitabı okudum ama hiçbir şey anlamadım.", "E) Yaşlı adam: \"Merhaba evlat!\" dedi."],
+    "correct_answer": 1,
+    "explanation": "Sıralı cümlelerde noktalı virgül değil virgül kullanılmalıdır."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Bu —— kitapları okumayan, edebiyat ——— tam anlamıyla kavrayamaz.\" cümlesinde boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+    "options": ["A) -nın, -ını", "B) -nun, -i", "C) -nun, -ı", "D) -nun, -ını", "E) -nun, -in"],
+    "correct_answer": 3,
+    "explanation": "\"Bu\" işaret sıfatı \"kitaplar\" sözcüğünü nitelediği için \"-nun\" tamlayan eki alır."
+  }
+]

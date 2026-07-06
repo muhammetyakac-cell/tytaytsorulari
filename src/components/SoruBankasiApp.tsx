@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import KatexContent from '@/components/KatexContent';
 
 const INITIAL_QUESTIONS = [
   {
@@ -460,9 +461,9 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                     <span className="text-xs text-slate-500 font-medium">Beğeni: 128 ❤️</span>
                   </div>
 
-                  <p className="font-semibold text-sm md:text-base leading-relaxed whitespace-pre-line text-slate-800 dark:text-slate-100">
-                    {questions[0].questionText}
-                  </p>
+                    <div className="font-semibold text-sm md:text-base leading-relaxed whitespace-pre-line text-slate-800 dark:text-slate-100">
+                      <KatexContent text={questions[0].questionText} as="div" />
+                    </div>
 
                   <div className="pt-2">
                     <button 
@@ -766,9 +767,9 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                       {}
                       {/* Question Text */}
                       <div className="space-y-4">
-                        <p className="text-slate-800 dark:text-slate-100 font-bold text-sm md:text-base leading-relaxed whitespace-pre-line">
-                          {q.questionText}
-                        </p>
+                        <div className="text-slate-800 dark:text-slate-100 font-bold text-sm md:text-base leading-relaxed whitespace-pre-line">
+                          <KatexContent text={q.questionText} as="div" />
+                        </div>
 
                         {/* Options */}
                         <div className="grid grid-cols-1 gap-2.5 pt-2">
@@ -812,7 +813,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                                 }`}>
                                   {optKey}
                                 </span>
-                                <span className="flex-1">{optText}</span>
+                                <span className="flex-1"><KatexContent text={optText} /></span>
                               </button>
                             );
                           })}
@@ -856,9 +857,9 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                             </h4>
                             <span className="bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 text-[10px] font-bold px-2 py-0.5 rounded">Detaylı</span>
                           </div>
-                          <p className="text-xs md:text-sm text-slate-600 dark:text-slate-300 whitespace-pre-line leading-relaxed">
-                            {q.solution}
-                          </p>
+                          <div className="text-xs md:text-sm text-slate-600 dark:text-slate-300 whitespace-pre-line leading-relaxed">
+                            <KatexContent text={q.solution} as="div" />
+                          </div>
                           <div className="p-3 bg-white dark:bg-slate-900/60 rounded-xl border border-indigo-100/50 dark:border-indigo-950 flex items-center justify-between gap-4">
                             <span className="text-[11px] text-slate-500">Anlamadığın bir yer mi var?</span>
                             <button 
@@ -917,9 +918,9 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                         ★ Kaydedildi
                       </button>
                     </div>
-                    <p className="font-semibold text-sm md:text-base text-slate-800 dark:text-slate-100 leading-relaxed whitespace-pre-line">
-                      {q.questionText}
-                    </p>
+                    <div className="font-semibold text-sm md:text-base text-slate-800 dark:text-slate-100 leading-relaxed whitespace-pre-line">
+                      <KatexContent text={q.questionText} as="div" />
+                    </div>
                     <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/50 flex justify-between items-center">
                       <span className="text-xs text-slate-500">Yazar: {q.author}</span>
                       <button

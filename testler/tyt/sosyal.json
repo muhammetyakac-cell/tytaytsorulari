@@ -1,0 +1,107 @@
+[
+  {
+    "sub_category": "tarih",
+    "question": "Osmanlı Devleti'nde, fethedilen topraklardaki yerli halkın can, mal, ırz ve din güvenliğini garanti altına alan belge aşağıdakilerden hangisidir?",
+    "options": ["A) Ferman", "B) Berat", "C) Ahidname", "D) Kanunname", "E) Vakfiye"],
+    "correct_answer": 2,
+    "explanation": "Ahidname, Osmanlı'nın fethettiği bölgelerdeki halka can, mal ve din güvenliği sağlayan belgedir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Kurtuluş Savaşı'nda düzenli ordunun Batı Cephesi'ndeki ilk askerî başarısı aşağıdakilerden hangisidir?",
+    "options": ["A) Sakarya Meydan Muharebesi", "B) I. İnönü Muharebesi", "C) II. İnönü Muharebesi", "D) Büyük Taarruz", "E) Kütahya-Eskişehir Savaşı"],
+    "correct_answer": 1,
+    "explanation": "I. İnönü Muharebesi (6-11 Ocak 1921), düzenli ordunun ilk zaferidir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "İstanbul'un fethinin aşağıdaki sonuçlarından hangisi, Orta Çağ'ın sona erdiğinin bir göstergesidir?",
+    "options": ["A) Bizans İmparatorluğu'nun yıkılması", "B) Karadeniz ticaret yolunun Türklerin eline geçmesi", "C) Surların toplarla yıkılması", "D) Osmanlı'nın başkentinin İstanbul olması", "E) Ayasofya'nın camiye çevrilmesi"],
+    "correct_answer": 2,
+    "explanation": "Surların toplarla yıkılması, derebeylik sisteminin dayanağı kalelerin savunmasız hale geldiğini göstermiştir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Mondros Ateşkes Antlaşması'nın hangi maddesi Osmanlı Devleti'nin fiilen sona erdiğinin en önemli göstergesidir?",
+    "options": ["A) Ordunun terhis edilmesi", "B) İtilaf Devletleri'nin stratejik noktaları işgal edebilmesi", "C) Toros tünellerinin işgali", "D) Donanmanın teslim edilmesi", "E) Haberleşme araçlarının denetlenmesi"],
+    "correct_answer": 1,
+    "explanation": "7. madde, İtilaf Devletleri'ne istedikleri her yeri işgal yetkisi vermiştir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de aşağıdaki bölgelerden hangisinde kış sıcaklık ortalamaları diğerlerine göre daha yüksektir?",
+    "options": ["A) İç Anadolu", "B) Doğu Anadolu", "C) Akdeniz", "D) Karadeniz", "E) Güneydoğu Anadolu"],
+    "correct_answer": 2,
+    "explanation": "Akdeniz Bölgesi enlem ve denizellik etkisiyle kışın en ılık bölgedir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Harita ölçeği $1/500.000$ olan bir haritada 5 cm olarak gösterilen iki şehir arası gerçek uzaklık kaç km'dir?",
+    "options": ["A) 10 km", "B) 15 km", "C) 20 km", "D) 25 km", "E) 50 km"],
+    "correct_answer": 3,
+    "explanation": "Gerçek uzaklık $= 5 \\times 500.000 = 2.500.000$ cm $= 25$ km."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de aşağıdaki illerden hangisi volkanik arazi üzerinde kurulmuştur?",
+    "options": ["A) İzmir", "B) Antalya", "C) Nevşehir", "D) Samsun", "E) Edirne"],
+    "correct_answer": 2,
+    "explanation": "Nevşehir (Kapadokya), Erciyes ve Hasan Dağı'nın volkanik püskürtmeleriyle oluşmuştur."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de nüfusun dağılışını etkileyen faktörlerden biri aşağıdakilerden hangisi değildir?",
+    "options": ["A) İklim özellikleri", "B) Yer şekilleri", "C) Toprak verimliliği", "D) Ayın evreleri", "E) Sanayi tesisleri"],
+    "correct_answer": 3,
+    "explanation": "Ayın evrelerinin nüfus dağılışı üzerinde etkisi bulunmamaktadır."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Düşünüyorum, öyleyse varım.\" sözüyle bilinen filozof aşağıdakilerden hangisidir?",
+    "options": ["A) Platon", "B) Aristoteles", "C) Descartes", "D) Kant", "E) Nietzsche"],
+    "correct_answer": 2,
+    "explanation": "Descartes, modern felsefenin kurucusudur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Varlığın temelini maddeye dayandıran felsefi akım aşağıdakilerden hangisidir?",
+    "options": ["A) İdealizm", "B) Materyalizm", "C) Dualizm", "D) Entüisyonizm", "E) Pragmatizm"],
+    "correct_answer": 1,
+    "explanation": "Materyalizm, her şeyin maddeden oluştuğunu savunur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Ahlak, en büyük sayıdaki insana en büyük mutluluğu sağlayacak eylemler bütünüdür.\" görüşü hangi akıma aittir?",
+    "options": ["A) Ödev ahlakı", "B) Faydacı ahlak", "C) Haz ahlakı", "D) Nihilizm", "E) Varoluşçuluk"],
+    "correct_answer": 1,
+    "explanation": "Faydacı ahlak (Utilitarianism), Bentham ve Mill tarafından geliştirilmiştir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Bir bilginin bilimsel kabul edilmesi için hangi ölçüt zorunludur?",
+    "options": ["A) Olgusal olması", "B) Gündelik hayatta işe yaraması", "C) Herkes tarafından kabul edilmesi", "D) Kolay anlaşılabilir olması", "E) Geleneksel olması"],
+    "correct_answer": 0,
+    "explanation": "Bilimsel bilgi, gözlemlenebilir ve ölçülebilir verilere (olgulara) dayanmalıdır."
+  },
+  {
+    "sub_category": "din",
+    "question": "İslam dininin temel kaynakları aşağıdakilerden hangisidir?",
+    "options": ["A) Kur'an-ı Kerim ve Sünnet", "B) Kur'an-ı Kerim ve Tevrat", "C) İncil ve Sünnet", "D) Tevrat ve İncil", "E) Yalnızca Kur'an-ı Kerim"],
+    "correct_answer": 0,
+    "explanation": "Kur'an-ı Kerim ve Hz. Muhammed'in sünneti (hadisler ve uygulamalar) İslam'ın iki temel kaynağıdır."
+  },
+  {
+    "sub_category": "din",
+    "question": "Aşağıdakilerden hangisi İslam'ın inanç esaslarından (imanın şartları) biri değildir?",
+    "options": ["A) Allah'a inanmak", "B) Meleklere inanmak", "C) Oruç tutmak", "D) Peygamberlere inanmak", "E) Ahiret gününe inanmak"],
+    "correct_answer": 2,
+    "explanation": "Oruç, İslam'ın şartlarından biridir (ibadet esası), imanın şartlarından değildir."
+  },
+  {
+    "sub_category": "din",
+    "question": "\"Kader\" ve \"kaza\" kavramlarıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": ["A) Kader ve kaza aynı anlama gelir.", "B) Kader olayların gerçekleşmesi; kaza ise takdirdir.", "C) Kader Allah'ın önceden belirlemesi; kaza bunların gerçekleşmesidir.", "D) Kader insanın tercihlerine bağlı değildir.", "E) Kaza sadece kötü olaylar için kullanılır."],
+    "correct_answer": 2,
+    "explanation": "Kader Allah'ın ezeli takdiri, kaza ise bu takdirin zamanı gelince gerçekleşmesidir."
+  }
+]

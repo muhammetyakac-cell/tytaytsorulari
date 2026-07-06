@@ -1,0 +1,128 @@
+[
+  {
+    "sub_category": "matematik",
+    "question": "Bir otobüsteki yolcuların $\\frac{3}{5}$'i erkektir. Otobüse 10 erkek daha binince erkek yolcu sayısı tüm yolcuların $\\frac{2}{3}$'si oluyor. Buna göre, başlangıçta otobüste kaç yolcu vardır?",
+    "options": ["A) 30", "B) 40", "C) 45", "D) 50", "E) 60"],
+    "correct_answer": 3,
+    "explanation": "Başlangıçtaki yolcu sayısına $x$ diyelim. Erkek yolcu: $\\frac{3x}{5}$. Yeni durum: $\\frac{3x}{5} + 10 = \\frac{2}{3}(x+10)$. Her tarafı 15 ile çarpalım: $9x + 150 = 10(x+10) \\implies 9x + 150 = 10x + 100 \\implies x = 50$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$a$, $b$ ve $c$ pozitif tam sayılar olmak üzere, $a = b^2$ ve $b = c^3$ eşitlikleri veriliyor. $a$ sayısı en az kaçtır?",
+    "options": ["A) 6", "B) 9", "C) 27", "D) 36", "E) 64"],
+    "correct_answer": 4,
+    "explanation": "$a = (c^3)^2 = c^6$. En küçük pozitif tam sayı $c \\ge 2$ (çünkü $c=1$ olursa tüm sayılar $1$ olur). $c=2 \\implies a = 2^6 = 64$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir sınıftaki öğrencilerin $%40$'i kız öğrencidir. Kız öğrencilerin $%30$'u, erkek öğrencilerin ise $%20$'si gözlüklüdür. Buna gore, bu siniftaki ogrencilerin yuzde kaci gozlukludur?",
+    "options": ["A) 20", "B) 22", "C) 24", "D) 26", "E) 28"],
+    "correct_answer": 2,
+    "explanation": "Toplam 100 öğrenci olsun: Kiz: 40, Erkek: 60. Gozluklu kiz: $40 \\times \\frac{30}{100} = 12$. Gozluklu erkek: $60 \\times \\frac{20}{100} = 12$. Toplam: 24 → %24."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|2x - 6| < 4$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": ["A) $(1, 5)$", "B) $[1,5]$", "C) $(1, 6)$", "D) $(2, 5)$", "E) $(-1, 5)$"],
+    "correct_answer": 0,
+    "explanation": "$|2x - 6| < 4 \\implies -4 < 2x - 6 < 4 \\implies 2 < 2x < 10 \\implies 1 < x < 5$. Çözüm kümesi $(1, 5)$ açık aralığıdır."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 3 kırmızı, 4 mavi ve 5 beyaz top vardır. Torbadan rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": ["A) $\\frac{1}{4}$", "B) $\\frac{7}{12}$", "C) $\\frac{1}{3}$", "D) $\\frac{5}{12}$", "E) $\\frac{3}{4}$"],
+    "correct_answer": 1,
+    "explanation": "Toplam top sayısı: $3 + 4 + 5 = 12$. İstenen toplar (kırmızı + mavi): $3 + 4 = 7$. Olasılık: $\\frac{7}{12}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 3x - 2$ ve $g(x) = x + 4$ olmak üzere, $(f \\circ g)(x)$ aşağıdakilerden hangisidir?",
+    "options": ["A) $3x + 10$", "B) $3x + 12$", "C) $3x + 2$", "D) $3x - 14$", "E) $x + 2$"],
+    "correct_answer": 0,
+    "explanation": "$(f \\circ g)(x) = f(g(x)) = f(x+4) = 3(x+4) - 2 = 3x + 12 - 2 = 3x + 10$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{128} + \\sqrt{50} - \\sqrt{18}$ işleminin sonucu kaçtır?",
+    "options": ["A) $5\\sqrt{2}$", "B) $8\\sqrt{2}$", "C) $10\\sqrt{2}$", "D) $12\\sqrt{2}$", "E) $15\\sqrt{2}$"],
+    "correct_answer": 1,
+    "explanation": "$\\sqrt{128} = 8\\sqrt{2}$, $\\sqrt{50} = 5\\sqrt{2}$, $\\sqrt{18} = 3\\sqrt{2}$. Toplam: $8\\sqrt{2} + 5\\sqrt{2} - 3\\sqrt{2} = 10\\sqrt{2}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir geometrik dizinin ilk terimi 2, ortak çarpanı 3 olduğuna göre, bu dizinin 5. terimi kaçtır?",
+    "options": ["A) 54", "B) 72", "C) 108", "D) 162", "E) 324"],
+    "correct_answer": 3,
+    "explanation": "Geometrik dizi: $a_n = a_1 \\cdot r^{n-1}$. $a_5 = 2 \\cdot 3^{4} = 2 \\cdot 81 = 162$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$a$, $b$ birer gerçek sayı olmak üzere, $ax^2 + bx + 6 = 0$ denkleminin kökleri 2 ve 3'tür. Buna göre, $a + b$ toplamı kaçtır?",
+    "options": ["A) $-5$", "B) $-3$", "C) $-1$", "D) $1$", "E) $3$"],
+    "correct_answer": 0,
+    "explanation": "Kökler çarpımı: $\\frac{6}{a} = 6 \\implies a = 1$. Kökler toplamı: $-\\frac{b}{a} = 5 \\implies b = -5$. $a + b = -4$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$A = \\{1, 2, 3, 4, 5\\}$ kümesinin 3 elemanlı alt kümelerinin sayısı kaçtır?",
+    "options": ["A) 6", "B) 8", "C) 10", "D) 12", "E) 15"],
+    "correct_answer": 2,
+    "explanation": "$C(5,3) = \\frac{5!}{3! \\cdot 2!} = \\frac{5 \\cdot 4 \\cdot 3!}{3! \\cdot 2} = \\frac{20}{2} = 10$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ortalaması 24 olan 6 sayıya aşağıdaki sayılardan hangisi eklenirse yeni ortalama 25 olur?",
+    "options": ["A) 28", "B) 29", "C) 30", "D) 31", "E) 32"],
+    "correct_answer": 3,
+    "explanation": "6 sayının toplamı: $24 \\times 6 = 144$. 7 sayının toplamı: $25 \\times 7 = 175$. Eklenecek sayı: $175 - 144 = 31$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir okuldaki öğrencilerin $%60$'ı erkektir. Erkek öğrencilerin $%25$'i gözlüklü olup gözlüklü erkek sayısı 75 olduğuna göre, okuldaki kız öğrenci sayısı kaçtır?",
+    "options": ["A) 400", "B) 450", "C) 480", "D) 500", "E) 520"],
+    "correct_answer": 3,
+    "explanation": "Toplam öğrenci sayısına $x$ diyelim. Erkek: $0.6x$. Gözlüklü erkek: $0.25 \\cdot 0.6x = 0.15x = 75 \\implies x = 500$. Kız öğrenci: $0.4 \\times 500 = 200$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Bir üçgenin iç açıları 2, 3 ve 5 sayılarıyla orantılıdır. Buna göre, en büyük açı kaç derecedir?",
+    "options": ["A) 54", "B) 72", "C) 90", "D) 108", "E) 126"],
+    "correct_answer": 2,
+    "explanation": "Açılara $2k$, $3k$, $5k$ diyelim. $2k + 3k + 5k = 10k = 180 \\implies k = 18$. En büyük açı: $5 \\times 18 = 90^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 6 cm olan bir dairenin alanı kaç $\\pi$ cm$^2$'dir?",
+    "options": ["A) $6\\pi$", "B) $12\\pi$", "C) $18\\pi$", "D) $24\\pi$", "E) $36\\pi$"],
+    "correct_answer": 4,
+    "explanation": "Dairenin alanı: $\\pi r^2 = \\pi \\times 6^2 = 36\\pi$ cm$^2$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "ABCD bir dikdörtgen, $|AB| = 12$ cm ve $|BC| = 5$ cm'dir. Buna göre $|AC|$ köşegen uzunluğu kaç cm'dir?",
+    "options": ["A) 10", "B) 11", "C) 12", "D) 13", "E) 14"],
+    "correct_answer": 3,
+    "explanation": "Pisagor teoremi: $|AC|^2 = 12^2 + 5^2 = 144 + 25 = 169 \\implies |AC| = \\sqrt{169} = 13$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Bir düzgün altıgenin bir iç açısı kaç derecedir?",
+    "options": ["A) $60^\\circ$", "B) $90^\\circ$", "C) $108^\\circ$", "D) $120^\\circ$", "E) $135^\\circ$"],
+    "correct_answer": 3,
+    "explanation": "$n$ kenarlı düzgün çokgenin bir iç açısı: $\\frac{(n-2) \\times 180}{n}$. Altıgen için: $\\frac{4 \\times 180}{6} = 120^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Eşkenar üçgen şeklindeki bir tarlanın çevresi 60 metredir. Tarlanın alanı kaç $\\sqrt{3}$ m$^2$'dir?",
+    "options": ["A) $24\\sqrt{3}$", "B) $36\\sqrt{3}$", "C) $48\\sqrt{3}$", "D) $60\\sqrt{3}$", "E) $100\\sqrt{3}$"],
+    "correct_answer": 4,
+    "explanation": "Bir kenarı: $60/3 = 20$ m. Alan: $\\frac{\\sqrt{3}}{4}a^2 = \\frac{\\sqrt{3}}{4} \\times 400 = 100\\sqrt{3}$ m$^2$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "$A(-2, 3)$ ve $B(4, -5)$ noktaları arasındaki uzaklık kaç birimdir?",
+    "options": ["A) 8", "B) 9", "C) 10", "D) 11", "E) 12"],
+    "correct_answer": 2,
+    "explanation": "$|AB| = \\sqrt{(4 - (-2))^2 + (-5 - 3)^2} = \\sqrt{6^2 + (-8)^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ birim."
+  }
+]
