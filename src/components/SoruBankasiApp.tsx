@@ -309,7 +309,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               <span className="text-xl font-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500">
                 tytaytsorulari
               </span>
-              <span className="text-xs block font-bold tracking-widest text-slate-400">SORU BANKASI</span>
+              <span className="text-xs block font-bold tracking-widest text-slate-500">SORU BANKASI</span>
             </div>
           </div>
 
@@ -317,25 +317,25 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
           <nav className="hidden md:flex items-center space-x-1">
             <button 
               onClick={() => { setActiveTab('dashboard'); setActiveQuizId(null); }}
-              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'dashboard' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400'}`}
+              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'dashboard' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
             >
               📊 Panelim
             </button>
             <button 
               onClick={() => { setActiveTab('exams'); setActiveQuizId(null); }}
-              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'exams' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400'}`}
+              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'exams' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
             >
               📝 Soru Çöz
             </button>
             <button 
               onClick={() => { setActiveTab('saved'); setActiveQuizId(null); }}
-              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'saved' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400'}`}
+              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'saved' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
             >
               ⭐ Kaydedilenler ({savedQuestions.length})
             </button>
             <button 
               onClick={() => { setActiveTab('add-question'); setActiveQuizId(null); }}
-              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'add-question' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400'}`}
+              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'add-question' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
             >
               ➕ Soru Gönder
             </button>
@@ -345,7 +345,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
           <div className="flex items-center space-x-3">
             <button 
               onClick={() => setDarkMode(!darkMode)}
-              className="p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 transition-colors"
+              className="p-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500 transition-colors"
               title="Koyu/Açık Tema"
             >
               {darkMode ? '☀️' : '🌙'}
@@ -409,7 +409,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="bg-white dark:bg-slate-800/80 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-center justify-between">
                 <div className="space-y-1">
-                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Çözülen Soru</span>
+                  <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Çözülen Soru</span>
                   <p className="text-2xl font-black">{solvedStats.correct + solvedStats.wrong}</p>
                   <span className="text-[11px] text-emerald-500 font-semibold">Tüm dönem boyunca</span>
                 </div>
@@ -417,7 +417,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               </div>
               <div className="bg-white dark:bg-slate-800/80 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-center justify-between">
                 <div className="space-y-1">
-                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Doğruluk Oranı</span>
+                  <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Doğruluk Oranı</span>
                   <p className="text-2xl font-black">
                     {solvedStats.correct + solvedStats.wrong > 0 
                       ? `${Math.round((solvedStats.correct / (solvedStats.correct + solvedStats.wrong)) * 100)}%` 
@@ -429,7 +429,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               </div>
               <div className="bg-white dark:bg-slate-800/80 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-center justify-between">
                 <div className="space-y-1">
-                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Sınava Kalan Gün</span>
+                  <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Sınava Kalan Gün</span>
                   <p className="text-2xl font-black">348 Gün</p>
                   <span className="text-[11px] text-pink-500 font-semibold">YKS Sayaç (Tahmini)</span>
                 </div>
@@ -437,7 +437,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               </div>
               <div className="bg-white dark:bg-slate-800/80 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm flex items-center justify-between">
                 <div className="space-y-1">
-                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Eklediğin Sorular</span>
+                  <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Eklediğin Sorular</span>
                   <p className="text-2xl font-black">{questions.length - INITIAL_QUESTIONS.length}</p>
                   <span className="text-[11px] text-amber-500 font-semibold">Topluluk katkısı</span>
                 </div>
@@ -455,9 +455,9 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <span className="bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase">Günün Sorusu</span>
-                      <span className="text-xs font-bold text-slate-400">TYT - Matematik</span>
+                      <span className="text-xs font-bold text-slate-500">TYT - Matematik</span>
                     </div>
-                    <span className="text-xs text-slate-400 font-medium">Beğeni: 128 ❤️</span>
+                    <span className="text-xs text-slate-500 font-medium">Beğeni: 128 ❤️</span>
                   </div>
 
                   <p className="font-semibold text-sm md:text-base leading-relaxed whitespace-pre-line text-slate-800 dark:text-slate-100">
@@ -478,7 +478,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Leaderboard simulation */}
                   <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
-                    <h3 className="font-bold text-sm text-slate-400 uppercase tracking-wider">🏆 Haftalık Liderler</h3>
+                    <h3 className="font-bold text-sm text-slate-500 uppercase tracking-wider">🏆 Haftalık Liderler</h3>
                     <div className="space-y-3">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
@@ -506,7 +506,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
 
                   {/* Quick stats & custom progress */}
                   <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
-                    <h3 className="font-bold text-sm text-slate-400 uppercase tracking-wider">🎯 Günlük Hedef</h3>
+                    <h3 className="font-bold text-sm text-slate-500 uppercase tracking-wider">🎯 Günlük Hedef</h3>
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs font-semibold">
                         <span>Hedef: 50 Soru</span>
@@ -518,7 +518,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                           style={{ width: `${Math.min(100, ((solvedStats.correct + solvedStats.wrong) / 50) * 100)}%` }}
                         ></div>
                       </div>
-                      <p className="text-xs text-slate-400 pt-1 leading-relaxed">Sınava yaklaştıkça her gün çözdüğün soru adedini artırmak netlerini doğrudan etkileyecektir. Bugün harika gidiyorsun!</p>
+                      <p className="text-xs text-slate-500 pt-1 leading-relaxed">Sınava yaklaştıkça her gün çözdüğün soru adedini artırmak netlerini doğrudan etkileyecektir. Bugün harika gidiyorsun!</p>
                     </div>
                   </div>
                 </div>
@@ -530,28 +530,28 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               <div className="space-y-6">
                 {/* Quick Filters card */}
                 <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
-                  <h3 className="font-bold text-sm text-slate-400 uppercase tracking-wider">⚡ Hızlı Başlangıç</h3>
+                  <h3 className="font-bold text-sm text-slate-500 uppercase tracking-wider">⚡ Hızlı Başlangıç</h3>
                   <div className="space-y-2">
                     <button 
                       onClick={() => { setActiveTab('exams'); setSelectedExam('Hepsi'); setSelectedSubject('Matematik'); }}
                       className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
                     >
                       <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">📐 TYT-AYT Matematik</span>
-                      <span className="text-xs text-slate-400">&rarr;</span>
+                      <span className="text-xs text-slate-500">&rarr;</span>
                     </button>
                     <button 
                       onClick={() => { setActiveTab('exams'); setSelectedExam('Hepsi'); setSelectedSubject('Türkçe'); }}
                       className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
                     >
                       <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">📝 Türkçe Paragraf</span>
-                      <span className="text-xs text-slate-400">&rarr;</span>
+                      <span className="text-xs text-slate-500">&rarr;</span>
                     </button>
                     <button 
                       onClick={() => { setActiveTab('exams'); setSelectedExam('Hepsi'); setSelectedSubject('Fizik'); }}
                       className="w-full text-left p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 dark:bg-slate-900/40 dark:hover:bg-indigo-950/20 flex items-center justify-between transition-colors group"
                     >
                       <span className="text-sm font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400">⚡ AYT Fizik Kampı</span>
-                      <span className="text-xs text-slate-400">&rarr;</span>
+                      <span className="text-xs text-slate-500">&rarr;</span>
                     </button>
                   </div>
                 </div>
@@ -571,7 +571,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                 {/* Resource Info */}
                 <div className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-3">
                   <h4 className="font-bold text-sm">💡 Öğrenme İpucu</h4>
-                  <p className="text-xs text-slate-400 leading-relaxed">
+                  <p className="text-xs text-slate-500 leading-relaxed">
                     Sınav modunda yanlış çözdüğün soruları daha sonra <strong>Kaydedilenler</strong> sekmesinden tek tıkla tekrar gözden geçirmeyi unutma. Hatalar en iyi öğretmenlerdir.
                   </p>
                 </div>
@@ -589,7 +589,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div className="space-y-1">
                   <h2 className="text-2xl font-black">YKS Soru Havuzu</h2>
-                  <p className="text-xs text-slate-400">Hızlıca ders, konu veya sınav türü belirleyerek soru çözmeye başla.</p>
+                  <p className="text-xs text-slate-500">Hızlıca ders, konu veya sınav türü belirleyerek soru çözmeye başla.</p>
                 </div>
                 
                 {/* Quick exam tab triggers */}
@@ -610,7 +610,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {/* Search query input */}
                 <div className="relative">
-                  <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-400 text-sm">🔍</span>
+                  <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-slate-500 text-sm">🔍</span>
                   <input
                     type="text"
                     placeholder="Soru metni veya konu ara..."
@@ -710,7 +710,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                 <div className="text-center py-16 bg-white dark:bg-slate-800 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
                   <span className="text-5xl block">🧐</span>
                   <h3 className="text-lg font-bold">Aradığın kritere uygun soru bulunamadı</h3>
-                  <p className="text-slate-400 text-sm max-w-sm mx-auto">Sıfırlama butonuna basarak tüm sorulara geri dönebilir ya da ilk soruyu sen ekleyebilirsin!</p>
+                  <p className="text-slate-500 text-sm max-w-sm mx-auto">Sıfırlama butonuna basarak tüm sorulara geri dönebilir ya da ilk soruyu sen ekleyebilirsin!</p>
                   <button 
                     onClick={() => { setSelectedExam('Hepsi'); setSelectedSubject('Hepsi'); setSearchQuery(''); }}
                     className="bg-indigo-50 hover:bg-indigo-100 text-indigo-600 px-5 py-2.5 rounded-xl font-bold text-sm dark:bg-indigo-950/40 dark:text-indigo-400 transition-all"
@@ -748,14 +748,14 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                           <span className="bg-slate-100 text-slate-700 dark:bg-slate-700 dark:text-slate-300 text-[10px] font-bold px-2.5 py-1 rounded-md">
                             {q.subject}
                           </span>
-                          <span className="text-slate-400 dark:text-slate-500 text-xs font-semibold">
+                          <span className="text-slate-500 dark:text-slate-500 text-xs font-semibold">
                             {q.topic}
                           </span>
                         </div>
                         <div className="flex items-center space-x-1.5">
                           <button 
                             onClick={() => toggleSaveQuestion(q.id)}
-                            className={`p-2 rounded-xl transition-all ${isSaved ? 'bg-amber-50 text-amber-500 dark:bg-amber-950/30' : 'hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-400'}`}
+                            className={`p-2 rounded-xl transition-all ${isSaved ? 'bg-amber-50 text-amber-500 dark:bg-amber-950/30' : 'hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500'}`}
                             title={isSaved ? "Kaydedilenlerden Çıkar" : "Soru Kaydet"}
                           >
                             ⭐
@@ -825,12 +825,12 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                         <div className="flex items-center space-x-3">
                           <button 
                             onClick={() => handleLike(q.id)}
-                            className="text-xs font-semibold text-slate-400 hover:text-rose-500 transition-colors flex items-center space-x-1"
+                            className="text-xs font-semibold text-slate-500 hover:text-rose-500 transition-colors flex items-center space-x-1"
                           >
                             <span>❤️</span> <span>{q.likes} Beğeni</span>
                           </button>
-                          <span className="text-xs text-slate-400 font-medium">|</span>
-                          <span className="text-xs text-slate-400 font-semibold">Yazarlar: <span className="text-slate-500 font-bold">{q.author}</span></span>
+                          <span className="text-xs text-slate-500 font-medium">|</span>
+                          <span className="text-xs text-slate-500 font-semibold">Yazarlar: <span className="text-slate-500 font-bold">{q.author}</span></span>
                         </div>
 
                         <div className="flex items-center space-x-2">
@@ -860,7 +860,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                             {q.solution}
                           </p>
                           <div className="p-3 bg-white dark:bg-slate-900/60 rounded-xl border border-indigo-100/50 dark:border-indigo-950 flex items-center justify-between gap-4">
-                            <span className="text-[11px] text-slate-400">Anlamadığın bir yer mi var?</span>
+                            <span className="text-[11px] text-slate-500">Anlamadığın bir yer mi var?</span>
                             <button 
                               onClick={() => triggerNotification('Yapay Zeka öğretmenimiz detaylı anlatım videosunu hazırlıyor...', 'info')}
                               className="text-[11px] font-black text-indigo-600 dark:text-indigo-400 hover:underline"
@@ -884,14 +884,14 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
           <div className="space-y-6 animate-fadeIn">
             <div className="space-y-1">
               <h2 className="text-2xl font-black">⭐ Kaydedilen Soruların</h2>
-              <p className="text-xs text-slate-400">Yapamadığın ya da daha sonra göz atmak istediğin premium YKS soruları.</p>
+              <p className="text-xs text-slate-500">Yapamadığın ya da daha sonra göz atmak istediğin premium YKS soruları.</p>
             </div>
 
             {savedQuestions.length === 0 ? (
               <div className="text-center py-16 bg-white dark:bg-slate-800 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-4">
                 <span className="text-5xl block">⭐</span>
                 <h3 className="text-lg font-bold">Henüz kaydedilmiş soru bulunmuyor</h3>
-                <p className="text-slate-400 text-sm max-w-sm mx-auto">Soru havuzundaki her kartın köşesinde yer alan yıldız simgesine tıklayarak buraya soru toplayabilirsin.</p>
+                <p className="text-slate-500 text-sm max-w-sm mx-auto">Soru havuzundaki her kartın köşesinde yer alan yıldız simgesine tıklayarak buraya soru toplayabilirsin.</p>
                 <button 
                   onClick={() => setActiveTab('exams')}
                   className="bg-indigo-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-md transition-all"
@@ -908,11 +908,11 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                         <span className="bg-indigo-100 text-indigo-700 dark:bg-indigo-950/40 dark:text-indigo-400 text-[10px] font-black px-2.5 py-1 rounded-md">
                           {q.exam}
                         </span>
-                        <span className="text-xs font-bold text-slate-400">{q.subject} - {q.topic}</span>
+                        <span className="text-xs font-bold text-slate-500">{q.subject} - {q.topic}</span>
                       </div>
                       <button 
                         onClick={() => toggleSaveQuestion(q.id)}
-                        className="text-amber-500 hover:text-slate-400 p-2 text-sm transition-all"
+                        className="text-amber-500 hover:text-slate-500 p-2 text-sm transition-all"
                       >
                         ★ Kaydedildi
                       </button>
@@ -921,7 +921,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                       {q.questionText}
                     </p>
                     <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-700/50 flex justify-between items-center">
-                      <span className="text-xs text-slate-400">Yazar: {q.author}</span>
+                      <span className="text-xs text-slate-500">Yazar: {q.author}</span>
                       <button
                         onClick={() => { setActiveTab('exams'); setSelectedSubject(q.subject); setSearchQuery(q.topic); }}
                         className="text-indigo-600 dark:text-indigo-400 font-bold text-xs hover:underline"
@@ -941,13 +941,13 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
           <div className="max-w-3xl mx-auto space-y-6 animate-fadeIn">
             <div className="space-y-1">
               <h2 className="text-2xl font-black">➕ Havuza Soru Katkısı Sağla</h2>
-              <p className="text-xs text-slate-400">Yazdığın veya elinde çözümü bulunan özgün YKS sorularını yükleyerek topluluk havuzuna katkıda bulunabilirsin.</p>
+              <p className="text-xs text-slate-500">Yazdığın veya elinde çözümü bulunan özgün YKS sorularını yükleyerek topluluk havuzuna katkıda bulunabilirsin.</p>
             </div>
 
             <form onSubmit={handleCreateQuestion} className="bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-5">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Sınav Kategorisi</label>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Sınav Kategorisi</label>
                   <select
                     value={newQuestion.exam}
                     onChange={(e) => setNewQuestion({ ...newQuestion, exam: e.target.value })}
@@ -958,7 +958,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                   </select>
                 </div>
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Ders Seçimi</label>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Ders Seçimi</label>
                   <select
                     value={newQuestion.subject}
                     onChange={(e) => setNewQuestion({ ...newQuestion, subject: e.target.value })}
@@ -973,7 +973,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Konu Başlığı</label>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Konu Başlığı</label>
                   <input
                     type="text"
                     placeholder="Örn: Limit ve Süreklilik"
@@ -983,7 +983,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Zorluk Derecesi</label>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Zorluk Derecesi</label>
                   <select
                     value={newQuestion.difficulty}
                     onChange={(e) => setNewQuestion({ ...newQuestion, difficulty: e.target.value })}
@@ -998,7 +998,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
 
               {}
               <div>
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Soru Metni</label>
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Soru Metni</label>
                 <textarea
                   rows={4}
                   placeholder="Sorunun tüm detaylarını, gerekli ise tüm şartları buraya ekleyin..."
@@ -1011,7 +1011,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
 
               {/* Options fields */}
               <div className="space-y-3">
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-400">Şıklar ve Cevap Seçenekleri</label>
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-500">Şıklar ve Cevap Seçenekleri</label>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {['A', 'B', 'C', 'D', 'E'].map(opt => (
                     <div key={opt} className="flex items-center space-x-2">
@@ -1032,7 +1032,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               {/* Correct answer & Solution explanation fields */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Doğru Cevap Şıkkı</label>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Doğru Cevap Şıkkı</label>
                   <select
                     value={newQuestion.correctAnswer}
                     onChange={(e) => setNewQuestion({ ...newQuestion, correctAnswer: e.target.value })}
@@ -1044,7 +1044,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                   </select>
                 </div>
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Adınız / Mahlasınız</label>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Adınız / Mahlasınız</label>
                   <input
                     type="text"
                     placeholder="Örn: Ahmet Hoca"
@@ -1056,7 +1056,7 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
               </div>
 
               <div>
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5">Detaylı Çözüm Açıklaması</label>
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Detaylı Çözüm Açıklaması</label>
                 <textarea
                   rows={3}
                   placeholder="Kullanıcıların soruyu yanlış yaptıklarında görecekleri çözümü adım adım yazın..."
@@ -1089,10 +1089,10 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
             <span className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 to-pink-500 flex items-center justify-center text-white font-black text-sm">🎴</span>
             <span className="font-extrabold text-lg bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">tytaytsorulari</span>
           </div>
-          <p className="text-xs text-slate-400 max-w-md mx-auto">
+          <p className="text-xs text-slate-500 max-w-md mx-auto">
             Türkiye'nin en yenilikçi ve akıllı YKS (TYT-AYT) soru bankası portalı. ÖSYM formatına %100 uyumlu, öğrenci dostu arayüz.
           </p>
-          <div className="flex justify-center space-x-4 text-xs font-bold text-slate-400 pt-2">
+          <div className="flex justify-center space-x-4 text-xs font-bold text-slate-500 pt-2">
             <button onClick={() => setActiveTab('dashboard')} className="hover:text-indigo-600">Panel</button>
             <span>•</span>
             <button onClick={() => setActiveTab('exams')} className="hover:text-indigo-600">Soru Çöz</button>
