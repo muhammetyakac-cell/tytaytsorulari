@@ -99,9 +99,9 @@ const INITIAL_QUESTIONS = [
   }
 ];
 
-export default function App() {
+export default function App({ initialQuestions = null }: { initialQuestions?: any[] | null }) {
   const [activeTab, setActiveTab] = useState('dashboard');
-  const [questions, setQuestions] = useState(INITIAL_QUESTIONS);
+  const [questions, setQuestions] = useState(initialQuestions && initialQuestions.length > 0 ? initialQuestions : INITIAL_QUESTIONS);
   const [savedQuestions, setSavedQuestions] = useState([1, 3]); // default saved question ids
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedExam, setSelectedExam] = useState('Hepsi');
@@ -772,7 +772,7 @@ export default function App() {
 
                         {/* Options */}
                         <div className="grid grid-cols-1 gap-2.5 pt-2">
-                          {Object.entries(q.options).map(([optKey, optText]) => {
+                          {Object.entries(q.options as Record<string, string>).map(([optKey, optText]) => {
                             const isThisOptionSelected = userAnswer === optKey;
                             const isCorrectOpt = q.correctAnswer === optKey;
                             
