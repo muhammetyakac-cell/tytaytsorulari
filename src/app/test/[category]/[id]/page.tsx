@@ -18,15 +18,13 @@ export default async function TestPage({ params }: { params: Promise<{ category:
   }
   const category = cats[0];
 
-  const questions = await sql`
+  const testQuestions = await sql`
     SELECT id, question, options, correct_answer as "correctAnswer", explanation 
     FROM questions 
     WHERE category_id = ${categoryId} 
     ORDER BY id ASC
+    LIMIT 10 OFFSET ${testIndex * 10}
   `;
-
-  const startIndex = testIndex * 10;
-  const testQuestions = questions.slice(startIndex, startIndex + 10);
 
   if (testQuestions.length === 0) {
     notFound();

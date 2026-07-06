@@ -14,17 +14,23 @@ export default async function CategoryPage({ params }: { params: Promise<{ id: s
   }
   const category = cats[0];
 
-  const questions = await sql`SELECT id, question FROM questions WHERE category_id = ${categoryId} ORDER BY id ASC`;
-  const totalQuestions = questions.length;
+  const [{ count: totalQuestions }] = await sql`SELECT COUNT(*)::int as count FROM questions WHERE category_id = ${categoryId}`;
   const totalTests = Math.ceil(totalQuestions / 10);
 
-  const tests = [];
-  for (let i = 0; i < totalTests; i++) {
-    const startIndex = i * 10;
-    const testQs = questions.slice(startIndex, startIndex + 10);
-    const previewText = testQs.length > 0 ? testQs[0].question.substring(0, 80) + '...' : '';
-    tests.push({ index: i, count: testQs.length, previewText });
-  }
+  const rawTests = await sql`
+    WITH numbered AS (
+      SELECT id, question, (ROW_NUMBER() OVER (ORDER BY id) - 1) / 10 AS test_idx
+      FROM questions WHERE category_id = ${categoryId}
+    )
+    SELECT test_idx, COUNT(*)::int as count, MIN(question) as preview
+    FROM numbered GROUP BY test_idx ORDER BY test_idx
+  `;
+
+  const tests = rawTests.map((t: any) => ({
+    index: t.test_idx,
+    count: t.count,
+    previewText: t.preview ? t.preview.substring(0, 80) + '...' : '',
+  }));
 
   const session = await getSession();
   const solvedTests = new Set<number>();

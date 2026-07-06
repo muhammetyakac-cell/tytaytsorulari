@@ -36,7 +36,7 @@ function templateLimit1() {
   const wrong = shuffle([a, a + 1, a * a, correct + 1, a - 1].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$\\lim_{x \\to ${a}} \\frac{x^2 - ${a * a}}{x - ${a}}$ limitinin de\\u011feri kaçt\\u0131r?`,
+    `$\\lim_{x \\to ${a}} \\frac{x^2 - ${a * a}}{x - ${a}}$ limitinin değeri kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$\\lim_{x \\to ${a}} \\frac{x^2 - ${a * a}}{x - ${a}} = \\lim_{x \\to ${a}} \\frac{(x-${a})(x+${a})}{x-${a}} = \\lim_{x \\to ${a}} (x+${a}) = ${a} + ${a} = ${correct}$.`);
@@ -57,7 +57,7 @@ function templateLimit2() {
       ? `x^2 - ${sum}x - ${Math.abs(prod)}`
       : `x^2 - ${sum}x + ${prod}`;
   return makeQuestion(SUB,
-    `$\\lim_{x \\to ${a}} \\frac{${numStr}}{x - ${a}}$ limitinin de\\u011feri kaçt\\u0131r?`,
+    `$\\lim_{x \\to ${a}} \\frac{${numStr}}{x - ${a}}$ limitinin değeri kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `Pay\\, $${numStr} = (x-${a})(x-${b})$. $\\lim_{x \\to ${a}} \\frac{(x-${a})(x-${b})}{x-${a}} = \\lim_{x \\to ${a}} (x-${b}) = ${a} - ${b} = ${correct}$.`);
@@ -77,10 +77,10 @@ function templateLimit3() {
   ].filter(v => v !== correct)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$\\lim_{x \\to \\infty} \\frac{${a}x^2 ${b >= 0 ? '+' : '-'} ${Math.abs(b)}x ${c >= 0 ? '+' : '-'} ${Math.abs(c)}}{${d}x^2 ${e >= 0 ? '+' : '-'} ${Math.abs(e)}x ${f >= 0 ? '+' : '-'} ${Math.abs(f)}}$ limitinin de\\u011feri kaçt\\u0131r?`,
+    `$\\lim_{x \\to \\infty} \\frac{${a}x^2 ${b >= 0 ? '+' : '-'} ${Math.abs(b)}x ${c >= 0 ? '+' : '-'} ${Math.abs(c)}}{${d}x^2 ${e >= 0 ? '+' : '-'} ${Math.abs(e)}x ${f >= 0 ? '+' : '-'} ${Math.abs(f)}}$ limitinin değeri kaçtır?`,
     all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
     all.indexOf(correct),
-    `$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{${a}x^2}{${d}x^2} = \\frac{${a}}{${d}}$.`);
+    `$x \\to \\infty$ için en büyük dereceli terimler öne çıkar: $\\frac{${a}x^2}{${d}x^2} = \\frac{${a}}{${d}}$.`);
 }
 
 function templateTurev1() {
@@ -96,7 +96,7 @@ function templateTurev1() {
   const all = shuffle([correct, ...wrong]);
   const fStr = fmtPoly([[a, n], [b, 1], [c, 0]]);
   return makeQuestion(SUB,
-    `$f(x) = ${fStr}$ oldu\\u011funa göre $f'(${k})$ kaçt\\u0131r?`,
+    `$f(x) = ${fStr}$ olduğuna göre $f'(${k})$ kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$f'(x) = ${derivCoeff}x^{${n - 1}} ${b >= 0 ? '+' : '-'} ${Math.abs(b)}$ ise $f'(${k}) = ${derivCoeff} \\cdot ${k}^{${n - 1}} ${b >= 0 ? '+' : '-'} ${Math.abs(b)} = ${correct}$.`);
@@ -112,7 +112,7 @@ function templateTurev2() {
   const all = shuffle([correct, ...wrong]);
   const fStr = fmtPoly([[a, 2], [b, 1], [c, 0]]);
   return makeQuestion(SUB,
-    `$f(x) = ${fStr}$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?`,
+    `$f(x) = ${fStr}$ fonksiyonunun $f'(x) = 0$ denklemini sağlayan $x$ değeri kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$f'(x) = ${2 * a}x ${b >= 0 ? '+' : '-'} ${Math.abs(b)}$. $f'(x) = 0 \\implies ${2 * a}x = ${Math.abs(b)} \\implies x = ${correct}$.`);
@@ -134,7 +134,7 @@ function templateIntegral1() {
   ]).slice(0, 4);
   const all = shuffle([correctStr, ...wrongStrs]);
   return makeQuestion(SUB,
-    `$\\int (${a}x^{${n}} ${b >= 0 ? '+' : '-'} ${Math.abs(b)}x^{${m}} ${c >= 0 ? '+' : '-'} ${Math.abs(c)}) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?`,
+    `$\\int (${a}x^{${n}} ${b >= 0 ? '+' : '-'} ${Math.abs(b)}x^{${m}} ${c >= 0 ? '+' : '-'} ${Math.abs(c)}) dx$ integralinin sonucu aşağıdakilerden hangisidir?`,
     all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
     all.indexOf(correctStr),
     `$\\int ${a}x^{${n}} dx = ${cA}x^{${n + 1}}$, $\\int ${b >= 0 ? '+' : '-'} ${Math.abs(b)}x^{${m}} dx = ${cB >= 0 ? '+' : '-'} ${Math.abs(cB)}x^{${m + 1}}$, $\\int ${c} dx = ${c}x$. Sonuç: $${correctStr}$.`);
@@ -150,7 +150,7 @@ function templateIntegral2() {
   const wrong = shuffle([correct + 1, correct - 1, correct + (n + 1), correct * 2, correct / 2].filter(v => v !== correct && v > 0 && v % 1 === 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$\\int_{${a}}^{${b}} ${k}x^{${n}} dx$ integralinin de\\u011feri kaçt\\u0131r?`,
+    `$\\int_{${a}}^{${b}} ${k}x^{${n}} dx$ integralinin değeri kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$\\int ${k}x^{${n}} dx = \\frac{${k}}{${n + 1}} x^{${n + 1}}$. $\\left[\\frac{${k}}{${n + 1}} x^{${n + 1}}\\right]_{${a}}^{${b}} = \\frac{${k}}{${n + 1}} (${b}^{${n + 1}} - ${a}^{${n + 1}}) = ${correct}$.`);
@@ -158,11 +158,11 @@ function templateIntegral2() {
 
 function templateTrigonometri1() {
   const q = pick([
-    { q: '$\\sin^2 x + \\cos^2 x$ ifadesinin e\\u015fiti nedir?', a: '1', w: ['0', '-1', '$\\frac{1}{2}$', '$\\sin x + \\cos x$'], e: 'Temel trigonometrik özde\\u015fli\\u011fe göre $\\sin^2 x + \\cos^2 x = 1$.' },
-    { q: '$\\frac{\\sin x}{\\cos x}$ ifadesinin e\\u015fiti nedir?', a: '$\\tan x$', w: ['$\\cot x$', '$\\sec x$', '$\\csc x$', '$\\cos x \\cdot \\sin x$'], e: '$\\frac{\\sin x}{\\cos x} = \\tan x$ temel özde\\u015fliktir.' },
-    { q: '$1 + \\tan^2 x$ ifadesinin e\\u015fiti nedir?', a: '$\\sec^2 x$', w: ['$\\csc^2 x$', '$\\cot^2 x$', '$\\sin^2 x$', '$\\cos^2 x$'], e: '$1 + \\tan^2 x = \\sec^2 x = \\frac{1}{\\cos^2 x}$.' },
-    { q: '$\\sin(\\frac{\\pi}{2} - x)$ ifadesinin e\\u015fiti nedir?', a: '$\\cos x$', w: ['$-\\cos x$', '$\\sin x$', '$\\tan x$', '$\\cot x$'], e: 'Tümler aç\\u0131 özde\\u015fli\\u011fi: $\\sin(\\frac{\\pi}{2} - x) = \\cos x$.' },
-    { q: '$\\cos 2x$ ifadesinin a\\u015fa\\u011f\\u0131daki e\\u015fitlerinden hangisi yanl\\u0131\\u015ft\\u0131r?', a: '$2\\cos^2 x - 1$', w: ['$\\cos^2 x - \\sin^2 x$', '$1 - 2\\sin^2 x$', '$2\\sin x \\cos x$'], e: '$\\cos 2x = \\cos^2 x - \\sin^2 x = 2\\cos^2 x - 1 = 1 - 2\\sin^2 x$. $2\\sin x \\cos x = \\sin 2x$ oldu\\u011fundan yanl\\u0131\\u015ft\\u0131r.' },
+    { q: '$\\sin^2 x + \\cos^2 x$ ifadesinin eşiti nedir?', a: '1', w: ['0', '-1', '$\\frac{1}{2}$', '$\\sin x + \\cos x$'], e: 'Temel trigonometrik özdeşliğe göre $\\sin^2 x + \\cos^2 x = 1$.' },
+    { q: '$\\frac{\\sin x}{\\cos x}$ ifadesinin eşiti nedir?', a: '$\\tan x$', w: ['$\\cot x$', '$\\sec x$', '$\\csc x$', '$\\cos x \\cdot \\sin x$'], e: '$\\frac{\\sin x}{\\cos x} = \\tan x$ temel özdeşliktir.' },
+    { q: '$1 + \\tan^2 x$ ifadesinin eşiti nedir?', a: '$\\sec^2 x$', w: ['$\\csc^2 x$', '$\\cot^2 x$', '$\\sin^2 x$', '$\\cos^2 x$'], e: '$1 + \\tan^2 x = \\sec^2 x = \\frac{1}{\\cos^2 x}$.' },
+    { q: '$\\sin(\\frac{\\pi}{2} - x)$ ifadesinin eşiti nedir?', a: '$\\cos x$', w: ['$-\\cos x$', '$\\sin x$', '$\\tan x$', '$\\cot x$'], e: 'Tümler açı özdeşliği: $\\sin(\\frac{\\pi}{2} - x) = \\cos x$.' },
+    { q: '$\\cos 2x$ ifadesinin aşağıdaki eşitlerinden hangisi yanlıştır?', a: '$2\\cos^2 x - 1$', w: ['$\\cos^2 x - \\sin^2 x$', '$1 - 2\\sin^2 x$', '$2\\sin x \\cos x$'], e: '$\\cos 2x = \\cos^2 x - \\sin^2 x = 2\\cos^2 x - 1 = 1 - 2\\sin^2 x$. $2\\sin x \\cos x = \\sin 2x$ olduğundan yanlıştır.' },
   ]);
   const wrong = shuffle(q.w).slice(0, 4);
   const all = shuffle([q.a, ...wrong]);
@@ -184,10 +184,10 @@ function templateTrigonometri2() {
   const func = pick(['sin', 'cos']);
   const all = shuffle([d.ans, ...d.opts]);
   return makeQuestion(SUB,
-    `$${func} x = ${d.val}$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü a\\u015fa\\u011f\\u0131dakilerden hangisidir?`,
+    `$${func} x = ${d.val}$ denkleminin $[0, \\pi]$ aralığındaki çözümü aşağıdakilerden hangisidir?`,
     all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
     all.indexOf(d.ans),
-    `$${func} x = ${d.val}$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü $x = ${d.ans}$ tir.`);
+    `$${func} x = ${d.val}$ denkleminin $[0, \\pi]$ aralığındaki çözümü $x = ${d.ans}$ tir.`);
 }
 
 function templateLogaritma1() {
@@ -199,7 +199,7 @@ function templateLogaritma1() {
   const wrong = shuffle([x + 1, x - 1, a, b, b + a, x + a].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$\\log_{${a}}(x^2 - ${b * b}) - \\log_{${a}}(x - ${b}) = 1$ ise $x$ kaçt\\u0131r?`,
+    `$\\log_{${a}}(x^2 - ${b * b}) - \\log_{${a}}(x - ${b}) = 1$ ise $x$ kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$\\log_{${a}} \\frac{x^2 - ${b * b}}{x - ${b}} = 1 \\implies \\log_{${a}} (x + ${b}) = 1 \\implies x + ${b} = ${a} \\implies x = ${x}$.`);
@@ -212,10 +212,10 @@ function templateLogaritma2() {
   const wrong = shuffle([1, 3, 4, a, b]).filter(v => v !== correct).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$\\log_{${a}} ${b} + \\log_{${a}} 1$ i\\u015fleminin sonucu kaçt\\u0131r?`,
+    `$\\log_{${a}} ${b} + \\log_{${a}} 1$ işleminin sonucu kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
-    `$\\log_{${a}} ${b} = 2$ ve $\\log_{${a}} 1 = 0$ oldu\\u011fundan sonuç $2 + 0 = 2$ dir.`);
+    `$\\log_{${a}} ${b} = 2$ ve $\\log_{${a}} 1 = 0$ olduğundan sonuç $2 + 0 = 2$ dir.`);
 }
 
 function templateDiziAritmetik() {
@@ -226,7 +226,7 @@ function templateDiziAritmetik() {
   const wrong = shuffle([ilk + (n - 1) * fark + fark, ilk + (n - 2) * fark, ilk * n, ilk + fark * n, fark * (n - 1)].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `\\u0130lk terimi ${ilk}, ortak fark\\u0131 ${fark} olan bir aritmetik dizinin ${n}. terimi kaçt\\u0131r?`,
+    `İlk terimi ${ilk}, ortak farkı ${fark} olan bir aritmetik dizinin ${n}. terimi kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$a_${n} = a_1 + (n-1)d = ${ilk} + (${n} - 1) \\cdot ${fark} = ${ilk} + ${(n - 1) * fark} = ${correct}$.`);
@@ -240,7 +240,7 @@ function templateDiziGeometrik() {
   const wrong = shuffle([ilk * Math.pow(oran, n), ilk * Math.pow(oran, n - 2), ilk * Math.pow(oran + 1, n - 1), oran * Math.pow(ilk, n - 1), ilk * Math.pow(oran, n - 1) + 1].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `\\u0130lk terimi ${ilk}, ortak çarpan\\u0131 ${oran} olan bir geometrik dizinin ${n}. terimi kaçt\\u0131r?`,
+    `İlk terimi ${ilk}, ortak çarpanı ${oran} olan bir geometrik dizinin ${n}. terimi kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$a_${n} = a_1 \\cdot r^{n-1} = ${ilk} \\cdot ${oran}^{${n - 1}} = ${correct}$.`);
@@ -269,7 +269,7 @@ function templateKarmasikIslem() {
   const z1 = fmtComplex(a, b);
   const z2 = fmtComplex(c, d);
   return makeQuestion(SUB,
-    `$z_1 = ${z1}$ ve $z_2 = ${z2}$ ise $z_1 ${islem} z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?`,
+    `$z_1 = ${z1}$ ve $z_2 = ${z2}$ ise $z_1 ${islem} z_2$ işleminin sonucu aşağıdakilerden hangisidir?`,
     all.map((v, i) => `${String.fromCharCode(65 + i)}) $${v}$`),
     all.indexOf(correctStr),
     `$z_1 ${islem} z_2 = (${a} ${islem} ${c}) + (${b} ${islem} ${d})i = ${correctStr}$.`);
@@ -283,7 +283,7 @@ function templateKarmasikModulus() {
   const wrong = shuffle([a, b, a + b, mod + 1, mod - 1, Math.abs(a - b)].filter(v => v !== correct && v > 0)).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$z = ${a} ${b >= 0 ? '+' : '-'} ${Math.abs(b)}i$ karma\\u015f\\u0131k say\\u0131s\\u0131n\\u0131n modülü kaçt\\u0131r?`,
+    `$z = ${a} ${b >= 0 ? '+' : '-'} ${Math.abs(b)}i$ karmaşık sayısının modülü kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$|z| = \\sqrt{${a}^2 + ${b}^2} = \\sqrt{${a * a + b * b}} = ${mod}$.`);
@@ -297,7 +297,7 @@ function templatePermutasyon() {
   const wrong = shuffle(wrongOpts).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$P(${n}, ${rVal})$ permütasyonunun de\\u011feri kaçt\\u0131r?`,
+    `$P(${n}, ${rVal})$ permütasyonunun değeri kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$P(${n}, ${rVal}) = \\frac{${n}!}{(${n} - ${rVal})!} = \\frac{${fact(n)}}{${fact(n - rVal)}} = ${correct}$.`);
@@ -311,7 +311,7 @@ function templateKombinasyon() {
   const wrong = shuffle(wrongOpts).slice(0, 4);
   const all = shuffle([correct, ...wrong]);
   return makeQuestion(SUB,
-    `$C(${n}, ${rVal})$ kombinasyonunun de\\u011feri kaçt\\u0131r?`,
+    `$C(${n}, ${rVal})$ kombinasyonunun değeri kaçtır?`,
     makeOptions(...all.map(v => `$${v}$`)),
     all.indexOf(correct),
     `$C(${n}, ${rVal}) = \\frac{${n}!}{${rVal}! \\cdot (${n} - ${rVal})!} = \\frac{${fact(n)}}{${fact(rVal)} \\cdot ${fact(n - rVal)}} = ${correct}$.`);

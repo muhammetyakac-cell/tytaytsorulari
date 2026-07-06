@@ -323,24 +323,30 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
             >
               📊 Panelim
             </button>
-            <button 
-              onClick={() => { setActiveTab('exams'); setActiveQuizId(null); }}
-              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'exams' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
+            <Link
+              href="/testler"
+              className="px-4 py-2 rounded-lg font-medium text-sm transition-all hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500 inline-block"
             >
               📝 Soru Çöz
-            </button>
+            </Link>
             <button 
               onClick={() => { setActiveTab('saved'); setActiveQuizId(null); }}
               className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'saved' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
             >
               ⭐ Kaydedilenler ({savedQuestions.length})
             </button>
-            <button 
+                <button 
               onClick={() => { setActiveTab('add-question'); setActiveQuizId(null); }}
               className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${activeTab === 'add-question' ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-950/40 dark:text-indigo-400' : 'hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-500'}`}
             >
               ➕ Soru Gönder
             </button>
+            <Link
+              href="/testler"
+              className="px-4 py-2 rounded-lg font-medium text-sm text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
+            >
+              📋 Testler
+            </Link>
           </nav>
 
           {/* Right Header Panel (Dark Mode toggle, user stats) */}
@@ -391,23 +397,29 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                   Özenle seçilmiş ve tamamen ÖSYM formatına uygun binlerce TYT-AYT sorusunu çöz, detaylı video kalitesindeki açıklamaları incele ve sınav hızını test et.
                 </p>
                 <div className="flex flex-wrap gap-3 pt-2">
-                  <button 
-                    onClick={() => { setActiveTab('exams'); setSelectedExam('TYT'); }}
-                    className="bg-white text-indigo-900 hover:bg-slate-100 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5"
+                  <Link
+                    href="/kategori/tyt-matematik"
+                    className="bg-white text-indigo-900 hover:bg-slate-100 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5 inline-block"
                   >
                     🚀 TYT Soruları
-                  </button>
-                  <button 
-                    onClick={() => { setActiveTab('exams'); setSelectedExam('AYT'); }}
-                    className="bg-purple-600/80 hover:bg-purple-600 text-white border border-purple-400/40 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5"
+                  </Link>
+                  <Link
+                    href="/kategori/ayt-matematik"
+                    className="bg-purple-600/80 hover:bg-purple-600 text-white border border-purple-400/40 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5 inline-block"
                   >
                     ⭐ AYT Soruları
-                  </button>
+                  </Link>
                   <Link
                     href="/genel-deneme"
                     className="bg-amber-500/90 hover:bg-amber-500 text-white border border-amber-400/40 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5 inline-block"
                   >
                     🎯 Karma Deneme
+                  </Link>
+                  <Link
+                    href="/testler"
+                    className="bg-emerald-500/90 hover:bg-emerald-500 text-white border border-emerald-400/40 px-6 py-3 rounded-xl font-bold text-sm shadow-md transition-all transform hover:-translate-y-0.5 inline-block"
+                  >
+                    📋 Tüm Testler
                   </Link>
                 </div>
               </div>
@@ -566,6 +578,13 @@ export default function App({ initialQuestions = null }: { initialQuestions?: an
                       className="w-full text-left p-3 rounded-xl bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 dark:from-amber-950/20 dark:to-orange-950/20 dark:hover:from-amber-950/30 dark:hover:to-orange-950/30 flex items-center justify-between transition-colors group border border-amber-200/50 dark:border-amber-800/30"
                     >
                       <span className="text-sm font-semibold group-hover:text-amber-600 dark:group-hover:text-amber-400">🎯 Karma Deneme Başlat</span>
+                      <span className="text-xs text-slate-500">&rarr;</span>
+                    </Link>
+                    <Link
+                      href="/testler"
+                      className="w-full text-left p-3 rounded-xl bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/20 dark:hover:bg-emerald-950/30 flex items-center justify-between transition-colors group border border-emerald-200/50 dark:border-emerald-800/30"
+                    >
+                      <span className="text-sm font-semibold group-hover:text-emerald-600 dark:group-hover:text-emerald-400">📋 Tüm Testleri Gör</span>
                       <span className="text-xs text-slate-500">&rarr;</span>
                     </Link>
                   </div>
