@@ -2,113 +2,754 @@
   {
     "sub_category": "tarih2",
     "question": "Osmanlı Devleti'nde ilk defa medrese açan padişah aşağıdakilerden hangisidir?",
-    "options": ["A) Osman Gazi", "B) Orhan Gazi", "C) I. Murad", "D) Yıldırım Bayezid", "E) II. Mehmed"],
+    "options": [
+      "A) Osman Gazi",
+      "B) Orhan Gazi",
+      "C) I. Murad",
+      "D) Yıldırım Bayezid",
+      "E) II. Mehmed"
+    ],
     "correct_answer": 1,
     "explanation": "Orhan Gazi, İznik'te ilk Osmanlı medresesini açmıştır."
   },
   {
     "sub_category": "tarih2",
     "question": "Türkiye Cumhuriyeti'nin ilk anayasası aşağıdakilerden hangisidir?",
-    "options": ["A) 1876 Kanun-i Esasi", "B) 1921 Teşkilat-ı Esasiye", "C) 1924 Anayasası", "D) 1961 Anayasası", "E) 1982 Anayasası"],
+    "options": [
+      "A) 1876 Kanun-i Esasi",
+      "B) 1921 Teşkilat-ı Esasiye",
+      "C) 1924 Anayasası",
+      "D) 1961 Anayasası",
+      "E) 1982 Anayasası"
+    ],
     "correct_answer": 1,
     "explanation": "1921 Teşkilat-ı Esasiye, TBMM tarafından kabul edilen ilk anayasadır."
   },
   {
     "sub_category": "tarih2",
     "question": "Aşağıdaki savaşlardan hangisi Osmanlı Devleti'nin Balkan topraklarını büyük ölçüde kaybetmesine neden olmuştur?",
-    "options": ["A) 93 Harbi (1877-78)", "B) Balkan Savaşı (1912-13)", "C) Trablusgarp Savaşı", "D) I. Dünya Savaşı", "E) Kırım Savaşı"],
+    "options": [
+      "A) 93 Harbi (1877-78)",
+      "B) Balkan Savaşı (1912-13)",
+      "C) Trablusgarp Savaşı",
+      "D) I. Dünya Savaşı",
+      "E) Kırım Savaşı"
+    ],
     "correct_answer": 1,
     "explanation": "Balkan Savaşları sonucunda Osmanlı Balkanlardaki topraklarının çoğunu kaybetmiştir."
   },
   {
     "sub_category": "tarih2",
     "question": "İlk TBMM'nin açılış tarihi aşağıdakilerden hangisidir?",
-    "options": ["A) 19 Mayıs 1919", "B) 23 Nisan 1920", "C) 23 Ağustos 1921", "D) 30 Ağustos 1922", "E) 29 Ekim 1923"],
+    "options": [
+      "A) 19 Mayıs 1919",
+      "B) 23 Nisan 1920",
+      "C) 23 Ağustos 1921",
+      "D) 30 Ağustos 1922",
+      "E) 29 Ekim 1923"
+    ],
     "correct_answer": 1,
     "explanation": "TBMM, 23 Nisan 1920'de Ankara'da açılmıştır."
   },
   {
     "sub_category": "cografya2",
     "question": "Haritalarda yükselti ve çukur alanları göstermek için kullanılan yöntem aşağıdakilerden hangisidir?",
-    "options": ["A) Tarama", "B) İzohips (eş yükselti)", "C) Renklendirme", "D) Noktalama", "E) Kabartma"],
+    "options": [
+      "A) Tarama",
+      "B) İzohips (eş yükselti)",
+      "C) Renklendirme",
+      "D) Noktalama",
+      "E) Kabartma"
+    ],
     "correct_answer": 1,
     "explanation": "İzohips eğrileri, aynı yükseltiye sahip noktaları birleştirerek yer şekillerini gösterir."
   },
   {
     "sub_category": "cografya2",
     "question": "Türkiye'nin en büyük gölü aşağıdakilerden hangisidir?",
-    "options": ["A) İznik Gölü", "B) Beyşehir Gölü", "C) Van Gölü", "D) Tuz Gölü", "E) Sapanca Gölü"],
+    "options": [
+      "A) İznik Gölü",
+      "B) Beyşehir Gölü",
+      "C) Van Gölü",
+      "D) Tuz Gölü",
+      "E) Sapanca Gölü"
+    ],
     "correct_answer": 2,
     "explanation": "Van Gölü, 3.713 km² yüzölçümüyle Türkiye'nin en büyük gölüdür."
   },
   {
     "sub_category": "cografya2",
     "question": "Dünya üzerinde gece-gündüz sürelerinin eşit olduğu tarihlere ne ad verilir?",
-    "options": ["A) Ekinoks", "B) Gündönümü", "C) Aphel", "D) Perihel", "E) Ay dönümü"],
+    "options": [
+      "A) Ekinoks",
+      "B) Gündönümü",
+      "C) Aphel",
+      "D) Perihel",
+      "E) Ay dönümü"
+    ],
     "correct_answer": 0,
     "explanation": "Ekinoks (gece-gündüz eşitliği), 21 Mart ve 23 Eylül'de yaşanır."
   },
   {
     "sub_category": "cografya2",
     "question": "Akarsuların denize ulaştığı yere ne ad verilir?",
-    "options": ["A) Kaynak", "B) Yatak", "C) Ağız", "D) Havza", "E) Kol"],
+    "options": [
+      "A) Kaynak",
+      "B) Yatak",
+      "C) Ağız",
+      "D) Havza",
+      "E) Kol"
+    ],
     "correct_answer": 2,
     "explanation": "Akarsuyun denize ulaştığı noktaya \"ağız\" veya \"ağız kısmı\" denir."
   },
   {
     "sub_category": "felsefe",
     "question": "\"Bilgi, duyumlardan gelir; zihinde doğuştan hiçbir bilgi yoktur.\" görüşü aşağıdaki akımlardan hangisine aittir?",
-    "options": ["A) Rasyonalizm", "B) Empirizm", "C) Kritisizm", "D) Entüisyonizm", "E) Pozitivizm"],
+    "options": [
+      "A) Rasyonalizm",
+      "B) Empirizm",
+      "C) Kritisizm",
+      "D) Entüisyonizm",
+      "E) Pozitivizm"
+    ],
     "correct_answer": 1,
     "explanation": "Empirizm (deneycilik), tüm bilginin deneyden geldiğini savunur. Temsilcileri Locke ve Hume'dur."
   },
   {
     "sub_category": "felsefe",
     "question": "\"Kategorik imperatif\" (koşulsuz buyruk) kavramı hangi filozofa aittir?",
-    "options": ["A) Sokrates", "B) Platon", "C) Kant", "D) Hegel", "E) Nietzsche"],
+    "options": [
+      "A) Sokrates",
+      "B) Platon",
+      "C) Kant",
+      "D) Hegel",
+      "E) Nietzsche"
+    ],
     "correct_answer": 2,
     "explanation": "Kant'a göre kategorik imperatif, koşulsuz olarak uyulması gereken ahlak yasasıdır."
   },
   {
     "sub_category": "felsefe",
     "question": "\"Devlet, üç sınıftan oluşur: yöneticiler, bekçiler (askerler) ve üreticiler.\" diyen filozof aşağıdakilerden hangisidir?",
-    "options": ["A) Sokrates", "B) Platon", "C) Aristoteles", "D) Farabi", "E) İbn-i Sina"],
+    "options": [
+      "A) Sokrates",
+      "B) Platon",
+      "C) Aristoteles",
+      "D) Farabi",
+      "E) İbn-i Sina"
+    ],
     "correct_answer": 1,
     "explanation": "Platon, \"Devlet\" adlı eserinde ideal devleti üç sınıfla açıklamıştır."
   },
   {
     "sub_category": "felsefe",
     "question": "Varlığın temelini \"idea\" (düşünce) olarak kabul eden felsefi akım aşağıdakilerden hangisidir?",
-    "options": ["A) Materyalizm", "B) İdealizm", "C) Dualizm", "D) Pragmatizm", "E) Nihilizm"],
+    "options": [
+      "A) Materyalizm",
+      "B) İdealizm",
+      "C) Dualizm",
+      "D) Pragmatizm",
+      "E) Nihilizm"
+    ],
     "correct_answer": 1,
     "explanation": "İdealizm (düşüncecilik), varlığın temelinin düşünce olduğunu savunur. Platon öncüsüdür."
   },
   {
     "sub_category": "din",
     "question": "İslam'da ilk farz kılınan ibadet aşağıdakilerden hangisidir?",
-    "options": ["A) Oruç", "B) Namaz", "C) Zekât", "D) Hac", "E) Kelime-i şehadet"],
+    "options": [
+      "A) Oruç",
+      "B) Namaz",
+      "C) Zekât",
+      "D) Hac",
+      "E) Kelime-i şehadet"
+    ],
     "correct_answer": 4,
     "explanation": "Kelime-i şehadet getirmek, İslam'ın ilk şartıdır."
   },
   {
     "sub_category": "din",
     "question": "Kur'an-ı Kerim'de adı geçen ve Hz. İbrahim'in oğlu olan peygamber aşağıdakilerden hangisidir?",
-    "options": ["A) Hz. Musa", "B) Hz. İsmail", "C) Hz. Davud", "D) Hz. Süleyman", "E) Hz. Yunus"],
+    "options": [
+      "A) Hz. Musa",
+      "B) Hz. İsmail",
+      "C) Hz. Davud",
+      "D) Hz. Süleyman",
+      "E) Hz. Yunus"
+    ],
     "correct_answer": 1,
     "explanation": "Hz. İsmail, Hz. İbrahim'in oğludur ve Kâbe'nin inşasında babasına yardım etmiştir."
   },
   {
     "sub_category": "din",
     "question": "İslam'da \"zinne dayalı hüküm çıkarma yöntemi\" anlamına gelen kavram aşağıdakilerden hangisidir?",
-    "options": ["A) İcma", "B) Kıyas", "C) İçtihat", "D) İstihsan", "E) Taklit"],
+    "options": [
+      "A) İcma",
+      "B) Kıyas",
+      "C) İçtihat",
+      "D) İstihsan",
+      "E) Taklit"
+    ],
     "correct_answer": 1,
     "explanation": "Kıyas, hakkında nas bulunmayan bir meselenin hükmünü, aralarındaki ortak illet sebebiyle benzer bir nassa dayanarak belirlemektir."
   },
   {
     "sub_category": "din",
     "question": "Aşağıdaki surelerden hangisi Kur'an-ı Kerim'in son suresidir?",
-    "options": ["A) Fatiha", "B) Bakara", "C) İhlas", "D) Felak", "E) Nas"],
+    "options": [
+      "A) Fatiha",
+      "B) Bakara",
+      "C) İhlas",
+      "D) Felak",
+      "E) Nas"
+    ],
     "correct_answer": 4,
     "explanation": "Nas Suresi, Kur'an-ı Kerim'in 114. ve son suresidir."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'de en fazla ekim alan\\u0131na sahip tar\\u0131m ürünü a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Arpa",
+      "B) Bu\\ğday",
+      "C) Pamuk",
+      "D) Ayçiçe\\ği",
+      "E) M\\u0131s\\u0131r"
+    ],
+    "correct_answer": 1,
+    "explanation": "Bu\\ğday, Türkiye'de en geniş ekim alan\\u0131na sahip tar\\u0131m ürünüdür. \\u0130ç Anadolu başta olmak üzere yayg\\u0131n olarak yetiştirilir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "So\\ğuk Savaş'\\u0131n sona ermesine neden olan gelişme a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Berlin Duvar\\u0131'n\\u0131n y\\u0131k\\u0131lmas\\u0131",
+      "B) Çin'in yükselişi",
+      "C) ABD'nin üstünlük kurmas\\u0131",
+      "D) SSCB'nin da\\ğ\\u0131lmas\\u0131",
+      "E) Avrupa Birli\\ği'nin kurulmas\\u0131"
+    ],
+    "correct_answer": 3,
+    "explanation": "1991'de SSCB'nin da\\ğ\\u0131lmas\\u0131 So\\ğuk Savaş'\\u0131 sona erdirmiştir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Laiklik ilkesi a\\u015fa\\u011f\\u0131daki ink\\u0131laplardan hangisiyle do\\ğrudan ilişkilidir?",
+    "options": [
+      "A) Medeni Kanun'un kabulü",
+      "B) Şapka Kanunu",
+      "C) Soyad\\u0131 Kanunu",
+      "D) Halifeli\\ğin kald\\u0131r\\u0131lmas\\u0131",
+      "E) K\\u0131yafet ink\\u0131lab\\u0131"
+    ],
+    "correct_answer": 3,
+    "explanation": "Laiklik ilkesi do\\ğrultusunda 1924'te halifelik kald\\u0131r\\u0131lm\\u0131ş, din-devlet işleri ayr\\u0131lm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'nin en önemli enerji kaynaklar\\u0131ndan biri olan ve Do\\ğu Anadolu'da yayg\\u0131n olan maden a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Bor",
+      "B) Petrol",
+      "C) Do\\ğal gaz",
+      "D) Taş kömürü",
+      "E) Linyit"
+    ],
+    "correct_answer": 4,
+    "explanation": "Linyit yataklar\\u0131 Türkiye'de yayg\\u0131nd\\u0131r ve özellikle Do\\ğu Anadolu'da (Elbistan) büyük rezervler bulunur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Paradigma\" kavram\\u0131n\\u0131 bilim felsefesine kazand\\u0131ran düşünür a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Thomas Kuhn",
+      "B) Imre Lakatos",
+      "C) Karl Popper",
+      "D) Paul Feyerabend",
+      "E) Bertrand Russell"
+    ],
+    "correct_answer": 0,
+    "explanation": "Kuhn, \"Bilimsel Devrimlerin Yap\\u0131s\\u0131\" adl\\u0131 eserinde paradigma kavram\\u0131n\\u0131 ortaya atm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "Tasavvufi düşüncede \"vahdet-i vüc\\u00fbd\" (varl\\u0131\\ğ\\u0131n birli\\ği) anlay\\u0131ş\\u0131n\\u0131n en önemli temsilcisi a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Hac\\u0131 Bayr\\u00e2m-\\u0131 Velî",
+      "B) Muhyiddin \\u0130bn\\u00fc'l-Arabî",
+      "C) Mevl\\u00e2n\\u00e2 Cel\\u00e2ledd\\u00een-i R\\u00fbmî",
+      "D) Y\\u00fbnus Emre",
+      "E) Hac\\u0131 Bektaş-\\u0131 Velî"
+    ],
+    "correct_answer": 1,
+    "explanation": "\\u0130bn\\u00fc'l-Arabî, \"vahdet-i vüc\\u00fbd\" ö\\ğretisinin sistemleştiricisidir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Bilim felsefesinde \"yanl\\u0131şlanabilirlik\" (falsification) ilkesini ortaya atan düşünür a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) David Hume",
+      "B) Thomas Kuhn",
+      "C) Francis Bacon",
+      "D) Auguste Comte",
+      "E) Karl Popper"
+    ],
+    "correct_answer": 4,
+    "explanation": "Popper'a göre bilimsel bir teorinin bilimsel say\\u0131lmas\\u0131 i\\u00e7in yanl\\u0131şlanabilir olmas\\u0131 gerekir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Halifeli\\ğin kald\\u0131r\\u0131ld\\u0131\\ğ\\u0131 tarih a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) 20 Nisan 1924",
+      "B) 10 Kas\\u0131m 1938",
+      "C) 3 Mart 1924",
+      "D) 30 A\\ğustos 1925",
+      "E) 29 Ekim 1923"
+    ],
+    "correct_answer": 2,
+    "explanation": "Halifelik, 3 Mart 1924'te ç\\u0131kar\\u0131lan kanunla kald\\u0131r\\u0131lm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "Kur'an-\\u0131 Kerim'in ana konular\\u0131 aras\\u0131nda a\\u015fa\\u011f\\u0131dakilerden hangisi yer almaz?",
+    "options": [
+      "A) \\u0130badetler",
+      "B) Ahlaki ilkeler",
+      "C) Ekonomik sistem detaylar\\u0131",
+      "D) \\u0130nanç (akaid)",
+      "E) K\\u0131ssalar (geçmiş toplum hikayeleri)"
+    ],
+    "correct_answer": 2,
+    "explanation": "Kur'an'da inanç, ibadet, ahlak ve k\\u0131ssalar temel konulard\\u0131r. Detayl\\u0131 ekonomik sistem yerine temel ilkeler (helal-haram, faiz yasa\\ğ\\u0131 vb.) belirtilmiştir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Düşünüyorum, öyleyse var\\u0131m\" (Cogito ergo sum) sözü a\\u015fa\\u011f\\u0131daki filozoflardan hangisine aittir?",
+    "options": [
+      "A) Descartes",
+      "B) Hume",
+      "C) Leibniz",
+      "D) Locke",
+      "E) Spinoza"
+    ],
+    "correct_answer": 0,
+    "explanation": "Descartes, modern felsefenin kurucusu kabul edilir ve bu sözle bilginin temelini şüpheyle başlat\\u0131r."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi Türkiye'de nüfusun da\\ğ\\u0131l\\u0131ş\\u0131n\\u0131 etkileyen do\\ğal faktörlerden biri de\\ğildir?",
+    "options": [
+      "A) Yer şekilleri",
+      "B) Sanayi tesisleri",
+      "C) Su kaynaklar\\u0131",
+      "D) Toprak verimlili\\ği",
+      "E) \\u0130klim"
+    ],
+    "correct_answer": 1,
+    "explanation": "Sanayi tesisleri beşeri faktördür. \\u0130klim, yer şekilleri, su kaynaklar\\u0131 ve toprak verimlili\\ği do\\ğal faktörlerdir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "1961 Anayasas\\u0131'n\\u0131n haz\\u0131rlanmas\\u0131na neden olan askeri müdahale a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) 12 Mart 1971",
+      "B) 15 Temmuz 2016",
+      "C) 27 May\\u0131s 1960",
+      "D) 12 Eylül 1980",
+      "E) 28 Şubat 1997"
+    ],
+    "correct_answer": 2,
+    "explanation": "27 May\\u0131s 1960 askeri müdahalesi sonras\\u0131 1961 Anayasas\\u0131 haz\\u0131rlanm\\u0131ş ve kabul edilmiştir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "So\\ğuk Savaş döneminde Türkiye'nin hangi örgüte üye olmas\\u0131 bat\\u0131 blokuna dahil oldu\\ğunu göstermiştir?",
+    "options": [
+      "A) Avrupa Birli\\ği",
+      "B) Ba\\ğdat Pakt\\u0131",
+      "C) Varşova Pakt\\u0131",
+      "D) NATO",
+      "E) Birleşmiş Milletler"
+    ],
+    "correct_answer": 3,
+    "explanation": "Türkiye, 1952'de NATO'ya üye olarak bat\\u0131 blokunda yerini alm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi güncel dini meselelerden biri olarak kabul edilmez?",
+    "options": [
+      "A) Tüp bebek",
+      "B) Organ nakli",
+      "C) Peygamberlerin say\\u0131s\\u0131",
+      "D) E-ticaret'in dinili\\ği",
+      "E) Sigara içmenin hükmü"
+    ],
+    "correct_answer": 2,
+    "explanation": "Peygamberlerin say\\u0131s\\u0131 sabit bir inanç konusuyken organ nakli, tüp bebek, sigara ve e-ticaret güncel f\\u0131khi meselelerdir."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi Türkiye'de şehirlerin fonksiyonlar\\u0131na göre s\\u0131n\\u0131fland\\u0131r\\u0131lmas\\u0131nda kullan\\u0131lan kategorilerden biri de\\ğildir?",
+    "options": [
+      "A) Akdeniz şehirleri",
+      "B) Liman şehirleri",
+      "C) \\u0130dari şehirler",
+      "D) Sanayi şehirleri",
+      "E) Tar\\u0131m şehirleri"
+    ],
+    "correct_answer": 0,
+    "explanation": "Şehirler fonksiyonlar\\u0131na göre sanayi, idari, liman, tar\\u0131m, turizm vb. şeklinde s\\u0131n\\u0131fland\\u0131r\\u0131l\\u0131r."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'de şehirleşme h\\u0131z\\u0131n\\u0131n en fazla oldu\\ğu dönem a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) 2000'li y\\u0131llardan sonra",
+      "B) 1950'lerden sonra sanayileşmeyle",
+      "C) Osmanl\\u0131'n\\u0131n son dönemi",
+      "D) Kurtuluş Savaş\\u0131 y\\u0131llar\\u0131nda",
+      "E) Cumhuriyet'in ilk y\\u0131llar\\u0131"
+    ],
+    "correct_answer": 1,
+    "explanation": "1950'lerde sanayileşme ve k\\u0131rdan kente g\\u00e7le birlikte şehirleşme h\\u0131zlanm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Türkiye'de 1950 seçimlerini kazanarak iktidara gelen parti a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Demokrat Parti",
+      "B) Millet Partisi",
+      "C) Terakkiperver Cumhuriyet F\\u0131rkas\\u0131",
+      "D) Adalet Partisi",
+      "E) Cumhuriyet Halk Partisi"
+    ],
+    "correct_answer": 0,
+    "explanation": "1950 seçimlerini DP kazanm\\u0131ş, 27 y\\u0131ll\\u0131k CHP iktidar\\u0131 sona ermiştir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Aşa\\u011f\\u0131dakilerden hangisi empirizm (deneycilik) ak\\u0131m\\u0131n\\u0131n temsilcisidir?",
+    "options": [
+      "A) Platon",
+      "B) Kant",
+      "C) Hegel",
+      "D) Descartes",
+      "E) John Locke"
+    ],
+    "correct_answer": 4,
+    "explanation": "Locke'a göre zihin do\\ğuştan boş bir levha (tabula rasa) gibidir ve tüm bilgiler deneyimle kazan\\u0131l\\u0131r."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\\u0130slam felsefesinin öncüsü olarak kabul edilen ve \"Kindî\" olarak bilinen filozofun tam ad\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Muhammed bin M\\u00fbse el-H\\u00e2rizmî",
+      "B) Eb\\u00fb Ali ibn S\\u00een\\u00e2",
+      "C) Eb\\u00fb Nasr el-F\\u00e2r\\u00e2bî",
+      "D) Eb\\u00fb Ali el-\\u00dcsincân\\u00ee",
+      "E) Eb\\u00fb Y\\u00fbsuf Ya'k\\u00fbb el-Kindî"
+    ],
+    "correct_answer": 4,
+    "explanation": "Kindî, \\u0130slam felsefesinin kurucusu kabul edilir ve 9. yüzy\\u0131lda yaşam\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Türkiye Cumhuriyeti'nin ilk anayasas\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) 1982 Anayasas\\u0131",
+      "B) 1921 Teşkilat-\\u0131 Esasiye",
+      "C) 1876 Kanun-i Esasi",
+      "D) 1961 Anayasas\\u0131",
+      "E) 1924 Anayasas\\u0131"
+    ],
+    "correct_answer": 1,
+    "explanation": "1921 Teşkilat-\\u0131 Esasiye, Cumhuriyet'in ilk anayasas\\u0131d\\u0131r. 1924 Anayasas\\u0131 ise ilk cumhuriyet anayasas\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "\\u0130slam düşünce tarihinde \"Ehl-i Sünnet\" ekollerinden biri a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Müşebbihe",
+      "B) Maturidilik",
+      "C) Mülhidlik",
+      "D) Kaderilik",
+      "E) Cebrilik"
+    ],
+    "correct_answer": 1,
+    "explanation": "Maturidilik, Eb\\u00fb Mans\\u00fbr el-Maturîdî'ye dayanan Ehl-i Sünnet akaid ekollerinden biridir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Gaz\\u00e2lî'nin felsefeye yöneltti\\ği eleştirileri i\\u00e7eren eseri a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Tuhfet\\u00fc'l-Hikem",
+      "B) Mîz\\u00e2n\\u00fc'l-Hikem",
+      "C) Teh\\u00e2f\\u00fct\\u00fc'l-Fel\\u00e2sife (Filozoflar\\u0131n Tutars\\u0131zl\\u0131\\ğ\\u0131)",
+      "D) El-Medinet\\u00fc'l-F\\u00e2z\\u0131la",
+      "E) Kit\\u00e2b\\u00fc'n-Nec\\u00e2t"
+    ],
+    "correct_answer": 2,
+    "explanation": "Gaz\\u00e2lî, Teh\\u00e2f\\u00fct\\u00fc'l-Fel\\u00e2sife adl\\u0131 eserinde filozoflar\\u0131n görüşlerini eleştirmiştir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Cumhuriyet'in ilan edildi\\ği tarih a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) 19 May\\u0131s 1919",
+      "B) 29 Ekim 1923",
+      "C) 23 Nisan 1920",
+      "D) 9 Eylül 1922",
+      "E) 24 Temmuz 1923"
+    ],
+    "correct_answer": 1,
+    "explanation": "Cumhuriyet, 29 Ekim 1923'te ilan edilmiştir. 23 Nisan 1920 TBMM'nin aç\\u0131l\\u0131ş\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Türkiye'de çok partili hayata ilk geçiş denemesi hangi partiyle yap\\u0131lm\\u0131şt\\u0131r?",
+    "options": [
+      "A) Serbest Cumhuriyet F\\u0131rkas\\u0131",
+      "B) Adalet Partisi",
+      "C) Demokrat Parti",
+      "D) Terakkiperver Cumhuriyet F\\u0131rkas\\u0131",
+      "E) Millet Partisi"
+    ],
+    "correct_answer": 3,
+    "explanation": "\\u0130lk çok partili geçiş denemesi 1924'te kurulan Terakkiperver Cumhuriyet F\\u0131rkas\\u0131 ile yap\\u0131lm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Pozitivizm (olguculuk) ak\\u0131m\\u0131n\\u0131n kurucusu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Karl Marx",
+      "B) Herbert Spencer",
+      "C) Friedrich Engels",
+      "D) Auguste Comte",
+      "E) Emile Durkheim"
+    ],
+    "correct_answer": 3,
+    "explanation": "Comte, insanl\\u0131\\ğ\\u0131n teolojik, metafizik ve pozitif olmak üzere üç aşamadan geçti\\ğini savunmuştur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Kant'\\u0131n ahlak felsefesinde \"kategorik imperatif\" (koşulsuz buyruk) a\\u015fa\\u011f\\u0131dakilerden hangisini ifade eder?",
+    "options": [
+      "A) Koşulsuz olarak uyulmas\\u0131 gereken ahlak yasas\\u0131n\\u0131",
+      "B) Do\\ğal yasalar\\u0131",
+      "C) Tanr\\u0131n\\u0131n varl\\u0131\\ğ\\u0131n\\u0131",
+      "D) Toplumsal sözleşmeyi",
+      "E) Mutlulu\\ğa ulaşma yöntemini"
+    ],
+    "correct_answer": 0,
+    "explanation": "Kategorik imperatif, Kant'a göre koşulsuz, evrensel ve herkes i\\u00e7in geçerli olan ahlak yasas\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "Fetva kavram\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisini ifade eder?",
+    "options": [
+      "A) Dini bir sorunun uzman\\u0131 taraf\\u0131ndan cevapland\\u0131r\\u0131lmas\\u0131",
+      "B) Dini hükümlerin tümü",
+      "C) \\u0130badetlerin yerine getirilmesi",
+      "D) Kur'an okuma kurallar\\u0131",
+      "E) Peygamberin sözleri"
+    ],
+    "correct_answer": 0,
+    "explanation": "Fetva, dini bir konuda yetkili bir kişi veya kurum taraf\\u0131ndan verilen dini görüştür."
+  },
+  {
+    "sub_category": "din",
+    "question": "Ahlak felsefesinde \"faydac\\u0131l\\u0131k\" (utilitarianism) anlay\\u0131ş\\u0131n\\u0131n temsilcisi a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Aristoteles",
+      "B) Immanuel Kant",
+      "C) John Rawls",
+      "D) Friedrich Nietzsche",
+      "E) Jeremy Bentham"
+    ],
+    "correct_answer": 4,
+    "explanation": "Bentham'a göre bir eylemin ahlaki de\\ğeri, sa\\ğlad\\u0131\\ğ\\u0131 fayda veya mutlulukla ölçülür."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "A\\u015fa\\u011f\\u0131daki Atatürk ilkelerinden hangisi di\\ğerlerine göre daha öncelikli ve kapsay\\u0131c\\u0131d\\u0131r?",
+    "options": [
+      "A) Cumhuriyetçilik",
+      "B) Halkç\\u0131l\\u0131k",
+      "C) Laiklik",
+      "D) Devletçilik",
+      "E) Milliyetçilik"
+    ],
+    "correct_answer": 0,
+    "explanation": "Cumhuriyetçilik, Atatürk ilkelerinin temelini oluşturur ve di\\ğer ilkelerin uygulanmas\\u0131n\\u0131 sa\\ğlar."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"El-Medinet\\u00fc'l-F\\u00e2z\\u0131la\" (Erdemli Şehir) eseri a\\u015fa\\u011f\\u0131daki İslam filozoflar\\u0131ndan hangisine aittir?",
+    "options": [
+      "A) Gaz\\u00e2lî",
+      "B) F\\u00e2r\\u00e2bî",
+      "C) \\u0130bn Rüşd",
+      "D) Kindî",
+      "E) \\u0130bn S\\u00een\\u00e2"
+    ],
+    "correct_answer": 1,
+    "explanation": "F\\u00e2r\\u00e2bî, Erdemli Şehir (Medinet\\u00fc'l-F\\u00e2z\\u0131la) adl\\u0131 eserinde ideal toplum düzenini anlatm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "Devletçilik ilkesinin Türkiye'de uygulanmas\\u0131n\\u0131n temel nedeni a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Liberal ekonominin başar\\u0131s\\u0131z olmas\\u0131",
+      "B) Nüfusun az olmas\\u0131",
+      "C) Savaş tehlikesi",
+      "D) Özel sermayenin yetersiz olmas\\u0131",
+      "E) D\\u0131ş borçlar\\u0131n ödenmesi"
+    ],
+    "correct_answer": 3,
+    "explanation": "1930'larda özel sermaye yetersiz oldu\\ğu için devlet öncülü\\ğünde sanayileşme politikas\\u0131 (devletçilik) uygulanm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "Cibril hadisi olarak bilinen rivayette a\\u015fa\\u011f\\u0131daki kavramlardan hangisi \\u0130slam'\\u0131n temel esaslar\\u0131 aras\\u0131nda say\\u0131lmam\\u0131şt\\u0131r?",
+    "options": [
+      "A) \\u0130slam",
+      "B) Mezhep",
+      "C) \\u0130man",
+      "D) \\u0130hsan"
+    ],
+    "correct_answer": 1,
+    "explanation": "Cibril hadisinde \\u0130slam, iman ve ihsan kavramlar\\u0131 say\\u0131lm\\u0131şt\\u0131r. Mezhep bu hadiste yer almamaktad\\u0131r."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'de nüfus yo\\ğunlu\\ğu en fazla olan bölge a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Akdeniz Bölgesi",
+      "B) Marmara Bölgesi",
+      "C) Ege Bölgesi",
+      "D) \\u0130\\u00e7 Anadolu Bölgesi",
+      "E) Karadeniz Bölgesi"
+    ],
+    "correct_answer": 1,
+    "explanation": "Sanayi, ticaret ve ulaş\\u0131m olanaklar\\u0131n\\u0131n fazla oldu\\ğu Marmara Bölgesi en yo\\ğun nüfuslu bölgedir."
+  },
+  {
+    "sub_category": "din",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi \\u0130slam düşüncesindeki itikadi (inançla ilgili) mezheplerden biridir?",
+    "options": [
+      "A) Hanefilik",
+      "B) Şafilik",
+      "C) Malikilik",
+      "D) Hanbelilik",
+      "E) Mutezile"
+    ],
+    "correct_answer": 4,
+    "explanation": "Mutezile itikadi bir mezhep iken Hanefi, Şafi, Maliki ve Hanbeli f\\u0131khi (amel\\u00ee) mezheplerdir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Varoluşçuluk (egzistansiyalizm) ak\\u0131m\\u0131n\\u0131n öncüsü olan filozof a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Albert Camus",
+      "B) Jean-Paul Sartre",
+      "C) Friedrich Nietzsche",
+      "D) Martin Heidegger",
+      "E) Søren Kierkegaard"
+    ],
+    "correct_answer": 1,
+    "explanation": "Sartre, \"Varoluş özden önce gelir\" sözüyle varoluşçulu\\ğun temel ilkesini belirlemiştir."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'de nüfus art\\u0131ş h\\u0131z\\u0131n\\u0131 düşürmek amac\\u0131yla uygulanan politikalar hangi dönemde başlam\\u0131şt\\u0131r?",
+    "options": [
+      "A) 1960'l\\u0131 y\\u0131llar",
+      "B) 1923'te Cumhuriyet'in ilan\\u0131yla",
+      "C) 1950'lerde çok partili hayata geçişle",
+      "D) 2000'li y\\u0131llarda AB süreciyle",
+      "E) 1980'lerde ekonomik liberalleşmeyle"
+    ],
+    "correct_answer": 0,
+    "explanation": "1960'l\\u0131 y\\u0131llardan itibaren nüfus art\\u0131ş h\\u0131z\\u0131n\\u0131 düşürmeye yönelik politikalar uygulanmaya başlanm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "\"Alt\\u0131n Kural\" olarak bilinen \"Kendine yap\\u0131lmas\\u0131n\\u0131 istemedi\\ğin şeyi başkas\\u0131na yapma\" ilkesi a\\u015fa\\u011f\\u0131daki düşünürlerden hangisiyle özdeşleşmiştir?",
+    "options": [
+      "A) Farabi",
+      "B) Aristoteles",
+      "C) Sokrates",
+      "D) Konf\\u00fcyus",
+      "E) Gazali"
+    ],
+    "correct_answer": 3,
+    "explanation": "Alt\\u0131n Kural, Konf\\u00fcyus'un ö\\ğretilerinde merkezi bir yere sahiptir ve birçok kültürde benzer şekilde ifade edilmiştir."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'de gecekondulaşma sorununun temel nedeni a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Sanayi tesislerinin azl\\u0131\\ğ\\u0131",
+      "B) Deprem riski",
+      "C) H\\u0131zl\\u0131 nüfus art\\u0131ş\\u0131 ve kente g\\u00e7",
+      "D) Tar\\u0131m alanlar\\u0131n\\u0131n verimsizli\\ği",
+      "E) E\\ğitim düzeyinin düşüklü\\ğü"
+    ],
+    "correct_answer": 2,
+    "explanation": "K\\u0131rdan kente h\\u0131zl\\u0131 g\\u00e7 ve nüfus art\\u0131ş\\u0131, konut ihtiyac\\u0131n\\u0131 karş\\u0131layamamakta, gecekondulaşmaya neden olmaktad\\u0131r."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\\u0130bn S\\u00een\\u00e2'n\\u0131n t\\u0131p alan\\u0131ndaki ünlü eseri a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Kit\\u00e2b\\u00fc'ş-Şif\\u00e2",
+      "B) F\\u00fbs\\u00fbsu'l-Hikem",
+      "C) \\u0130hy\\u00e2-u Ul\\u00fbmi'd-D\\u00een",
+      "D) Teh\\u00e2f\\u00fct\\u00fc'l-Fel\\u00e2sife",
+      "E) El-Kanun fi't-T\\u0131b"
+    ],
+    "correct_answer": 4,
+    "explanation": "\\u0130bn S\\u00een\\u00e2'n\\u0131n El-Kanun fi't-T\\u0131b adl\\u0131 eseri, Avrupa'da y\\u00fczy\\u0131llar boyunca t\\u0131p alan\\u0131nda temel kaynak olarak kullan\\u0131lm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "din",
+    "question": "\\u0130slam ahlak felsefesinde \"h\\u00fcsn ve kubh\" (iyilik ve kötülük) kavramlar\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisiyle ilgilidir?",
+    "options": [
+      "A) Fiillerin iyi veya kötü olmas\\u0131n\\u0131n ölçütüyle",
+      "B) Zekat\\u0131n miktar\\u0131yla",
+      "C) Namaz\\u0131n farz olmas\\u0131yla",
+      "D) Orucun vaktiyle",
+      "E) Hacc\\u0131n şartlar\\u0131yla"
+    ],
+    "correct_answer": 0,
+    "explanation": "H\\u00fcsn ve kubh, fiillerin ak\\u0131l ve din aç\\u0131s\\u0131ndan iyi veya kötü olarak nitelendirilmesini konu al\\u0131r."
+  },
+  {
+    "sub_category": "cografya2",
+    "question": "Türkiye'de turizm gelirlerinin en yüksek oldu\\ğu bölge a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Ege Bölgesi",
+      "B) \\u0130\\u00e7 Anadolu Bölgesi",
+      "C) Karadeniz Bölgesi",
+      "D) Marmara Bölgesi",
+      "E) Akdeniz Bölgesi"
+    ],
+    "correct_answer": 4,
+    "explanation": "Akdeniz Bölgesi, deniz turizmi ve tarihi zenginlikleriyle en fazla turist çeken bölgedir."
+  },
+  {
+    "sub_category": "tarih2",
+    "question": "\"Egemenlik kay\\u0131ts\\u0131z şarts\\u0131z milletindir\" sözü a\\u015fa\\u011f\\u0131daki ilkelerden hangisiyle do\\ğrudan ilgilidir?",
+    "options": [
+      "A) Laiklik",
+      "B) Milliyetçilik",
+      "C) Halkç\\u0131l\\u0131k",
+      "D) Cumhuriyetçilik",
+      "E) \\u0130nk\\u0131lapç\\u0131l\\u0131k"
+    ],
+    "correct_answer": 3,
+    "explanation": "Bu söz, Cumhuriyetçilik ilkesinin özünü oluşturur. Egemenli\\ğin millete ait oldu\\ğunu ifade eder."
   }
 ]

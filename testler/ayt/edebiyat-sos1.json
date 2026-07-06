@@ -2,92 +2,703 @@
   {
     "sub_category": "edebiyat",
     "question": "Aşağıdakilerden hangisi Tanzimat Edebiyatı sanatçılarından biri değildir?",
-    "options": ["A) Şinasi", "B) Namık Kemal", "C) Ziya Paşa", "D) Ahmet Hamdi Tanpınar", "E) Recaizade Mahmut Ekrem"],
+    "options": [
+      "A) Şinasi",
+      "B) Namık Kemal",
+      "C) Ziya Paşa",
+      "D) Ahmet Hamdi Tanpınar",
+      "E) Recaizade Mahmut Ekrem"
+    ],
     "correct_answer": 3,
     "explanation": "Ahmet Hamdi Tanpınar, Cumhuriyet Dönemi Türk edebiyatı yazarıdır."
   },
   {
     "sub_category": "edebiyat",
     "question": "\"Sana dar gelmeyecek makberi kimler kazsın? / Gömelim gel seni tarihe!\" sözü hangi şaire aittir?",
-    "options": ["A) Mehmet Akif Ersoy", "B) Yahya Kemal Beyatlı", "C) Tevfik Fikret", "D) Ziya Gökalp", "E) Faruk Nafiz Çamlıbel"],
+    "options": [
+      "A) Mehmet Akif Ersoy",
+      "B) Yahya Kemal Beyatlı",
+      "C) Tevfik Fikret",
+      "D) Ziya Gökalp",
+      "E) Faruk Nafiz Çamlıbel"
+    ],
     "correct_answer": 1,
     "explanation": "Bu mısralar Yahya Kemal Beyatlı'nın \"Süleymaniye'de Bayram Sabahı\" şiirindendir."
   },
   {
     "sub_category": "edebiyat",
     "question": "Türk edebiyatında ilk yerli roman aşağıdakilerden hangisidir?",
-    "options": ["A) İntibah", "B) Taaşşuk-ı Talat ve Fitnat", "C) Araba Sevdası", "D) Sergüzeşt", "E) Cezmi"],
+    "options": [
+      "A) İntibah",
+      "B) Taaşşuk-ı Talat ve Fitnat",
+      "C) Araba Sevdası",
+      "D) Sergüzeşt",
+      "E) Cezmi"
+    ],
     "correct_answer": 1,
     "explanation": "Şemsettin Sami'nin \"Taaşşuk-ı Talat ve Fitnat\"ı ilk yerli romandır."
   },
   {
     "sub_category": "edebiyat",
     "question": "Aşağıdaki eserlerden hangisi Hüseyin Nihal Atsız'a aittir?",
-    "options": ["A) Safahat", "B) Bozkurtlar", "C) Çalıkuşu", "D) Yaban", "E) Sinekli Bakkal"],
+    "options": [
+      "A) Safahat",
+      "B) Bozkurtlar",
+      "C) Çalıkuşu",
+      "D) Yaban",
+      "E) Sinekli Bakkal"
+    ],
     "correct_answer": 1,
     "explanation": "\"Bozkurtlar\", Hüseyin Nihal Atsız'ın tarihi romanlarından en bilinenidir."
   },
   {
     "sub_category": "edebiyat",
     "question": "Edebiyatımızda \"vatan şairi\" olarak anılan sanatçı aşağıdakilerden hangisidir?",
-    "options": ["A) Mehmet Akif Ersoy", "B) Namık Kemal", "C) Tevfik Fikret", "D) Ziya Gökalp", "E) Yahya Kemal Beyatlı"],
+    "options": [
+      "A) Mehmet Akif Ersoy",
+      "B) Namık Kemal",
+      "C) Tevfik Fikret",
+      "D) Ziya Gökalp",
+      "E) Yahya Kemal Beyatlı"
+    ],
     "correct_answer": 1,
     "explanation": "Namık Kemal, \"Vatan yahut Silistre\" gibi eserleriyle vatan şairi olarak anılır."
   },
   {
     "sub_category": "edebiyat",
     "question": "Servet-i Fünun edebiyatının kurucusu ve en önemli ismi aşağıdakilerden hangisidir?",
-    "options": ["A) Halit Ziya Uşaklıgil", "B) Mehmet Rauf", "C) Cenap Şahabettin", "D) Tevfik Fikret", "E) Hüseyin Cahit Yalçın"],
+    "options": [
+      "A) Halit Ziya Uşaklıgil",
+      "B) Mehmet Rauf",
+      "C) Cenap Şahabettin",
+      "D) Tevfik Fikret",
+      "E) Hüseyin Cahit Yalçın"
+    ],
     "correct_answer": 3,
     "explanation": "Tevfik Fikret, Servet-i Fünun topluluğunun edebi yönden lideridir."
   },
   {
     "sub_category": "edebiyat",
     "question": "\"Küçük Ağa\" romanının yazarı aşağıdakilerden hangisidir?",
-    "options": ["A) Yakup Kadri Karaosmanoğlu", "B) Halide Edib Adıvar", "C) Tarık Buğra", "D) Reşat Nuri Güntekin", "E) Kemal Tahir"],
+    "options": [
+      "A) Yakup Kadri Karaosmanoğlu",
+      "B) Halide Edib Adıvar",
+      "C) Tarık Buğra",
+      "D) Reşat Nuri Güntekin",
+      "E) Kemal Tahir"
+    ],
     "correct_answer": 2,
     "explanation": "Tarık Buğra'nın \"Küçük Ağa\" romanı, Kurtuluş Savaşı'nı anlatır."
   },
   {
     "sub_category": "tarih1",
     "question": "Malazgirt Meydan Muharebesi hangi yıl yapılmıştır?",
-    "options": ["A) 1048", "B) 1071", "C) 1075", "D) 1085", "E) 1099"],
+    "options": [
+      "A) 1048",
+      "B) 1071",
+      "C) 1075",
+      "D) 1085",
+      "E) 1099"
+    ],
     "correct_answer": 1,
     "explanation": "Malazgirt Savaşı 1071'de yapılmış, Anadolu'nun kapılarını Türklere açmıştır."
   },
   {
     "sub_category": "tarih1",
     "question": "İstanbul'un fethi hangi padişah döneminde gerçekleşmiştir?",
-    "options": ["A) II. Murad", "B) Fatih Sultan Mehmed", "C) Yavuz Sultan Selim", "D) Kanuni Sultan Süleyman", "E) II. Bayezid"],
+    "options": [
+      "A) II. Murad",
+      "B) Fatih Sultan Mehmed",
+      "C) Yavuz Sultan Selim",
+      "D) Kanuni Sultan Süleyman",
+      "E) II. Bayezid"
+    ],
     "correct_answer": 1,
     "explanation": "İstanbul, II. Mehmed (Fatih) tarafından 1453'te fethedilmiştir."
   },
   {
     "sub_category": "tarih1",
     "question": "Osmanlı Devleti'nde ilk kez kapitülasyon (imtiyaz) hangi ülkeye verilmiştir?",
-    "options": ["A) İngiltere", "B) Fransa", "C) Venedik", "D) Ceneviz", "E) Rusya"],
+    "options": [
+      "A) İngiltere",
+      "B) Fransa",
+      "C) Venedik",
+      "D) Ceneviz",
+      "E) Rusya"
+    ],
     "correct_answer": 1,
     "explanation": "İlk kapitülasyonlar 1535'te Kanuni döneminde Fransa'ya verilmiştir."
   },
   {
     "sub_category": "cografya1",
     "question": "Türkiye'de en fazla yağış alan bölge aşağıdakilerden hangisidir?",
-    "options": ["A) Akdeniz", "B) Karadeniz", "C) Marmara", "D) Ege", "E) Doğu Anadolu"],
+    "options": [
+      "A) Akdeniz",
+      "B) Karadeniz",
+      "C) Marmara",
+      "D) Ege",
+      "E) Doğu Anadolu"
+    ],
     "correct_answer": 1,
     "explanation": "Karadeniz Bölgesi, her mevsim yağış alarak en fazla yağışı alan bölgedir."
   },
   {
     "sub_category": "cografya1",
     "question": "Aşağıdaki illerden hangisi Türkiye'de nüfus yoğunluğu en az olan bölgelerdendir?",
-    "options": ["A) İstanbul", "B) İzmir", "C) Tunceli", "D) Ankara", "E) Bursa"],
+    "options": [
+      "A) İstanbul",
+      "B) İzmir",
+      "C) Tunceli",
+      "D) Ankara",
+      "E) Bursa"
+    ],
     "correct_answer": 2,
     "explanation": "Tunceli, dağlık ve engebeli arazi yapısı nedeniyle nüfus yoğunluğu düşüktür."
   },
   {
     "sub_category": "cografya1",
     "question": "Aşağıdaki yerlerden hangisi Türkiye'de görülen iklim tiplerinden biri değildir?",
-    "options": ["A) Akdeniz iklimi", "B) Karadeniz iklimi", "C) Karasal iklim", "D) Ekvatoral iklim", "E) Marmara (geçiş) iklimi"],
+    "options": [
+      "A) Akdeniz iklimi",
+      "B) Karadeniz iklimi",
+      "C) Karasal iklim",
+      "D) Ekvatoral iklim",
+      "E) Marmara (geçiş) iklimi"
+    ],
     "correct_answer": 3,
     "explanation": "Ekvatoral iklim Türkiye'de görülmez. Türkiye'de Akdeniz, Karadeniz ve karasal iklim görülür."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "A\\u015fa\\u011f\\u0131daki eserlerden hangisi Reşat Nuri Güntekin'e aittir?",
+    "options": [
+      "A) K\\u00fcçük Ağa",
+      "B) Yaban",
+      "C) Ateşten Gömlek",
+      "D) Sinekli Bakkal",
+      "E) Çal\\u0131kuşu"
+    ],
+    "correct_answer": 4,
+    "explanation": "Çal\\u0131kuşu, Reşat Nuri Güntekin'in en ünlü roman\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "1839 Tanzimat Ferman\\u0131 ile a\\u015fa\\u011f\\u0131dakilerden hangisi ilk kez güvence alt\\u0131na al\\u0131nm\\u0131şt\\u0131r?",
+    "options": [
+      "A) Cumhuriyetin ilan\\u0131",
+      "B) Laiklik ilkesi",
+      "C) Saltanat\\u0131n kald\\u0131r\\u0131lmas\\u0131",
+      "D) Can, mal ve namus güvenli\\ği",
+      "E) Parlamenter sisteme geçiş"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tanzimat Ferman\\u0131 ile ilk defa can, mal ve namus güvenli\\ği devlet güvencesi alt\\u0131na al\\u0131nm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Türkiye'de en fazla yağ\\u0131ş alan bölge a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Karadeniz Bölgesi",
+      "B) Marmara Bölgesi",
+      "C) Akdeniz Bölgesi",
+      "D) Ege Bölgesi",
+      "E) Do\\ğu Anadolu Bölgesi"
+    ],
+    "correct_answer": 0,
+    "explanation": "Karadeniz Bölgesi her mevsim yağ\\u0131\\u015f alarak en fazla yağ\\u0131\\u015f alan bölgedir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Türkiye'nin bulundu\\ğu Alp-Himalaya k\\u0131vr\\u0131m sistemi hangi jeolojik zamanda oluşmuştur?",
+    "options": [
+      "A) III. Jeolojik Zaman (Tersiyer)",
+      "B) II. Jeolojik Zaman (Mezozoik)",
+      "C) Prekambriyen",
+      "D) I. Jeolojik Zaman (Paleozoik)",
+      "E) IV. Jeolojik Zaman (Kuvaterner)"
+    ],
+    "correct_answer": 0,
+    "explanation": "Alp-Himalaya da\\ğ s\\u0131rada\\ğlar\\u0131 III. Jeolojik Zaman (Tersiyer)'de oluşmuştur."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "I. Dünya Sava\\u015f\\u0131'ndan sonra imzalanan ve Osmanl\\u0131 Devleti'ni sonland\\u0131ran antlaşma a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Versay Antlaşmas\\u0131",
+      "B) Mondros Ateşkesi",
+      "C) Lozan Antlaşmas\\u0131",
+      "D) Sevr Antlaşmas\\u0131",
+      "E) Paris Bar\\u0131ş Konferans\\u0131"
+    ],
+    "correct_answer": 3,
+    "explanation": "Sevr Antlaşmas\\u0131 (1920) Osmanl\\u0131'y\\u0131 sonland\\u0131ran antlaşmad\\u0131r. Lozan ise Türkiye Cumhuriyeti'nin kurucu antlaşmas\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Türkiye'de a\\u015fa\\u011f\\u0131daki iklim tiplerinden hangisi görülmez?",
+    "options": [
+      "A) Ekvatoral iklim",
+      "B) Marmara (geçiş) iklimi",
+      "C) Akdeniz iklimi",
+      "D) Karasal iklim",
+      "E) Karadeniz iklimi"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ekvatoral iklim Türkiye'de görülmez. Türkiye'de Akdeniz, Karadeniz, Karasal ve Marmara geçiş iklimi görülür."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Servet-i Fünun roman\\u0131nda a\\u015fa\\u011f\\u0131daki ak\\u0131mlardan hangisinin etkisi güçlüdür?",
+    "options": [
+      "A) Sembolizm",
+      "B) Realizm",
+      "C) Romantizm",
+      "D) Klasisizm",
+      "E) Natüralizm"
+    ],
+    "correct_answer": 1,
+    "explanation": "Servet-i Fünun roman\\u0131nda Realizm ak\\u0131m\\u0131n\\u0131n etkisi görülür."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "I. Dünya Sava\\u015f\\u0131'nda Osmanl\\u0131 Devleti hangi cephede başar\\u0131 elde etmiştir?",
+    "options": [
+      "A) Hicaz-Yemen Cephesi",
+      "B) Çanakkale Cephesi",
+      "C) Irak Cephesi",
+      "D) Sina-Filistin Cephesi",
+      "E) Kafkas Cephesi"
+    ],
+    "correct_answer": 1,
+    "explanation": "Çanakkale Cephesi, Osmanl\\u0131'n\\u0131n I. Dünya Sava\\u015f\\u0131'nda en büyük başar\\u0131s\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "Osmanl\\u0131'da Lonca Teşkilat\\u0131'n\\u0131n işlevi a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Askeri e\\ğitim vermek",
+      "B) Esnaf ve zanaatkarlar\\u0131 denetlemek",
+      "C) Mahkemeleri düzenlemek",
+      "D) Vergi toplamak",
+      "E) Medreseleri yönetmek"
+    ],
+    "correct_answer": 1,
+    "explanation": "Lonca teşkilat\\u0131, esnaf ve zanaatkarlar\\u0131n üretim, kalite ve fiyat denetimini yapard\\u0131."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Türkiye'deki toprak tiplerinden \"Çernezyom\" en çok nerede görülür?",
+    "options": [
+      "A) Ege Bölgesi",
+      "B) Marmara Bölgesi",
+      "C) Akdeniz k\\u0131y\\u0131lar\\u0131",
+      "D) Do\\ğu Anadolu (Erzurum-Kars)",
+      "E) G\\u00fcneydo\\ğu Anadolu"
+    ],
+    "correct_answer": 3,
+    "explanation": "Çernezyom (kara) topraklar, Do\\ğu Anadolu Bölgesi'nin Erzurum-Kars yöresinde yayg\\u0131nd\\u0131r."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "1876 Kanun-\\u0131 Esasi'nin ilan\\u0131yla hangi yönetim biçimine geçilmiştir?",
+    "options": [
+      "A) Mutlak monarşi",
+      "B) Cumhuriyet",
+      "C) Federal devlet",
+      "D) Teokrasi",
+      "E) Meşrutiyet (Anayasal\\u0131 monarşi)"
+    ],
+    "correct_answer": 4,
+    "explanation": "1876'da Kanun-\\u0131 Esasi ilan edilerek Meşrutiyet yönetimine geçilmiştir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "A\\u015fa\\u011f\\u0131daki yazarlardan hangisi Milli Edebiyat dönemi hikaye yazarlar\\u0131ndan biri de\\u011fildir?",
+    "options": [
+      "A) Refik Halit Karay",
+      "B) Ömer Seyfettin",
+      "C) Reşat Nuri Güntekin",
+      "D) Yakup Kadri Karaosmano\\ğlu",
+      "E) Halit Ziya Uşakl\\u0131gil"
+    ],
+    "correct_answer": 4,
+    "explanation": "Halit Ziya Uşakl\\u0131gil Servet-i Fünun dönemi yazar\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "A\\u015fa\\u011f\\u0131daki eserlerden hangisi Halit Ziya Uşakl\\u0131gil'e aittir?",
+    "options": [
+      "A) H\\u00fcz\\u00fcn ve Tebessüm",
+      "B) Mai ve Siyah",
+      "C) Aşk-\\u0131 Memnu",
+      "D) K\\u0131r\\u0131k Hayatlar",
+      "E) Eylül"
+    ],
+    "correct_answer": 2,
+    "explanation": "Aşk-\\u0131 Memnu, Halit Ziya'n\\u0131n en önemli roman\\u0131d\\u0131r. Eylül Mehmet Rauf'a aittir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "K\\u0131l\\u0131m\\u0131n nemli oldu\\ğu bölgelerde y\\u0131kanman\\u0131n fazla olmas\\u0131 sonucu oluşan toprak tipi a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Çernezyom topraklar",
+      "B) Kahverengi step topraklar\\u0131",
+      "C) Laterit topraklar",
+      "D) Kestane renkli topraklar",
+      "E) Podzol topraklar"
+    ],
+    "correct_answer": 2,
+    "explanation": "Laterit topraklar, s\\u0131cak ve nemli ekvatoral bölgelerde y\\u0131kanman\\u0131n fazla olmas\\u0131yla oluşur."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Servet-i Fünun Edebiyat\\u0131'n\\u0131n kurucusu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Halit Ziya Uşakl\\u0131gil",
+      "B) Hüseyin Cahit Yalç\\u0131n",
+      "C) Cenap Şahabettin",
+      "D) Mehmet Rauf",
+      "E) Tevfik Fikret"
+    ],
+    "correct_answer": 4,
+    "explanation": "Servet-i Fünun toplulu\\ğu, Tevfik Fikret'in öncülü\\ğünde kurulmuştur."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Milli Edebiyat ak\\u0131m\\u0131n\\u0131n öncüsü a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Mehmet Emin Yurdakul",
+      "B) Ali Canip Yöntem",
+      "C) Ziya Gökalp",
+      "D) Yahya Kemal Beyatl\\u0131",
+      "E) Ömer Seyfettin"
+    ],
+    "correct_answer": 4,
+    "explanation": "Milli Edebiyat ak\\u0131m\\u0131n\\u0131n öncüsü Ömer Seyfettin'dir. Ziya Gökalp ise fikir babas\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Buzul aş\\u0131nd\\u0131rmas\\u0131 sonucu oluşan a\\u015fa\\u011f\\u0131daki yer şekillerinden hangisi yanl\\u0131ş eşleştirilmiştir?",
+    "options": [
+      "A) Moren - Buzul",
+      "B) Hörgüç kaya - Buzul",
+      "C) U şekilli vadi - Buzul",
+      "D) Peribacas\\u0131 - Buzul",
+      "E) Sirk - Buzul"
+    ],
+    "correct_answer": 3,
+    "explanation": "Peribacas\\u0131, buzul de\\ğil, sel sular\\u0131n\\u0131n volkanik tüfleri aş\\u0131nd\\u0131rmas\\u0131yla oluşur."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Memleket edebiyat\\u0131\" olarak da bilinen edebi ak\\u0131m a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Servet-i Fünun",
+      "B) Tanzimat",
+      "C) Fecr-i Ati",
+      "D) Cumhuriyet Dönemi",
+      "E) Milli Edebiyat"
+    ],
+    "correct_answer": 4,
+    "explanation": "Milli Edebiyat ak\\u0131m\\u0131, Anadolu'ya yönelerek memleket edebiyat\\u0131 anlay\\u0131ş\\u0131n\\u0131 benimsemiştir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Akarsu aş\\u0131nd\\u0131rmas\\u0131 sonucu oluşan yer şekli a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Kanyon vadi",
+      "B) K\\u0131y\\u0131 ok\\u0131",
+      "C) Hörgüç kaya",
+      "D) Lapya",
+      "E) Moren"
+    ],
+    "correct_answer": 0,
+    "explanation": "Kanyon vadiler akarsu aş\\u0131nd\\u0131rmas\\u0131yla oluşur. Moren ve hörgüç kaya buzul aş\\u0131nd\\u0131rmas\\u0131na örnektir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Servet-i Fünun döneminde \"Sanat sanat içindir\" anlay\\u0131ş\\u0131 benimsenmiştir. A\\u015fa\\u011f\\u0131dakilerden hangisi bu dönem özelliklerinden biri de\\u011fildir?",
+    "options": [
+      "A) Toplumsal konular işlenmiştir",
+      "B) Sembolizm ve empresyonizm etkisi vard\\u0131r",
+      "C) Mensur şiir türü gelişmiştir",
+      "D) Arapça-Farsça sözcükler yo\\ğundur",
+      "E) \\u015eiirde konu bütünlü\\ğü önemsenmiştir"
+    ],
+    "correct_answer": 0,
+    "explanation": "Servet-i Fünun'da toplumsal konular de\\ğil, bireysel ve sanatsal konular işlenmiştir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi i\\u00e7 kuvvetlerden biri de\\u011fildir?",
+    "options": [
+      "A) Deprem",
+      "B) Epirojenez (k\\u013ta hareketi)",
+      "C) Orojenez (da\\ğ oluşumu)",
+      "D) Volkanizma",
+      "E) Erozyon"
+    ],
+    "correct_answer": 4,
+    "explanation": "Erozyon d\\u0131ş kuvvetlerdendir. Deprem, volkanizma, orojenez ve epirojenez i\\u00e7 kuvvetlerdir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Tanzimat Edebiyat\\u0131n\\u0131n I. dönem sanatç\\u0131lar\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisinde do\\u011fru verilmi\\u015ftir?",
+    "options": [
+      "A) Tevfik Fikret, Cenap Şahabettin, Halit Ziya",
+      "B) Ahmet Mithat, Nabizade Nâz\\u0131m, Samipaşazade Sezai",
+      "C) Mehmet Akif, Yahya Kemal, Ahmet Haşim",
+      "D) Faz\\u0131l Hüsnü, Orhan Veli, Melih Cevdet",
+      "E) Şinasi, Nam\\u0131k Kemal, Ziya Paşa"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tanzimat I. dönem sanatç\\u0131lar\\u0131: Şinasi, Nam\\u0131k Kemal ve Ziya Paşa'd\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi Tanzimat Edebiyat\\u0131'nda roman türünün ilk örneklerinden biri de\\u011fildir?",
+    "options": [
+      "A) Safahat",
+      "B) Taaşşuk-\\u0131 Talat ve Fitnat",
+      "C) Sergüzeşt",
+      "D) Cezmi",
+      "E) \\u0130ntibah"
+    ],
+    "correct_answer": 0,
+    "explanation": "Safahat, Mehmet Akif Ersoy'a ait bir şiir kitab\\u0131d\\u0131r, Tanzimat roman\\u0131 de\\u011fildir."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Huzur\" roman\\u0131n\\u0131n yazar\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Ahmet Hamdi Tanp\\u0131nar",
+      "B) Adalet A\\ğao\\ğlu",
+      "C) Peyami Safa",
+      "D) Oğuz Atay",
+      "E) Orhan Pamuk"
+    ],
+    "correct_answer": 0,
+    "explanation": "Huzur, Ahmet Hamdi Tanp\\u0131nar'\\u0131n psikolojik roman türündeki eseridir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Türkiye'de en yayg\\u0131n görülen kayaç türü a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Başkalaş\\u0131m kayaçlar\\u0131",
+      "B) Tortul (sedimanter) kayaçlar",
+      "C) Volkanik kayaçlar",
+      "D) Magmatik kayaçlar",
+      "E) Organik kayaçlar"
+    ],
+    "correct_answer": 1,
+    "explanation": "Türkiye'de özellikle kireçtaş\\u0131 gibi tortul kayaçlar yayg\\u0131nd\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Kiral\\u0131k Konak\" eseri a\\u015fa\\u011f\\u0131daki yazarlardan hangisine aittir?",
+    "options": [
+      "A) Yakup Kadri Karaosmano\\ğlu",
+      "B) Peyami Safa",
+      "C) Halit Ziya Uşakl\\u0131gil",
+      "D) Refik Halit Karay",
+      "E) Ömer Seyfettin"
+    ],
+    "correct_answer": 0,
+    "explanation": "Yakup Kadri'nin Kiral\\u0131k Konak'\\u0131, Tanzimat'tan Cumhuriyet'e geçişi konu al\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Sinekli Bakkal\" adl\\u0131 roman\\u0131n yazar\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Peyami Safa",
+      "B) Reşat Nuri Güntekin",
+      "C) Yakup Kadri Karaosmano\\ğlu",
+      "D) Halide Edip Ad\\u0131var",
+      "E) Mithat Cemal Kuntay"
+    ],
+    "correct_answer": 3,
+    "explanation": "Sinekli Bakkal, Halide Edip Ad\\u0131var'\\u0131n en önemli roman\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Sefiller\" adl\\u0131 eser kime aittir?",
+    "options": [
+      "A) Tolstoy",
+      "B) Victor Hugo",
+      "C) Dostoyevski",
+      "D) Zola",
+      "E) Balzac"
+    ],
+    "correct_answer": 1,
+    "explanation": "Sefiller (Les Misérables), Victor Hugo'nun ünlü roman\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "Osmanl\\u0131 Devleti'nde \"Müsadere\" uygulamas\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Topraklar\\u0131n miras yoluyla devredilmesi",
+      "B) Askerlik hizmeti",
+      "C) Devlet görevlilerinin mallar\\u0131na el konulmas\\u0131",
+      "D) Vergilerin toplanmas\\u0131",
+      "E) Ticaretin düzenlenmesi"
+    ],
+    "correct_answer": 2,
+    "explanation": "Müsadere, devlet görevlilerinin ölümü veya azlinde mallar\\u0131na devlet taraf\\u0131ndan el konulmas\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "III. Selim döneminde yap\\u0131lan \\u0131slahat hareketlerine ne ad verilir?",
+    "options": [
+      "A) Kanun-\\u0131 Esasi",
+      "B) Nizam-\\u0131 Cedid",
+      "C) Islahat Ferman\\u0131",
+      "D) Tanzimat Ferman\\u0131",
+      "E) Meşrutiyet"
+    ],
+    "correct_answer": 1,
+    "explanation": "III. Selim döneminde başlat\\u0131lan reformlar Nizam-\\u0131 Cedid (Yeni Düzen) olarak adland\\u0131r\\u0131l\\u0131r."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "A\\u015fa\\u011f\\u0131daki iklim tiplerinden hangisinde y\\u0131ll\\u0131k s\\u0131cakl\\u0131k fark\\u0131 en azd\\u0131r?",
+    "options": [
+      "A) Muson iklimi",
+      "B) Ekvatoral iklim",
+      "C) Karasal iklim",
+      "D) Akdeniz iklimi",
+      "E) Sert karasal iklim"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ekvatoral iklimde y\\u0131l boyunca s\\u0131cakl\\u0131k fazla de\\ğişmez, y\\u0131ll\\u0131k s\\u0131cakl\\u0131k fark\\u0131 en azd\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi Cumhuriyet Dönemi Türk şiirinin önemli şairlerinden biri de\\u011fildir?",
+    "options": [
+      "A) Nâz\\u0131m Hikmet",
+      "B) Necip Faz\\u0131l K\\u0131sakürek",
+      "C) Orhan Veli Kan\\u0131k",
+      "D) Recaizade Mahmut Ekrem",
+      "E) Cahit S\\u0131tk\\u0131 Taranc\\u0131"
+    ],
+    "correct_answer": 3,
+    "explanation": "Recaizade Mahmut Ekrem, Tanzimat dönemi sanatç\\u0131s\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "\"Saatleri Ayarlama Enstitüsü\" adl\\u0131 eser a\\u015fa\\u011f\\u0131daki yazarlardan hangisine aittir?",
+    "options": [
+      "A) Ahmet Hamdi Tanp\\u0131nar",
+      "B) Yusuf At\\u0131lgan",
+      "C) Orhan Pamuk",
+      "D) Adalet A\\ğao\\ğlu",
+      "E) Oğuz Atay"
+    ],
+    "correct_answer": 0,
+    "explanation": "Ahmet Hamdi Tanp\\u0131nar'\\u0131n Saatleri Ayarlama Enstitüsü, modern Türk edebiyat\\u0131n\\u0131n başyap\\u0131tlar\\u0131ndan biridir."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Karstik aş\\u0131nd\\u0131rma sonucu oluşan yer şekli a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Peribacas\\u0131",
+      "B) Kumul",
+      "C) Seki (taraça)",
+      "D) Ma\\ğara",
+      "E) Obruk"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ma\\ğaralar, kalker gibi karstik arazilerde sular\\u0131n kayaçlar\\u0131 çözmesiyle oluşur."
+  },
+  {
+    "sub_category": "cografya1",
+    "question": "Kireçli ana materyal üzerinde oluşan toprak tipi a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Alüvyal",
+      "B) Terra rossa",
+      "C) Çernezyom",
+      "D) Podzol",
+      "E) Laterit"
+    ],
+    "correct_answer": 1,
+    "explanation": "Terra rossa (k\\u0131rm\\u0131z\\u0131 Akdeniz topra\\ğ\\u0131), kireçtaş\\u0131 üzerinde oluşan karakteristik bir toprakt\\u0131r."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "Osmanl\\u0131 Devleti'nde \"T\\u0131mar Sistemi\"nin temel amac\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Ticareti geliştirmek",
+      "B) Asker yetiştirmek ve topra\\ğ\\u0131 işletmek",
+      "C) Sanayileşmeyi sa\\ğlamak",
+      "D) Denizcilik faaliyetlerini art\\u0131rmak",
+      "E) Merkezi otoriteyi güçlendirmek"
+    ],
+    "correct_answer": 1,
+    "explanation": "T\\u0131mar sistemi, topra\\ğ\\u0131 işleterek hem üretimi sa\\ğlar hem de sipahi ad\\u0131 verilen atl\\u0131 asker yetiştirirdi."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Fecr-i Ati toplulu\\ğu a\\u015fa\\u011f\\u0131dakilerden hangisiyle sona ermiştir?",
+    "options": [
+      "A) Tanzimat'a ba\\ğlanma",
+      "B) Da\\ğ\\u0131lma ve Milli Edebiyat'a kat\\u0131lma",
+      "C) Servet-i Fünun'a dönüşme",
+      "D) Cumhuriyet Dönemi'ne geçiş",
+      "E) Tamamen kapanma"
+    ],
+    "correct_answer": 1,
+    "explanation": "Fecr-i Ati toplulu\\ğu 1912'de da\\ğ\\u0131lm\\u0131ş, sanatç\\u0131lar\\u0131n ço\\ğu Milli Edebiyat ak\\u0131m\\u0131na kat\\u0131lm\\u0131şt\\u0131r."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Garip ak\\u0131m\\u0131n\\u0131n kurucular\\u0131 aras\\u0131nda a\\u015fa\\u011f\\u0131dakilerden hangisi yer al\\u0131r?",
+    "options": [
+      "A) Orhan Veli, Melih Cevdet, Oktay Rifat",
+      "B) Attila \\u0130lhan, Cemal Süreya, Edip Cansever",
+      "C) Necip Faz\\u0131l, Arif Nihat, Ziya Gökalp",
+      "D) Nâz\\u0131m Hikmet, Faz\\u0131l Hüsnü, Cahit Külebi",
+      "E) Yahya Kemal, Ahmet Haşim, Tevfik Fikret"
+    ],
+    "correct_answer": 0,
+    "explanation": "Garip (Birinci Yeni) ak\\u0131m\\u0131n\\u0131 Orhan Veli Kan\\u0131k, Melih Cevdet Anday ve Oktay Rifat kurmuştur."
+  },
+  {
+    "sub_category": "edebiyat",
+    "question": "Tanzimat Edebiyat\\u0131'nda ilk tiyatro eseri a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Celaleddin Harzemşah - Ziya Paşa",
+      "B) Gülnihal - Nam\\u0131k Kemal",
+      "C) Vatan yahut Silistre - Nam\\u0131k Kemal",
+      "D) Şair Evlenmesi - Şinasi",
+      "E) Macera-y\\u0131 Aşk - Samipaşazade Sezai"
+    ],
+    "correct_answer": 3,
+    "explanation": "Şinasi'nin \\u015eair Evlenmesi (1860), Türk edebiyat\\u0131n\\u0131n ilk tiyatro eseridir."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "I. Dünya Sava\\u015f\\u0131'n\\u0131n başlama nedeni a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) \\u0130ngiltere'nin sömürge politikas\\u0131",
+      "B) Almanya'n\\u0131n Fransa'y\\u0131 işgali",
+      "C) Avusturya-Macaristan Veliahd\\u0131'n\\u0131n öldürülmesi",
+      "D) Rusya'n\\u0131n savaş ilan\\u0131",
+      "E) Osmanl\\u0131'n\\u0131n toprak kay\\u0131plar\\u0131"
+    ],
+    "correct_answer": 2,
+    "explanation": "1914'te Avusturya-Macaristan Veliahd\\u0131 Franz Ferdinand'\\u0131n S\\u0131rbistan'da öldürülmesi savaş\\u0131n tetikleyicisi olmuştur."
+  },
+  {
+    "sub_category": "tarih1",
+    "question": "Islahat Ferman\\u0131 (1856) hangi padişah döneminde ilan edilmiştir?",
+    "options": [
+      "A) II. Abdülhamid",
+      "B) Sultan Abdülmecid",
+      "C) III. Selim",
+      "D) Sultan Abdülaziz",
+      "E) II. Mahmud"
+    ],
+    "correct_answer": 1,
+    "explanation": "Islahat Ferman\\u0131, Sultan Abdülmecid döneminde 1856'da ilan edilmiştir."
   }
 ]

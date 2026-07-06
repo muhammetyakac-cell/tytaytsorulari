@@ -2,134 +2,1338 @@
   {
     "sub_category": "fizik",
     "question": "Fotoelektrik olayda, metal bir yüzeye düşürülen ışığın frekansı artırıldığında kopan elektronlarla ilgili;\n\nI. Maksimum kinetik enerjileri artar.\nII. Metalden sökülme süreleri kısalır.\nIII. Oluşan fotoelektrik akımı artar.\n\nYargılarından hangileri kesinlikle doğrudur?",
-    "options": ["A) Yalnız I", "B) Yalnız II", "C) I ve II", "D) I ve III", "E) I, II ve III"],
+    "options": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
     "correct_answer": 0,
     "explanation": "$E_f = hf = \\phi + E_k$. Frekans artarsa $E_k$ artar (I doğru). Sökülme süresi anlıktır (II yanlış). Akım ışık şiddetine bağlıdır (III kesin değil)."
   },
   {
     "sub_category": "fizik",
     "question": "Yay sabiti 400 N/m olan bir yay, 10 N kuvvet uygulanarak sıkıştırılıyor. Yayda depolanan potansiyel enerji kaç joule'dür?",
-    "options": ["A) 0,125", "B) 0,25", "C) 0,5", "D) 1", "E) 2"],
+    "options": [
+      "A) 0,125",
+      "B) 0,25",
+      "C) 0,5",
+      "D) 1",
+      "E) 2"
+    ],
     "correct_answer": 0,
     "explanation": "$F = kx \\implies 10 = 400x \\implies x = 0,025$ m. $E_p = \\frac{1}{2}kx^2 = \\frac{1}{2} \\times 400 \\times (0,025)^2 = 0,125$ J."
   },
   {
     "sub_category": "fizik",
     "question": "Bir bobinin öz indüksiyon katsayısı 0,5 henry'dir. Bobinden geçen akım 0,2 saniyede 4 A artarsa bobinde oluşan öz indüksiyon emk'si kaç volttur?",
-    "options": ["A) 2", "B) 4", "C) 6", "D) 8", "E) 10"],
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8",
+      "E) 10"
+    ],
     "correct_answer": 4,
     "explanation": "$\\mathcal{E} = -L\\frac{\\Delta I}{\\Delta t} = -0,5 \\times \\frac{4}{0,2} = -10$ V (büyüklük olarak 10 V)."
   },
   {
     "sub_category": "fizik",
     "question": "Bir ses dalgasının havadaki hızı 340 m/s ve frekansı 170 Hz ise dalga boyu kaç metredir?",
-    "options": ["A) 0,5", "B) 1", "C) 2", "D) 3", "E) 5"],
+    "options": [
+      "A) 0,5",
+      "B) 1",
+      "C) 2",
+      "D) 3",
+      "E) 5"
+    ],
     "correct_answer": 2,
     "explanation": "$v = f \\cdot \\lambda \\implies \\lambda = v/f = 340/170 = 2$ m."
   },
   {
     "sub_category": "fizik",
     "question": "Sürtünmesiz ortamda 2 kg kütleli cisim 10 m/s hızla 3 kg'lık duran cisme çarpıp yapışıyor. Ortak hız kaç m/s'dir?",
-    "options": ["A) 2", "B) 4", "C) 5", "D) 6", "E) 8"],
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 5",
+      "D) 6",
+      "E) 8"
+    ],
     "correct_answer": 1,
     "explanation": "Momentum korunumu: $m_1v_1 = (m_1+m_2)v' \\implies 2 \\times 10 = 5v' \\implies v' = 4$ m/s."
   },
   {
     "sub_category": "fizik",
     "question": "İdeal bir transformatörün girişinde 200 V, 2 A varken çıkışında 100 V ölçülüyorsa çıkış akımı kaç amperdir?",
-    "options": ["A) 1", "B) 2", "C) 3", "D) 4", "E) 5"],
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "E) 5"
+    ],
     "correct_answer": 3,
     "explanation": "Güç korunumu: $V_p \\cdot I_p = V_s \\cdot I_s \\implies 200 \\times 2 = 100 \\times I_s \\implies I_s = 4$ A."
   },
   {
     "sub_category": "fizik",
     "question": "Bir basit sarkacın periyodu 2 s'dir. Sarkacın boyu 4 katına çıkarılırsa yeni periyot kaç s olur?",
-    "options": ["A) 1", "B) 2", "C) 4", "D) 6", "E) 8"],
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 6",
+      "E) 8"
+    ],
     "correct_answer": 2,
     "explanation": "$T \\propto \\sqrt{L}$. Boy 4 katına çıkarsa $T' = \\sqrt{4} \\cdot T = 2T = 4$ s."
   },
   {
     "sub_category": "kimya",
     "question": "$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ tepkimesine göre 1 mol N$_2$ ve 3 mol H$_2$'den tam verimle kaç mol NH$_3$ oluşur?",
-    "options": ["A) 1", "B) 2", "C) 3", "D) 4", "E) 5"],
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "E) 5"
+    ],
     "correct_answer": 1,
     "explanation": "Tepkime katsayılarına göre 1 mol N$_2$ ve 3 mol H$_2$'den 2 mol NH$_3$ oluşur."
   },
   {
     "sub_category": "kimya",
     "question": "pH değeri 3 olan bir çözeltinin pOH değeri kaçtır?",
-    "options": ["A) 3", "B) 5", "C) 7", "D) 9", "E) 11"],
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 7",
+      "D) 9",
+      "E) 11"
+    ],
     "correct_answer": 4,
     "explanation": "pH + pOH = 14 \\implies pOH = 14 - 3 = 11."
   },
   {
     "sub_category": "kimya",
     "question": "$^{235}_{92}U$ atomunda kaç nötron vardır?",
-    "options": ["A) 92", "B) 143", "C) 235", "D) 327", "E) 92 ile 235 arası"],
+    "options": [
+      "A) 92",
+      "B) 143",
+      "C) 235",
+      "D) 327",
+      "E) 92 ile 235 arası"
+    ],
     "correct_answer": 1,
     "explanation": "Nötron sayısı = Kütle numarası - Proton sayısı = 235 - 92 = 143."
   },
   {
     "sub_category": "kimya",
     "question": "Aşağıdaki bileşiklerden hangisi aromatik hidrokarbondur?",
-    "options": ["A) CH$_4$", "B) C$_2$H$_6$", "C) C$_6$H$_6$", "D) C$_2$H$_2$", "E) C$_4$H$_{10}$"],
+    "options": [
+      "A) CH$_4$",
+      "B) C$_2$H$_6$",
+      "C) C$_6$H$_6$",
+      "D) C$_2$H$_2$",
+      "E) C$_4$H$_{10}$"
+    ],
     "correct_answer": 2,
     "explanation": "Benzen (C$_6$H$_6$) halkalı yapısı ve konjuge çift bağlarıyla aromatiktir."
   },
   {
     "sub_category": "kimya",
     "question": "1 atm basınçta 27$^\\circ$C'de 0,2 mol ideal gaz kaç litre hacim kaplar? ($R = 0,082$ L·atm·mol$^{-1}$·K$^{-1}$)",
-    "options": ["A) 2,46", "B) 3,28", "C) 4,92", "D) 5,60", "E) 6,72"],
+    "options": [
+      "A) 2,46",
+      "B) 3,28",
+      "C) 4,92",
+      "D) 5,60",
+      "E) 6,72"
+    ],
     "correct_answer": 2,
     "explanation": "$PV = nRT \\implies V = \\frac{nRT}{P} = \\frac{0,2 \\times 0,082 \\times 300}{1} = 4,92$ L."
   },
   {
     "sub_category": "kimya",
     "question": "CH$_3$COOH molekülünde kaç tane sigma ($\\sigma$) bağı vardır?",
-    "options": ["A) 5", "B) 6", "C) 7", "D) 8", "E) 9"],
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8",
+      "E) 9"
+    ],
     "correct_answer": 2,
     "explanation": "CH$_3$COOH: 3 C-H, 1 C-C, 1 C=O (1$\\sigma$), 1 C-O, 1 O-H $\\to$ toplam 7 $\\sigma$ bağı."
   },
   {
     "sub_category": "biyoloji",
     "question": "Hücre bölünmesinin profaz evresinde aşağıdaki olaylardan hangisi gerçekleşir?",
-    "options": ["A) Kromozomların ekvatora dizilmesi", "B) Kromatin ipliklerin kromozom haline gelmesi", "C) Kardeş kromatitlerin ayrılması", "D) Sitoplazma bölünmesi", "E) DNA replikasyonu"],
+    "options": [
+      "A) Kromozomların ekvatora dizilmesi",
+      "B) Kromatin ipliklerin kromozom haline gelmesi",
+      "C) Kardeş kromatitlerin ayrılması",
+      "D) Sitoplazma bölünmesi",
+      "E) DNA replikasyonu"
+    ],
     "correct_answer": 1,
     "explanation": "Profazda kromatin iplikler kısalıp kalınlaşarak kromozom haline gelir, çekirdekçik kaybolur."
   },
   {
     "sub_category": "biyoloji",
     "question": "Aşağıdaki canlılardan hangisi prokaryot hücre yapısına sahiptir?",
-    "options": ["A) Amip", "B) Bira mayası", "C) Bakteri", "D) Bitki hücresi", "E) Hayvan hücresi"],
+    "options": [
+      "A) Amip",
+      "B) Bira mayası",
+      "C) Bakteri",
+      "D) Bitki hücresi",
+      "E) Hayvan hücresi"
+    ],
     "correct_answer": 2,
     "explanation": "Bakteriler zarla çevrili çekirdeğe sahip olmadıkları için prokaryottur."
   },
   {
     "sub_category": "biyoloji",
     "question": "İnsanda kan şekeri düştüğünde kana glikoz salgılanmasını sağlayan hormon aşağıdakilerden hangisidir?",
-    "options": ["A) İnsülin", "B) Glukagon", "C) Tiroksin", "D) Kortizol", "E) Adrenalin"],
+    "options": [
+      "A) İnsülin",
+      "B) Glukagon",
+      "C) Tiroksin",
+      "D) Kortizol",
+      "E) Adrenalin"
+    ],
     "correct_answer": 1,
     "explanation": "Glukagon, pankreasın alfa hücrelerinden salgılanır ve glikojenolizi uyarır."
   },
   {
     "sub_category": "biyoloji",
     "question": "Mayoz bölünme sonucunda bir hücreden kaç yeni hücre oluşur?",
-    "options": ["A) 1", "B) 2", "C) 3", "D) 4", "E) 6"],
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "E) 6"
+    ],
     "correct_answer": 3,
     "explanation": "Mayoz sonucu genetik olarak farklı 4 haploid hücre oluşur."
   },
   {
     "sub_category": "biyoloji",
     "question": "DNA'nın yapısında aşağıdaki organik bazlardan hangisi bulunmaz?",
-    "options": ["A) Adenin", "B) Guanin", "C) Sitozin", "D) Timin", "E) Urasil"],
+    "options": [
+      "A) Adenin",
+      "B) Guanin",
+      "C) Sitozin",
+      "D) Timin",
+      "E) Urasil"
+    ],
     "correct_answer": 4,
     "explanation": "Urasil RNA'da bulunur. DNA'da adenin, guanin, sitozin ve timin bulunur."
   },
   {
     "sub_category": "biyoloji",
     "question": "Bir enzimin çalışmasını hızlandıran ancak enzimin yapısına katılmayan organik moleküllere ne ad verilir?",
-    "options": ["A) Substrat", "B) Koenzim", "C) Apoenzim", "D) Holoenzim", "E) Aktivatör"],
+    "options": [
+      "A) Substrat",
+      "B) Koenzim",
+      "C) Apoenzim",
+      "D) Holoenzim",
+      "E) Aktivatör"
+    ],
     "correct_answer": 1,
     "explanation": "Koenzim, enzimin aktif bölgesine geçici bağlanarak katalitik aktiviteyi sağlayan organik yardımcı moleküldür."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi bir elektrokimyasal hücrede anotta gerçekle\\u015fen olayd\\u0131r?",
+    "options": [
+      "A) Nötralleşme",
+      "B) \\u0130ndirgenme",
+      "C) Yükseltgenme",
+      "D) Çökelme",
+      "E) Asit-baz tepkimesi"
+    ],
+    "correct_answer": 2,
+    "explanation": "Anotta yükseltgenme (oksidasyon) gerçekleşir, elektronlar devreye verilir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Düz aynada olu\\u015fan görüntü için a\\u015fa\\u011f\\u0131dakilerden hangisi yanl\\u0131\\u015ft\\u0131r?",
+    "options": [
+      "A) Sanald\\u0131r",
+      "B) Simetriktir",
+      "C) Boyu cismin boyuna e\\u015fittir",
+      "D) Düzdür",
+      "E) Tersdir"
+    ],
+    "correct_answer": 4,
+    "explanation": "Düz aynada görüntü sanal, düz, ters de\\u011fil ve cisimle simetriktir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 f olan tümsek aynaya gelen \\u0131\\u015f\\u0131nlar için a\\u015fa\\u011f\\u0131dakilerden hangisi do\\u011frudur?",
+    "options": [
+      "A) Odak uzaklı\\u011f\\u0131 pozitiftir",
+      "B) Merkezde gerçek görüntü olu\\u015fur",
+      "C) Görüntü daima gerçektir",
+      "D) Görüntü ters olu\\u015fur",
+      "E) Görüntü daima sanald\\u0131r"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tümsek aynada görüntü daima sanald\\u0131r. Odak uzaklı\\u011f\\u0131 negatiftir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "A\\u015fa\\u011f\\u0131daki fonksiyonel gruplardan hangisi karbonil (C=O) içermez?",
+    "options": [
+      "A) Ester",
+      "B) Aldehit",
+      "C) Alkol",
+      "D) Karboksilik asit",
+      "E) Keton"
+    ],
+    "correct_answer": 2,
+    "explanation": "Alkoller -OH grubuna sahiptir, C=O içermezler."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Fotosentezin \\u0131\\u015fa ba\\ğ\\u0131ml\\u0131 tepkimelerinde a\\u015fa\\u011f\\u0131dakilerden hangisi üretilir?",
+    "options": [
+      "A) Glikoz ve CO₂",
+      "B) NADPH ve glikoz",
+      "C) ATP ve NADPH",
+      "D) ATP ve glikoz",
+      "E) CO₂ ve H₂O"
+    ],
+    "correct_answer": 2,
+    "explanation": "I\\u015fa ba\\ğ\\u0131ml\\u0131 tepkimelerde ATP ve NADPH üretilir. Bu moleküller Calvin döngüsünde kullan\\u0131l\\u0131r."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Fotosentez h\\u0131z\\u0131n\\u0131 s\\u0131n\\u0131rland\\u0131ran faktörler aras\\u0131nda a\\u015fa\\u011f\\u0131dakilerden hangisi yer almaz?",
+    "options": [
+      "A) I\\u015f\\u0131k şiddeti",
+      "B) Su miktar\\u0131",
+      "C) S\\u0131cakl\\u0131k",
+      "D) Mitokondri say\\u0131s\\u0131",
+      "E) CO₂ derişimi"
+    ],
+    "correct_answer": 3,
+    "explanation": "Fotosentez h\\u0131z\\u0131n\\u0131 CO₂, \\u0131\\u015f\\u0131k, s\\u0131cakl\\u0131k ve su etkiler. Mitokondri say\\u0131s\\u0131 solunumla ilgilidir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Sinapslarda impuls iletimi s\\u0131ras\\u0131nda a\\u015fa\\u011f\\u0131dakilerden hangisi rol oynar?",
+    "options": [
+      "A) Dendrit",
+      "B) Nörotransmitter maddeler",
+      "C) Akson",
+      "D) Myelin k\\u0131l\\u0131f",
+      "E) Ranvier bo\\u011fumu"
+    ],
+    "correct_answer": 1,
+    "explanation": "Sinapslarda impuls iletimi, nörotransmitter maddeler (ör. asetilkolin) arac\\u0131l\\u0131\\ğ\\u0131yla sa\\ğlan\\u0131r."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Azot döngüsünde atmosferdeki N₂'nin canl\\u0131lar taraf\\u0131ndan kullan\\u0131labilir hale gelmesini sa\\ğlayan olay a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Azot fiksasyonu (ba\\ğlanmas\\u0131)",
+      "B) Nitrifikasyon",
+      "C) Amonyaklaşma",
+      "D) Ayrışma",
+      "E) Denitrifikasyon"
+    ],
+    "correct_answer": 0,
+    "explanation": "Azot fiksasyonu, atmosferdeki N₂ gaz\\u0131n\\u0131n bakteriler taraf\\u0131ndan NH₃'e dönüştürülmesidir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 10 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 30 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $23$",
+      "B) $10$",
+      "C) $15$",
+      "D) $7.5$",
+      "E) $30$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{15} = \\frac{1}{10} - \\frac{1}{30} \\implies d_i = 15$ cm."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aromatik hidrokarbon a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) C₃H₈",
+      "B) C₆H₆",
+      "C) C₂H₆",
+      "D) C₅H₁₂",
+      "E) C₄H₁₀"
+    ],
+    "correct_answer": 1,
+    "explanation": "Benzen (C₆H₆) aromatik hidrokarbondur ve halka yap\\u0131s\\u0131na sahiptir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Ortak iyon etkisi ile ilgili a\\u015fa\\u011f\\u0131dakilerden hangisi do\\u011frudur?",
+    "options": [
+      "A) $Yaln\\u0131zca asitler için geçerlidir$",
+      "B) $Çözünürlü\\ğü art\\u0131r\\u0131r$",
+      "C) $Yaln\\u0131zca bazlar için geçerlidir$",
+      "D) $Çözünürlü\\ğü etkilemez$",
+      "E) $Çözünürlü\\ğü azalt\\u0131r$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Ortak iyon etkisi, az çözünen tuzun çözünürlü\\ğünü azalt\\u0131r (Le Chatelier prensibi)."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir basit sarkac\\u0131n boyu 4 kat\\u0131na ç\\u0131kar\\u0131l\\u0131rsa periyodu nas\\u0131l de\\u011fi\\u015fir?",
+    "options": [
+      "A) $\\u221a2 kat\\u0131na ç\\u0131kar$",
+      "B) $yar\\u0131ya iner$",
+      "C) $4 kat\\u0131na ç\\u0131kar$",
+      "D) $de\\u011fi\\u015fmez$",
+      "E) $2 kat\\u0131na ç\\u0131kar$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$T \\propto \\sqrt{L}$ oldu\\u011fundan L 4 kat\\u0131na ç\\u0131karsa $T' = 2T$ olur."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi bir alkoldür?",
+    "options": [
+      "A) CH₃OCH₃",
+      "B) CH₃COCH₃",
+      "C) CH₃CH₂OH",
+      "D) CH₃CHO",
+      "E) CH₃COOH"
+    ],
+    "correct_answer": 2,
+    "explanation": "CH₃CH₂OH (etanol) bir alkol olup -OH fonksiyonel grubuna sahiptir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Bir DNA molekülünde A nükleotit say\\u0131s\\u0131 600 ise toplam nükleotit say\\u0131s\\u0131 en az kaçt\\u0131r?",
+    "options": [
+      "A) $1500$",
+      "B) $1800$",
+      "C) $900$",
+      "D) $1200$",
+      "E) $600$"
+    ],
+    "correct_answer": 3,
+    "explanation": "A = T ve G = C oldu\\ğundan A=600 ise T=600'dür. A+T+G+C en az 1200 olur."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Denge halindeki bir sisteme d\\u0131\\u015far\\u0131dan ürün eklenirse sistem nas\\u0131l tepki verir?",
+    "options": [
+      "A) $Bas\\u0131nç artar$",
+      "B) $Denge bozulmaz$",
+      "C) $S\\u0131cakl\\u0131k artar$",
+      "D) $Girenler yönüne kayar$",
+      "E) $Ürünler yönüne kayar$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Le Chatelier prensibine göre sistem eklenen maddenin deri\\u015fimini azaltacak yönde hareket eder, yani girenler yönüne kayar."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "DNA'n\\u0131n yap\\u0131s\\u0131nda a\\u015fa\\u011f\\u0131dakilerden hangisi bulunmaz?",
+    "options": [
+      "A) $Sitozin$",
+      "B) $Timin$",
+      "C) $Adenin$",
+      "D) $Urasil$",
+      "E) $Guanin$"
+    ],
+    "correct_answer": 3,
+    "explanation": "DNA'da urasil bulunmaz. Urasil RNA'ya özgüdür, DNA'da timin bulunur."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir basit harmonik hareketlinin genli\\u011fi A, periyodu T dir. Cismin denge konumundan geçerkenki maksimum h\\u0131z\\u0131 a\\u015fa\\u011f\\u0131dakilerden hangisine e\\u015fittir?",
+    "options": [
+      "A) $$\\frac{2\\pi A}{T}$$",
+      "B) $$\\frac{A}{T}$$",
+      "C) $$\\frac{2\\pi T}{A}$$",
+      "D) $$\\frac{4\\pi A}{T}$$",
+      "E) $$\\frac{\\pi A}{T}$$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Maksimum h\\u0131z $v_{max} = \\omega A = \\frac{2\\pi}{T} \\cdot A = \\frac{2\\pi A}{T}$ dir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Bir galvanik hücrede a\\u015fa\\u011f\\u0131dakilerden hangisi do\\u011frudur?",
+    "options": [
+      "A) Katot (-) kutuptur",
+      "B) Elektronlar d\\u0131ş devrede katottan anoda gider",
+      "C) Elektrik enerjisi kimyasal enerjiye dönüşür",
+      "D) Kimyasal enerji elektrik enerjisine dönüşür",
+      "E) Anot (+) kutuptur"
+    ],
+    "correct_answer": 3,
+    "explanation": "Galvanik hücrede kendili\\u011finden gerçekleşen redoks tepkimesi ile kimyasal enerji elektrik enerjisine dönüşür."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Oksijensiz solunum (fermentasyon) sonucu a\\u015fa\\u011f\\u0131dakilerden hangisi oluşur?",
+    "options": [
+      "A) 2 ATP ve oksijen",
+      "B) 4 ATP ve asetaldehit",
+      "C) 36 ATP ve CO₂",
+      "D) 38 ATP ve su",
+      "E) 2 ATP ve etil alkol veya laktik asit"
+    ],
+    "correct_answer": 4,
+    "explanation": "Fermentasyonda net 2 ATP kazan\\u0131l\\u0131r ve son ürün olarak etil alkol veya laktik asit oluşur."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Çukur aynada t\\u0131pk\\u0131 odak ile merkez aras\\u0131na konulan bir cismin görüntüsü için a\\u015fa\\u011f\\u0131dakilerden hangisi do\\u011frudur?",
+    "options": [
+      "A) Sanal, düz ve büyük",
+      "B) Gerçek, ters ve büyük",
+      "C) Gerçek, düz ve büyük",
+      "D) Sanal, düz ve küçük",
+      "E) Gerçek, ters ve küçük"
+    ],
+    "correct_answer": 1,
+    "explanation": "Çukur aynada cisim F ile M aras\\u0131nda ise görüntü gerçek, ters ve büyüktür."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "S\\u0131cakl\\u0131k 10°C art\\u0131r\\u0131ld\\u0131\\u011f\\u0131nda bir tepkimenin h\\u0131z\\u0131 2 kat\\u0131na ç\\u0131k\\u0131yorsa s\\u0131cakl\\u0131k 30°C art\\u0131r\\u0131ld\\u0131\\u011f\\u0131nda h\\u0131z kaç kat\\u0131na ç\\u0131kar?",
+    "options": [
+      "A) $2$",
+      "B) $6$",
+      "C) $16$",
+      "D) $8$",
+      "E) $4$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Her 10°C'de 2 kat artarsa 30°C'de $2^3 = 8$ kat\\u0131na ç\\u0131kar."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Bir ekosistemde biyokütlenin en fazla oldu\\ğu trofik düzey a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Üçüncül tüketiciler",
+      "B) Üreticiler",
+      "C) Birincil tüketiciler",
+      "D) \\u0130kincil tüketiciler",
+      "E) Ayrışt\\u0131r\\u0131c\\u0131lar"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ekolojik piramitte en alt basamakta bulunan üreticiler en fazla biyokütleye sahiptir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 15 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 45 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $15$",
+      "B) $11.25$",
+      "C) $34$",
+      "D) $45$",
+      "E) $22.5$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{22.5} = \\frac{1}{15} - \\frac{1}{45} \\implies d_i = 22.5$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 21 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $105$",
+      "B) $69$",
+      "C) $84$",
+      "D) $25$",
+      "E) $90$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 21 \\cdot 4 = 84$ N·m."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi doymam\\u0131\\u015f hidrokarbondur?",
+    "options": [
+      "A) C₂H₄",
+      "B) C₃H₈",
+      "C) C₄H₁₀",
+      "D) C₂H₆",
+      "E) CH₄"
+    ],
+    "correct_answer": 0,
+    "explanation": "C₂H₄ (eten) ikili ba\\u011f içerdi\\u011finden doymam\\u0131\\u015f hidrokarbondur."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ tepkimesi için $K_c = \\frac{[NH_3]^2}{[N_2][H_2]^3}$ tür. Ayn\\u0131 tepkimenin $K_p$ ile $K_c$ aras\\u0131ndaki ili\\u015fki a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $$K_p = K_c(RT)^{-2}$$",
+      "B) $$K_p = K_c(RT)^{-1}$$",
+      "C) $$K_p = K_c$$",
+      "D) $$K_p = K_c(RT)^{2}$$",
+      "E) $$K_p = K_cRT$$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\Delta n = 2 - (1 + 3) = -2$ oldu\\u011fundan $K_p = K_c(RT)^{-2}$ dir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 39 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $44$",
+      "B) $180$",
+      "C) $5$",
+      "D) $39$",
+      "E) $195$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 39 \\cdot 5 = 195$ N·m."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Bir tepkimenin h\\u0131z sabiti k ve deri\\u015fimler [A], [B] olmak üzere h\\u0131z = k[A][B]² şeklindedir. Tepkimenin mertebesi kaçt\\u0131r?",
+    "options": [
+      "A) $5$",
+      "B) $3$",
+      "C) $1$",
+      "D) $4$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "H\\u0131z ba\\u011f\\u0131nt\\u0131s\\u0131nda üsler toplam\\u0131: $1 + 2 = 3$ oldu\\u011fundan tepkime 3. mertebedendir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Oksijenli solunumda en fazla ATP hangi evrede üretilir?",
+    "options": [
+      "A) Elektron taş\\u0131ma sistemi",
+      "B) Glikoliz ve Krebs döngüsü",
+      "C) Glikoliz",
+      "D) Haz\\u0131rl\\u0131k evresi",
+      "E) Krebs döngüsü"
+    ],
+    "correct_answer": 0,
+    "explanation": "Elektron taş\\u0131ma sisteminde (oksidatif fosforilasyon) 32-34 ATP üretilir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "DNA replikasyonu (eşlenmesi) ile ilgili a\\u015fa\\u011f\\u0131dakilerden hangisi yanl\\u0131\\u015ft\\u0131r?",
+    "options": [
+      "A) $Yar\\u0131 korunumlu olarak gerçekleşir$",
+      "B) $\\u015eablon olarak eski zincir kullan\\u0131l\\u0131r$",
+      "C) $DNA polimeraz enzimi görev yapar$",
+      "D) $Helikaz enzimi DNA'y\\u0131 açar$",
+      "E) $Yeni DNA zinciri 3' → 5' yönünde sentezlenir$"
+    ],
+    "correct_answer": 4,
+    "explanation": "DNA sentezi daima 5' → 3' yönünde gerçekleşir. 3' → 5' sentezi mümkün de\\ğildir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Glikoliz evresi nerede gerçekleşir?",
+    "options": [
+      "A) Kloroplast",
+      "B) Mitokondri matriksi",
+      "C) Mitokondri iç zar\\u0131",
+      "D) Sitoplazma",
+      "E) Çekirdek"
+    ],
+    "correct_answer": 3,
+    "explanation": "Glikoliz, oksijenli veya oksijensiz tüm canl\\u0131larda sitoplazmada gerçekleşir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Ranvier bo\\ğumlar\\u0131n\\u0131n işlevi a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) Myelin üretmek",
+      "B) Nörotransmitter üretmek",
+      "C) Hücreyi beslemek",
+      "D) \\u0130mpuls iletimini h\\u0131zland\\u0131rmak",
+      "E) Sinaps oluşturmak"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ranvier boğumlar\\u0131 miyelinli nöronlarda s\\u0131çramal\\u0131 iletim sa\\ğlayarak impuls h\\u0131z\\u0131n\\u0131 art\\u0131r\\u0131r."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $9$",
+      "B) $3$",
+      "C) $27$",
+      "D) $36$",
+      "E) $30$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 9 = 27$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 49 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $58$",
+      "B) $42$",
+      "C) $98$",
+      "D) $50$",
+      "E) $49$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 49 \\cdot 1 = 49$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $4$",
+      "B) $32$",
+      "C) $16$",
+      "D) $48$",
+      "E) $16$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 8 = 32$ V."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Bir tepkimede s\\u0131cakl\\u0131k art\\u0131\\u015f\\u0131 ile a\\u015fa\\u011f\\u0131dakilerden hangisi kesinlikle artar?",
+    "options": [
+      "A) $Aktifle\\u015fme enerjisi$",
+      "B) $Deri\\u015fim$",
+      "C) $Birim zamandaki çarp\\u0131\\u015fma say\\u0131s\\u0131$",
+      "D) $Denge sabiti$",
+      "E) $Verim$"
+    ],
+    "correct_answer": 2,
+    "explanation": "S\\u0131cakl\\u0131k artarsa moleküllerin ortalama kinetik enerjisi artar, çarp\\u0131\\u015fma say\\u0131s\\u0131 artar."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $5$",
+      "B) $15$",
+      "C) $18$",
+      "D) $20$",
+      "E) $3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 5 = 15$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $42$",
+      "B) $12$",
+      "C) $48$",
+      "D) $36$",
+      "E) $18$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 6 = 36$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $12$",
+      "C) $3$",
+      "D) $12$",
+      "E) $9$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 3 = 9$ V."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi bir ekosistemdeki besin a\\ğ\\u0131n\\u0131n bozulmas\\u0131na neden olabilir?",
+    "options": [
+      "A) Popülasyonlar\\u0131n dengede olmas\\u0131",
+      "B) Madde döngülerinin devam etmesi",
+      "C) Biyolojik çeşitlili\\ğin azalmas\\u0131",
+      "D) Enerji ak\\u0131ş\\u0131n\\u0131n sürmesi",
+      "E) Habitatlar\\u0131n korunmas\\u0131"
+    ],
+    "correct_answer": 2,
+    "explanation": "Biyolojik çeşitlili\\ğin azalmas\\u0131 besin a\\ğ\\u0131n\\u0131 zay\\u0131flat\\u0131r ve ekosistemi bozar."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "DNA eşlenmesi s\\u0131ras\\u0131nda kesintisiz sentezlenen zincire ne ad verilir?",
+    "options": [
+      "A) $Öncü (lider) zincir$",
+      "B) $Kodlay\\u0131c\\u0131 zincir$",
+      "C) $Gecikmeli (geride kalan) zincir$",
+      "D) $Kal\\u0131p zincir$",
+      "E) $Tamamlay\\u0131c\\u0131 zincir$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Öncü zincir 5' → 3' yönünde kesintisiz sentezlenir. Gecikmeli zincir ise Okazaki parçalar\\u0131 halinde sentezlenir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Elektrolizde katotta hangi olay gerçekleşir?",
+    "options": [
+      "A) \\u0130ndirgenme",
+      "B) Yükseltgenme",
+      "C) Nötralleşme",
+      "D) Süblimleşme",
+      "E) Buharlaşma"
+    ],
+    "correct_answer": 0,
+    "explanation": "Elektrolizde katotta indirgenme gerçekleşir, elektronlar katoda gelir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 15 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 30 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $15$",
+      "B) $15$",
+      "C) $30$",
+      "D) $10$",
+      "E) $45$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{30} = \\frac{1}{15} - \\frac{1}{30} \\implies d_i = 30$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 10 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 20 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $20$",
+      "B) $6.666666666666667$",
+      "C) $10$",
+      "D) $30$",
+      "E) $10$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{20} = \\frac{1}{10} - \\frac{1}{20} \\implies d_i = 20$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $9$ N",
+      "B) $7.5$ N",
+      "C) $2.5$ N",
+      "D) $1.5$ N",
+      "E) $15$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 3 \\cdot 0.5 = 7.5$ N."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "$AgCl$ kat\\u0131s\\u0131n\\u0131n çözünürlük çarp\\u0131m\\u0131 ($K_{çç}$) a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $$[Ag^+][Cl^-]^2$$",
+      "B) $$[Ag^+][Cl^-]$$",
+      "C) $$[Ag^+]^2[Cl^-]$$",
+      "D) $$\\frac{[Ag^+]}{[Cl^-]}$$",
+      "E) $$[AgCl]$$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$AgCl(k) \\rightleftharpoons Ag^+(aq) + Cl^-(aq)$ için $K_{çç} = [Ag^+][Cl^-]$ dir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $5$ N",
+      "B) $10$ N",
+      "C) $2$ N",
+      "D) $12.5$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 5 \\cdot 2 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 20 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 25 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $100$",
+      "B) $25$",
+      "C) $50$",
+      "D) $20$",
+      "E) $11.11111111111111$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{100} = \\frac{1}{20} - \\frac{1}{25} \\implies d_i = 100$ cm."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi çözünürlü\\ğü art\\u0131r\\u0131r?",
+    "options": [
+      "A) $Ortak iyon eklemek$",
+      "B) $Bas\\u0131nc\\u0131 art\\u0131rmak$",
+      "C) $S\\u0131cakl\\u0131\\ğ\\u0131 azaltmak$",
+      "D) $S\\u0131cakl\\u0131\\ğ\\u0131 art\\u0131rmak (kat\\u0131lar için)$",
+      "E) $Çözeltiyi kar\\u0131\\şt\\u0131rmak$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ço\\ğu kat\\u0131n\\u0131n çözünürlü\\ğü s\\u0131cakl\\u0131kla artar. Kar\\u0131şt\\u0131rma çözünme h\\u0131z\\u0131n\\u0131 art\\u0131r\\u0131r ancak çözünürlü\\ğü etkilemez."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 45 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $135$",
+      "B) $90$",
+      "C) $97$",
+      "D) $45$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 45 \\cdot 2 = 90$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 16 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $16$",
+      "B) $55$",
+      "C) $20$",
+      "D) $80$",
+      "E) $64$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 16 \\cdot 4 = 64$ N·m."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Krebs döngüsünde a\\u015fa\\u011f\\u0131dakilerden hangisi üretilmez?",
+    "options": [
+      "A) Oksijen",
+      "B) FADH₂",
+      "C) NADH",
+      "D) ATP",
+      "E) CO₂"
+    ],
+    "correct_answer": 0,
+    "explanation": "Krebs döngüsünde CO₂, NADH, FADH₂ ve az miktarda ATP üretilir. Oksijen üretilmez."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 26 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $26$",
+      "B) $12$",
+      "C) $52$",
+      "D) $1$",
+      "E) $35$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 26 \\cdot 1 = 26$ N·m."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Denge sabiti K s\\u0131cakl\\u0131ktan ba\\u011f\\u0131ms\\u0131z m\\u0131d\\u0131r?",
+    "options": [
+      "A) $Evet$",
+      "B) $Yaln\\u0131zca gaz faz\\u0131nda de\\u011fi\\u015fir$",
+      "C) $Hay\\u0131r, s\\u0131cakl\\u0131kla de\\u011fi\\u015fir$",
+      "D) $Bas\\u0131nçla de\\u011fi\\u015fir$",
+      "E) $Yaln\\u0131zca s\\u0131v\\u0131 fazda de\\u011fi\\u015fir$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Denge sabiti K sadece s\\u0131cakl\\u0131\\u011fa ba\\u011fl\\u0131d\\u0131r, deri\\u015fim ve bas\\u0131nç de\\u011fi\\u015fimlerinden etkilenmez."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 40 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $88$",
+      "B) $74$",
+      "C) $120$",
+      "D) $80$",
+      "E) $40$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 40 \\cdot 2 = 80$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $7.5$ N",
+      "B) $12$ N",
+      "C) $3$ N",
+      "D) $6$ N",
+      "E) $2$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 3 \\cdot 2 = 6$ N."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Bir nöronda impuls iletimi s\\u0131ras\\u0131nda a\\u015fa\\u011f\\u0131dakilerden hangisi gerçekleşir?",
+    "options": [
+      "A) Cl⁻ iyonlar\\u0131 hücre içine girer",
+      "B) Na⁺ iyonlar\\u0131 hücre içine girer",
+      "C) Ca²⁺ iyonlar\\u0131 hücre d\\u0131ş\\u0131na ç\\u0131kar",
+      "D) K⁺ iyonlar\\u0131 hücre içine girer",
+      "E) Mg²⁺ iyonlar\\u0131 taş\\u0131n\\u0131r"
+    ],
+    "correct_answer": 1,
+    "explanation": "Depolarizasyon s\\u0131ras\\u0131nda Na⁺ kanallar\\u0131 aç\\u0131l\\u0131r ve Na⁺ hücre içine girer."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $1$",
+      "B) $7$",
+      "C) $6$",
+      "D) $12$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 6 = 6$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $50$ N",
+      "B) $25$ N",
+      "C) $7.5$ N",
+      "D) $37.5$ N",
+      "E) $45$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 5 \\cdot 1.5 = 37.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 10 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $15$",
+      "B) $50$",
+      "C) $60$",
+      "D) $10$",
+      "E) $5$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 10 \\cdot 5 = 50$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 14 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $18$",
+      "B) $41$",
+      "C) $56$",
+      "D) $14$",
+      "E) $70$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 14 \\cdot 4 = 56$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $20$",
+      "B) $40$",
+      "C) $10$",
+      "D) $2$",
+      "E) $22$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 10 = 20$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 15 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $49$",
+      "B) $4$",
+      "C) $19$",
+      "D) $60$",
+      "E) $67$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 15 \\cdot 4 = 60$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 26 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $104$",
+      "B) $118$",
+      "C) $130$",
+      "D) $94$",
+      "E) $30$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 26 \\cdot 4 = 104$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $8$",
+      "B) $3$",
+      "C) $6$",
+      "D) $12$",
+      "E) $2$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 3 = 6$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 10 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 15 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $30$",
+      "B) $10$",
+      "C) $15$",
+      "D) $45$",
+      "E) $6$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{30} = \\frac{1}{10} - \\frac{1}{15} \\implies d_i = 30$ cm."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Karbon döngüsünde a\\u015fa\\u011f\\u0131dakilerden hangisi atmosferdeki CO₂ miktar\\u0131n\\u0131 art\\u0131r\\u0131r?",
+    "options": [
+      "A) Okyanuslarda çözünme",
+      "B) Kireçtaş\\u0131 oluşumu",
+      "C) Fotosentez",
+      "D) Fosil yak\\u0131tlar\\u0131n yak\\u0131lmas\\u0131",
+      "E) A\\ğaçland\\u0131rma"
+    ],
+    "correct_answer": 3,
+    "explanation": "Fosil yak\\u0131tlar\\u0131n yak\\u0131lmas\\u0131 atmosfere CO₂ sal\\u0131n\\u0131m\\u0131na neden olur. Fotosentez ise CO₂ tüketir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Fotosentezde aç\\u0131\\u011fa ç\\u0131kan oksijen nereden gelir?",
+    "options": [
+      "A) Sudan (H₂O)",
+      "B) ATP'den",
+      "C) Klorofilden",
+      "D) CO₂'den",
+      "E) Glikozdan"
+    ],
+    "correct_answer": 0,
+    "explanation": "Fotosentezin \\u0131\\u015fa ba\\ğ\\u0131ml\\u0131 tepkimelerinde suyun fotolizi ile oksijen aç\\u0131\\u011fa ç\\u0131kar."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir yay sarkac\\u0131n\\u0131n periyodu T dir. Yay sabiti 4 kat\\u0131na ç\\u0131kar\\u0131l\\u0131rsa yeni periyot kaç T olur?",
+    "options": [
+      "A) $$T$$",
+      "B) $$\\frac{T}{4}$$",
+      "C) $$4T$$",
+      "D) $$2T$$",
+      "E) $$\\frac{T}{2}$$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$T \\propto \\frac{1}{\\sqrt{k}}$ oldu\\u011fundan k 4 kat\\u0131na ç\\u0131karsa $T' = \\frac{T}{2}$ olur."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $27$ N",
+      "B) $4.5$ N",
+      "C) $22.5$ N",
+      "D) $30$ N",
+      "E) $7.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 3 \\cdot 1.5 = 22.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $2$ N",
+      "B) $17.5$ N",
+      "C) $14$ N",
+      "D) $28$ N",
+      "E) $3.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 7 \\cdot 0.5 = 14$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 11 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $55$",
+      "B) $41$",
+      "C) $5$",
+      "D) $16$",
+      "E) $66$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 11 \\cdot 5 = 55$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 20 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 40 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $20$",
+      "B) $13.333333333333334$",
+      "C) $20$",
+      "D) $60$",
+      "E) $40$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{40} = \\frac{1}{20} - \\frac{1}{40} \\implies d_i = 40$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir basit harmonik harekette geri ça\\u011f\\u0131r\\u0131c\\u0131 kuvvetin büyüklü\\u011fü a\\u015fa\\u011f\\u0131dakilerden hangisiyle orant\\u0131l\\u0131d\\u0131r?",
+    "options": [
+      "A) $Genlik$",
+      "B) $H\\u0131z$",
+      "C) $Uzan\\u0131m$",
+      "D) $Frekans$",
+      "E) $\\u0130vme$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Basit harmonik harekette $F = -kx$ oldu\\u011fundan geri ça\\u011f\\u0131r\\u0131c\\u0131 kuvvet uzan\\u0131mla do\\u011fru orant\\u0131l\\u0131d\\u0131r."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 18 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $80$",
+      "B) $72$",
+      "C) $60$",
+      "D) $22$",
+      "E) $90$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 18 \\cdot 4 = 72$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $60$",
+      "C) $30$",
+      "D) $33$",
+      "E) $10$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 10 = 30$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 20 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 60 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $30$",
+      "B) $20$",
+      "C) $60$",
+      "D) $15$",
+      "E) $15$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{30} = \\frac{1}{20} - \\frac{1}{60} \\implies d_i = 30$ cm."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "A\\u015fa\\u011f\\u0131dakilerden hangisi bir esterdir?",
+    "options": [
+      "A) CH₃COOCH₂CH₃",
+      "B) CH₃CH₂COOH",
+      "C) CH₃CH₂CHO",
+      "D) CH₃CH₂OH",
+      "E) CH₃COCH₃"
+    ],
+    "correct_answer": 0,
+    "explanation": "CH₃COOCH₂CH₃ (etil asetat) bir esterdir. Esterler -COO- grubu içerir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $27$ N",
+      "B) $18$ N",
+      "C) $9$ N",
+      "D) $27$ N",
+      "E) $2$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 9 \\cdot 1 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $28$",
+      "C) $21$",
+      "D) $7$",
+      "E) $3$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 7 = 21$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $2$ N",
+      "B) $4$ N",
+      "C) $1$ N",
+      "D) $3$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 2 \\cdot 1 = 2$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $24$ N",
+      "B) $4$ N",
+      "C) $30$ N",
+      "D) $12$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 6 \\cdot 2 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 11 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $13$",
+      "B) $22$",
+      "C) $7$",
+      "D) $2$",
+      "E) $34$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 11 \\cdot 2 = 22$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $4$",
+      "B) $2$",
+      "C) $8$",
+      "D) $10$",
+      "E) $12$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 4 = 8$ V."
   }
 ]

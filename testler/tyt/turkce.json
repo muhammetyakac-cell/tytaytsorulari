@@ -2,113 +2,1104 @@
   {
     "sub_category": "sozcuk-anlami",
     "question": "\"Bu roman, yazarın en olgun dönem ürünüdür.\" cümlesindeki \"ürün\" sözcüğünün cümleye kattığı anlam aşağıdakilerden hangisidir?",
-    "options": ["A) Eser", "B) Kazanç", "C) Ticari mal", "D) Servet", "E) Getiri"],
+    "options": [
+      "A) Eser",
+      "B) Kazanç",
+      "C) Ticari mal",
+      "D) Servet",
+      "E) Getiri"
+    ],
     "correct_answer": 0,
     "explanation": "\"Ürün\" sözcüğü bu cümlede \"eser, yapıt\" anlamında kullanılmıştır. Yazarın ortaya koyduğu sanatsal çalışma kastedilmektedir."
   },
   {
     "sub_category": "sozcuk-anlami",
     "question": "Aşağıdaki cümlelerin hangisinde \"derin\" sözcüğü mecaz anlamda kullanılmıştır?",
-    "options": ["A) Kuyunun derinliği on metreyi buluyor.", "B) Derin bir nefes alıp konuşmaya başladı.", "C) Bu konuda derin bir bilgiye sahip değilim.", "D) Denizin bu bölümü oldukça derin.", "E) Yaranın derinliği doktoru endişelendirdi."],
+    "options": [
+      "A) Kuyunun derinliği on metreyi buluyor.",
+      "B) Derin bir nefes alıp konuşmaya başladı.",
+      "C) Bu konuda derin bir bilgiye sahip değilim.",
+      "D) Denizin bu bölümü oldukça derin.",
+      "E) Yaranın derinliği doktoru endişelendirdi."
+    ],
     "correct_answer": 2,
     "explanation": "\"Derin\" sözcüğü C seçeneğinde \"yoğun, kapsamlı\" anlamında mecaz olarak kullanılmıştır. Diğer seçeneklerde gerçek anlamındadır."
   },
   {
     "sub_category": "sozcuk-anlami",
     "question": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük terim anlamıyla kullanılmıştır?",
-    "options": ["A) (Köşe) başında buluşmayı planladık.", "B) Konserde en (üst) balkonda oturduk.", "C) Bu (dize) bir şiirin en etkileyici bölümüydü.", "D) Sınıfın (arka) sıralarında oturmayı severdi.", "E) Defterin (kenar) kısmı yırtılmıştı."],
+    "options": [
+      "A) (Köşe) başında buluşmayı planladık.",
+      "B) Konserde en (üst) balkonda oturduk.",
+      "C) Bu (dize) bir şiirin en etkileyici bölümüydü.",
+      "D) Sınıfın (arka) sıralarında oturmayı severdi.",
+      "E) Defterin (kenar) kısmı yırtılmıştı."
+    ],
     "correct_answer": 2,
     "explanation": "\"Dize\" sözcüğü edebiyat terimi olarak \"mısra\" anlamında kullanıldığı için terim anlamlıdır."
   },
   {
     "sub_category": "cumle-anlami",
     "question": "Aşağıdaki cümlelerin hangisinde \"amaç-sonuç\" ilişkisi vardır?",
-    "options": ["A) Yağmur yağdığı için maç ertelendi.", "B) Sınava iyi hazırlanmak için çok çalıştı.", "C) Arabayı yıkadı ama hava tekrar bulutlandı.", "D) Ödevini bitirince arkadaşlarıyla oynadı.", "E) Araba kullanmayı öğrendi ancak ehliyet almadı."],
+    "options": [
+      "A) Yağmur yağdığı için maç ertelendi.",
+      "B) Sınava iyi hazırlanmak için çok çalıştı.",
+      "C) Arabayı yıkadı ama hava tekrar bulutlandı.",
+      "D) Ödevini bitirince arkadaşlarıyla oynadı.",
+      "E) Araba kullanmayı öğrendi ancak ehliyet almadı."
+    ],
     "correct_answer": 1,
     "explanation": "B seçeneğinde \"için\" edatı amaç bildirmektedir: \"Sınava iyi hazırlanmak\" amaç, \"çok çalışmak\" sonuçtur."
   },
   {
     "sub_category": "cumle-anlami",
     "question": "\"Bu roman, sadece gençlerin değil yetişkinlerin de ilgisini çekebilecek bir eser.\" cümlesindeki anlam ilişkisi aşağıdakilerden hangisidir?",
-    "options": ["A) Karşılaştırma", "B) Koşul", "C) Neden-sonuç", "D) Amaç-sonuç", "E) Varsayım"],
+    "options": [
+      "A) Karşılaştırma",
+      "B) Koşul",
+      "C) Neden-sonuç",
+      "D) Amaç-sonuç",
+      "E) Varsayım"
+    ],
     "correct_answer": 0,
     "explanation": "Gençler ve yetişkinler karşılaştırılmaktadır. Romanın her iki grubun da ilgisini çekebileceği belirtilmektedir."
   },
   {
     "sub_category": "cumle-anlami",
     "question": "\"Söylediklerine bakılırsa, onun da bu konuda pek bir fikri yok.\" cümlesinde aşağıdaki anlamlardan hangisi vardır?",
-    "options": ["A) Küçümseme", "B) Varsayım", "C) Tahmin", "D) Kesinlik", "E) Olasılık"],
+    "options": [
+      "A) Küçümseme",
+      "B) Varsayım",
+      "C) Tahmin",
+      "D) Kesinlik",
+      "E) Olasılık"
+    ],
     "correct_answer": 2,
     "explanation": "\"Bakılırsa\" ifadesi bir çıkarım ve tahmin anlamı taşımaktadır."
   },
   {
     "sub_category": "paragraf",
     "question": "Sanat, insanın kendini ifade etme biçimlerinden yalnızca biridir. Ancak diğer ifade biçimlerinden farklı olarak sanat, evrensel bir dil kullanır. Bir resim, bir heykel ya da bir müzik eseri, hangi kültürden olursa olsun her insana aynı duyguyu yaşatabilir. Bu yönüyle sanat, insanlığın ortak mirasıdır.\n\nBu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
-    "options": ["A) Sanat, kültürden kültüre değişen bir olgudur.", "B) Her insan aynı sanat eserinden farklı duygular hisseder.", "C) Sanatın en önemli özelliği evrensel olmasıdır.", "D) Sanat eserleri yalnızca belirli bir kitleye hitap eder.", "E) Kültürler arası iletişimde dil en önemli araçtır."],
+    "options": [
+      "A) Sanat, kültürden kültüre değişen bir olgudur.",
+      "B) Her insan aynı sanat eserinden farklı duygular hisseder.",
+      "C) Sanatın en önemli özelliği evrensel olmasıdır.",
+      "D) Sanat eserleri yalnızca belirli bir kitleye hitap eder.",
+      "E) Kültürler arası iletişimde dil en önemli araçtır."
+    ],
     "correct_answer": 2,
     "explanation": "Parçada sanatın evrensel bir dil kullandığı ve insanlığın ortak mirası olduğu vurgulanmaktadır."
   },
   {
     "sub_category": "paragraf",
     "question": "Günümüzde bilgiye ulaşmak hiç olmadığı kadar kolay. Ancak asıl mesele, bu bilgi yığını içinden doğru olanı seçebilmek. İnternette her gün milyonlarca yeni içerik yayımlanıyor. Bunların bir kısmı doğru ve güvenilirken, bir kısmı yanıltıcı olabiliyor. Bu nedenle bilgi okuryazarlığı, 21. yüzyılın en önemli becerilerinden biri haline gelmiştir.\n\nBu parçaya göre, bilgi okuryazarlığının önemi neye dayandırılmaktadır?",
-    "options": ["A) Bilginin herkes tarafından üretilebilmesine", "B) İnternetin daha fazla kullanılmasına", "C) Doğru bilgi ile yanlış bilginin bir arada bulunmasına", "D) Bilginin güncellenme hızının artmasına", "E) İnsanların bilgiye ücretsiz erişebilmesine"],
+    "options": [
+      "A) Bilginin herkes tarafından üretilebilmesine",
+      "B) İnternetin daha fazla kullanılmasına",
+      "C) Doğru bilgi ile yanlış bilginin bir arada bulunmasına",
+      "D) Bilginin güncellenme hızının artmasına",
+      "E) İnsanların bilgiye ücretsiz erişebilmesine"
+    ],
     "correct_answer": 2,
     "explanation": "Doğru ve yanlış bilginin bir arada bulunması, bilgi okuryazarlığını önemli hale getirmiştir."
   },
   {
     "sub_category": "paragraf",
     "question": "(I) Edebiyat, toplumun bir aynasıdır. (II) Her dönemin edebiyatı, o dönemin sosyal ve kültürel özelliklerini yansıtır. (III) Bu nedenle bir dönemi anlamak için o dönemin edebi eserlerini incelemek yeterlidir. (IV) Ancak edebiyat, toplumu yalnızca yansıtmakla kalmaz, onu şekillendirir. (V) Toplumsal değişimlerin öncüsü olan yazarlar, eserleriyle kitleleri etkilemiştir.\n\nBu parçadaki numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
-    "options": ["A) I", "B) II", "C) III", "D) IV", "E) V"],
+    "options": [
+      "A) I",
+      "B) II",
+      "C) III",
+      "D) IV",
+      "E) V"
+    ],
     "correct_answer": 2,
     "explanation": "III. cümledeki \"yeterlidir\" ifadesi kesin ve abartılı bir yargıdır, parçanın akışına uymaz."
   },
   {
     "sub_category": "paragraf",
     "question": "Bir dilin zenginliği, o dilin sözcük sayısıyla değil, anlatım olanaklarıyla ölçülür. Türkçe, bu açıdan son derece zengin bir dildir. Deyimler, atasözleri ve mecazlı anlatımlar sayesinde aynı düşünceyi pek çok farklı biçimde ifade edebiliriz.\n\nBu parçada Türkçenin hangi özelliği vurgulanmaktadır?",
-    "options": ["A) Sözcük sayısının fazla olması", "B) Tarihsel kökeninin eski olması", "C) Anlatım gücünün yüksek olması", "D) Yabancı dillerden etkilenmesi", "E) Dil bilgisi kurallarının karmaşık olması"],
+    "options": [
+      "A) Sözcük sayısının fazla olması",
+      "B) Tarihsel kökeninin eski olması",
+      "C) Anlatım gücünün yüksek olması",
+      "D) Yabancı dillerden etkilenmesi",
+      "E) Dil bilgisi kurallarının karmaşık olması"
+    ],
     "correct_answer": 2,
     "explanation": "Türkçenin anlatım gücünün yüksek olduğu vurgulanmıştır."
   },
   {
     "sub_category": "paragraf",
     "question": "Şehir hayatı, insanlara birçok kolaylık sunuyor olsa da beraberinde sorunlar da getirmektedir. Bunların başında, doğal çevreden uzaklaşma ve sürekli bir koşturma içinde olma hali geliyor. Oysa insan, doğayla iç içe olduğunda kendini daha huzurlu hissetmektedir.\n\nBu parçadan aşağıdakilerden hangisi çıkarılamaz?",
-    "options": ["A) Şehir hayatının zorlukları vardır.", "B) İnsanlar doğal ortamlarda daha huzurlu olur.", "C) Şehirler her geçen gün daha kalabalıklaşmaktadır.", "D) Şehir hayatı bazı kolaylıklar sağlamaktadır.", "E) Doğadan uzaklaşmak şehir hayatının bir sonucudur."],
+    "options": [
+      "A) Şehir hayatının zorlukları vardır.",
+      "B) İnsanlar doğal ortamlarda daha huzurlu olur.",
+      "C) Şehirler her geçen gün daha kalabalıklaşmaktadır.",
+      "D) Şehir hayatı bazı kolaylıklar sağlamaktadır.",
+      "E) Doğadan uzaklaşmak şehir hayatının bir sonucudur."
+    ],
     "correct_answer": 2,
     "explanation": "Parçada şehirlerin kalabalıklaşmasından söz edilmemektedir."
   },
   {
     "sub_category": "paragraf",
     "question": "Günümüz dünyasında teknolojiye bağımlı bir yaşam sürüyoruz. Uyandığımız andan itibaren telefonlarımıza bakıyor, sosyal medyada vakit geçiriyoruz. Peki bu durum, bizi gerçek hayattan koparmıyor mu? Yapılan araştırmalar, teknoloji bağımlılığının özellikle gençler arasında yalnızlık hissini artırdığını gösteriyor.\n\nBu parçada aşağıdakilerden hangisine değinilmemiştir?",
-    "options": ["A) Teknolojinin günlük hayatın bir parçası olduğuna", "B) Teknoloji bağımlılığının olumsuz etkilerine", "C) Sosyal medya kullanımının yaş sınırına", "D) Gençlerin teknolojiden etkilendiğine", "E) Teknolojinin iş hayatında kullanıldığına"],
+    "options": [
+      "A) Teknolojinin günlük hayatın bir parçası olduğuna",
+      "B) Teknoloji bağımlılığının olumsuz etkilerine",
+      "C) Sosyal medya kullanımının yaş sınırına",
+      "D) Gençlerin teknolojiden etkilendiğine",
+      "E) Teknolojinin iş hayatında kullanıldığına"
+    ],
     "correct_answer": 2,
     "explanation": "Parçada sosyal medya kullanımı için yaş sınırı belirtilmemiştir."
   },
   {
     "sub_category": "paragraf",
     "question": "Kitap okumak, insanın kelime dağarcığını geliştirir, düşünme becerisini artırır ve empati yeteneğini güçlendirir. Ancak günümüzde insanlar kitap okumaya yeterince vakit ayırmamaktadır. Özellikle dijital medyanın yaygınlaşmasıyla birlikte okuma alışkanlığı giderek azalmaktadır.\n\nBu parçanın anahtar sözcükleri aşağıdakilerden hangisidir?",
-    "options": ["A) Teknoloji, başarı, bilim", "B) Kitap, okuma, alışkanlık", "C) Dijital, medya, yaygınlaşma", "D) Empati, düşünce, gelişim", "E) Alışkanlık, başarı, zaman"],
+    "options": [
+      "A) Teknoloji, başarı, bilim",
+      "B) Kitap, okuma, alışkanlık",
+      "C) Dijital, medya, yaygınlaşma",
+      "D) Empati, düşünce, gelişim",
+      "E) Alışkanlık, başarı, zaman"
+    ],
     "correct_answer": 1,
     "explanation": "Parçada kitap okumanın önemi ve okuma alışkanlığının azalması ele alınmaktadır."
   },
   {
     "sub_category": "dil-bilgisi",
     "question": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
-    "options": ["A) Yarınki toplantıya katılacak mısın?", "B) Her şey yolunda gidiyordu ki bir anda herşey değişti.", "C) Hiçbir şey eskisi gibi olmayacak.", "D) Arkadaşım da bizimle gelecekmiş.", "E) Önümüzdeki hafta İzmir'e gidiyoruz."],
+    "options": [
+      "A) Yarınki toplantıya katılacak mısın?",
+      "B) Her şey yolunda gidiyordu ki bir anda herşey değişti.",
+      "C) Hiçbir şey eskisi gibi olmayacak.",
+      "D) Arkadaşım da bizimle gelecekmiş.",
+      "E) Önümüzdeki hafta İzmir'e gidiyoruz."
+    ],
     "correct_answer": 1,
     "explanation": "\"Her şey\" ayrı yazılırken \"hiçbir\" bitişik yazılır. B seçeneğindeki \"herşey\" yanlış yazılmıştır."
   },
   {
     "sub_category": "dil-bilgisi",
     "question": "Aşağıdaki cümlelerin hangisinde noktalama yanlışı vardır?",
-    "options": ["A) Ali, Ayşe ve Mehmet sinemaya gittiler.", "B) Ankara'ya; İstanbul'a ve İzmir'e gidecek.", "C) Peki, sen ne düşünüyorsun?", "D) Kitabı okudum ama hiçbir şey anlamadım.", "E) Yaşlı adam: \"Merhaba evlat!\" dedi."],
+    "options": [
+      "A) Ali, Ayşe ve Mehmet sinemaya gittiler.",
+      "B) Ankara'ya; İstanbul'a ve İzmir'e gidecek.",
+      "C) Peki, sen ne düşünüyorsun?",
+      "D) Kitabı okudum ama hiçbir şey anlamadım.",
+      "E) Yaşlı adam: \"Merhaba evlat!\" dedi."
+    ],
     "correct_answer": 1,
     "explanation": "Sıralı cümlelerde noktalı virgül değil virgül kullanılmalıdır."
   },
   {
     "sub_category": "dil-bilgisi",
     "question": "\"Bu —— kitapları okumayan, edebiyat ——— tam anlamıyla kavrayamaz.\" cümlesinde boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?",
-    "options": ["A) -nın, -ını", "B) -nun, -i", "C) -nun, -ı", "D) -nun, -ını", "E) -nun, -in"],
+    "options": [
+      "A) -nın, -ını",
+      "B) -nun, -i",
+      "C) -nun, -ı",
+      "D) -nun, -ını",
+      "E) -nun, -in"
+    ],
     "correct_answer": 3,
     "explanation": "\"Bu\" işaret sıfatı \"kitaplar\" sözcüğünü nitelediği için \"-nun\" tamlayan eki alır."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"erken\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) erken saat",
+      "B) geç",
+      "C) sabah",
+      "D) demin",
+      "E) vaktinden önce"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"erken\" sözcüğünün zıt anlamlısı \"geç\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "\"Yaşanmış veya yaşanabilir olayların kısa anlatımı.\"\nBu tanıma uygun sözcüğün yakın anlamlısı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) hikâye",
+      "B) masal",
+      "C) roman",
+      "D) şiir",
+      "E) destan"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"öykü\" sözcüğünün yakın anlamlısı \"hikâye\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"Dil dökmek\" deyiminin anlamıdır?",
+    "options": [
+      "A) kitap okumak",
+      "B) ikna etmeye çalışmak",
+      "C) şarkı söylemek",
+      "D) spor yapmak",
+      "E) yemek yapmak"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"Dil dökmek\" deyimi \"ikna etmeye çalışmak\" anlamına gelir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Başarı, tesadüflere değil, planlı ve disiplinli çalışmaya bağlıdır.\"\nBu cümleden aşağıdakilerden hangisi çıkarılabilir?",
+    "options": [
+      "A) Başarılı olmak için düzenli çalışma programı izlenmelidir.",
+      "B) Disiplin başarıyı olumsuz etkiler.",
+      "C) Başarı için çalışmak gerekmez.",
+      "D) Başarılı insanlar plan yapmaz.",
+      "E) Başarı tamamen şansa bağlıdır."
+    ],
+    "correct_answer": 0,
+    "explanation": "Cümlede vurgulanan: \"Başarılı olmak için düzenli çalışma programı izlenmelidir.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Sanatçı, eserlerinde toplumun sorunlarına duyarsız kalamaz, çünkü o...\"\nBu cümle aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) yalnızca kendi duygularını anlatmalıdır.",
+      "B) herkesten üstün bir varlıktır.",
+      "C) parayla çalışmaktadır.",
+      "D) sadece doğayı betimlemelidir.",
+      "E) toplumun bir parçasıdır ve ondan etkilenir."
+    ],
+    "correct_answer": 4,
+    "explanation": "Anlam bütünlüğü: \"toplumun bir parçasıdır ve ondan etkilenir.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "I. Sınavı kazanmak istiyorsan çalışmalısın.\nII. Ancak bunun için yeterli zamanın yok.\nBu iki cümle arasındaki anlam ilişkisi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Amaç-sonuç",
+      "B) Benzerlik",
+      "C) Neden-sonuç",
+      "D) Tezat",
+      "E) Örneklendirme"
+    ],
+    "correct_answer": 3,
+    "explanation": "Anlam ilişkisi: Tezat."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Sosyal medya, bireylerin kendini ifade etme biçimini değiştirmiştir.\nİnsanlar duygu ve düşüncelerini anlık paylaşımlarla ifade etmekte, beğenilme kaygısıyla hareket etmektedir.\nBu durum gençler arasında kimlik bunalımına yol açabilmektedir.\nBu parçanın konusu aşağıdakilerden hangisidir?",
+    "options": [
+      "A) İletişim araçlarının tarihi",
+      "B) Gençlik sorunları",
+      "C) Sosyal medyanın birey üzerindeki etkileri",
+      "D) Dijital pazarlama",
+      "E) Sosyal medya platformları"
+    ],
+    "correct_answer": 2,
+    "explanation": "Parçanın konusu: Sosyal medyanın birey üzerindeki etkileri"
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Başarıya ulaşmanın tek bir yolu yoktur.\nKimi çalışarak, kimi şansla, kimi de çevresinin desteğiyle başarılı olur.\nÖnemli olan herkesin kendi yolunu bulması ve azimle ilerlemesidir.\nBu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Çevre desteği olmadan başarı mümkün değildir.",
+      "B) Azim tek başına yeterlidir.",
+      "C) Başarı yalnızca çalışarak kazanılır.",
+      "D) Başarı kişiden kişiye değişen farklı yollarla elde edilebilir.",
+      "E) Şans başarının en önemli unsurudur."
+    ],
+    "correct_answer": 3,
+    "explanation": "Ana düşünce: \"Başarı kişiden kişiye değişen farklı yollarla elde edilebilir.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Edebiyat, toplumun nabzını tutar.\nİyi bir yazar, yaşadığı dönemin sosyal ve kültürel olaylarına duyarsız kalamaz.\nEserlerinde bu olayları işler, okuyucuya bir ayna tutar.\nBu parçada aşağıdakilerden hangisine değinilmemiştir?",
+    "options": [
+      "A) Yazarlar sosyal olaylara ilgisiz kalamaz.",
+      "B) İyi bir yazar döneminin tanığıdır.",
+      "C) Edebiyat eserleri topluma ayna tutar.",
+      "D) Edebiyat toplumsal olaylardan etkilenir.",
+      "E) Yazarlar eserlerinde sadece kendi hayatlarını anlatır."
+    ],
+    "correct_answer": 4,
+    "explanation": "Parçada değinilmemiştir: \"Yazarlar eserlerinde sadece kendi hayatlarını anlatır.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Müzik, insan ruhunun en derin duygularına hitap eden bir sanattır. Her kültürün kendine özgü müzik anlayışı vardır. Bu müzikler o kültürün tarihini, acılarını ve sevinçlerini yansıtır. Bu yönüyle müzik...\nBu parça aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) kültürlerin hafızası niteliği taşır.",
+      "B) sadece eğlence amaçlıdır.",
+      "C) en eski sanat dalıdır.",
+      "D) modern dünyada önemini kaybetmiştir.",
+      "E) her toplumda aynıdır."
+    ],
+    "correct_answer": 0,
+    "explanation": "Anlam bütünlüğü: \"kültürlerin hafızası niteliği taşır.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "(I) Sağlıklı bir yaşam için dengeli beslenmek şarttır.\n(II) Vitamin ve mineral açısından zengin gıdalar tüketmek vücudun ihtiyaçlarını karşılar.\n(III) Bunun yanında düzenli egzersiz yapmak da önemlidir.\n(IV) Günümüzde fast food kültürü sağlıklı beslenmeyi zorlaştırmaktadır.\n(V) Büyük şehirlerde insanlar sağlıklı gıdaya ulaşmakta zorlanmaktadır.\nBu parça iki paragrafa bölünmek istense ikinci paragraf nerede başlar?",
+    "options": [
+      "A) IV. cümleden itibaren",
+      "B) III. cümleden itibaren",
+      "C) V. cümleden itibaren",
+      "D) II. cümleden itibaren",
+      "E) I. cümleden itibaren"
+    ],
+    "correct_answer": 0,
+    "explanation": "İkinci paragraf IV. cümleyle başlar."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Çocuklar bahçede neşeyle oynuyor.\"\nAltı çizili \"neşeyle\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) sıfat",
+      "B) zarf",
+      "C) isim",
+      "D) zamir",
+      "E) fiil"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"neşeyle\" sözcüğü \"zarf\" türündedir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Öğretmen, öğrencilere ödevlerini dikkatlice anlattı.\"\nBu cümledeki zarf tümleci aşağıdakilerden hangisidir?",
+    "options": [
+      "A) ödevlerini",
+      "B) öğrencilere",
+      "C) anlattı",
+      "D) Öğretmen",
+      "E) dikkatlice"
+    ],
+    "correct_answer": 4,
+    "explanation": "Cümledeki zarf tümleci: \"dikkatlice\""
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Aşağıdaki cümlelerin hangisinde bir yazım yanlışı vardır?",
+    "options": [
+      "A) Bende seninle gelmek istiyorum.",
+      "B) Ben de seninle gelmek istiyorum.",
+      "C) Bende seninle gelmek istiyorum."
+    ],
+    "correct_answer": 1,
+    "explanation": "Doğru yazım: \"Ben de seninle gelmek istiyorum.\". Yaygın hata: de / -de."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Noktalama yanlışı olan cümle hangisidir? (Yarın mı geliyorsun?)",
+    "options": [
+      "A) \"Yarın\"dan sonra virgül olmalıdır",
+      "B) Cümle ünlemle bitmelidir",
+      "C) \"mı\" ayrı yazılmamalıdır",
+      "D) Cümlede noktalama yanlışı yoktur",
+      "E) Soru ekinden sonra soru işareti gelmez"
+    ],
+    "correct_answer": 3,
+    "explanation": "\"Yarın mı geliyorsun?\" → Cümlede noktalama yanlışı yoktur"
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"özlem\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) ilgisizlik",
+      "B) hasret",
+      "C) nefret",
+      "D) bıkkınlık",
+      "E) soğukluk"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"özlem\" sözcüğünün eş anlamlısı \"hasret\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"zor\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) kolay",
+      "B) çetrefilli",
+      "C) güç",
+      "D) karmaşık",
+      "E) çetin"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"zor\" sözcüğünün zıt anlamlısı \"kolay\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "\"Maddi olanakları kısıtlı olan.\"\nBu tanıma uygun sözcüğün yakın anlamlısı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) fakir",
+      "B) gönenc",
+      "C) varsıl",
+      "D) zengin",
+      "E) varlıklı"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"yoksul\" sözcüğünün yakın anlamlısı \"fakir\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"Göz boyamak\" deyiminin anlamıdır?",
+    "options": [
+      "A) gözlük takmak",
+      "B) renklendirmek",
+      "C) resim çizmek",
+      "D) makyaj yapmak",
+      "E) yanıltmak"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"Göz boyamak\" deyimi \"yanıltmak\" anlamına gelir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Sanat, toplumun aynasıdır; toplumda ne varsa sanatta onu görürüz.\"\nBu cümleden aşağıdakilerden hangisi çıkarılabilir?",
+    "options": [
+      "A) Her sanat eseri toplumu yansıtmaz.",
+      "B) Sanat ve toplum arasında çatışma vardır.",
+      "C) Sanatçı toplumu yönlendirir.",
+      "D) Sanat toplumdan bağımsızdır.",
+      "E) Sanat, toplumsal gerçeklikten beslenir."
+    ],
+    "correct_answer": 4,
+    "explanation": "Cümlede vurgulanan: \"Sanat, toplumsal gerçeklikten beslenir.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Eğitim sistemimiz ezberci anlayıştan uzaklaşmalı, bunun yerine...\"\nBu cümle aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) ezber daha da artırılmalıdır.",
+      "B) öğrenciler serbest bırakılmalıdır.",
+      "C) öğrencilere eleştirel düşünme becerisi kazandırılmalıdır.",
+      "D) sınavlar kaldırılmalıdır.",
+      "E) okullar kapatılmalıdır."
+    ],
+    "correct_answer": 2,
+    "explanation": "Anlam bütünlüğü: \"öğrencilere eleştirel düşünme becerisi kazandırılmalıdır.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "I. Son zamanlarda kitap okuma oranı azalıyor.\nII. Buna karşılık sosyal medyada geçirilen süre artıyor.\nBu iki cümle arasındaki anlam ilişkisi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Tezat",
+      "B) Koşul",
+      "C) Neden-sonuç",
+      "D) Benzerlik",
+      "E) Amaç-sonuç"
+    ],
+    "correct_answer": 0,
+    "explanation": "Anlam ilişkisi: Tezat."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Şehir hayatının yoğun temposu insanları doğadan uzaklaştırmaktadır.\nBeton yığınları arasında sıkışan insanlar, hafta sonlarında doğal alanlara kaçış aramaktadır.\nBu durum, doğa turizminin popüler hâle gelmesine yol açmaktadır.\nBu parçanın konusu aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Hafta sonu aktiviteleri",
+      "B) Turizm çeşitleri",
+      "C) Doğanın korunması",
+      "D) Şehir hayatından doğaya yöneliş",
+      "E) Şehir planlaması"
+    ],
+    "correct_answer": 3,
+    "explanation": "Parçanın konusu: Şehir hayatından doğaya yöneliş"
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Dil, canlı bir varlıktır; doğar, büyür, gelişir ve değişir.\nKelimeler zamanla anlam genişlemesine uğrar, yenileri türetilir, bazıları unutulur.\nBir dili canlı tutmak için onu yaşatmak, kullanmak ve geliştirmek gerekir.\nBu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Her dil aynı hızla değişir.",
+      "B) Dil değişmez bir yapıdır.",
+      "C) Eski kelimeler tamamen yok olur.",
+      "D) Dilin canlılığı, sürekli kullanılmasına ve geliştirilmesine bağlıdır.",
+      "E) Dil sadece yazılı olarak varlığını sürdürür."
+    ],
+    "correct_answer": 3,
+    "explanation": "Ana düşünce: \"Dilin canlılığı, sürekli kullanılmasına ve geliştirilmesine bağlıdır.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "(I) Edebiyat, insanın kendini ifade etme biçimi olmuştur.\n(II) İlk çağlardaki mağara resimlerinden günümüz romanlarına kadar bu ifade biçimi hep var olmuştur.\n(III) Ancak teknolojinin gelişmesiyle edebiyat da dijitalleşmeye başlamıştır.\n(IV) Artık birçok eser dijital ortamda yayımlanmaktadır.\n(V) Bu durum edebiyatın geleceği hakkında tartışmaları beraberinde getirmiştir.\nBu parça iki paragrafa bölünmek istense ikinci paragraf nerede başlar?",
+    "options": [
+      "A) III. cümleden itibaren",
+      "B) I. cümleden itibaren",
+      "C) II. cümleden itibaren",
+      "D) IV. cümleden itibaren",
+      "E) V. cümleden itibaren"
+    ],
+    "correct_answer": 0,
+    "explanation": "İkinci paragraf III. cümleyle başlar."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Kardeşim çok hızlı koşuyor.\"\nAltı çizili \"koşuyor\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) sıfat",
+      "B) fiil",
+      "C) isim",
+      "D) zamir",
+      "E) zarf"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"koşuyor\" sözcüğü \"fiil\" türündedir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Ali, yeni aldığı kitabı heyecanla okumaya başladı.\"\nBu cümledeki yüklem aşağıdakilerden hangisidir?",
+    "options": [
+      "A) kitabı",
+      "B) Ali",
+      "C) heyecanla",
+      "D) okumaya başladı",
+      "E) yeni aldığı kitabı"
+    ],
+    "correct_answer": 3,
+    "explanation": "Cümledeki yüklem: \"okumaya başladı\""
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Noktalama yanlışı olan cümle hangisidir? (Sana bir şey söyleyeceğim: dinler misin?)",
+    "options": [
+      "A) İki noktadan sonra büyük harf gelmelidir",
+      "B) İki nokta doğru kullanılmıştır",
+      "C) İki nokta yerine noktalı virgül olmalıdır",
+      "D) Cümlede noktalama yanlışı vardır",
+      "E) İki nokta yerine virgül konmalıdır"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"Sana bir şey söyleyeceğim: dinler misin?\" → İki nokta doğru kullanılmıştır"
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"görev\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) vazife",
+      "B) tatil",
+      "C) boş",
+      "D) hak",
+      "E) izin"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"görev\" sözcüğünün eş anlamlısı \"vazife\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"soğuk\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) serin",
+      "B) ılık",
+      "C) buz gibi",
+      "D) sıcak",
+      "E) dondurucu"
+    ],
+    "correct_answer": 3,
+    "explanation": "\"soğuk\" sözcüğünün zıt anlamlısı \"sıcak\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "\"Bir topluluğu yönlendiren kimse.\"\nBu tanıma uygun sözcüğün yakın anlamlısı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) sekreter",
+      "B) yönetici",
+      "C) çalışan",
+      "D) üye",
+      "E) lider"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"önder\" sözcüğünün yakın anlamlısı \"lider\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"İpe un sermek\" deyiminin anlamıdır?",
+    "options": [
+      "A) yemek pişirmek",
+      "B) çamaşır yıkamak",
+      "C) temizlik yapmak",
+      "D) bir işi yapmamak için bahane bulmak",
+      "E) alışveriş yapmak"
+    ],
+    "correct_answer": 3,
+    "explanation": "\"İpe un sermek\" deyimi \"bir işi yapmamak için bahane bulmak\" anlamına gelir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Okumak, insanın ufkunu genişleten en etkili yoldur.\"\nBu cümleden aşağıdakilerden hangisi çıkarılabilir?",
+    "options": [
+      "A) En iyi öğrenme yöntemi dinlemektir.",
+      "B) Sadece kitaplar insanı geliştirir.",
+      "C) Okuma alışkanlığı bireye geniş bir perspektif kazandırır.",
+      "D) Okumak zaman kaybıdır.",
+      "E) Okuma alışkanlığı doğuştandır."
+    ],
+    "correct_answer": 2,
+    "explanation": "Cümlede vurgulanan: \"Okuma alışkanlığı bireye geniş bir perspektif kazandırır.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Kitap okumak insanın hayal dünyasını geliştirir, ayrıca...\"\nBu cümle aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) pahalı bir hobidir.",
+      "B) zaman kaybettirir.",
+      "C) insanı yalnızlaştırır.",
+      "D) göz sağlığını bozar.",
+      "E) kelime dağarcığını da zenginleştirir."
+    ],
+    "correct_answer": 4,
+    "explanation": "Anlam bütünlüğü: \"kelime dağarcığını da zenginleştirir.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "I. Düzenli egzersiz yapmak sağlığımızı korur.\nII. Bu nedenle her gün yürüyüş yapmalıyız.\nBu iki cümle arasındaki anlam ilişkisi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Amaç-sonuç",
+      "B) Koşul",
+      "C) Benzerlik",
+      "D) Neden-sonuç",
+      "E) Tezat"
+    ],
+    "correct_answer": 3,
+    "explanation": "Anlam ilişkisi: Neden-sonuç."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Günümüzde teknoloji, hayatımızın her alanına girmiş durumdadır.\nÖzellikle akıllı telefonlar hayatımızı kolaylaştırırken bir yandan da bağımlılık yaratmaktadır.\nİnsanlar sürekli telefonlarıyla meşgul olmakta, yüz yüze iletişim giderek azalmaktadır.\nBu parçanın konusu aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Yüz yüze iletişimin önemi",
+      "B) Teknolojinin insan hayatındaki yeri",
+      "C) Telefonların tarihsel gelişimi",
+      "D) Teknoloji şirketlerinin politikaları",
+      "E) Bağımlılık türleri"
+    ],
+    "correct_answer": 1,
+    "explanation": "Parçanın konusu: Teknolojinin insan hayatındaki yeri"
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Sanat, insan ruhunun derinliklerine inen bir yolculuktur.\nBir resim, bir şiir ya da bir müzik parçası, insanın iç dünyasında kapılar açar.\nBu nedenle sanatla ilgilenen insanlar daha duyarlı ve yaratıcı olur.\nBu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Sanat maddi kazanç için yapılır.",
+      "B) Her insan sanatçı olabilir.",
+      "C) Sanat yalnızca eğlence amaçlıdır.",
+      "D) Sanat, insanın duygusal ve zihinsel gelişimine katkı sağlar.",
+      "E) Sanatın eğitimle ilgisi yoktur."
+    ],
+    "correct_answer": 3,
+    "explanation": "Ana düşünce: \"Sanat, insanın duygusal ve zihinsel gelişimine katkı sağlar.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Kitap okuma alışkanlığı küçük yaşlarda kazanılır. Çocuklarına kitap okuyan ailelerin çocukları okumayı yaşam biçimi hâline getirir. Oysa günümüzde ebeveynler çocuklarına kitap yerine tablet vermeyi tercih etmektedir. Bu durum...\nBu parça aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) eğitim sistemini olumlu etkilemektedir.",
+      "B) çocukların sosyalleşmesine katkıda bulunmaktadır.",
+      "C) çocukların okuma alışkanlığı kazanmasını zorlaştırmaktadır.",
+      "D) çocukların daha zeki olmasını sağlamaktadır.",
+      "E) aile içi iletişimi güçlendirmektedir."
+    ],
+    "correct_answer": 2,
+    "explanation": "Anlam bütünlüğü: \"çocukların okuma alışkanlığı kazanmasını zorlaştırmaktadır.\""
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"O kitabı daha önce ben de okudum.\"\nAltı çizili \"O\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) zamir",
+      "B) sıfat",
+      "C) isim",
+      "D) bağlaç",
+      "E) edat"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"O\" sözcüğü \"zamir\" türündedir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Noktalama yanlışı olan cümle hangisidir? (Kitap, defter, kalem; hepsini aldı.)",
+    "options": [
+      "A) Noktalı virgül yerine iki nokta kullanılmalıdır",
+      "B) Cümle başında büyük harf yanlıştır",
+      "C) Bu cümlede noktalı virgül doğru kullanılmıştır",
+      "D) \"kalem\"den sonra nokta konmalıdır",
+      "E) Noktalı virgül yerine virgül kullanılmalıdır"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"Kitap, defter, kalem; hepsini aldı.\" → Bu cümlede noktalı virgül doğru kullanılmıştır"
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"ülkü\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) ideal",
+      "B) gerçek",
+      "C) görünür",
+      "D) somut",
+      "E) maddi"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"ülkü\" sözcüğünün eş anlamlısı \"ideal\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"gürültü\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) ses",
+      "B) gümbürtü",
+      "C) sessizlik",
+      "D) yankı",
+      "E) patırtı"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"gürültü\" sözcüğünün zıt anlamlısı \"sessizlik\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"Kulak asmamak\" deyiminin anlamıdır?",
+    "options": [
+      "A) kulaklarını tıkamak",
+      "B) müzik dinlemek",
+      "C) dikkatle dinlemek",
+      "D) sesi duymamak",
+      "E) önemsememek"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"Kulak asmamak\" deyimi \"önemsememek\" anlamına gelir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Bilgi güçtür ancak paylaşıldıkça değer kazanır.\"\nBu cümleden aşağıdakilerden hangisi çıkarılabilir?",
+    "options": [
+      "A) Bilgi paylaşılmamalıdır.",
+      "B) Güç bilgiden önce gelir.",
+      "C) Bilginin asıl değeri onun paylaşılmasıyla ortaya çıkar.",
+      "D) Paylaşılan bilgi azalır.",
+      "E) Bilgi tek başına değersizdir."
+    ],
+    "correct_answer": 2,
+    "explanation": "Cümlede vurgulanan: \"Bilginin asıl değeri onun paylaşılmasıyla ortaya çıkar.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Teknolojinin hızla gelişmesiyle birlikte iletişim araçları da değişti, öyle ki...\"\nBu cümle aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) teknoloji pahalılaştı.",
+      "B) telefonlar bozuldu.",
+      "C) insanlar mektup yazmayı bıraktı.",
+      "D) insanlar artık anında haberleşebiliyor.",
+      "E) herkes bilgisayar kullanıyor."
+    ],
+    "correct_answer": 3,
+    "explanation": "Anlam bütünlüğü: \"insanlar artık anında haberleşebiliyor.\""
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "I. Yağmur yağınca her yer ıslandı.\nII. Bu yüzden maç ertelendi.\nBu iki cümle arasındaki anlam ilişkisi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Tezat",
+      "B) Benzerlik",
+      "C) Amaç-sonuç",
+      "D) Örneklendirme",
+      "E) Neden-sonuç"
+    ],
+    "correct_answer": 4,
+    "explanation": "Anlam ilişkisi: Neden-sonuç."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Kitaplar, geçmişle gelecek arasında bir köprüdür.\nBinlerce yıllık bilgi ve deneyim, kitaplar sayesinde günümüze ulaşmıştır.\nAncak günümüzde insanlar kitaplardan uzaklaşmakta, dijital içeriklere yönelmektedir.\nBu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Kitaplar, kültürel mirasın aktarımında vazgeçilmez bir araçtır.",
+      "B) Kitaplar yalnızca eğlence amaçlıdır.",
+      "C) Tüm bilgiler dijital ortama aktarılmalıdır.",
+      "D) Kitap okumak zaman kaybıdır.",
+      "E) Dijital içerikler kitaplardan daha faydalıdır."
+    ],
+    "correct_answer": 0,
+    "explanation": "Ana düşünce: \"Kitaplar, kültürel mirasın aktarımında vazgeçilmez bir araçtır.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Geleneksel Türk tiyatrosu; Karagöz, orta oyunu ve meddah gibi türlerden oluşur.\nBu türlerde güldürü ön plandadır ve toplumsal eleştiri yapılır.\nHalkın anlayacağı bir dil kullanılır.\nBu parçada aşağıdakilerden hangisine değinilmemiştir?",
+    "options": [
+      "A) Halkın anlayacağı dil",
+      "B) Geleneksel tiyatroda dekor kullanımı",
+      "C) Güldürü ögesi",
+      "D) Geleneksel tiyatro türleri",
+      "E) Toplumsal eleştiri"
+    ],
+    "correct_answer": 1,
+    "explanation": "Parçada değinilmemiştir: \"Geleneksel tiyatroda dekor kullanımı\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "İnsanoğlu yüzyıllardır gökyüzünü merak etmiş, yıldızları incelemiştir. İlk çağlardan beri gök cisimlerinin hareketlerini gözlemleyen insanlar takvimler oluşturmuştur. Günümüzde uzay araştırmaları çok ilerlemiştir. Ancak hâlâ...\nBu parça aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) evrenin sırlarını tam olarak çözebilmiş değiliz.",
+      "B) gökyüzü gözlemciliği tamamen bitmiştir.",
+      "C) dünyanın uzayla ilişkisi kalmamıştır.",
+      "D) teleskoplar kullanılmamaktadır.",
+      "E) herkes uzaya yolculuk yapabilmektedir."
+    ],
+    "correct_answer": 0,
+    "explanation": "Anlam bütünlüğü: \"evrenin sırlarını tam olarak çözebilmiş değiliz.\""
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"düşünce\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) hareket",
+      "B) boşluk",
+      "C) sessizlik",
+      "D) eylem",
+      "E) fikir"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"düşünce\" sözcüğünün eş anlamlısı \"fikir\"dir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "I. Sana yardım edebilirim.\nII. Yeter ki sen de çalışmaya istekli ol.\nBu iki cümle arasındaki anlam ilişkisi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Neden-sonuç",
+      "B) Tezat",
+      "C) Benzerlik",
+      "D) Amaç-sonuç",
+      "E) Koşul"
+    ],
+    "correct_answer": 4,
+    "explanation": "Anlam ilişkisi: Koşul."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Bir yazarın en önemli özelliği, okuyucuyla duygusal bağ kurabilmesidir. Bunun için samimi bir dil kullanması gerekir. Okuyucu bu samimiyeti hissettiğinde yazarın dünyasına girer. Aksi takdirde...\nBu parça aşağıdakilerden hangisiyle en uygun şekilde tamamlanır?",
+    "options": [
+      "A) dil daha süslü olur.",
+      "B) yazılanlar kuru ve etkisiz kalır.",
+      "C) kitap daha çok satar.",
+      "D) yazar daha popüler olur.",
+      "E) eser daha değerli olur."
+    ],
+    "correct_answer": 1,
+    "explanation": "Anlam bütünlüğü: \"yazılanlar kuru ve etkisiz kalır.\""
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Akşama kadar yağmur yağdı.\"\nAltı çizili \"kadar\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) sıfat",
+      "B) zarf",
+      "C) isim",
+      "D) bağlaç",
+      "E) edat"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"kadar\" sözcüğü \"edat\" türündedir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"mücadele\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) anlaşma",
+      "B) sulh",
+      "C) uğraş",
+      "D) barış",
+      "E) uzlaşma"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"mücadele\" sözcüğünün eş anlamlısı \"uğraş\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"Göz atmak\" deyiminin anlamıdır?",
+    "options": [
+      "A) şaşkınca bakmak",
+      "B) kısa süreli bakmak",
+      "C) dikkatlice incelemek",
+      "D) gözlerini kapatmak",
+      "E) uzun uzun bakmak"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"Göz atmak\" deyimi \"kısa süreli bakmak\" anlamına gelir."
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Okuma alışkanlığı, küçük yaşlarda ailede başlar.\nÇocuklarına kitap okuyan ebeveynlerin çocukları okumaya daha yatkın olur.\nOkulda bu alışkanlık pekiştirilmezse çocuklar kitaptan uzaklaşır.\nBu parçanın konusu aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Yazarların sorumlulukları",
+      "B) Kütüphanelerin önemi",
+      "C) Çocuk kitaplarının içeriği",
+      "D) Eğitim sisteminin sorunları",
+      "E) Okuma alışkanlığının gelişiminde ailenin rolü"
+    ],
+    "correct_answer": 4,
+    "explanation": "Parçanın konusu: Okuma alışkanlığının gelişiminde ailenin rolü"
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "Tarihî romanlar, geçmişteki olayları kurgusal bir dille anlatır.\nYazar, tarihsel gerçekleri araştırır ve hayal gücüyle birleştirir.\nBöylece okuyucu hem tarih öğrenir hem keyifli vakit geçirir.\nBu parçada aşağıdakilerden hangisine söylenemez?",
+    "options": [
+      "A) Tarihî romanlar eğitici ve eğlendiricidir.",
+      "B) Tarihî romanda hayal gücü kullanılır.",
+      "C) Yazar tarihsel araştırma yapar.",
+      "D) Tarihî romanlar kurgu içerir.",
+      "E) Tarihî romanlar tamamen gerçek olaylardan oluşur."
+    ],
+    "correct_answer": 4,
+    "explanation": "Parçada söylenemez: \"Tarihî romanlar tamamen gerçek olaylardan oluşur.\""
+  },
+  {
+    "sub_category": "paragraf",
+    "question": "(I) Dil, bir milletin en önemli kültürel mirasıdır.\n(II) Bir dilin zenginliği milletin medeniyet seviyesini gösterir.\n(III) Bu nedenle dilin korunması her bireyin görevidir.\n(IV) Gençler dilin doğru kullanımı konusunda bilinçlendirilmelidir.\n(V) Aksi takdirde dil yozlaşır ve özelliğini kaybeder.\nBu parça iki paragrafa bölünmek istense ikinci paragraf nerede başlar?",
+    "options": [
+      "A) IV. cümleden itibaren",
+      "B) I. cümleden itibaren",
+      "C) V. cümleden itibaren",
+      "D) II. cümleden itibaren",
+      "E) III. cümleden itibaren"
+    ],
+    "correct_answer": 0,
+    "explanation": "İkinci paragraf IV. cümleyle başlar."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Yarınki gezi için herkes hazırlıklarını tamamladı.\"\nBu cümledeki özne aşağıdakilerden hangisidir?",
+    "options": [
+      "A) hazırlıklarını",
+      "B) herkes",
+      "C) Yarınki gezi için",
+      "D) Yarınki",
+      "E) tamamladı"
+    ],
+    "correct_answer": 1,
+    "explanation": "Cümledeki özne: \"herkes\""
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"yetenek\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) beceriksizlik",
+      "B) eksiklik",
+      "C) kabiliyet",
+      "D) yetersizlik",
+      "E) kusur"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"yetenek\" sözcüğünün eş anlamlısı \"kabiliyet\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"zengin\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) varsıl",
+      "B) varlıklı",
+      "C) maddi",
+      "D) gönenc",
+      "E) fakir"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"zengin\" sözcüğünün zıt anlamlısı \"fakir\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "\"İnsanların içinde yaşadıkları yapı.\"\nBu tanıma uygun sözcüğün yakın anlamlısı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) ahır",
+      "B) işyeri",
+      "C) fabrika",
+      "D) depo",
+      "E) mesken"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"konut\" sözcüğünün yakın anlamlısı \"mesken\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"Etekleri zil çalmak\" deyiminin anlamıdır?",
+    "options": [
+      "A) yorulmak",
+      "B) korkmak",
+      "C) çok sevinmek",
+      "D) endişelenmek",
+      "E) üzülmek"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"Etekleri zil çalmak\" deyimi \"çok sevinmek\" anlamına gelir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Noktalama yanlışı olan cümle hangisidir? (Ali (babam) bugün gelecek.)",
+    "options": [
+      "A) Yay ayraç doğru kullanılmıştır",
+      "B) Ayraçtan önce nokta konmalıdır",
+      "C) Cümle ortasında ayraç kullanılmaz",
+      "D) Yay ayraç yerine köşeli ayraç olmalıdır",
+      "E) \"Ali\"den sonra virgül olmalıdır"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"Ali (babam) bugün gelecek.\" → Yay ayraç doğru kullanılmıştır"
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"dar\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) geniş",
+      "B) ensiz",
+      "C) sıkışık",
+      "D) cılız",
+      "E) küçük"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"dar\" sözcüğünün zıt anlamlısı \"geniş\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"söylence\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) kanıt",
+      "B) belge",
+      "C) efsane",
+      "D) gerçek",
+      "E) tarih"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"söylence\" sözcüğünün eş anlamlısı \"efsane\"dir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"yapıt\" sözcüğüyle eş anlamlıdır?",
+    "options": [
+      "A) gereç",
+      "B) araç",
+      "C) hammadde",
+      "D) malzeme",
+      "E) eser"
+    ],
+    "correct_answer": 4,
+    "explanation": "\"yapıt\" sözcüğünün eş anlamlısı \"eser\"dir."
+  },
+  {
+    "sub_category": "cumle-anlami",
+    "question": "\"Dil, bir milletin kültürünü taşıyan en önemli araçtır.\"\nBu cümleden aşağıdakilerden hangisi çıkarılabilir?",
+    "options": [
+      "A) Her milletin dili aynıdır.",
+      "B) Kültürel mirasın aktarılmasında dilin önemi büyüktür.",
+      "C) Dil sadece iletişim aracıdır.",
+      "D) Dil zamanla değişmez.",
+      "E) Kültür dilden daha önemlidir."
+    ],
+    "correct_answer": 1,
+    "explanation": "Cümlede vurgulanan: \"Kültürel mirasın aktarılmasında dilin önemi büyüktür.\""
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Annem bana güzel bir hikâye kitabı aldı.\"\nBu cümledeki nesne aşağıdakilerden hangisidir?",
+    "options": [
+      "A) güzel bir hikâye kitabı",
+      "B) bana",
+      "C) aldı",
+      "D) güzel",
+      "E) Annem"
+    ],
+    "correct_answer": 0,
+    "explanation": "Cümledeki nesne: \"güzel bir hikâye kitabı\""
   }
 ]

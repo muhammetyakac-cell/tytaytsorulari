@@ -2,106 +2,1067 @@
   {
     "sub_category": "tarih",
     "question": "Osmanlı Devleti'nde, fethedilen topraklardaki yerli halkın can, mal, ırz ve din güvenliğini garanti altına alan belge aşağıdakilerden hangisidir?",
-    "options": ["A) Ferman", "B) Berat", "C) Ahidname", "D) Kanunname", "E) Vakfiye"],
+    "options": [
+      "A) Ferman",
+      "B) Berat",
+      "C) Ahidname",
+      "D) Kanunname",
+      "E) Vakfiye"
+    ],
     "correct_answer": 2,
     "explanation": "Ahidname, Osmanlı'nın fethettiği bölgelerdeki halka can, mal ve din güvenliği sağlayan belgedir."
   },
   {
     "sub_category": "tarih",
     "question": "Kurtuluş Savaşı'nda düzenli ordunun Batı Cephesi'ndeki ilk askerî başarısı aşağıdakilerden hangisidir?",
-    "options": ["A) Sakarya Meydan Muharebesi", "B) I. İnönü Muharebesi", "C) II. İnönü Muharebesi", "D) Büyük Taarruz", "E) Kütahya-Eskişehir Savaşı"],
+    "options": [
+      "A) Sakarya Meydan Muharebesi",
+      "B) I. İnönü Muharebesi",
+      "C) II. İnönü Muharebesi",
+      "D) Büyük Taarruz",
+      "E) Kütahya-Eskişehir Savaşı"
+    ],
     "correct_answer": 1,
     "explanation": "I. İnönü Muharebesi (6-11 Ocak 1921), düzenli ordunun ilk zaferidir."
   },
   {
     "sub_category": "tarih",
     "question": "İstanbul'un fethinin aşağıdaki sonuçlarından hangisi, Orta Çağ'ın sona erdiğinin bir göstergesidir?",
-    "options": ["A) Bizans İmparatorluğu'nun yıkılması", "B) Karadeniz ticaret yolunun Türklerin eline geçmesi", "C) Surların toplarla yıkılması", "D) Osmanlı'nın başkentinin İstanbul olması", "E) Ayasofya'nın camiye çevrilmesi"],
+    "options": [
+      "A) Bizans İmparatorluğu'nun yıkılması",
+      "B) Karadeniz ticaret yolunun Türklerin eline geçmesi",
+      "C) Surların toplarla yıkılması",
+      "D) Osmanlı'nın başkentinin İstanbul olması",
+      "E) Ayasofya'nın camiye çevrilmesi"
+    ],
     "correct_answer": 2,
     "explanation": "Surların toplarla yıkılması, derebeylik sisteminin dayanağı kalelerin savunmasız hale geldiğini göstermiştir."
   },
   {
     "sub_category": "tarih",
     "question": "Mondros Ateşkes Antlaşması'nın hangi maddesi Osmanlı Devleti'nin fiilen sona erdiğinin en önemli göstergesidir?",
-    "options": ["A) Ordunun terhis edilmesi", "B) İtilaf Devletleri'nin stratejik noktaları işgal edebilmesi", "C) Toros tünellerinin işgali", "D) Donanmanın teslim edilmesi", "E) Haberleşme araçlarının denetlenmesi"],
+    "options": [
+      "A) Ordunun terhis edilmesi",
+      "B) İtilaf Devletleri'nin stratejik noktaları işgal edebilmesi",
+      "C) Toros tünellerinin işgali",
+      "D) Donanmanın teslim edilmesi",
+      "E) Haberleşme araçlarının denetlenmesi"
+    ],
     "correct_answer": 1,
     "explanation": "7. madde, İtilaf Devletleri'ne istedikleri her yeri işgal yetkisi vermiştir."
   },
   {
     "sub_category": "cografya",
     "question": "Türkiye'de aşağıdaki bölgelerden hangisinde kış sıcaklık ortalamaları diğerlerine göre daha yüksektir?",
-    "options": ["A) İç Anadolu", "B) Doğu Anadolu", "C) Akdeniz", "D) Karadeniz", "E) Güneydoğu Anadolu"],
+    "options": [
+      "A) İç Anadolu",
+      "B) Doğu Anadolu",
+      "C) Akdeniz",
+      "D) Karadeniz",
+      "E) Güneydoğu Anadolu"
+    ],
     "correct_answer": 2,
     "explanation": "Akdeniz Bölgesi enlem ve denizellik etkisiyle kışın en ılık bölgedir."
   },
   {
     "sub_category": "cografya",
     "question": "Harita ölçeği $1/500.000$ olan bir haritada 5 cm olarak gösterilen iki şehir arası gerçek uzaklık kaç km'dir?",
-    "options": ["A) 10 km", "B) 15 km", "C) 20 km", "D) 25 km", "E) 50 km"],
+    "options": [
+      "A) 10 km",
+      "B) 15 km",
+      "C) 20 km",
+      "D) 25 km",
+      "E) 50 km"
+    ],
     "correct_answer": 3,
     "explanation": "Gerçek uzaklık $= 5 \\times 500.000 = 2.500.000$ cm $= 25$ km."
   },
   {
     "sub_category": "cografya",
     "question": "Türkiye'de aşağıdaki illerden hangisi volkanik arazi üzerinde kurulmuştur?",
-    "options": ["A) İzmir", "B) Antalya", "C) Nevşehir", "D) Samsun", "E) Edirne"],
+    "options": [
+      "A) İzmir",
+      "B) Antalya",
+      "C) Nevşehir",
+      "D) Samsun",
+      "E) Edirne"
+    ],
     "correct_answer": 2,
     "explanation": "Nevşehir (Kapadokya), Erciyes ve Hasan Dağı'nın volkanik püskürtmeleriyle oluşmuştur."
   },
   {
     "sub_category": "cografya",
     "question": "Türkiye'de nüfusun dağılışını etkileyen faktörlerden biri aşağıdakilerden hangisi değildir?",
-    "options": ["A) İklim özellikleri", "B) Yer şekilleri", "C) Toprak verimliliği", "D) Ayın evreleri", "E) Sanayi tesisleri"],
+    "options": [
+      "A) İklim özellikleri",
+      "B) Yer şekilleri",
+      "C) Toprak verimliliği",
+      "D) Ayın evreleri",
+      "E) Sanayi tesisleri"
+    ],
     "correct_answer": 3,
     "explanation": "Ayın evrelerinin nüfus dağılışı üzerinde etkisi bulunmamaktadır."
   },
   {
     "sub_category": "felsefe",
     "question": "\"Düşünüyorum, öyleyse varım.\" sözüyle bilinen filozof aşağıdakilerden hangisidir?",
-    "options": ["A) Platon", "B) Aristoteles", "C) Descartes", "D) Kant", "E) Nietzsche"],
+    "options": [
+      "A) Platon",
+      "B) Aristoteles",
+      "C) Descartes",
+      "D) Kant",
+      "E) Nietzsche"
+    ],
     "correct_answer": 2,
     "explanation": "Descartes, modern felsefenin kurucusudur."
   },
   {
     "sub_category": "felsefe",
     "question": "Varlığın temelini maddeye dayandıran felsefi akım aşağıdakilerden hangisidir?",
-    "options": ["A) İdealizm", "B) Materyalizm", "C) Dualizm", "D) Entüisyonizm", "E) Pragmatizm"],
+    "options": [
+      "A) İdealizm",
+      "B) Materyalizm",
+      "C) Dualizm",
+      "D) Entüisyonizm",
+      "E) Pragmatizm"
+    ],
     "correct_answer": 1,
     "explanation": "Materyalizm, her şeyin maddeden oluştuğunu savunur."
   },
   {
     "sub_category": "felsefe",
     "question": "\"Ahlak, en büyük sayıdaki insana en büyük mutluluğu sağlayacak eylemler bütünüdür.\" görüşü hangi akıma aittir?",
-    "options": ["A) Ödev ahlakı", "B) Faydacı ahlak", "C) Haz ahlakı", "D) Nihilizm", "E) Varoluşçuluk"],
+    "options": [
+      "A) Ödev ahlakı",
+      "B) Faydacı ahlak",
+      "C) Haz ahlakı",
+      "D) Nihilizm",
+      "E) Varoluşçuluk"
+    ],
     "correct_answer": 1,
     "explanation": "Faydacı ahlak (Utilitarianism), Bentham ve Mill tarafından geliştirilmiştir."
   },
   {
     "sub_category": "felsefe",
     "question": "Bir bilginin bilimsel kabul edilmesi için hangi ölçüt zorunludur?",
-    "options": ["A) Olgusal olması", "B) Gündelik hayatta işe yaraması", "C) Herkes tarafından kabul edilmesi", "D) Kolay anlaşılabilir olması", "E) Geleneksel olması"],
+    "options": [
+      "A) Olgusal olması",
+      "B) Gündelik hayatta işe yaraması",
+      "C) Herkes tarafından kabul edilmesi",
+      "D) Kolay anlaşılabilir olması",
+      "E) Geleneksel olması"
+    ],
     "correct_answer": 0,
     "explanation": "Bilimsel bilgi, gözlemlenebilir ve ölçülebilir verilere (olgulara) dayanmalıdır."
   },
   {
     "sub_category": "din",
     "question": "İslam dininin temel kaynakları aşağıdakilerden hangisidir?",
-    "options": ["A) Kur'an-ı Kerim ve Sünnet", "B) Kur'an-ı Kerim ve Tevrat", "C) İncil ve Sünnet", "D) Tevrat ve İncil", "E) Yalnızca Kur'an-ı Kerim"],
+    "options": [
+      "A) Kur'an-ı Kerim ve Sünnet",
+      "B) Kur'an-ı Kerim ve Tevrat",
+      "C) İncil ve Sünnet",
+      "D) Tevrat ve İncil",
+      "E) Yalnızca Kur'an-ı Kerim"
+    ],
     "correct_answer": 0,
     "explanation": "Kur'an-ı Kerim ve Hz. Muhammed'in sünneti (hadisler ve uygulamalar) İslam'ın iki temel kaynağıdır."
   },
   {
     "sub_category": "din",
     "question": "Aşağıdakilerden hangisi İslam'ın inanç esaslarından (imanın şartları) biri değildir?",
-    "options": ["A) Allah'a inanmak", "B) Meleklere inanmak", "C) Oruç tutmak", "D) Peygamberlere inanmak", "E) Ahiret gününe inanmak"],
+    "options": [
+      "A) Allah'a inanmak",
+      "B) Meleklere inanmak",
+      "C) Oruç tutmak",
+      "D) Peygamberlere inanmak",
+      "E) Ahiret gününe inanmak"
+    ],
     "correct_answer": 2,
     "explanation": "Oruç, İslam'ın şartlarından biridir (ibadet esası), imanın şartlarından değildir."
   },
   {
     "sub_category": "din",
     "question": "\"Kader\" ve \"kaza\" kavramlarıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
-    "options": ["A) Kader ve kaza aynı anlama gelir.", "B) Kader olayların gerçekleşmesi; kaza ise takdirdir.", "C) Kader Allah'ın önceden belirlemesi; kaza bunların gerçekleşmesidir.", "D) Kader insanın tercihlerine bağlı değildir.", "E) Kaza sadece kötü olaylar için kullanılır."],
+    "options": [
+      "A) Kader ve kaza aynı anlama gelir.",
+      "B) Kader olayların gerçekleşmesi; kaza ise takdirdir.",
+      "C) Kader Allah'ın önceden belirlemesi; kaza bunların gerçekleşmesidir.",
+      "D) Kader insanın tercihlerine bağlı değildir.",
+      "E) Kaza sadece kötü olaylar için kullanılır."
+    ],
     "correct_answer": 2,
     "explanation": "Kader Allah'ın ezeli takdiri, kaza ise bu takdirin zamanı gelince gerçekleşmesidir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Fetret Devri (1402-1413) hangi savaşın ardından yaşanmıştır?",
+    "options": [
+      "A) İstanbul'un Fethi",
+      "B) Ankara Savaşı",
+      "C) Varna Savaşı",
+      "D) I. Kosova Savaşı",
+      "E) Niğbolu Savaşı"
+    ],
+    "correct_answer": 1,
+    "explanation": "Fetret Devri Ankara Savaşı'nın ardından yaşanan taht kavgaları dönemidir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Büyük Taarruz hangi meydan muharebesiyle sonuçlanmıştır?",
+    "options": [
+      "A) I. İnönü",
+      "B) II. İnönü",
+      "C) Sakarya",
+      "D) Başkomutanlık Meydan Muharebesi",
+      "E) Kütahya-Eskişehir"
+    ],
+    "correct_answer": 3,
+    "explanation": "Büyük Taarruz Başkomutanlık Meydan Muharebesi (Dumlupınar) ile sonuçlanmıştır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Türk Medeni Kanunu hangi ülkenin medeni kanunu örnek alınarak hazırlanmıştır?",
+    "options": [
+      "A) Fransa",
+      "B) Almanya",
+      "C) İtalya",
+      "D) İsviçre",
+      "E) İngiltere"
+    ],
+    "correct_answer": 3,
+    "explanation": "Türk Medeni Kanunu (1926) İsviçre Medeni Kanunu örnek alınarak hazırlanmıştır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Yeryüzünde sıcaklığın dağılışını etkileyen temel faktör aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Rüzgârlar",
+      "B) Okyanus akıntıları",
+      "C) Enlem",
+      "D) Kara ve deniz dağılışı",
+      "E) Yükselti"
+    ],
+    "correct_answer": 2,
+    "explanation": "Sıcaklık dağılışını etkileyen temel faktör enlemdir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'nin en yüksek dağı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Erciyes",
+      "B) Süphan",
+      "C) Ağrı Dağı",
+      "D) Demirkazık",
+      "E) Uludağ"
+    ],
+    "correct_answer": 2,
+    "explanation": "Ağrı Dağı (5137 m) Türkiye'nin en yüksek dağıdır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de nüfus yoğunluğunun en fazla olduğu bölge hangisidir?",
+    "options": [
+      "A) Ege",
+      "B) Marmara",
+      "C) Akdeniz",
+      "D) İç Anadolu",
+      "E) Karadeniz"
+    ],
+    "correct_answer": 1,
+    "explanation": "Marmara Bölgesi en yoğun nüfuslu bölgedir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "1/500.000 ölçekli haritada iki şehir arası 8 cm ise gerçek mesafe kaç km'dir?",
+    "options": [
+      "A) 20 km",
+      "B) 30 km",
+      "C) 40 km",
+      "D) 50 km",
+      "E) 60 km"
+    ],
+    "correct_answer": 2,
+    "explanation": "8 × 500.000 = 4.000.000 cm = 40 km."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "İdealizme göre varlıkla ilgili hangisi doğrudur?",
+    "options": [
+      "A) Varlık maddeden ibarettir",
+      "B) Varlığın özü düşüncedir",
+      "C) Varlık hem madde hem düşüncedir",
+      "D) Varlık duyularla algılanamaz",
+      "E) Varlık yoktur"
+    ],
+    "correct_answer": 1,
+    "explanation": "İdealizme göre varlığın temelinde düşünce (idea) vardır."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Bilginin kaynağını duyu deneyimlerine dayandıran akım hangisidir?",
+    "options": [
+      "A) Rasyonalizm",
+      "B) Empirizm",
+      "C) Kritisizm",
+      "D) Septisizm",
+      "E) Pragmatizm"
+    ],
+    "correct_answer": 1,
+    "explanation": "Empirizm bilginin kaynağının duyu deneyimleri olduğunu savunur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Kant'ın ödev ahlakına göre bir eylemin ahlaki değeri neye bağlıdır?",
+    "options": [
+      "A) Sonuçlarına",
+      "B) Sağladığı faydaya",
+      "C) Niyet ve ödeve uygunluğuna",
+      "D) Toplumun onayına",
+      "E) Duygulara"
+    ],
+    "correct_answer": 2,
+    "explanation": "Kant'a göre eylem sırf ödev duygusuyla yapıldığında ahlakidir."
+  },
+  {
+    "sub_category": "din",
+    "question": "İslam'da kader inancıyla ilgili hangisi doğrudur?",
+    "options": [
+      "A) İnsanın yaptıkları zorunludur",
+      "B) Allah takdir etmiştir ve insanın iradesi vardır",
+      "C) Kader insanın elinde değildir",
+      "D) Yalnızca iyi şeyler kaderdir",
+      "E) Kader inancı yoktur"
+    ],
+    "correct_answer": 1,
+    "explanation": "İslam'da kader ve özgür irade bir arada bulunur."
+  },
+  {
+    "sub_category": "din",
+    "question": "Orucun farz kılındığı ayet hangi surede yer alır?",
+    "options": [
+      "A) Fatiha",
+      "B) Bakara",
+      "C) Al-i İmran",
+      "D) Nisa",
+      "E) Maide"
+    ],
+    "correct_answer": 1,
+    "explanation": "Oruç Bakara Suresi 183. ayetle farz kılınmıştır."
+  },
+  {
+    "sub_category": "din",
+    "question": "\"Uswetün Hasene\" kavramı neyi ifade eder?",
+    "options": [
+      "A) Allah'ın elçisi olması",
+      "B) Güzel örnek olması",
+      "C) Son peygamber olması",
+      "D) Ümmi olması",
+      "E) Kureyşli olması"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"Uswetün Hasene\" Hz. Muhammed'in güzel örnek olduğunu ifade eder."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "\"Kut\" anlayışı aşağıdakilerden hangisini ifade eder?",
+    "options": [
+      "A) Hükümdarın yönetme yetkisini Tanrı'dan alması",
+      "B) Ordunun düzenli toplanması",
+      "C) Ticaret yollarının denetimi",
+      "D) Vergilerin düzenli toplanması",
+      "E) Toprakların paylaşılması"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"Kut\" anlayışı, hükümdarın yönetme yetkisini Tanrı'dan aldığı inancına dayanır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "I. Murat döneminde kurulan kapıkulu piyade birliği aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Tımarlı Sipahi",
+      "B) Akıncılar",
+      "C) Yeniçeri Ocağı",
+      "D) Azaplar",
+      "E) Lağımcılar"
+    ],
+    "correct_answer": 2,
+    "explanation": "Yeniçeri Ocağı I. Murat döneminde (1363) kurulmuştur."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "\"Manda ve himaye kabul edilemez\" kararı hangi kongrede alınmıştır?",
+    "options": [
+      "A) Amasya Kongresi",
+      "B) Erzurum Kongresi",
+      "C) Sivas Kongresi",
+      "D) Balıkesir Kongresi",
+      "E) Alaşehir Kongresi"
+    ],
+    "correct_answer": 2,
+    "explanation": "Sivas Kongresi'nde (1919) manda ve himaye kabul edilemez kararı alınmıştır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Harf İnkılabı hangi yıl gerçekleştirilmiştir?",
+    "options": [
+      "A) 1923",
+      "B) 1926",
+      "C) 1928",
+      "D) 1930",
+      "E) 1934"
+    ],
+    "correct_answer": 2,
+    "explanation": "Harf İnkılabı 1 Kasım 1928'de kabul edilmiştir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Akdeniz ikliminin doğal bitki örtüsü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Orman",
+      "B) Bozkır",
+      "C) Maki",
+      "D) Çayır",
+      "E) Tundra"
+    ],
+    "correct_answer": 2,
+    "explanation": "Akdeniz ikliminin bitki örtüsü makidir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Aşağıdakilerden hangisi iç kuvvetlerden biri değildir?",
+    "options": [
+      "A) Orojenez",
+      "B) Epirojenez",
+      "C) Volkanizma",
+      "D) Erozyon",
+      "E) Deprem"
+    ],
+    "correct_answer": 3,
+    "explanation": "Erozyon dış kuvvetlerdendir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Büyük ölçekli haritalarla ilgili hangisi doğrudur?",
+    "options": [
+      "A) Ayrıntı azdır",
+      "B) Ölçek paydası küçüktür",
+      "C) Dar alanı küçük gösterir",
+      "D) Küçültme oranı fazladır",
+      "E) Harita alanı geniştir"
+    ],
+    "correct_answer": 1,
+    "explanation": "Büyük ölçekli haritalarda ölçek paydası küçüktür."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Düşünüyorum, öyleyse varım\" sözü hangi akımın temelini oluşturur?",
+    "options": [
+      "A) Empirizm",
+      "B) Rasyonalizm",
+      "C) Nihilizm",
+      "D) Pragmatizm",
+      "E) Materyalizm"
+    ],
+    "correct_answer": 1,
+    "explanation": "Descartes'ın bu sözü rasyonalizmin temelini oluşturur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Sokrates'in uyguladığı yöntem aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Tümevarım",
+      "B) Analitik yöntem",
+      "C) Diyalektik yöntem",
+      "D) Fenomenolojik yöntem",
+      "E) Deneysel yöntem"
+    ],
+    "correct_answer": 2,
+    "explanation": "Sokrates soru-cevap yöntemi olan diyalektiği kullanmıştır."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Mutluluk erdemli yaşamaktır\" diyen filozof hangisidir?",
+    "options": [
+      "A) Sokrates",
+      "B) Platon",
+      "C) Aristoteles",
+      "D) Epikür",
+      "E) Diogenes"
+    ],
+    "correct_answer": 2,
+    "explanation": "Aristoteles'e göre mutluluk erdemli yaşayarak ulaşılır."
+  },
+  {
+    "sub_category": "din",
+    "question": "Dört büyük melekle ilgili hangi eşleştirme doğrudur?",
+    "options": [
+      "A) Cebrail-Nefih",
+      "B) Mikâil-Ölüm",
+      "C) Azrail-Vahiy",
+      "D) İsrafil-Sur üfleme",
+      "E) Cebrail-Rızık"
+    ],
+    "correct_answer": 3,
+    "explanation": "İsrafil Sûr'a üflemekle görevlidir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "İslamiyet öncesi Türklerde ölen kişinin ardından düzenlenen yas törenine ne ad verilirdi?",
+    "options": [
+      "A) Sığır",
+      "B) Şölen",
+      "C) Yuğ",
+      "D) Kurgan",
+      "E) Balbal"
+    ],
+    "correct_answer": 2,
+    "explanation": "İslamiyet öncesi Türklerde ölen kişinin ardından düzenlenen törene \"yuğ\" adı verilirdi."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Amasya Genelgesi'nde \"Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır\" ifadesi hangi ilkeyi vurgular?",
+    "options": [
+      "A) İnkılapçılık",
+      "B) Millî egemenlik",
+      "C) Milliyetçilik",
+      "D) Batıcılık",
+      "E) Devletçilik"
+    ],
+    "correct_answer": 1,
+    "explanation": "Bu ifade millî egemenlik ilkesini vurgulamaktadır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Aşağıdakilerden hangisi atmosferin katmanlarından biri değildir?",
+    "options": [
+      "A) Troposfer",
+      "B) Stratosfer",
+      "C) Termosfer",
+      "D) Mezosfer",
+      "E) Litosfer"
+    ],
+    "correct_answer": 4,
+    "explanation": "Litosfer yerkürenin taşküre katmanıdır, atmosfer katmanı değildir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Nüfus piramidinin dar tabanlı olması neyi gösterir?",
+    "options": [
+      "A) Doğum oranının yüksek olduğunu",
+      "B) Doğum oranının düşük olduğunu",
+      "C) Ölüm oranının düşük olduğunu",
+      "D) Göç alındığını",
+      "E) Yaşam süresinin uzun olduğunu"
+    ],
+    "correct_answer": 1,
+    "explanation": "Dar tabanlı nüfus piramidi doğum oranlarının düşük olduğunu gösterir."
+  },
+  {
+    "sub_category": "din",
+    "question": "Aşağıdakilerden hangisi imanın şartlarından biridir?",
+    "options": [
+      "A) Oruç tutmak",
+      "B) Hacca gitmek",
+      "C) Meleklere iman",
+      "D) Namaz kılmak",
+      "E) Zekât vermek"
+    ],
+    "correct_answer": 2,
+    "explanation": "Meleklere iman imanın şartlarındandır."
+  },
+  {
+    "sub_category": "din",
+    "question": "Beş vakit namaz hangi olayla farz kılınmıştır?",
+    "options": [
+      "A) Hicret",
+      "B) İsra ve Miraç",
+      "C) Bedir Savaşı",
+      "D) Mekke'nin Fethi",
+      "E) Akabe Biatları"
+    ],
+    "correct_answer": 1,
+    "explanation": "Beş vakit namaz Miraç gecesinde farz kılınmıştır."
+  },
+  {
+    "sub_category": "din",
+    "question": "Hz. Muhammed'e \"Muhammedü'l-Emin\" denmesinin sebebi nedir?",
+    "options": [
+      "A) Zengin olması",
+      "B) Eğitimli olması",
+      "C) Doğru sözlü ve güvenilir olması",
+      "D) Asil soydan gelmesi",
+      "E) Tüccar olması"
+    ],
+    "correct_answer": 2,
+    "explanation": "Hz. Muhammed doğruluğu ve güvenilirliği nedeniyle \"el-Emin\" lakabını almıştır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Uygurların yerleşik hayata geçmesinde etkili olan din aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Göktanrı inancı",
+      "B) Budizm",
+      "C) Maniheizm",
+      "D) Hristiyanlık",
+      "E) Musevilik"
+    ],
+    "correct_answer": 2,
+    "explanation": "Uygurlar Maniheizm'i kabul ederek yerleşik hayata geçmişlerdir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Osmanlı Devleti'nde vakıf sistemiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "A) Vakıflar yalnızca padişah tarafından kurulabilirdi.",
+      "B) Vakıf gelirleri hazineye aktarılırdı.",
+      "C) Vakıflar toplumsal hizmetlerin finansmanını sağlardı.",
+      "D) Vakıflar askerî amaçlı kurulurdu.",
+      "E) Vakıflar vergi toplama amacı taşırdı."
+    ],
+    "correct_answer": 2,
+    "explanation": "Vakıflar cami, medrese, hastane gibi yapıların finansmanını sağlayarak toplumsal hizmetleri desteklemiştir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Aşağıdakilerden hangisi Atatürk'ün toplumsal alanda yaptığı inkılaplardan biri değildir?",
+    "options": [
+      "A) Şapka Kanunu",
+      "B) Tekke ve zaviyelerin kapatılması",
+      "C) Soyadı Kanunu",
+      "D) Medeni Kanun'un kabulü",
+      "E) Kabotaj Kanunu"
+    ],
+    "correct_answer": 4,
+    "explanation": "Kabotaj Kanunu ekonomik alanda yapılan bir inkılaptır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'deki dağlar hangi orojenez döneminde oluşmuştur?",
+    "options": [
+      "A) Kaledonya",
+      "B) Kaledoniyen",
+      "C) Heresinyen",
+      "D) Alp-Himalaya",
+      "E) Kambriyen"
+    ],
+    "correct_answer": 3,
+    "explanation": "Toroslar ve Kuzey Anadolu Dağları Alp-Himalaya orojenezinde oluşmuştur."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de ilk nüfus sayımı hangi yıl yapılmıştır?",
+    "options": [
+      "A) 1923",
+      "B) 1927",
+      "C) 1935",
+      "D) 1940",
+      "E) 1945"
+    ],
+    "correct_answer": 1,
+    "explanation": "İlk nüfus sayımı 28 Ekim 1927'de yapılmıştır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye hangi yarımkürelerde yer alır?",
+    "options": [
+      "A) Kuzey ve Doğu",
+      "B) Kuzey ve Batı",
+      "C) Güney ve Doğu",
+      "D) Güney ve Batı",
+      "E) Ekvator üzerinde"
+    ],
+    "correct_answer": 0,
+    "explanation": "Türkiye Kuzey Yarımküre ve Doğu Yarımküre'dedir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Her şey akar\" diyen filozof hangisidir?",
+    "options": [
+      "A) Parmenides",
+      "B) Zenon",
+      "C) Herakleitos",
+      "D) Demokritos",
+      "E) Anaksagoras"
+    ],
+    "correct_answer": 2,
+    "explanation": "Herakleitos, evrende sürekli değişim olduğunu savunmuştur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Faydacılık (Utilitarianism) akımının kurucusu kimdir?",
+    "options": [
+      "A) Kant",
+      "B) Bentham",
+      "C) Mill",
+      "D) Nietzsche",
+      "E) Sartre"
+    ],
+    "correct_answer": 1,
+    "explanation": "Faydacılığın kurucusu Jeremy Bentham'dır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Osmanlı Devleti'nin kurucusu Osman Gazi hangi Oğuz boyuna mensuptur?",
+    "options": [
+      "A) Kayı Boyu",
+      "B) Kınık Boyu",
+      "C) Bayındır Boyu",
+      "D) Çepni Boyu",
+      "E) Yüreğir Boyu"
+    ],
+    "correct_answer": 0,
+    "explanation": "Osman Gazi, Oğuzların Kayı Boyu'na mensuptur."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de en fazla yağış alan bölge aşağıdakilerden hangisidir?",
+    "options": [
+      "A) İç Anadolu",
+      "B) Güneydoğu Anadolu",
+      "C) Doğu Anadolu",
+      "D) Karadeniz",
+      "E) Ege"
+    ],
+    "correct_answer": 3,
+    "explanation": "Karadeniz Bölgesi en fazla yağış alan bölgedir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Karstik aşınım şekilleri hangi kayaç türünde yaygındır?",
+    "options": [
+      "A) Granit",
+      "B) Bazalt",
+      "C) Kumtaşı",
+      "D) Kireç taşı",
+      "E) Mermer"
+    ],
+    "correct_answer": 3,
+    "explanation": "Karstik şekiller kireç taşı (kalker) gibi eriyebilen kayaçlarda görülür."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'nin en kuzey noktası aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Sinop (İnceburun)",
+      "B) İstanbul (Rumelifeneri)",
+      "C) Kastamonu",
+      "D) Samsun",
+      "E) Zonguldak"
+    ],
+    "correct_answer": 0,
+    "explanation": "En kuzey nokta Sinop'taki İnceburun'dur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Varlığın temelini atom olarak kabul eden filozof hangisidir?",
+    "options": [
+      "A) Sokrates",
+      "B) Platon",
+      "C) Aristoteles",
+      "D) Demokritos",
+      "E) Epikuros"
+    ],
+    "correct_answer": 3,
+    "explanation": "Demokritos, varlığın temelinde atomların bulunduğunu savunmuştur."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Pragmatizm bilginin doğruluğunu hangi ölçüte göre belirler?",
+    "options": [
+      "A) Tutarlılık",
+      "B) Uygunluk",
+      "C) Fayda ve işe yararlık",
+      "D) Sezgi",
+      "E) Vahiy"
+    ],
+    "correct_answer": 2,
+    "explanation": "Pragmatizme göre bilginin doğruluğu sağladığı fayda ile ölçülür."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Osmanlı Devleti'nde devşirme sistemi ilk kez hangi padişah döneminde uygulanmıştır?",
+    "options": [
+      "A) Osman Gazi",
+      "B) Orhan Gazi",
+      "C) I. Murat",
+      "D) Yıldırım Bayezid",
+      "E) Fatih Sultan Mehmet"
+    ],
+    "correct_answer": 2,
+    "explanation": "Devşirme sistemi I. Murat döneminde uygulanmaya başlanmıştır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "TBMM'nin açılmasından sonra düzenli ordunun kurulmasını zorunlu kılan gelişme nedir?",
+    "options": [
+      "A) İstanbul'un işgali",
+      "B) Kuva-yı Millîye'nin yetersiz kalması",
+      "C) Sevr Antlaşması",
+      "D) Saltanatın kaldırılması",
+      "E) Londra Konferansı"
+    ],
+    "correct_answer": 1,
+    "explanation": "Kuva-yı Millîye'nin yetersiz kalması düzenli ordunun kurulmasını zorunlu kılmıştır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Türk kadınına milletvekili seçme ve seçilme hakkı hangi yıl verilmiştir?",
+    "options": [
+      "A) 1926",
+      "B) 1930",
+      "C) 1933",
+      "D) 1934",
+      "E) 1935"
+    ],
+    "correct_answer": 3,
+    "explanation": "Kadınlara milletvekili seçme ve seçilme hakkı 5 Aralık 1934'te tanınmıştır."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "\"Doğru bilgi mümkün değildir\" görüşünü savunan akım hangisidir?",
+    "options": [
+      "A) Rasyonalizm",
+      "B) Empirizm",
+      "C) Septisizm",
+      "D) Pozitivizm",
+      "E) Entüisyonizm"
+    ],
+    "correct_answer": 2,
+    "explanation": "Septisizm (kuşkuculuk) doğru bilginin mümkün olmadığını savunur."
+  },
+  {
+    "sub_category": "din",
+    "question": "İslam ahlakında \"emanet\" kavramı neyi ifade eder?",
+    "options": [
+      "A) Maddi eşyaları korumak",
+      "B) Sorumlulukları yerine getirmek",
+      "C) İş yerinde güvenilir olmak",
+      "D) Vasiyet bırakmak",
+      "E) Borç vermek"
+    ],
+    "correct_answer": 1,
+    "explanation": "Emanet, Allah'a ve insanlara karşı sorumlulukları yerine getirmektir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Tarihte bilinen ilk Türk devleti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Göktürkler",
+      "B) Asya Hun Devleti",
+      "C) Avrupa Hun Devleti",
+      "D) Uygurlar",
+      "E) Hazarlar"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tarihte bilinen ilk Türk devleti, Teoman tarafından MÖ 220'de kurulan Asya Hun Devleti'dir."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de Akdeniz ikliminin görüldüğü alanlar için hangisi söylenebilir?",
+    "options": [
+      "A) Kış sıcaklıkları 0°C altındadır",
+      "B) Yıllık yağış her yerde aynıdır",
+      "C) Yaz kuraklığı belirgindir",
+      "D) Kar yağışı hiç görülmez",
+      "E) Bitki örtüsü ormandır"
+    ],
+    "correct_answer": 2,
+    "explanation": "Akdeniz ikliminde yaz kuraklığı en belirgin özelliktir."
+  },
+  {
+    "sub_category": "felsefe",
+    "question": "Varlığın ana maddesinin \"su\" olduğunu savunan filozof hangisidir?",
+    "options": [
+      "A) Anaksimenes",
+      "B) Thales",
+      "C) Anaksimandros",
+      "D) Herakleitos",
+      "E) Empedokles"
+    ],
+    "correct_answer": 1,
+    "explanation": "Thales, varlığın temel maddesinin (arkhe) su olduğunu savunmuştur."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Orhun Abideleri hangi Türk devleti döneminde dikilmiştir?",
+    "options": [
+      "A) Asya Hun Devleti",
+      "B) Avrupa Hun Devleti",
+      "C) II. Göktürk (Kutluk) Devleti",
+      "D) Uygur Devleti",
+      "E) Hazar Kağanlığı"
+    ],
+    "correct_answer": 2,
+    "explanation": "Orhun Abideleri, II. Göktürk (Kutluk) Devleti döneminde (8. yüzyıl) dikilmiştir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Teşvik-i Sanayi Kanunu hangi alandaki inkılaplar kapsamındadır?",
+    "options": [
+      "A) Siyasi",
+      "B) Toplumsal",
+      "C) Hukuk",
+      "D) Ekonomi",
+      "E) Kültür"
+    ],
+    "correct_answer": 3,
+    "explanation": "Teşvik-i Sanayi Kanunu (1927) ekonomik alandaki inkılaplar kapsamındadır."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Lozan Antlaşması hangi tarihte imzalanmıştır?",
+    "options": [
+      "A) 30 Ekim 1918",
+      "B) 24 Temmuz 1923",
+      "C) 29 Ekim 1923",
+      "D) 3 Mart 1924",
+      "E) 20 Nisan 1924"
+    ],
+    "correct_answer": 1,
+    "explanation": "Lozan Antlaşması 24 Temmuz 1923'te imzalanmıştır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Aşağıdaki kıyı tiplerinden hangisi Türkiye'de görülmez?",
+    "options": [
+      "A) Boyuna kıyılar",
+      "B) Enine kıyılar",
+      "C) Ria tipi kıyılar",
+      "D) Fiyort tipi kıyılar",
+      "E) Dalmaçya tipi kıyılar"
+    ],
+    "correct_answer": 3,
+    "explanation": "Fiyort tipi kıyılar İskandinavya'da görülür, Türkiye'de yoktur."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de iç göçlerin en önemli nedeni aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Eğitim",
+      "B) İklim",
+      "C) Ekonomik nedenler",
+      "D) Kültürel etkinlikler",
+      "E) Sağlık hizmetleri"
+    ],
+    "correct_answer": 2,
+    "explanation": "İç göçlerin en önemli nedeni ekonomiktir."
+  },
+  {
+    "sub_category": "din",
+    "question": "Hac ibadetiyle ilgili hangisi yanlıştır?",
+    "options": [
+      "A) İslam'ın şartıdır",
+      "B) Ömürde bir kez farzdır",
+      "C) Zenginlere farzdır",
+      "D) Muharrem ayında yapılır",
+      "E) İhrama girilir"
+    ],
+    "correct_answer": 3,
+    "explanation": "Hac Zilhicce ayında yapılır, Muharrem ayında değil."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Saltanat hangi tarihte kaldırılmıştır?",
+    "options": [
+      "A) 23 Nisan 1920",
+      "B) 1 Kasım 1922",
+      "C) 29 Ekim 1923",
+      "D) 3 Mart 1924",
+      "E) 10 Nisan 1928"
+    ],
+    "correct_answer": 1,
+    "explanation": "Saltanat 1 Kasım 1922'de kaldırılmıştır."
+  },
+  {
+    "sub_category": "cografya",
+    "question": "Türkiye'de iklim çeşitliliğinin nedenlerinden biri aşağıdakilerden hangisi değildir?",
+    "options": [
+      "A) Üç tarafının denizlerle çevrili olması",
+      "B) Dağların uzanış doğrultusu",
+      "C) Yer şekillerinin çeşitliliği",
+      "D) Toprak tiplerinin farklılığı",
+      "E) Enlem farklılıkları"
+    ],
+    "correct_answer": 3,
+    "explanation": "Toprak tiplerinin farklılığı iklimin sonucudur, nedeni değildir."
+  },
+  {
+    "sub_category": "din",
+    "question": "\"Allah'tan başka ilah yoktur\" anlamına gelen kavram hangisidir?",
+    "options": [
+      "A) Kelime-i şehadet",
+      "B) Tekbir",
+      "C) Salavat",
+      "D) Kelime-i tevhid",
+      "E) Besmele"
+    ],
+    "correct_answer": 3,
+    "explanation": "\"Lâ ilâhe illallah\" ifadesi kelime-i tevhiddir."
+  },
+  {
+    "sub_category": "din",
+    "question": "Zekât oranı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) 1/10",
+      "B) 1/20",
+      "C) 1/40",
+      "D) 1/50",
+      "E) 1/100"
+    ],
+    "correct_answer": 2,
+    "explanation": "Zekât malın 1/40'ı (yüzde 2,5) oranında verilir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Ankara Savaşı (1402) hangi iki devlet arasında gerçekleşmiştir?",
+    "options": [
+      "A) Osmanlı-Memlük",
+      "B) Osmanlı-Bizans",
+      "C) Osmanlı-Timur",
+      "D) Osmanlı-Akkoyunlu",
+      "E) Osmanlı-Karamanoğlu"
+    ],
+    "correct_answer": 2,
+    "explanation": "Ankara Savaşı Yıldırım Bayezid ile Timur arasında gerçekleşmiştir."
+  },
+  {
+    "sub_category": "din",
+    "question": "Hz. Muhammed'in Medine'ye hicretinin temel nedeni nedir?",
+    "options": [
+      "A) Ticaret yapmak",
+      "B) Medinelilerin daveti ve Mekke'deki baskılar",
+      "C) Devlet kurmak",
+      "D) Ailesini güvende tutmak",
+      "E) Hac görevi"
+    ],
+    "correct_answer": 1,
+    "explanation": "Medinelilerin daveti ve Mekke'de artan baskılar hicrete neden olmuştur."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "Misak-ı Millî kararları hangi kurul tarafından kabul edilmiştir?",
+    "options": [
+      "A) Erzurum Kongresi",
+      "B) Heyet-i Temsiliye",
+      "C) Son Osmanlı Mebusan Meclisi",
+      "D) TBMM",
+      "E) Amasya Görüşmeleri"
+    ],
+    "correct_answer": 2,
+    "explanation": "Misak-ı Millî kararları 28 Ocak 1920'de Son Osmanlı Mebusan Meclisi tarafından kabul edilmiştir."
+  },
+  {
+    "sub_category": "tarih",
+    "question": "İslamiyet öncesi Türk devletlerinde hükümdarın başkanlığında toplanan ve devlet işlerinin görüşüldüğü meclise ne ad verilirdi?",
+    "options": [
+      "A) Meclis-i Mebusan",
+      "B) Toy (Kurultay)",
+      "C) Divan-ı Hümayun",
+      "D) Ayan Meclisi",
+      "E) İltizam"
+    ],
+    "correct_answer": 1,
+    "explanation": "İslamiyet öncesi Türk devletlerinde hükümdarın başkanlığında toplanan meclise \"Toy\" veya \"Kurultay\" adı verilirdi."
   }
 ]

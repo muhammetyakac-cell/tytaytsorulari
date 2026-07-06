@@ -2,127 +2,1717 @@
   {
     "sub_category": "matematik",
     "question": "Bir otobüsteki yolcuların $\\frac{3}{5}$'i erkektir. Otobüse 10 erkek daha binince erkek yolcu sayısı tüm yolcuların $\\frac{2}{3}$'si oluyor. Buna göre, başlangıçta otobüste kaç yolcu vardır?",
-    "options": ["A) 30", "B) 40", "C) 45", "D) 50", "E) 60"],
+    "options": [
+      "A) 30",
+      "B) 40",
+      "C) 45",
+      "D) 50",
+      "E) 60"
+    ],
     "correct_answer": 3,
     "explanation": "Başlangıçtaki yolcu sayısına $x$ diyelim. Erkek yolcu: $\\frac{3x}{5}$. Yeni durum: $\\frac{3x}{5} + 10 = \\frac{2}{3}(x+10)$. Her tarafı 15 ile çarpalım: $9x + 150 = 10(x+10) \\implies 9x + 150 = 10x + 100 \\implies x = 50$."
   },
   {
     "sub_category": "matematik",
     "question": "$a$, $b$ ve $c$ pozitif tam sayılar olmak üzere, $a = b^2$ ve $b = c^3$ eşitlikleri veriliyor. $a$ sayısı en az kaçtır?",
-    "options": ["A) 6", "B) 9", "C) 27", "D) 36", "E) 64"],
+    "options": [
+      "A) 6",
+      "B) 9",
+      "C) 27",
+      "D) 36",
+      "E) 64"
+    ],
     "correct_answer": 4,
     "explanation": "$a = (c^3)^2 = c^6$. En küçük pozitif tam sayı $c \\ge 2$ (çünkü $c=1$ olursa tüm sayılar $1$ olur). $c=2 \\implies a = 2^6 = 64$."
   },
   {
     "sub_category": "matematik",
     "question": "Bir sınıftaki öğrencilerin $%40$'i kız öğrencidir. Kız öğrencilerin $%30$'u, erkek öğrencilerin ise $%20$'si gözlüklüdür. Buna gore, bu siniftaki ogrencilerin yuzde kaci gozlukludur?",
-    "options": ["A) 20", "B) 22", "C) 24", "D) 26", "E) 28"],
+    "options": [
+      "A) 20",
+      "B) 22",
+      "C) 24",
+      "D) 26",
+      "E) 28"
+    ],
     "correct_answer": 2,
     "explanation": "Toplam 100 öğrenci olsun: Kiz: 40, Erkek: 60. Gozluklu kiz: $40 \\times \\frac{30}{100} = 12$. Gozluklu erkek: $60 \\times \\frac{20}{100} = 12$. Toplam: 24 → %24."
   },
   {
     "sub_category": "matematik",
     "question": "$|2x - 6| < 4$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
-    "options": ["A) $(1, 5)$", "B) $[1,5]$", "C) $(1, 6)$", "D) $(2, 5)$", "E) $(-1, 5)$"],
+    "options": [
+      "A) $(1, 5)$",
+      "B) $[1,5]$",
+      "C) $(1, 6)$",
+      "D) $(2, 5)$",
+      "E) $(-1, 5)$"
+    ],
     "correct_answer": 0,
     "explanation": "$|2x - 6| < 4 \\implies -4 < 2x - 6 < 4 \\implies 2 < 2x < 10 \\implies 1 < x < 5$. Çözüm kümesi $(1, 5)$ açık aralığıdır."
   },
   {
     "sub_category": "matematik",
     "question": "Bir torbada 3 kırmızı, 4 mavi ve 5 beyaz top vardır. Torbadan rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
-    "options": ["A) $\\frac{1}{4}$", "B) $\\frac{7}{12}$", "C) $\\frac{1}{3}$", "D) $\\frac{5}{12}$", "E) $\\frac{3}{4}$"],
+    "options": [
+      "A) $\\frac{1}{4}$",
+      "B) $\\frac{7}{12}$",
+      "C) $\\frac{1}{3}$",
+      "D) $\\frac{5}{12}$",
+      "E) $\\frac{3}{4}$"
+    ],
     "correct_answer": 1,
     "explanation": "Toplam top sayısı: $3 + 4 + 5 = 12$. İstenen toplar (kırmızı + mavi): $3 + 4 = 7$. Olasılık: $\\frac{7}{12}$."
   },
   {
     "sub_category": "matematik",
     "question": "$f(x) = 3x - 2$ ve $g(x) = x + 4$ olmak üzere, $(f \\circ g)(x)$ aşağıdakilerden hangisidir?",
-    "options": ["A) $3x + 10$", "B) $3x + 12$", "C) $3x + 2$", "D) $3x - 14$", "E) $x + 2$"],
+    "options": [
+      "A) $3x + 10$",
+      "B) $3x + 12$",
+      "C) $3x + 2$",
+      "D) $3x - 14$",
+      "E) $x + 2$"
+    ],
     "correct_answer": 0,
     "explanation": "$(f \\circ g)(x) = f(g(x)) = f(x+4) = 3(x+4) - 2 = 3x + 12 - 2 = 3x + 10$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\sqrt{128} + \\sqrt{50} - \\sqrt{18}$ işleminin sonucu kaçtır?",
-    "options": ["A) $5\\sqrt{2}$", "B) $8\\sqrt{2}$", "C) $10\\sqrt{2}$", "D) $12\\sqrt{2}$", "E) $15\\sqrt{2}$"],
+    "options": [
+      "A) $5\\sqrt{2}$",
+      "B) $8\\sqrt{2}$",
+      "C) $10\\sqrt{2}$",
+      "D) $12\\sqrt{2}$",
+      "E) $15\\sqrt{2}$"
+    ],
     "correct_answer": 1,
     "explanation": "$\\sqrt{128} = 8\\sqrt{2}$, $\\sqrt{50} = 5\\sqrt{2}$, $\\sqrt{18} = 3\\sqrt{2}$. Toplam: $8\\sqrt{2} + 5\\sqrt{2} - 3\\sqrt{2} = 10\\sqrt{2}$."
   },
   {
     "sub_category": "matematik",
     "question": "Bir geometrik dizinin ilk terimi 2, ortak çarpanı 3 olduğuna göre, bu dizinin 5. terimi kaçtır?",
-    "options": ["A) 54", "B) 72", "C) 108", "D) 162", "E) 324"],
+    "options": [
+      "A) 54",
+      "B) 72",
+      "C) 108",
+      "D) 162",
+      "E) 324"
+    ],
     "correct_answer": 3,
     "explanation": "Geometrik dizi: $a_n = a_1 \\cdot r^{n-1}$. $a_5 = 2 \\cdot 3^{4} = 2 \\cdot 81 = 162$."
   },
   {
     "sub_category": "matematik",
     "question": "$a$, $b$ birer gerçek sayı olmak üzere, $ax^2 + bx + 6 = 0$ denkleminin kökleri 2 ve 3'tür. Buna göre, $a + b$ toplamı kaçtır?",
-    "options": ["A) $-5$", "B) $-3$", "C) $-1$", "D) $1$", "E) $3$"],
+    "options": [
+      "A) $-5$",
+      "B) $-3$",
+      "C) $-1$",
+      "D) $1$",
+      "E) $3$"
+    ],
     "correct_answer": 0,
     "explanation": "Kökler çarpımı: $\\frac{6}{a} = 6 \\implies a = 1$. Kökler toplamı: $-\\frac{b}{a} = 5 \\implies b = -5$. $a + b = -4$."
   },
   {
     "sub_category": "matematik",
     "question": "$A = \\{1, 2, 3, 4, 5\\}$ kümesinin 3 elemanlı alt kümelerinin sayısı kaçtır?",
-    "options": ["A) 6", "B) 8", "C) 10", "D) 12", "E) 15"],
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12",
+      "E) 15"
+    ],
     "correct_answer": 2,
     "explanation": "$C(5,3) = \\frac{5!}{3! \\cdot 2!} = \\frac{5 \\cdot 4 \\cdot 3!}{3! \\cdot 2} = \\frac{20}{2} = 10$."
   },
   {
     "sub_category": "matematik",
     "question": "Ortalaması 24 olan 6 sayıya aşağıdaki sayılardan hangisi eklenirse yeni ortalama 25 olur?",
-    "options": ["A) 28", "B) 29", "C) 30", "D) 31", "E) 32"],
+    "options": [
+      "A) 28",
+      "B) 29",
+      "C) 30",
+      "D) 31",
+      "E) 32"
+    ],
     "correct_answer": 3,
     "explanation": "6 sayının toplamı: $24 \\times 6 = 144$. 7 sayının toplamı: $25 \\times 7 = 175$. Eklenecek sayı: $175 - 144 = 31$."
   },
   {
     "sub_category": "matematik",
     "question": "Bir okuldaki öğrencilerin $%60$'ı erkektir. Erkek öğrencilerin $%25$'i gözlüklü olup gözlüklü erkek sayısı 75 olduğuna göre, okuldaki kız öğrenci sayısı kaçtır?",
-    "options": ["A) 400", "B) 450", "C) 480", "D) 500", "E) 520"],
+    "options": [
+      "A) 400",
+      "B) 450",
+      "C) 480",
+      "D) 500",
+      "E) 520"
+    ],
     "correct_answer": 3,
     "explanation": "Toplam öğrenci sayısına $x$ diyelim. Erkek: $0.6x$. Gözlüklü erkek: $0.25 \\cdot 0.6x = 0.15x = 75 \\implies x = 500$. Kız öğrenci: $0.4 \\times 500 = 200$."
   },
   {
     "sub_category": "geometri",
     "question": "Bir üçgenin iç açıları 2, 3 ve 5 sayılarıyla orantılıdır. Buna göre, en büyük açı kaç derecedir?",
-    "options": ["A) 54", "B) 72", "C) 90", "D) 108", "E) 126"],
+    "options": [
+      "A) 54",
+      "B) 72",
+      "C) 90",
+      "D) 108",
+      "E) 126"
+    ],
     "correct_answer": 2,
     "explanation": "Açılara $2k$, $3k$, $5k$ diyelim. $2k + 3k + 5k = 10k = 180 \\implies k = 18$. En büyük açı: $5 \\times 18 = 90^\\circ$."
   },
   {
     "sub_category": "geometri",
     "question": "Yarıçapı 6 cm olan bir dairenin alanı kaç $\\pi$ cm$^2$'dir?",
-    "options": ["A) $6\\pi$", "B) $12\\pi$", "C) $18\\pi$", "D) $24\\pi$", "E) $36\\pi$"],
+    "options": [
+      "A) $6\\pi$",
+      "B) $12\\pi$",
+      "C) $18\\pi$",
+      "D) $24\\pi$",
+      "E) $36\\pi$"
+    ],
     "correct_answer": 4,
     "explanation": "Dairenin alanı: $\\pi r^2 = \\pi \\times 6^2 = 36\\pi$ cm$^2$."
   },
   {
     "sub_category": "geometri",
     "question": "ABCD bir dikdörtgen, $|AB| = 12$ cm ve $|BC| = 5$ cm'dir. Buna göre $|AC|$ köşegen uzunluğu kaç cm'dir?",
-    "options": ["A) 10", "B) 11", "C) 12", "D) 13", "E) 14"],
+    "options": [
+      "A) 10",
+      "B) 11",
+      "C) 12",
+      "D) 13",
+      "E) 14"
+    ],
     "correct_answer": 3,
     "explanation": "Pisagor teoremi: $|AC|^2 = 12^2 + 5^2 = 144 + 25 = 169 \\implies |AC| = \\sqrt{169} = 13$ cm."
   },
   {
     "sub_category": "geometri",
     "question": "Bir düzgün altıgenin bir iç açısı kaç derecedir?",
-    "options": ["A) $60^\\circ$", "B) $90^\\circ$", "C) $108^\\circ$", "D) $120^\\circ$", "E) $135^\\circ$"],
+    "options": [
+      "A) $60^\\circ$",
+      "B) $90^\\circ$",
+      "C) $108^\\circ$",
+      "D) $120^\\circ$",
+      "E) $135^\\circ$"
+    ],
     "correct_answer": 3,
     "explanation": "$n$ kenarlı düzgün çokgenin bir iç açısı: $\\frac{(n-2) \\times 180}{n}$. Altıgen için: $\\frac{4 \\times 180}{6} = 120^\\circ$."
   },
   {
     "sub_category": "geometri",
     "question": "Eşkenar üçgen şeklindeki bir tarlanın çevresi 60 metredir. Tarlanın alanı kaç $\\sqrt{3}$ m$^2$'dir?",
-    "options": ["A) $24\\sqrt{3}$", "B) $36\\sqrt{3}$", "C) $48\\sqrt{3}$", "D) $60\\sqrt{3}$", "E) $100\\sqrt{3}$"],
+    "options": [
+      "A) $24\\sqrt{3}$",
+      "B) $36\\sqrt{3}$",
+      "C) $48\\sqrt{3}$",
+      "D) $60\\sqrt{3}$",
+      "E) $100\\sqrt{3}$"
+    ],
     "correct_answer": 4,
     "explanation": "Bir kenarı: $60/3 = 20$ m. Alan: $\\frac{\\sqrt{3}}{4}a^2 = \\frac{\\sqrt{3}}{4} \\times 400 = 100\\sqrt{3}$ m$^2$."
   },
   {
     "sub_category": "geometri",
     "question": "$A(-2, 3)$ ve $B(4, -5)$ noktaları arasındaki uzaklık kaç birimdir?",
-    "options": ["A) 8", "B) 9", "C) 10", "D) 11", "E) 12"],
+    "options": [
+      "A) 8",
+      "B) 9",
+      "C) 10",
+      "D) 11",
+      "E) 12"
+    ],
     "correct_answer": 2,
     "explanation": "$|AB| = \\sqrt{(4 - (-2))^2 + (-5 - 3)^2} = \\sqrt{6^2 + (-8)^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ birim."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir mal 186 TL'ye alınıp %50 kârla satılırsa satış fiyatı kaç TL olur?",
+    "options": [
+      "A) $317$",
+      "B) $279$",
+      "C) $93$",
+      "D) $62$",
+      "E) $186$"
+    ],
+    "correct_answer": 1,
+    "explanation": "%50 = $\\frac{50}{100}$. Kâr miktarı: $186 \\times \\frac{50}{100} = 93$ TL. Yeni fiyat: $186 + 93 = 279$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 5 kırmızı, 5 mavi ve 2 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $2/12$",
+      "B) $\\frac{10}{12}$",
+      "C) $11/12$",
+      "D) $5/12$",
+      "E) $5/12$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Toplam top sayısı: $5 + 5 + 2 = 12$. İstenen durum (kırmızı + mavi): $5 + 5 = 10$. Olasılık: $\\frac{10}{12}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|2x - 8| < 2$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $[3, 5]$",
+      "B) $[3, 5)$",
+      "C) $(5, 3)$",
+      "D) $(3, 5)$",
+      "E) $(2, 6)$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$|2x - 8| < 2 \\implies -2 < 2x - 8 < 2 \\implies 6 < 2x < 10 \\implies \\frac{6}{2} < x < \\frac{10}{2} \\implies 3 < x < 5$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 1x + 2$ ise $f(5)$ kaçtır?",
+    "options": [
+      "A) $3$",
+      "B) $12$",
+      "C) $7$",
+      "D) $2$",
+      "E) $12$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$f(5) = 1\\cdot5 + 2 = 7$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{147}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $8\\sqrt{3}$",
+      "B) $6\\sqrt{3}$",
+      "C) $7\\sqrt{3}$",
+      "D) $7\\sqrt{4}$",
+      "E) $14\\sqrt{3}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\sqrt{147} = \\sqrt{49 \\times 3} = 7\\sqrt{3}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$4^{4} \\cdot 4^{1}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $1024$",
+      "B) $64$",
+      "C) $64$",
+      "D) $256$",
+      "E) $260$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$4^{4} \\cdot 4^{1} = 4^{4+1} = 4^{5} = 1024$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 4 tek sayının toplamı 30'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $6$",
+      "B) $10$",
+      "C) $7$",
+      "D) $11$",
+      "E) $14$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ardışık sayılar: 6, 10, 14. Toplam: 6 + 10 + 14 = 30. Ortanca: 10."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{2}{4} = \\frac{?}{12}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{6}{12}$",
+      "B) $\\frac{5}{12}$",
+      "C) $\\frac{8}{16}$",
+      "D) $\\frac{6}{13}$",
+      "E) $\\frac{7}{12}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{2}{4} = \\frac{x}{12} \\implies 2 \\cdot 12 = 4 \\cdot x \\implies 24 = 4x \\implies x = 6$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Ölçüsü 120° olan açının bütünler açısının ölçüsü kaç derecedir?",
+    "options": [
+      "A) $73^\\circ$",
+      "B) $210^\\circ$",
+      "C) $120^\\circ$",
+      "D) $60^\\circ$",
+      "E) $240^\\circ$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Bütünler açılar toplamı $180^\\circ$'dir. $180^\\circ - 120^\\circ = 60^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 12 cm ve yüksekliği 4 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $24$",
+      "B) $16$",
+      "C) $48$",
+      "D) $16$",
+      "E) $12$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 12 \\times 4 = 24$ cm²."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 4 cm olan bir çemberin çevresi kaç cm'dir? ($\\pi = \\pi$)",
+    "options": [
+      "A) $4\\pi$",
+      "B) $10\\pi$",
+      "C) $5\\pi$",
+      "D) $16\\pi$",
+      "E) $8\\pi$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Çemberin çevresi: $Ç = 2\\pi r = 2\\pi \\cdot 4 = 8\\pi$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 5 cm, uzun kenarı 10 cm olan bir dikdörtgenin alanı kaç cm²dir?",
+    "options": [
+      "A) $25$",
+      "B) $50$",
+      "C) $100$",
+      "D) $30$",
+      "E) $25$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Alan: $5 \\times 10 = 50$ cm²."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$8x + 10 = 26$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $10$",
+      "B) $9$",
+      "C) $3$",
+      "D) $2$",
+      "E) $1$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$8x + 10 = 26 \\implies 8x = 26 - 10 = 16 \\implies x = \\frac{16}{8} = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir ürünün fiyatı 140 TL'dir. Ürüne %75 zam yapılırsa yeni fiyat kaç TL olur?",
+    "options": [
+      "A) $105$",
+      "B) $290$",
+      "C) $140$",
+      "D) $11$",
+      "E) $245$"
+    ],
+    "correct_answer": 4,
+    "explanation": "%75 = $\\frac{75}{100}$. Zam miktarı: $140 \\times \\frac{75}{100} = 105$ TL. Yeni fiyat: $140 + 105 = 245$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 5 kırmızı, 4 mavi ve 4 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $5/13$",
+      "B) $\\frac{9}{13}$",
+      "C) $4/13$",
+      "D) $4/13$",
+      "E) $10/13$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Toplam top sayısı: $5 + 4 + 4 = 13$. İstenen durum (kırmızı + mavi): $5 + 4 = 9$. Olasılık: $\\frac{9}{13}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|2x - 4| < 2$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(3, 1)$",
+      "B) $(1, 4)$",
+      "C) $(1, 3)$",
+      "D) $(0, 4)$",
+      "E) $[1, 3]$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$|2x - 4| < 2 \\implies -2 < 2x - 4 < 2 \\implies 2 < 2x < 6 \\implies \\frac{2}{2} < x < \\frac{6}{2} \\implies 1 < x < 3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x + 2$ ise $f(7)$ kaçtır?",
+    "options": [
+      "A) $12$",
+      "B) $23$",
+      "C) $20$",
+      "D) $12$",
+      "E) $16$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f(7) = 2\\cdot7 + 2 = 16$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{432}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $6\\sqrt{11}$",
+      "B) $12\\sqrt{12}$",
+      "C) $6\\sqrt{13}$",
+      "D) $6\\sqrt{12}$",
+      "E) $7\\sqrt{12}$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\sqrt{432} = \\sqrt{36 \\times 12} = 6\\sqrt{12}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$5^{3} \\cdot 5^{4}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $5$",
+      "B) $244140625$",
+      "C) $0.2$",
+      "D) $78125$",
+      "E) $750$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$5^{3} \\cdot 5^{4} = 5^{3+4} = 5^{7} = 78125$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 5 tek sayının toplamı 33'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $13$",
+      "B) $15$",
+      "C) $7$",
+      "D) $11$",
+      "E) $9$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ardışık sayılar: 7, 11, 15. Toplam: 7 + 11 + 15 = 33. Ortanca: 11."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{3}{9} = \\frac{?}{18}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{6}{18}$",
+      "B) $\\frac{6}{17}$",
+      "C) $\\frac{9}{27}$",
+      "D) $\\frac{5}{18}$",
+      "E) $\\frac{6}{19}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{3}{9} = \\frac{x}{18} \\implies 3 \\cdot 18 = 9 \\cdot x \\implies 54 = 9x \\implies x = 6$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 12$, $s(B) = 20$ ve $s(A \\cap B) = 6$ ise sadece $A$ kümesinin eleman sayısı kaçtır?",
+    "options": [
+      "A) $6$",
+      "B) $12$",
+      "C) $20$",
+      "D) $14$",
+      "E) $26$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Sadece $A$: $s(A) - s(A \\cap B) = 12 - 6 = 6$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Ölçüsü 45° olan açının bütünler açısının ölçüsü kaç derecedir?",
+    "options": [
+      "A) $45^\\circ$",
+      "B) $155^\\circ$",
+      "C) $135^\\circ$",
+      "D) $45^\\circ$",
+      "E) $315^\\circ$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Bütünler açılar toplamı $180^\\circ$'dir. $180^\\circ - 45^\\circ = 135^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 11 cm ve yüksekliği 4 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $11$",
+      "B) $44$",
+      "C) $15$",
+      "D) $14.666666666666666$",
+      "E) $22$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 11 \\times 4 = 22$ cm²."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 6 cm olan bir çemberin çevresi kaç cm'dir? ($\\pi = \\pi$)",
+    "options": [
+      "A) $14\\pi$",
+      "B) $12\\pi$",
+      "C) $36\\pi$",
+      "D) $6\\pi$",
+      "E) $18\\pi$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Çemberin çevresi: $Ç = 2\\pi r = 2\\pi \\cdot 6 = 12\\pi$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 5 cm, uzun kenarı 7 cm olan bir dikdörtgenin alanı kaç cm²dir?",
+    "options": [
+      "A) $35$",
+      "B) $17.5$",
+      "C) $70$",
+      "D) $17.5$",
+      "E) $24$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Alan: $5 \\times 7 = 35$ cm²."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$9x + 8 = 17$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $1$",
+      "B) $6$",
+      "C) $5$",
+      "D) $8$",
+      "E) $10$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$9x + 8 = 17 \\implies 9x = 17 - 8 = 9 \\implies x = \\frac{9}{9} = 1$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir mal 499 TL'ye alınıp %50 kârla satılırsa satış fiyatı kaç TL olur?",
+    "options": [
+      "A) $205$",
+      "B) $749$",
+      "C) $499$",
+      "D) $799$",
+      "E) $250$"
+    ],
+    "correct_answer": 1,
+    "explanation": "%50 = $\\frac{50}{100}$. Kâr miktarı: $499 \\times \\frac{50}{100} = 250$ TL. Yeni fiyat: $499 + 250 = 749$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 2 kırmızı, 2 mavi ve 1 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $1/5$",
+      "B) $5/5$",
+      "C) $2/5$",
+      "D) $\\frac{4}{5}$",
+      "E) $2/5$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Toplam top sayısı: $2 + 2 + 1 = 5$. İstenen durum (kırmızı + mavi): $2 + 2 = 4$. Olasılık: $\\frac{4}{5}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$1x - 4 < 0$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $x \\leq 4$",
+      "B) $x \\geq 4$",
+      "C) $x > 4$",
+      "D) $x < 5$",
+      "E) $x < 4$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$1x - 4 < 0 \\implies 1x < 4 \\implies x < \\frac{4}{1} \\implies x < 4$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|5x - 2| < 5$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(-1.6, 2.4)$",
+      "B) $(-0.6, 1.4)$",
+      "C) $(1.4, -0.6)$",
+      "D) $(-0.6, 2.4)$",
+      "E) $[-0.6, 1.4]$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$|5x - 2| < 5 \\implies -5 < 5x - 2 < 5 \\implies -3 < 5x < 7 \\implies \\frac{-3}{5} < x < \\frac{7}{5} \\implies -0.6 < x < 1.4$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x + 6$ ise $f(8)$ kaçtır?",
+    "options": [
+      "A) $18$",
+      "B) $16$",
+      "C) $30$",
+      "D) $22$",
+      "E) $24$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$f(8) = 2\\cdot8 + 6 = 22$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{200}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $5\\sqrt{8}$",
+      "B) $6\\sqrt{8}$",
+      "C) $4\\sqrt{8}$",
+      "D) $10\\sqrt{8}$",
+      "E) $5\\sqrt{9}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\sqrt{200} = \\sqrt{25 \\times 8} = 5\\sqrt{8}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$4^{3} \\cdot 4^{3}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $1$",
+      "B) $1$",
+      "C) $4096$",
+      "D) $262144$",
+      "E) $128$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$4^{3} \\cdot 4^{3} = 4^{3+3} = 4^{6} = 4096$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 8 tek sayının toplamı 12'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $7$",
+      "B) $3$",
+      "C) $7$",
+      "D) $4$",
+      "E) $1$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ardışık sayılar: 1, 4, 7. Toplam: 1 + 4 + 7 = 12. Ortanca: 4."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{2}{9} = \\frac{?}{36}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{7}{36}$",
+      "B) $\\frac{8}{37}$",
+      "C) $\\frac{10}{45}$",
+      "D) $\\frac{8}{36}$",
+      "E) $\\frac{8}{35}$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\frac{2}{9} = \\frac{x}{36} \\implies 2 \\cdot 36 = 9 \\cdot x \\implies 72 = 9x \\implies x = 8$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 16$, $s(B) = 10$ ve $s(A \\cap B) = 9$ ise sadece $A$ kümesinin eleman sayısı kaçtır?",
+    "options": [
+      "A) $10$",
+      "B) $17$",
+      "C) $16$",
+      "D) $7$",
+      "E) $1$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Sadece $A$: $s(A) - s(A \\cap B) = 16 - 9 = 7$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Ölçüsü 30° olan açının bütünler açısının ölçüsü kaç derecedir?",
+    "options": [
+      "A) $330^\\circ$",
+      "B) $30^\\circ$",
+      "C) $180^\\circ$",
+      "D) $150^\\circ$",
+      "E) $120^\\circ$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Bütünler açılar toplamı $180^\\circ$'dir. $180^\\circ - 30^\\circ = 150^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 4 cm ve yüksekliği 9 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $12$",
+      "B) $13$",
+      "C) $9$",
+      "D) $36$",
+      "E) $18$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 4 \\times 9 = 18$ cm²."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 5 cm olan bir çemberin çevresi kaç cm'dir? ($\\pi = \\pi$)",
+    "options": [
+      "A) $6\\pi$",
+      "B) $10\\pi$",
+      "C) $25\\pi$",
+      "D) $12\\pi$",
+      "E) $5\\pi$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Çemberin çevresi: $Ç = 2\\pi r = 2\\pi \\cdot 5 = 10\\pi$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 8 cm, uzun kenarı 13 cm olan bir dikdörtgenin alanı kaç cm²dir?",
+    "options": [
+      "A) $104$",
+      "B) $21$",
+      "C) $208$",
+      "D) $52$",
+      "E) $52$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Alan: $8 \\times 13 = 104$ cm²."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$7x + 8 = 22$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $5$",
+      "B) $6$",
+      "C) $8$",
+      "D) $4$",
+      "E) $2$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$7x + 8 = 22 \\implies 7x = 22 - 8 = 14 \\implies x = \\frac{14}{7} = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir ürünün fiyatı 279 TL'dir. Ürüne %15 zam yapılırsa yeni fiyat kaç TL olur?",
+    "options": [
+      "A) $279$",
+      "B) $227$",
+      "C) $358$",
+      "D) $42$",
+      "E) $321$"
+    ],
+    "correct_answer": 4,
+    "explanation": "%15 = $\\frac{15}{100}$. Zam miktarı: $279 \\times \\frac{15}{100} = 42$ TL. Yeni fiyat: $279 + 42 = 321$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 3 kırmızı, 5 mavi ve 4 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $9/12$",
+      "B) $4/12$",
+      "C) $5/12$",
+      "D) $\\frac{8}{12}$",
+      "E) $3/12$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Toplam top sayısı: $3 + 5 + 4 = 12$. İstenen durum (kırmızı + mavi): $3 + 5 = 8$. Olasılık: $\\frac{8}{12}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|2x - 2| < 2$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(0, 3)$",
+      "B) $(-1, 3)$",
+      "C) $(0, 2)$",
+      "D) $[0, 2]$",
+      "E) $[0, 2)$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$|2x - 2| < 2 \\implies -2 < 2x - 2 < 2 \\implies 0 < 2x < 4 \\implies \\frac{0}{2} < x < \\frac{4}{2} \\implies 0 < x < 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 4x + 5$ ise $f(3)$ kaçtır?",
+    "options": [
+      "A) $7$",
+      "B) $17$",
+      "C) $20$",
+      "D) $12$",
+      "E) $20$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$f(3) = 4\\cdot3 + 5 = 17$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{392}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $7\\sqrt{8}$",
+      "B) $7\\sqrt{7}$",
+      "C) $14\\sqrt{8}$",
+      "D) $6\\sqrt{8}$",
+      "E) $8\\sqrt{8}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\sqrt{392} = \\sqrt{49 \\times 8} = 7\\sqrt{8}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$4^{5} \\cdot 4^{4}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $4$",
+      "B) $1280$",
+      "C) $262144$",
+      "D) $4$",
+      "E) $1099511627776$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$4^{5} \\cdot 4^{4} = 4^{5+4} = 4^{9} = 262144$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 5 tek sayının toplamı 39'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $9$",
+      "B) $11$",
+      "C) $15$",
+      "D) $17$",
+      "E) $13$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Ardışık sayılar: 9, 13, 17. Toplam: 9 + 13 + 17 = 39. Ortanca: 13."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{8}{7} = \\frac{?}{21}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{23}{21}$",
+      "B) $\\frac{24}{22}$",
+      "C) $\\frac{24}{21}$",
+      "D) $\\frac{32}{28}$",
+      "E) $\\frac{24}{20}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{8}{7} = \\frac{x}{21} \\implies 8 \\cdot 21 = 7 \\cdot x \\implies 168 = 7x \\implies x = 24$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 12$, $s(B) = 19$ ve $s(A \\cap B) = 10$ ise sadece $A$ kümesinin eleman sayısı kaçtır?",
+    "options": [
+      "A) $10$",
+      "B) $2$",
+      "C) $21$",
+      "D) $12$",
+      "E) $9$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Sadece $A$: $s(A) - s(A \\cap B) = 12 - 10 = 2$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Ölçüsü 90° olan açının bütünler açısının ölçüsü kaç derecedir?",
+    "options": [
+      "A) $90^\\circ$",
+      "B) $109^\\circ$",
+      "C) $270^\\circ$",
+      "D) $180^\\circ$",
+      "E) $104^\\circ$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Bütünler açılar toplamı $180^\\circ$'dir. $180^\\circ - 90^\\circ = 90^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 10 cm ve yüksekliği 4 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $14$",
+      "B) $20$",
+      "C) $40$",
+      "D) $10$",
+      "E) $13.333333333333334$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 10 \\times 4 = 20$ cm²."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 10 cm olan bir çemberin çevresi kaç cm'dir? ($\\pi = \\pi$)",
+    "options": [
+      "A) $20\\pi$",
+      "B) $10\\pi$",
+      "C) $22\\pi$",
+      "D) $30\\pi$",
+      "E) $11\\pi$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Çemberin çevresi: $Ç = 2\\pi r = 2\\pi \\cdot 10 = 20\\pi$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 3 cm, uzun kenarı 15 cm olan bir dikdörtgenin alanı kaç cm²dir?",
+    "options": [
+      "A) $22.5$",
+      "B) $45$",
+      "C) $90$",
+      "D) $36$",
+      "E) $18$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Alan: $3 \\times 15 = 45$ cm²."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$7x + 5 = 75$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $9$",
+      "B) $10$",
+      "C) $4$",
+      "D) $6$",
+      "E) $3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$7x + 5 = 75 \\implies 7x = 75 - 5 = 70 \\implies x = \\frac{70}{7} = 10$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir mal 485 TL'ye alınıp %75 kârla satılırsa satış fiyatı kaç TL olur?",
+    "options": [
+      "A) $364$",
+      "B) $99$",
+      "C) $849$",
+      "D) $485$",
+      "E) $866$"
+    ],
+    "correct_answer": 2,
+    "explanation": "%75 = $\\frac{75}{100}$. Kâr miktarı: $485 \\times \\frac{75}{100} = 364$ TL. Yeni fiyat: $485 + 364 = 849$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 4 kırmızı, 3 mavi ve 1 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $3/8$",
+      "B) $\\frac{7}{8}$",
+      "C) $8/8$",
+      "D) $1/8$",
+      "E) $4/8$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Toplam top sayısı: $4 + 3 + 1 = 8$. İstenen durum (kırmızı + mavi): $4 + 3 = 7$. Olasılık: $\\frac{7}{8}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$1x - 5 < 0$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $x \\leq 4$",
+      "B) $x < 5$",
+      "C) $x > 5$",
+      "D) $x < 6$",
+      "E) $x \\leq 5$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$1x - 5 < 0 \\implies 1x < 5 \\implies x < \\frac{5}{1} \\implies x < 5$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|1x - 2| < 6$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(-4, 8)$",
+      "B) $(-4, 9)$",
+      "C) $(8, -4)$",
+      "D) $[-4, 8)$",
+      "E) $[-4, 8]$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$|1x - 2| < 6 \\implies -6 < 1x - 2 < 6 \\implies -4 < 1x < 8 \\implies \\frac{-4}{1} < x < \\frac{8}{1} \\implies -4 < x < 8$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir ürünün fiyatı 169 TL'dir. Üründe %60 indirim yapılırsa yeni fiyat kaç TL olur?",
+    "options": [
+      "A) $307$",
+      "B) $45$",
+      "C) $68$",
+      "D) $101$",
+      "E) $169$"
+    ],
+    "correct_answer": 2,
+    "explanation": "%60 = $\\frac{60}{100}$. İndirim miktarı: $169 \\times \\frac{60}{100} = 101$ TL. Yeni fiyat: $169 - 101 = 68$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 3 kırmızı, 4 mavi ve 1 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $1/8$",
+      "B) $\\frac{7}{8}$",
+      "C) $4/8$",
+      "D) $3/8$",
+      "E) $8/8$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Toplam top sayısı: $3 + 4 + 1 = 8$. İstenen durum (kırmızı + mavi): $3 + 4 = 7$. Olasılık: $\\frac{7}{8}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|1x - 7| < 4$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(2, 12)$",
+      "B) $[3, 11)$",
+      "C) $(3, 11)$",
+      "D) $(3, 12)$",
+      "E) $(11, 3)$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$|1x - 7| < 4 \\implies -4 < 1x - 7 < 4 \\implies 3 < 1x < 11 \\implies \\frac{3}{1} < x < \\frac{11}{1} \\implies 3 < x < 11$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x + 5$ ise $f(4)$ kaçtır?",
+    "options": [
+      "A) $17$",
+      "B) $3$",
+      "C) $13$",
+      "D) $8$",
+      "E) $8$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$f(4) = 2\\cdot4 + 5 = 13$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{162}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $10\\sqrt{2}$",
+      "B) $9\\sqrt{3}$",
+      "C) $18\\sqrt{2}$",
+      "D) $9\\sqrt{2}$",
+      "E) $8\\sqrt{2}$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\sqrt{162} = \\sqrt{81 \\times 2} = 9\\sqrt{2}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 8 tek sayının toplamı 15'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $2$",
+      "B) $8$",
+      "C) $2$",
+      "D) $7$",
+      "E) $5$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Ardışık sayılar: 2, 5, 8. Toplam: 2 + 5 + 8 = 15. Ortanca: 5."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{3}{8} = \\frac{?}{16}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{5}{16}$",
+      "B) $\\frac{7}{16}$",
+      "C) $\\frac{6}{16}$",
+      "D) $\\frac{6}{15}$",
+      "E) $\\frac{9}{24}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{3}{8} = \\frac{x}{16} \\implies 3 \\cdot 16 = 8 \\cdot x \\implies 48 = 8x \\implies x = 6$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 12$, $s(B) = 17$ ve $s(A \\cap B) = 8$ ise $s(A \\cup B)$ kaçtır?",
+    "options": [
+      "A) $17$",
+      "B) $5$",
+      "C) $8$",
+      "D) $29$",
+      "E) $21$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$s(A \\cup B) = s(A) + s(B) - s(A \\cap B) = 12 + 17 - 8 = 21$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 8 cm ve yüksekliği 4 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $16$",
+      "B) $12$",
+      "C) $10.666666666666666$",
+      "D) $32$",
+      "E) $8$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 8 \\times 4 = 16$ cm²."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 2 cm olan bir çemberin çevresi kaç cm'dir? ($\\pi = \\pi$)",
+    "options": [
+      "A) $6\\pi$",
+      "B) $2\\pi$",
+      "C) $4\\pi$",
+      "D) $4\\pi$",
+      "E) $6\\pi$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Çemberin çevresi: $Ç = 2\\pi r = 2\\pi \\cdot 2 = 4\\pi$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 3 cm, uzun kenarı 9 cm olan bir dikdörtgenin çevresi kaç cmdir?",
+    "options": [
+      "A) $12$",
+      "B) $13.5$",
+      "C) $12$",
+      "D) $24$",
+      "E) $27$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Çevre: $2(3 + 9) = 2 \\times 12 = 24$ cm."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$5x + 6 = 11$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $4$",
+      "B) $1$",
+      "C) $7$",
+      "D) $6$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$5x + 6 = 11 \\implies 5x = 11 - 6 = 5 \\implies x = \\frac{5}{5} = 1$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir mal 411 TL'ye alınıp %75 kârla satılırsa satış fiyatı kaç TL olur?",
+    "options": [
+      "A) $747$",
+      "B) $719$",
+      "C) $66$",
+      "D) $411$",
+      "E) $308$"
+    ],
+    "correct_answer": 1,
+    "explanation": "%75 = $\\frac{75}{100}$. Kâr miktarı: $411 \\times \\frac{75}{100} = 308$ TL. Yeni fiyat: $411 + 308 = 719$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 4 kırmızı, 6 mavi ve 4 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $4/14$",
+      "B) $4/14$",
+      "C) $\\frac{10}{14}$",
+      "D) $11/14$",
+      "E) $6/14$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Toplam top sayısı: $4 + 6 + 4 = 14$. İstenen durum (kırmızı + mavi): $4 + 6 = 10$. Olasılık: $\\frac{10}{14}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 3x + 2$ ise $f(2)$ kaçtır?",
+    "options": [
+      "A) $5$",
+      "B) $11$",
+      "C) $10$",
+      "D) $8$",
+      "E) $6$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$f(2) = 3\\cdot2 + 2 = 8$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$3^{2} \\cdot 3^{4}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $90$",
+      "B) $0.1111111111111111$",
+      "C) $9$",
+      "D) $6561$",
+      "E) $729$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$3^{2} \\cdot 3^{4} = 3^{2+4} = 3^{6} = 729$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 5 tek sayının toplamı 15'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $1$",
+      "B) $5$",
+      "C) $9$",
+      "D) $6$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ardışık sayılar: 1, 5, 9. Toplam: 1 + 5 + 9 = 15. Ortanca: 5."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{6}{9} = \\frac{?}{27}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{18}{26}$",
+      "B) $\\frac{18}{28}$",
+      "C) $\\frac{18}{27}$",
+      "D) $\\frac{19}{27}$",
+      "E) $\\frac{17}{27}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{6}{9} = \\frac{x}{27} \\implies 6 \\cdot 27 = 9 \\cdot x \\implies 162 = 9x \\implies x = 18$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 8$, $s(B) = 13$ ve $s(A \\cap B) = 6$ ise sadece $A$ kümesinin eleman sayısı kaçtır?",
+    "options": [
+      "A) $15$",
+      "B) $13$",
+      "C) $8$",
+      "D) $2$",
+      "E) $7$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Sadece $A$: $s(A) - s(A \\cap B) = 8 - 6 = 2$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Yarıçapı 3 cm olan bir çemberin çevresi kaç cm'dir? ($\\pi = \\pi$)",
+    "options": [
+      "A) $9\\pi$",
+      "B) $9\\pi$",
+      "C) $6\\pi$",
+      "D) $4\\pi$",
+      "E) $8\\pi$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Çemberin çevresi: $Ç = 2\\pi r = 2\\pi \\cdot 3 = 6\\pi$ cm."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 7 cm, uzun kenarı 15 cm olan bir dikdörtgenin alanı kaç cm²dir?",
+    "options": [
+      "A) $52.5$",
+      "B) $22$",
+      "C) $105$",
+      "D) $44$",
+      "E) $52.5$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Alan: $7 \\times 15 = 105$ cm²."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$4x + 12 = 36$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $8$",
+      "B) $9$",
+      "C) $1$",
+      "D) $6$",
+      "E) $5$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$4x + 12 = 36 \\implies 4x = 36 - 12 = 24 \\implies x = \\frac{24}{4} = 6$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir mal 193 TL'ye alınıp %30 kârla satılırsa satış fiyatı kaç TL olur?",
+    "options": [
+      "A) $279$",
+      "B) $58$",
+      "C) $193$",
+      "D) $251$",
+      "E) $93$"
+    ],
+    "correct_answer": 3,
+    "explanation": "%30 = $\\frac{30}{100}$. Kâr miktarı: $193 \\times \\frac{30}{100} = 58$ TL. Yeni fiyat: $193 + 58 = 251$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 5 kırmızı, 6 mavi ve 3 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $6/14$",
+      "B) $3/14$",
+      "C) $12/14$",
+      "D) $\\frac{11}{14}$",
+      "E) $5/14$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Toplam top sayısı: $5 + 6 + 3 = 14$. İstenen durum (kırmızı + mavi): $5 + 6 = 11$. Olasılık: $\\frac{11}{14}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|3x - 7| < 2$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(0.7, 4)$",
+      "B) $(1.7, 4)$",
+      "C) $[1.7, 3)$",
+      "D) $(1.7, 3)$",
+      "E) $(3, 1.7)$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$|3x - 7| < 2 \\implies -2 < 3x - 7 < 2 \\implies 5 < 3x < 9 \\implies \\frac{5}{3} < x < \\frac{9}{3} \\implies 1.7 < x < 3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 5x + 10$ ise $f(2)$ kaçtır?",
+    "options": [
+      "A) $20$",
+      "B) $23$",
+      "C) $16$",
+      "D) $22$",
+      "E) $10$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$f(2) = 5\\cdot2 + 10 = 20$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{175}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $5\\sqrt{7}$",
+      "B) $5\\sqrt{8}$",
+      "C) $5\\sqrt{6}$",
+      "D) $10\\sqrt{7}$",
+      "E) $6\\sqrt{7}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\sqrt{175} = \\sqrt{25 \\times 7} = 5\\sqrt{7}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$4^{3} \\cdot 4^{1}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $68$",
+      "B) $16$",
+      "C) $256$",
+      "D) $16$",
+      "E) $64$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$4^{3} \\cdot 4^{1} = 4^{3+1} = 4^{4} = 256$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 7 tek sayının toplamı 27'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $8$",
+      "B) $11$",
+      "C) $7$",
+      "D) $9$",
+      "E) $10$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ardışık sayılar: 7, 9, 11. Toplam: 7 + 9 + 11 = 27. Ortanca: 9."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{2}{7} = \\frac{?}{28}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{8}{29}$",
+      "B) $\\frac{7}{28}$",
+      "C) $\\frac{8}{28}$",
+      "D) $\\frac{9}{28}$",
+      "E) $\\frac{10}{35}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{2}{7} = \\frac{x}{28} \\implies 2 \\cdot 28 = 7 \\cdot x \\implies 56 = 7x \\implies x = 8$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Ölçüsü 60° olan açının bütünler açısının ölçüsü kaç derecedir?",
+    "options": [
+      "A) $120^\\circ$",
+      "B) $150^\\circ$",
+      "C) $146^\\circ$",
+      "D) $30^\\circ$",
+      "E) $300^\\circ$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Bütünler açılar toplamı $180^\\circ$'dir. $180^\\circ - 60^\\circ = 120^\\circ$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 4 cm ve yüksekliği 3 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $12$",
+      "B) $7$",
+      "C) $4$",
+      "D) $3$",
+      "E) $6$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 4 \\times 3 = 6$ cm²."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 5 cm, uzun kenarı 10 cm olan bir dikdörtgenin çevresi kaç cmdir?",
+    "options": [
+      "A) $25$",
+      "B) $50$",
+      "C) $30$",
+      "D) $15$",
+      "E) $15$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Çevre: $2(5 + 10) = 2 \\times 15 = 30$ cm."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$2x + 12 = 16$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $3$",
+      "B) $10$",
+      "C) $2$",
+      "D) $6$",
+      "E) $4$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$2x + 12 = 16 \\implies 2x = 16 - 12 = 4 \\implies x = \\frac{4}{2} = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir ürünün fiyatı 406 TL'dir. Üründe %20 indirim yapılırsa yeni fiyat kaç TL olur?",
+    "options": [
+      "A) $406$",
+      "B) $325$",
+      "C) $81$",
+      "D) $288$",
+      "E) $513$"
+    ],
+    "correct_answer": 1,
+    "explanation": "%20 = $\\frac{20}{100}$. İndirim miktarı: $406 \\times \\frac{20}{100} = 81$ TL. Yeni fiyat: $406 - 81 = 325$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir torbada 3 kırmızı, 3 mavi ve 3 yeşil top vardır. Rastgele çekilen bir topun kırmızı veya mavi olma olasılığı kaçtır?",
+    "options": [
+      "A) $3/9$",
+      "B) $7/9$",
+      "C) $3/9$",
+      "D) $3/9$",
+      "E) $\\frac{6}{9}$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Toplam top sayısı: $3 + 3 + 3 = 9$. İstenen durum (kırmızı + mavi): $3 + 3 = 6$. Olasılık: $\\frac{6}{9}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|3x - 8| < 2$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(2, 4.3)$",
+      "B) $[2, 3.3]$",
+      "C) $(2, 3.3)$",
+      "D) $(3.3, 2)$",
+      "E) $(1, 4.3)$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$|3x - 8| < 2 \\implies -2 < 3x - 8 < 2 \\implies 6 < 3x < 10 \\implies \\frac{6}{3} < x < \\frac{10}{3} \\implies 2 < x < 3.3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 3x + 6$ ise $f(2)$ kaçtır?",
+    "options": [
+      "A) $6$",
+      "B) $12$",
+      "C) $14$",
+      "D) $14$",
+      "E) $9$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$f(2) = 3\\cdot2 + 6 = 12$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{972}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $9\\sqrt{12}$",
+      "B) $18\\sqrt{12}$",
+      "C) $9\\sqrt{13}$",
+      "D) $9\\sqrt{11}$",
+      "E) $8\\sqrt{12}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\sqrt{972} = \\sqrt{81 \\times 12} = 9\\sqrt{12}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$5^{3} \\cdot 5^{1}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $130$",
+      "B) $125$",
+      "C) $625$",
+      "D) $25$",
+      "E) $25$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$5^{3} \\cdot 5^{1} = 5^{3+1} = 5^{4} = 625$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 3 tek sayının toplamı 18'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $3$",
+      "B) $6$",
+      "C) $3$",
+      "D) $8$",
+      "E) $9$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Ardışık sayılar: 3, 6, 9. Toplam: 3 + 6 + 9 = 18. Ortanca: 6."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{4}{5} = \\frac{?}{20}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{16}{21}$",
+      "B) $\\frac{16}{20}$",
+      "C) $\\frac{15}{20}$",
+      "D) $\\frac{16}{19}$",
+      "E) $\\frac{20}{25}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\frac{4}{5} = \\frac{x}{20} \\implies 4 \\cdot 20 = 5 \\cdot x \\implies 80 = 5x \\implies x = 16$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 16$, $s(B) = 12$ ve $s(A \\cap B) = 11$ ise sadece $A$ kümesinin eleman sayısı kaçtır?",
+    "options": [
+      "A) $5$",
+      "B) $1$",
+      "C) $11$",
+      "D) $17$",
+      "E) $12$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Sadece $A$: $s(A) - s(A \\cap B) = 16 - 11 = 5$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Kısa kenarı 8 cm, uzun kenarı 10 cm olan bir dikdörtgenin alanı kaç cm²dir?",
+    "options": [
+      "A) $18$",
+      "B) $40$",
+      "C) $80$",
+      "D) $36$",
+      "E) $160$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Alan: $8 \\times 10 = 80$ cm²."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$6x + 15 = 45$$ olduğuna göre, $x$ kaçtır?",
+    "options": [
+      "A) $5$",
+      "B) $4$",
+      "C) $2$",
+      "D) $1$",
+      "E) $6$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$6x + 15 = 45 \\implies 6x = 45 - 15 = 30 \\implies x = \\frac{30}{6} = 5$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Bir mal 391 TL'ye alınıp %60 kârla satılırsa satış fiyatı kaç TL olur?",
+    "options": [
+      "A) $626$",
+      "B) $654$",
+      "C) $391$",
+      "D) $235$",
+      "E) $126$"
+    ],
+    "correct_answer": 0,
+    "explanation": "%60 = $\\frac{60}{100}$. Kâr miktarı: $391 \\times \\frac{60}{100} = 235$ TL. Yeni fiyat: $391 + 235 = 626$ TL."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$|2x - 7| < 5$ eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $(6, 1)$",
+      "B) $[1, 6]$",
+      "C) $(1, 7)$",
+      "D) $(1, 6)$",
+      "E) $(0, 7)$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$|2x - 7| < 5 \\implies -5 < 2x - 7 < 5 \\implies 2 < 2x < 12 \\implies \\frac{2}{2} < x < \\frac{12}{2} \\implies 1 < x < 6$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x + 8$ ise $f(4)$ kaçtır?",
+    "options": [
+      "A) $14$",
+      "B) $8$",
+      "C) $16$",
+      "D) $17$",
+      "E) $20$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$f(4) = 2\\cdot4 + 8 = 16$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sqrt{320}$ ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "options": [
+      "A) $16\\sqrt{5}$",
+      "B) $8\\sqrt{5}$",
+      "C) $8\\sqrt{6}$",
+      "D) $7\\sqrt{5}$",
+      "E) $9\\sqrt{5}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\sqrt{320} = \\sqrt{64 \\times 5} = 8\\sqrt{5}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$3^{3} \\cdot 3^{2}$ işleminin sonucu kaçtır?",
+    "options": [
+      "A) $243$",
+      "B) $3$",
+      "C) $3$",
+      "D) $729$",
+      "E) $36$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$3^{3} \\cdot 3^{2} = 3^{3+2} = 3^{5} = 243$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "Ardışık 7 tek sayının toplamı 24'dır. Buna göre, bu sayıların ortancası kaçtır?",
+    "options": [
+      "A) $11$",
+      "B) $6$",
+      "C) $5$",
+      "D) $8$",
+      "E) $11$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Ardışık sayılar: 5, 8, 11. Toplam: 5 + 8 + 11 = 24. Ortanca: 8."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\frac{8}{7} = \\frac{?}{35}$ ise soru işareti kaçtır?",
+    "options": [
+      "A) $\\frac{40}{35}$",
+      "B) $\\frac{40}{34}$",
+      "C) $\\frac{39}{35}$",
+      "D) $\\frac{40}{36}$",
+      "E) $\\frac{41}{35}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{8}{7} = \\frac{x}{35} \\implies 8 \\cdot 35 = 7 \\cdot x \\implies 280 = 7x \\implies x = 40$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$s(A) = 8$, $s(B) = 15$ ve $s(A \\cap B) = 7$ ise $s(A \\cup B)$ kaçtır?",
+    "options": [
+      "A) $7$",
+      "B) $7$",
+      "C) $15$",
+      "D) $16$",
+      "E) $8$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$s(A \\cup B) = s(A) + s(B) - s(A \\cap B) = 8 + 15 - 7 = 16$."
+  },
+  {
+    "sub_category": "geometri",
+    "question": "Taban uzunluğu 11 cm ve yüksekliği 8 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "options": [
+      "A) $88$",
+      "B) $44$",
+      "C) $19$",
+      "D) $22$",
+      "E) $29.333333333333332$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Üçgenin alanı: $A = \\frac{1}{2} \\times \\text{taban} \\times \\text{yükseklik} = \\frac{1}{2} \\times 11 \\times 8 = 44$ cm²."
   }
 ]

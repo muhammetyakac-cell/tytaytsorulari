@@ -2,106 +2,976 @@
   {
     "sub_category": "fizik",
     "question": "Sürtünmesiz yatay bir düzlemde duran 5 kg kütleli bir cisme 20 N'lik yatay kuvvet uygulanıyor. Cismin ivmesi kaç m/s$^2$'dir?",
-    "options": ["A) 2", "B) 4", "C) 5", "D) 10", "E) 20"],
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 5",
+      "D) 10",
+      "E) 20"
+    ],
     "correct_answer": 1,
     "explanation": "Newton'ın 2. yasası: $F = m \\cdot a \\implies a = F/m = 20/5 = 4$ m/s$^2$."
   },
   {
     "sub_category": "fizik",
     "question": "Bir elektrik devresinde direnci 6 $\\Omega$ olan bir iletkenden 2 A akım geçmektedir. İletkenin uçları arasındaki potansiyel farkı kaç volttur?",
-    "options": ["A) 3", "B) 6", "C) 8", "D) 10", "E) 12"],
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 8",
+      "D) 10",
+      "E) 12"
+    ],
     "correct_answer": 4,
     "explanation": "Ohm yasası: $V = I \\cdot R = 2 \\times 6 = 12$ V."
   },
   {
     "sub_category": "fizik",
     "question": "Kütlesi 2 kg olan bir cismin hızı 3 m/s ise kinetik enerjisi kaç joule'dür?",
-    "options": ["A) 3", "B) 6", "C) 9", "D) 12", "E) 18"],
+    "options": [
+      "A) 3",
+      "B) 6",
+      "C) 9",
+      "D) 12",
+      "E) 18"
+    ],
     "correct_answer": 2,
     "explanation": "$E_k = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 2 \\times 3^2 = 1 \\times 9 = 9$ J."
   },
   {
     "sub_category": "fizik",
     "question": "Sürtünmesiz ortamda serbest bırakılan bir cisim 4 saniyede yere düşüyor. Cismin bırakıldığı yükseklik kaç metredir? ($g = 10$ m/s$^2$)",
-    "options": ["A) 40", "B) 60", "C) 80", "D) 100", "E) 120"],
+    "options": [
+      "A) 40",
+      "B) 60",
+      "C) 80",
+      "D) 100",
+      "E) 120"
+    ],
     "correct_answer": 2,
     "explanation": "Serbest düşme: $h = \\frac{1}{2}gt^2 = 5 \\times 16 = 80$ m."
   },
   {
     "sub_category": "fizik",
     "question": "Bir dalganın frekansı 25 Hz ve dalga boyu 2 m'dir. Dalganın yayılma hızı kaç m/s'dir?",
-    "options": ["A) 25", "B) 50", "C) 75", "D) 100", "E) 125"],
+    "options": [
+      "A) 25",
+      "B) 50",
+      "C) 75",
+      "D) 100",
+      "E) 125"
+    ],
     "correct_answer": 1,
     "explanation": "Dalga hızı: $v = f \\cdot \\lambda = 25 \\times 2 = 50$ m/s."
   },
   {
     "sub_category": "fizik",
     "question": "Düzgün doğrusal hareket yapan bir cisimle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
-    "options": ["A) Hızı sürekli artar", "B) İvmesi sıfırdır", "C) Net kuvvet etkisindedir", "D) Yönü sürekli değişir", "E) Sürati azalır"],
+    "options": [
+      "A) Hızı sürekli artar",
+      "B) İvmesi sıfırdır",
+      "C) Net kuvvet etkisindedir",
+      "D) Yönü sürekli değişir",
+      "E) Sürati azalır"
+    ],
     "correct_answer": 1,
     "explanation": "Düzgün doğrusal hareket sabit hızlı harekettir. Hız sabit olduğu için ivme sıfırdır."
   },
   {
     "sub_category": "kimya",
     "question": "Oda sıcaklığında yapılan deneylerde X çözeltisi mavi turnusolu kırmızıya çeviriyor, Y çözeltisi çinko metaliyle H$_2$ gazı çıkarıyor, Z çözeltisinin pH değeri 11'dir. X, Y ve Z'nin sınıflandırılması hangisidir?",
-    "options": ["A) X: Asit, Y: Asit, Z: Baz", "B) X: Baz, Y: Asit, Z: Asit", "C) X: Asit, Y: Baz, Z: Baz", "D) X: Baz, Y: Baz, Z: Asit", "E) X: Asit, Y: Asit, Z: Asit"],
+    "options": [
+      "A) X: Asit, Y: Asit, Z: Baz",
+      "B) X: Baz, Y: Asit, Z: Asit",
+      "C) X: Asit, Y: Baz, Z: Baz",
+      "D) X: Baz, Y: Baz, Z: Asit",
+      "E) X: Asit, Y: Asit, Z: Asit"
+    ],
     "correct_answer": 0,
     "explanation": "Turnusolü kırmızıya çeviren (asit), Zn ile H$_2$ çıkaran (asit), pH $> 7$ (baz)."
   },
   {
     "sub_category": "kimya",
     "question": "Periyodik cetvelde aynı grupta yukarıdan aşağı inildikçe aşağıdaki özelliklerden hangisi artar?",
-    "options": ["A) İyonlaşma enerjisi", "B) Elektronegatiflik", "C) Atom yarıçapı", "D) Elektron ilgisi", "E) Değerlik elektron sayısı"],
+    "options": [
+      "A) İyonlaşma enerjisi",
+      "B) Elektronegatiflik",
+      "C) Atom yarıçapı",
+      "D) Elektron ilgisi",
+      "E) Değerlik elektron sayısı"
+    ],
     "correct_answer": 2,
     "explanation": "Atom numarası arttıkça elektron kabuk sayısı artar, böylece atom yarıçapı büyür."
   },
   {
     "sub_category": "kimya",
     "question": "Aşağıdaki maddelerden hangisi kovalent bağlı bir bileşiktir?",
-    "options": ["A) NaCl", "B) CaO", "C) H$_2$O", "D) KBr", "E) MgO"],
+    "options": [
+      "A) NaCl",
+      "B) CaO",
+      "C) H$_2$O",
+      "D) KBr",
+      "E) MgO"
+    ],
     "correct_answer": 2,
     "explanation": "H$_2$O (su), elektron ortaklaşması (kovalent bağ) ile oluşmuştur. Diğerleri iyoniktir."
   },
   {
     "sub_category": "kimya",
     "question": "Aşağıdakilerden hangisi fiziksel bir değişimdir?",
-    "options": ["A) Demirin paslanması", "B) Sütün ekşimesi", "C) Mumun erimesi", "D) Odunun yanması", "E) Yumurtanın haşlanması"],
+    "options": [
+      "A) Demirin paslanması",
+      "B) Sütün ekşimesi",
+      "C) Mumun erimesi",
+      "D) Odunun yanması",
+      "E) Yumurtanın haşlanması"
+    ],
     "correct_answer": 2,
     "explanation": "Mumun erimesi hal değişimidir, maddenin kimliği değişmez. Diğerleri kimyasal değişimdir."
   },
   {
     "sub_category": "biyoloji",
     "question": "Canlıların en küçük yapı ve işlev birimi aşağıdakilerden hangisidir?",
-    "options": ["A) Doku", "B) Organ", "C) Sistem", "D) Hücre", "E) Organel"],
+    "options": [
+      "A) Doku",
+      "B) Organ",
+      "C) Sistem",
+      "D) Hücre",
+      "E) Organel"
+    ],
     "correct_answer": 3,
     "explanation": "Hücre, canlılığın temel birimidir. Tüm canlılar bir veya daha fazla hücreden oluşur."
   },
   {
     "sub_category": "biyoloji",
     "question": "Bitkilerde fotosentez olayının gerçekleştiği organel aşağıdakilerden hangisidir?",
-    "options": ["A) Mitokondri", "B) Kloroplast", "C) Ribozom", "D) Golgi cisimciği", "E) Endoplazmik retikulum"],
+    "options": [
+      "A) Mitokondri",
+      "B) Kloroplast",
+      "C) Ribozom",
+      "D) Golgi cisimciği",
+      "E) Endoplazmik retikulum"
+    ],
     "correct_answer": 1,
     "explanation": "Kloroplast, klorofil pigmenti içerir ve ışık enerjisini kimyasal enerjiye dönüştürür."
   },
   {
     "sub_category": "biyoloji",
     "question": "İnsan vücudunda kanın pıhtılaşmasında görev alan hücreler aşağıdakilerden hangisidir?",
-    "options": ["A) Akyuvarlar", "B) Alyuvarlar", "C) Trombositler", "D) Plazma hücreleri", "E) Mast hücreleri"],
+    "options": [
+      "A) Akyuvarlar",
+      "B) Alyuvarlar",
+      "C) Trombositler",
+      "D) Plazma hücreleri",
+      "E) Mast hücreleri"
+    ],
     "correct_answer": 2,
     "explanation": "Trombositler (kan pulcukları), kanama durumunda pıhtılaşma faktörlerini salgılayarak kan kaybını önler."
   },
   {
     "sub_category": "biyoloji",
     "question": "İnsan sindirim sisteminde proteinlerin sindirimi hangi organda başlar?",
-    "options": ["A) Ağız", "B) Mide", "C) İnce bağırsak", "D) Kalın bağırsak", "E) Yemek borusu"],
+    "options": [
+      "A) Ağız",
+      "B) Mide",
+      "C) İnce bağırsak",
+      "D) Kalın bağırsak",
+      "E) Yemek borusu"
+    ],
     "correct_answer": 1,
     "explanation": "Mide öz suyundaki pepsin enzimi protein sindirimini başlatır."
   },
   {
     "sub_category": "biyoloji",
     "question": "Mendel'in bezelye deneylerinde \"farklı karakterlerin genlerinin birbirinden bağımsız kalıtıldığını\" ifade eden ilke hangisidir?",
-    "options": ["A) Dominantlık ilkesi", "B) Ayrılma ilkesi", "C) Bağımsız dağılım ilkesi", "D) Baskınlık ilkesi", "E) Bağlı gen ilkesi"],
+    "options": [
+      "A) Dominantlık ilkesi",
+      "B) Ayrılma ilkesi",
+      "C) Bağımsız dağılım ilkesi",
+      "D) Baskınlık ilkesi",
+      "E) Bağlı gen ilkesi"
+    ],
     "correct_answer": 2,
     "explanation": "Bağımsız dağılım ilkesine göre, farklı karakterlerin genleri birbirinden bağımsız olarak gametlere aktarılır."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "3 kg kütleli bir cisim yerden 4 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $115$",
+      "B) $125$",
+      "C) $36$",
+      "D) $120$",
+      "E) $12$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$E_p = mgh = 3 \\cdot 10 \\cdot 4 = 120$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "5 kg kütleli bir maddenin sıcaklığını 47°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 5 J/kg°C)",
+    "options": [
+      "A) $1190$",
+      "B) $25$",
+      "C) $1175$",
+      "D) $235$",
+      "E) $1147$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 5 \\cdot 5 \\cdot 47 = 1175$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 56 g/mol olan bir bileşiğin 1 molü kaç gramdır?",
+    "options": [
+      "A) $61$",
+      "B) $1$",
+      "C) $68$",
+      "D) $56$",
+      "E) $57$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$m = n \\cdot M_A = 1 \\cdot 56 = 56$ g."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Sulu çözeltisinde OH⁻ iyonu veren madde aşağıdakilerden hangisidir?",
+    "options": [
+      "A) HCl",
+      "B) H₂SO₄",
+      "C) NaOH",
+      "D) CH₃COOH",
+      "E) HNO₃"
+    ],
+    "correct_answer": 2,
+    "explanation": "NaOH (sodyum hidroksit) bazik özellik gösterir ve OH⁻ iyonu verir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdaki elementlerden hangisi periyodik cetvelde 2. periyotta yer alır?",
+    "options": [
+      "A) Na",
+      "B) Mg",
+      "C) O",
+      "D) K",
+      "E) Ca"
+    ],
+    "correct_answer": 2,
+    "explanation": "Oksijen (O) 2. periyotta yer alır."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Suyun formülü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) H₂O₂",
+      "B) H₂O",
+      "C) OH",
+      "D) HO₂",
+      "E) H₃O"
+    ],
+    "correct_answer": 1,
+    "explanation": "Suyun kimyasal formülü H₂O'dur."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Katı hâlden doğrudan gaz hâle geçme olayına ne ad verilir?",
+    "options": [
+      "A) Erime",
+      "B) Buharlaşma",
+      "C) Süblimleşme",
+      "D) Yoğuşma",
+      "E) Donma"
+    ],
+    "correct_answer": 2,
+    "explanation": "Katıdan doğrudan gaza geçişe süblimleşme denir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Aşağıdakilerden hangisi prokaryot hücre yapısına sahip bir canlıdır?",
+    "options": [
+      "A) Bakteri",
+      "B) Bitki",
+      "C) Hayvan",
+      "D) Mantar",
+      "E) Protist"
+    ],
+    "correct_answer": 0,
+    "explanation": "Bakteriler prokaryot hücre yapısına sahiptir (çekirdek ve zarlı organelleri yoktur)."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Mitoz bölünme sonucunda kaç hücre oluşur?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 3",
+      "E) 8"
+    ],
+    "correct_answer": 1,
+    "explanation": "Mitoz bölünme sonucu 2 yeni hücre oluşur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Heterozigot uzun boylu (Aa) iki bezelyenin çaprazlanması sonucu oluşacak bireylerin genotip oranı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) 1:1",
+      "B) 1:2:1",
+      "C) 3:1",
+      "D) 2:1",
+      "E) 9:3:3:1"
+    ],
+    "correct_answer": 1,
+    "explanation": "Aa × Aa çaprazlamasında genotip oranı 1 AA : 2 Aa : 1 aa (1:2:1) şeklindedir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Kanın vücutta dolaşmasını sağlayan organ aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Akciğer",
+      "B) Böbrek",
+      "C) Kalp",
+      "D) Karaciğer",
+      "E) Beyin"
+    ],
+    "correct_answer": 2,
+    "explanation": "Kalp, kanın vücutta dolaşmasını sağlayan pompa görevindeki organdır."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Aşağıdakilerden hangisi omurgalı hayvanlar arasında yer almaz?",
+    "options": [
+      "A) Balık",
+      "B) Kurbağa",
+      "C) Böcek",
+      "D) Kuş",
+      "E) Memeli"
+    ],
+    "correct_answer": 2,
+    "explanation": "Böcekler omurgasızlar sınıfındadır."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "19 kg kütleli bir cisme uygulanan net kuvvetin büyüklüğü kaç N olursa cisim 4 m/s² ivme kazanır?",
+    "options": [
+      "A) $73$",
+      "B) $23$",
+      "C) $76$",
+      "D) $15$",
+      "E) $77$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = m \\cdot a = 19 \\cdot 4 = 76$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "5 kg kütleli bir cisim yerden 3 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $150$",
+      "B) $15$",
+      "C) $141$",
+      "D) $50$",
+      "E) $164$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$E_p = mgh = 5 \\cdot 10 \\cdot 3 = 150$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "2 kg kütleli bir maddenin sıcaklığını 22°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 5 J/kg°C)",
+    "options": [
+      "A) $196$",
+      "B) $239$",
+      "C) $44$",
+      "D) $10$",
+      "E) $220$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 2 \\cdot 5 \\cdot 22 = 220$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 61 g/mol olan bir bileşiğin 3 molü kaç gramdır?",
+    "options": [
+      "A) $64$",
+      "B) $183$",
+      "C) $61$",
+      "D) $191$",
+      "E) $3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$m = n \\cdot M_A = 3 \\cdot 61 = 183$ g."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "pH değeri 7'den küçük olan çözeltiler için aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "A) Baziktir",
+      "B) Asidiktir",
+      "C) Nötrdür",
+      "D) Tuzludur",
+      "E) Kuvvetli bazdır"
+    ],
+    "correct_answer": 1,
+    "explanation": "pH < 7 olan çözeltiler asidiktir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Periyodik cetvelde aynı periyotta bulunan elementler için aşağıdakilerden hangisi ortaktır?",
+    "options": [
+      "A) Değerlik elektron sayısı",
+      "B) Elektron katman sayısı",
+      "C) Proton sayısı",
+      "D) Kütle numarası",
+      "E) Metalik özellik"
+    ],
+    "correct_answer": 1,
+    "explanation": "Aynı periyottaki elementlerin katman sayıları aynıdır."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdakilerden hangisi iyonik bağlı bir bileşiktir?",
+    "options": [
+      "A) H₂O",
+      "B) CO₂",
+      "C) NaCl",
+      "D) CH₄",
+      "E) NH₃"
+    ],
+    "correct_answer": 2,
+    "explanation": "NaCl (sofra tuzu), Na⁺ ve Cl⁻ iyonları arasında iyonik bağla oluşur."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Sıvı hâldeki bir maddenin gaz hâle geçmesi olayına ne ad verilir?",
+    "options": [
+      "A) Yoğuşma",
+      "B) Donma",
+      "C) Buharlaşma",
+      "D) Erime",
+      "E) Süblimleşme"
+    ],
+    "correct_answer": 2,
+    "explanation": "Sıvıdan gaza geçişe buharlaşma denir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Hücrede enerji üretiminden sorumlu organel aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Ribozom",
+      "B) Mitokondri",
+      "C) Kloroplast",
+      "D) Lizozom",
+      "E) Koful"
+    ],
+    "correct_answer": 1,
+    "explanation": "Mitokondri, hücrenin enerji santralidir (ATP üretir)."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Mayoz bölünme hangi canlılarda görülür?",
+    "options": [
+      "A) Tüm hücrelerde",
+      "B) Sadece üreme ana hücrelerinde",
+      "C) Sadece bitkilerde",
+      "D) Sadece hayvanlarda",
+      "E) Prokaryotlarda"
+    ],
+    "correct_answer": 1,
+    "explanation": "Mayoz bölünme, üreme ana hücrelerinde (eşey ana hücrelerinde) görülür."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Mendel'in bezelye deneylerinde kullandığı ve \"saf döl\" olarak ifade edilen bireyler için hangisi doğrudur?",
+    "options": [
+      "A) Homozigot genotiplidir",
+      "B) Heterozigot genotiplidir",
+      "C) Melezdir",
+      "D) Fenotipi farklıdır",
+      "E) Resesif gen taşımaz"
+    ],
+    "correct_answer": 0,
+    "explanation": "Saf döl bireyler homozigot genotipe (AA veya aa) sahiptir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Besinlerin sindirilmesi sırasında proteinler hangi moleküllere ayrılır?",
+    "options": [
+      "A) Glikoz",
+      "B) Amino asit",
+      "C) Yağ asidi",
+      "D) Vitamin",
+      "E) Mineral"
+    ],
+    "correct_answer": 1,
+    "explanation": "Proteinler sindirim sonucu amino asitlere ayrılır."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "20 kg kütleli bir cisme uygulanan net kuvvetin büyüklüğü kaç N olursa cisim 10 m/s² ivme kazanır?",
+    "options": [
+      "A) $202$",
+      "B) $197$",
+      "C) $202$",
+      "D) $200$",
+      "E) $10$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = m \\cdot a = 20 \\cdot 10 = 200$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "9 kg kütleli bir cisim yerden 4 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $341$",
+      "B) $360$",
+      "C) $36$",
+      "D) $376$",
+      "E) $108$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$E_p = mgh = 9 \\cdot 10 \\cdot 4 = 360$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir iletkene 14 V potansiyel fark uygulandığında 4 A akım geçmektedir. İletkenin direnci kaç Ω'dur?",
+    "options": [
+      "A) $2.8$",
+      "B) $3.5$",
+      "C) $18$",
+      "D) $56$",
+      "E) $10$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$R = V / I = 14 / 4 = 3.5$ Ω."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "5 kg kütleli bir maddenin sıcaklığını 24°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 4 J/kg°C)",
+    "options": [
+      "A) $480$",
+      "B) $120$",
+      "C) $20$",
+      "D) $517$",
+      "E) $431$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 5 \\cdot 4 \\cdot 24 = 480$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 37 g/mol olan bir bileşiğin 5 molü kaç gramdır?",
+    "options": [
+      "A) $42$",
+      "B) $7.4$",
+      "C) $37$",
+      "D) $185$",
+      "E) $195$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$m = n \\cdot M_A = 5 \\cdot 37 = 185$ g."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdakilerden hangisi kuvvetli bir bazdır?",
+    "options": [
+      "A) CH₃COOH",
+      "B) NH₃",
+      "C) KOH",
+      "D) H₂CO₃",
+      "E) HF"
+    ],
+    "correct_answer": 2,
+    "explanation": "KOH (potasyum hidroksit) kuvvetli bir bazdır."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Katı bir maddenin sıvı hâle geçmesi olayına ne ad verilir?",
+    "options": [
+      "A) Donma",
+      "B) Buharlaşma",
+      "C) Erime",
+      "D) Süblimleşme",
+      "E) Kırağılaşma"
+    ],
+    "correct_answer": 2,
+    "explanation": "Katıdan sıvıya geçişe erime denir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Aşağıdaki organellerden hangisi sadece bitki hücresinde bulunur?",
+    "options": [
+      "A) Mitokondri",
+      "B) Ribozom",
+      "C) Kloroplast",
+      "D) Endoplazmik retikulum",
+      "E) Golgi aygıtı"
+    ],
+    "correct_answer": 2,
+    "explanation": "Kloroplast, fotosentez yapmak üzere sadece bitki hücresinde bulunur."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Mitoz bölünmenin canlılar için önemi aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Genetik çeşitlilik sağlar",
+      "B) Kromozom sayısını yarıya indirir",
+      "C) Büyüme ve onarım sağlar",
+      "D) Sadece üreme hücrelerinde olur",
+      "E) Kalıtsal hastalıkları önler"
+    ],
+    "correct_answer": 2,
+    "explanation": "Mitoz bölünme büyüme, gelişme ve onarımı sağlar."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "DNA'nın eşlenmesi sırasında adenin (A) nükleotidi hangi nükleotitle eşleşir?",
+    "options": [
+      "A) Guanin (G)",
+      "B) Sitozin (C)",
+      "C) Timin (T)",
+      "D) Urasil (U)",
+      "E) Adenin (A)"
+    ],
+    "correct_answer": 2,
+    "explanation": "DNA'da adenin (A) timin (T) ile eşleşir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Canlıların sınıflandırılmasında kullanılan en kapsamlı taksonomik birim aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Tür",
+      "B) Cins",
+      "C) Familya",
+      "D) Alem",
+      "E) Şube"
+    ],
+    "correct_answer": 3,
+    "explanation": "Âlem (regnum), canlıların sınıflandırılmasındaki en kapsamlı birimdir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "11 kg kütleli bir cisme uygulanan net kuvvetin büyüklüğü kaç N olursa cisim 2 m/s² ivme kazanır?",
+    "options": [
+      "A) $19$",
+      "B) $22$",
+      "C) $13$",
+      "D) $27$",
+      "E) $29$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = m \\cdot a = 11 \\cdot 2 = 22$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "1 kg kütleli bir cisim yerden 15 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $10$",
+      "B) $45$",
+      "C) $150$",
+      "D) $166$",
+      "E) $130$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$E_p = mgh = 1 \\cdot 10 \\cdot 15 = 150$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir iletkene 22 V potansiyel fark uygulandığında 10 A akım geçmektedir. İletkenin direnci kaç Ω'dur?",
+    "options": [
+      "A) $32$",
+      "B) $2.2$",
+      "C) $0.45454545454545453$",
+      "D) $220$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$R = V / I = 22 / 10 = 2.2$ Ω."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "4 kg kütleli bir maddenin sıcaklığını 34°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 7 J/kg°C)",
+    "options": [
+      "A) $28$",
+      "B) $136$",
+      "C) $952$",
+      "D) $982$",
+      "E) $238$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 4 \\cdot 7 \\cdot 34 = 952$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 48 g/mol olan bir bileşiğin 1 molü kaç gramdır?",
+    "options": [
+      "A) $54$",
+      "B) $1$",
+      "C) $57$",
+      "D) $49$",
+      "E) $48$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$m = n \\cdot M_A = 1 \\cdot 48 = 48$ g."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mavi turnusol kağıdını kırmızıya çeviren çözelti hangisidir?",
+    "options": [
+      "A) NaOH",
+      "B) KOH",
+      "C) HCl",
+      "D) NaCl",
+      "E) Ca(OH)₂"
+    ],
+    "correct_answer": 2,
+    "explanation": "Asitler (HCl) mavi turnusolü kırmızıya çevirir."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Periyodik cetvelde aynı grupta bulunan elementler için aşağıdakilerden hangisi ortaktır?",
+    "options": [
+      "A) Proton sayısı",
+      "B) Nötron sayısı",
+      "C) Değerlik elektron sayısı",
+      "D) Kütle numarası",
+      "E) Katman sayısı"
+    ],
+    "correct_answer": 2,
+    "explanation": "Aynı gruptaki elementlerin değerlik elektron sayıları aynıdır."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Aşağıdaki organlardan hangisi boşaltım sistemine ait değildir?",
+    "options": [
+      "A) Böbrek",
+      "B) Üreter",
+      "C) Mesane",
+      "D) Mide",
+      "E) Üretra"
+    ],
+    "correct_answer": 3,
+    "explanation": "Mide sindirim sistemine aittir, boşaltım sistemi böbrek, üreter, mesane ve üretradan oluşur."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "20 kg kütleli bir cisme uygulanan net kuvvetin büyüklüğü kaç N olursa cisim 5 m/s² ivme kazanır?",
+    "options": [
+      "A) $106$",
+      "B) $15$",
+      "C) $104$",
+      "D) $99$",
+      "E) $100$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = m \\cdot a = 20 \\cdot 5 = 100$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "5 kg kütleli bir cisim yerden 7 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $105$",
+      "B) $50$",
+      "C) $342$",
+      "D) $364$",
+      "E) $350$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$E_p = mgh = 5 \\cdot 10 \\cdot 7 = 350$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "5 kg kütleli bir maddenin sıcaklığını 23°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 6 J/kg°C)",
+    "options": [
+      "A) $649$",
+      "B) $690$",
+      "C) $30$",
+      "D) $115$",
+      "E) $138$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 5 \\cdot 6 \\cdot 23 = 690$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 59 g/mol olan bir bileşiğin 4 molü kaç gramdır?",
+    "options": [
+      "A) $236$",
+      "B) $63$",
+      "C) $241$",
+      "D) $4$",
+      "E) $14.75$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$m = n \\cdot M_A = 4 \\cdot 59 = 236$ g."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Aşağıdakilerden hangisi kovalent bağlı bir bileşiktir?",
+    "options": [
+      "A) KCl",
+      "B) NaF",
+      "C) CaO",
+      "D) H₂O",
+      "E) MgCl₂"
+    ],
+    "correct_answer": 3,
+    "explanation": "H₂O (su) molekülünde O ve H atomları arasında kovalent bağ vardır."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Hücrenin yönetim merkezi olan ve DNA'yı taşıyan organel aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Ribozom",
+      "B) Mitokondri",
+      "C) Çekirdek",
+      "D) Endoplazmik retikulum",
+      "E) Golgi"
+    ],
+    "correct_answer": 2,
+    "explanation": "Çekirdek, hücrenin genetik bilgisini taşır ve yönetim merkezidir."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Vücudumuzda gaz alışverişinin gerçekleştiği organ aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Kalp",
+      "B) Böbrek",
+      "C) Akciğer",
+      "D) Mide",
+      "E) Karaciğer"
+    ],
+    "correct_answer": 2,
+    "explanation": "Akciğerler, oksijen ve karbondioksit alışverişinin yapıldığı solunum organıdır."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "6 kg kütleli bir cisim yerden 10 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $607$",
+      "B) $60$",
+      "C) $592$",
+      "D) $180$",
+      "E) $600$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$E_p = mgh = 6 \\cdot 10 \\cdot 10 = 600$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "4 kg kütleli bir maddenin sıcaklığını 47°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 4 J/kg°C)",
+    "options": [
+      "A) $188$",
+      "B) $737$",
+      "C) $752$",
+      "D) $188$",
+      "E) $794$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 4 \\cdot 4 \\cdot 47 = 752$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 46 g/mol olan bir bileşiğin 4 molü kaç gramdır?",
+    "options": [
+      "A) $11.5$",
+      "B) $46$",
+      "C) $189$",
+      "D) $184$",
+      "E) $50$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$m = n \\cdot M_A = 4 \\cdot 46 = 184$ g."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "\"Hepçil\" olarak adlandırılan canlılar hangi beslenme türüne sahiptir?",
+    "options": [
+      "A) Sadece ot yer",
+      "B) Sadece et yer",
+      "C) Hem ot hem et yer",
+      "D) Fotosentez yapar",
+      "E) Ayrıştırıcıdır"
+    ],
+    "correct_answer": 2,
+    "explanation": "Hepçil (omnivor) canlılar hem bitkisel hem hayvansal besinlerle beslenir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "15 kg kütleli bir cisme uygulanan net kuvvetin büyüklüğü kaç N olursa cisim 9 m/s² ivme kazanır?",
+    "options": [
+      "A) $6$",
+      "B) $130$",
+      "C) $24$",
+      "D) $135$",
+      "E) $138$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = m \\cdot a = 15 \\cdot 9 = 135$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "3 kg kütleli bir cisim yerden 11 m yükseklikteyken potansiyel enerjisi kaç J'dür? (g = 10 m/s²)",
+    "options": [
+      "A) $30$",
+      "B) $335$",
+      "C) $33$",
+      "D) $313$",
+      "E) $330$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$E_p = mgh = 3 \\cdot 10 \\cdot 11 = 330$ J."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir iletkene 13 V potansiyel fark uygulandığında 2 A akım geçmektedir. İletkenin direnci kaç Ω'dur?",
+    "options": [
+      "A) $15$",
+      "B) $0.15384615384615385$",
+      "C) $6.5$",
+      "D) $11$",
+      "E) $26$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$R = V / I = 13 / 2 = 6.5$ Ω."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "69 N ağırlığındaki bir cisim 3 m² yüzey alanına sahip bir zemine konulduğunda yaptığı basınç kaç Pa'dır?",
+    "options": [
+      "A) $11.5$",
+      "B) $72$",
+      "C) $23$",
+      "D) $0.043478260869565216$",
+      "E) $207$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$P = F / A = 69 / 3 = 23$ Pa."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "5 kg kütleli bir maddenin sıcaklığını 28°C artırmak için gereken ısı miktarı kaç J'dür? (özısı = 6 J/kg°C)",
+    "options": [
+      "A) $30$",
+      "B) $877$",
+      "C) $168$",
+      "D) $840$",
+      "E) $794$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$Q = m \\cdot c \\cdot \\Delta T = 5 \\cdot 6 \\cdot 28 = 840$ J."
+  },
+  {
+    "sub_category": "kimya",
+    "question": "Mol kütlesi 33 g/mol olan bir bileşiğin 1 molü kaç gramdır?",
+    "options": [
+      "A) $1$",
+      "B) $38$",
+      "C) $48$",
+      "D) $34$",
+      "E) $33$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$m = n \\cdot M_A = 1 \\cdot 33 = 33$ g."
   }
 ]

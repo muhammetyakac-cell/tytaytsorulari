@@ -2,113 +2,1626 @@
   {
     "sub_category": "matematik",
     "question": "$f(x) = x^3 - 6x^2 + 9x + 1$ fonksiyonunun yerel minimum değeri kaçtır?",
-    "options": ["A) 1", "B) 3", "C) 5", "D) 7", "E) 9"],
+    "options": [
+      "A) 1",
+      "B) 3",
+      "C) 5",
+      "D) 7",
+      "E) 9"
+    ],
     "correct_answer": 0,
     "explanation": "$f'(x) = 3x^2 - 12x + 9 = 3(x-1)(x-3)$. Kökler $x=1$ ve $x=3$. $f''(x) = 6x - 12$, $f''(3) = 6 > 0$ (minimum). $f(3) = 27 - 54 + 27 + 1 = 1$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ limitinin değeri kaçtır?",
-    "options": ["A) 0", "B) 1", "C) 2", "D) 3", "E) 4"],
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3",
+      "E) 4"
+    ],
     "correct_answer": 3,
     "explanation": "$\\frac{x^2 - 4}{x - 2} = \\frac{(x-2)(x+2)}{x-2} = x+2$ ($x \\ne 2$). Limit: $\\lim_{x \\to 2} (x+2) = 4$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\int (3x^2 - 4x + 2)\\,dx$ integralinin sonucu aşağıdakilerden hangisidir?",
-    "options": ["A) $x^3 - 2x^2 + 2x + C$", "B) $x^3 - 4x^2 + 2x + C$", "C) $3x^3 - 4x^2 + x + C$", "D) $x^3 - 4x^2 + x + C$", "E) $3x^3 - 2x^2 + 2x + C$"],
+    "options": [
+      "A) $x^3 - 2x^2 + 2x + C$",
+      "B) $x^3 - 4x^2 + 2x + C$",
+      "C) $3x^3 - 4x^2 + x + C$",
+      "D) $x^3 - 4x^2 + x + C$",
+      "E) $3x^3 - 2x^2 + 2x + C$"
+    ],
     "correct_answer": 0,
     "explanation": "$\\int 3x^2\\,dx = x^3$, $\\int -4x\\,dx = -2x^2$, $\\int 2\\,dx = 2x$. Sonuç: $x^3 - 2x^2 + 2x + C$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\log_2(x-1) + \\log_2(x+1) = 3$ denklemini sağlayan $x$ değeri kaçtır?",
-    "options": ["A) 2", "B) 3", "C) 4", "D) 5", "E) 6"],
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5",
+      "E) 6"
+    ],
     "correct_answer": 1,
     "explanation": "$\\log_2[(x-1)(x+1)] = 3 \\implies \\log_2(x^2-1) = 3 \\implies x^2-1 = 8 \\implies x^2 = 9 \\implies x = \\pm 3$. Tanım: $x > 1$, yani $x = 3$."
   },
   {
     "sub_category": "matematik",
     "question": "Bir aritmetik dizinin ilk terimi 3, ortak farkı 5'tir. Bu dizinin 12. terimi kaçtır?",
-    "options": ["A) 53", "B) 55", "C) 57", "D) 58", "E) 60"],
+    "options": [
+      "A) 53",
+      "B) 55",
+      "C) 57",
+      "D) 58",
+      "E) 60"
+    ],
     "correct_answer": 3,
     "explanation": "$a_n = a_1 + (n-1)d$. $a_{12} = 3 + (12-1) \\times 5 = 3 + 55 = 58$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\int_0^1 (x^2 + 1)\\,dx$ belirli integralinin değeri kaçtır?",
-    "options": ["A) $\\frac{2}{3}$", "B) $\\frac{4}{3}$", "C) $\\frac{5}{3}$", "D) $\\frac{7}{3}$", "E) $\\frac{8}{3}$"],
+    "options": [
+      "A) $\\frac{2}{3}$",
+      "B) $\\frac{4}{3}$",
+      "C) $\\frac{5}{3}$",
+      "D) $\\frac{7}{3}$",
+      "E) $\\frac{8}{3}$"
+    ],
     "correct_answer": 1,
     "explanation": "$\\int (x^2+1)\\,dx = \\frac{x^3}{3} + x$. $\\left[\\frac{1}{3} + 1\\right] - \\left[0 + 0\\right] = \\frac{4}{3}$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\sin^2 x + \\cos^2 x$ ifadesinin değeri aşağıdakilerden hangisine eşittir?",
-    "options": ["A) $-1$", "B) $0$", "C) $\\frac{1}{2}$", "D) $1$", "E) $2$"],
+    "options": [
+      "A) $-1$",
+      "B) $0$",
+      "C) $\\frac{1}{2}$",
+      "D) $1$",
+      "E) $2$"
+    ],
     "correct_answer": 3,
     "explanation": "Temel trigonometrik özdeşlik: $\\sin^2 x + \\cos^2 x = 1$."
   },
   {
     "sub_category": "matematik",
     "question": "$P(x) = 2x^3 - 3x^2 + 4x - 1$ polinomunun $x-2$ ile bölümünden kalan kaçtır?",
-    "options": ["A) 9", "B) 11", "C) 13", "D) 15", "E) 17"],
+    "options": [
+      "A) 9",
+      "B) 11",
+      "C) 13",
+      "D) 15",
+      "E) 17"
+    ],
     "correct_answer": 1,
     "explanation": "Kalan teoremi: Kalan $= P(2) = 2 \\cdot 8 - 3 \\cdot 4 + 4 \\cdot 2 - 1 = 16 - 12 + 8 - 1 = 11$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\vec{a} = (2, -1, 3)$ ve $\\vec{b} = (1, 0, -2)$ vektörlerinin iç çarpımı $\\vec{a} \\cdot \\vec{b}$ kaçtır?",
-    "options": ["A) $-4$", "B) $-2$", "C) $0$", "D) $2$", "E) $4$"],
+    "options": [
+      "A) $-4$",
+      "B) $-2$",
+      "C) $0$",
+      "D) $2$",
+      "E) $4$"
+    ],
     "correct_answer": 0,
     "explanation": "$\\vec{a} \\cdot \\vec{b} = 2 \\cdot 1 + (-1) \\cdot 0 + 3 \\cdot (-2) = 2 + 0 - 6 = -4$."
   },
   {
     "sub_category": "matematik",
     "question": "Karmaşık düzlemde $z = 3 + 4i$ sayısının modülü kaçtır?",
-    "options": ["A) 3", "B) 4", "C) 5", "D) 6", "E) 7"],
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6",
+      "E) 7"
+    ],
     "correct_answer": 2,
     "explanation": "$|z| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
   },
   {
     "sub_category": "matematik",
     "question": "$\\frac{dy}{dx} = 2y$ diferansiyel denkleminin genel çözümü aşağıdakilerden hangisidir?",
-    "options": ["A) $y = Ce^{2x}$", "B) $y = Ce^{x}$", "C) $y = e^{2x} + C$", "D) $y = 2e^{x} + C$", "E) $y = Cx^2$"],
+    "options": [
+      "A) $y = Ce^{2x}$",
+      "B) $y = Ce^{x}$",
+      "C) $y = e^{2x} + C$",
+      "D) $y = 2e^{x} + C$",
+      "E) $y = Cx^2$"
+    ],
     "correct_answer": 0,
     "explanation": "Değişkenlerine ayıralım: $\\frac{dy}{y} = 2\\,dx$. İntegral alalım: $\\ln|y| = 2x + C \\implies y = Ce^{2x}$."
   },
   {
     "sub_category": "geometri",
     "question": "Bir dik üçgende dik kenarlar 5 cm ve 12 cm ise hipotenüs uzunluğu kaç cm'dir?",
-    "options": ["A) 10", "B) 11", "C) 12", "D) 13", "E) 14"],
+    "options": [
+      "A) 10",
+      "B) 11",
+      "C) 12",
+      "D) 13",
+      "E) 14"
+    ],
     "correct_answer": 3,
     "explanation": "$c^2 = 5^2 + 12^2 = 25 + 144 = 169 \\implies c = 13$ cm."
   },
   {
     "sub_category": "geometri",
     "question": "Taban yarıçapı 4 cm, ana doğrusu 10 cm olan dik koninin yanal alanı kaç $\\pi$ cm$^2$'dir?",
-    "options": ["A) $20\\pi$", "B) $30\\pi$", "C) $40\\pi$", "D) $50\\pi$", "E) $60\\pi$"],
+    "options": [
+      "A) $20\\pi$",
+      "B) $30\\pi$",
+      "C) $40\\pi$",
+      "D) $50\\pi$",
+      "E) $60\\pi$"
+    ],
     "correct_answer": 2,
     "explanation": "Yanal alan: $\\pi r l = \\pi \\times 4 \\times 10 = 40\\pi$ cm$^2$."
   },
   {
     "sub_category": "geometri",
     "question": "Bir kürenin alanı $36\\pi$ cm$^2$ ise hacmi kaç $\\pi$ cm$^3$'tür?",
-    "options": ["A) $18\\pi$", "B) $27\\pi$", "C) $36\\pi$", "D) $48\\pi$", "E) $54\\pi$"],
+    "options": [
+      "A) $18\\pi$",
+      "B) $27\\pi$",
+      "C) $36\\pi$",
+      "D) $48\\pi$",
+      "E) $54\\pi$"
+    ],
     "correct_answer": 2,
     "explanation": "$4\\pi r^2 = 36\\pi \\implies r^2 = 9 \\implies r = 3$ cm. $V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi \\cdot 27 = 36\\pi$ cm$^3$."
   },
   {
     "sub_category": "geometri",
     "question": "$2x + 3y - 6 = 0$ doğrusunun eğimi kaçtır?",
-    "options": ["A) $-\\frac{2}{3}$", "B) $\\frac{2}{3}$", "C) $-\\frac{3}{2}$", "D) $\\frac{3}{2}$", "E) $-2$"],
+    "options": [
+      "A) $-\\frac{2}{3}$",
+      "B) $\\frac{2}{3}$",
+      "C) $-\\frac{3}{2}$",
+      "D) $\\frac{3}{2}$",
+      "E) $-2$"
+    ],
     "correct_answer": 0,
     "explanation": "$3y = -2x + 6 \\implies y = -\\frac{2}{3}x + 2$. Eğim $m = -\\frac{2}{3}$."
   },
   {
     "sub_category": "geometri",
     "question": "Köşegen uzunluğu $8\\sqrt{2}$ cm olan karenin çevresi kaç cm'dir?",
-    "options": ["A) 16", "B) 24", "C) 28", "D) 30", "E) 32"],
+    "options": [
+      "A) 16",
+      "B) 24",
+      "C) 28",
+      "D) 30",
+      "E) 32"
+    ],
     "correct_answer": 4,
     "explanation": "$a\\sqrt{2} = 8\\sqrt{2} \\implies a = 8$ cm. Çevre: $4 \\times 8 = 32$ cm."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 5} \\frac{x^2 - 25}{x - 5}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $4$",
+      "B) $10$",
+      "C) $5$",
+      "D) $25$",
+      "E) $11$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\lim_{x \\to 5} \\frac{x^2 - 25}{x - 5} = \\lim_{x \\to 5} \\frac{(x-5)(x+5)}{x-5} = \\lim_{x \\to 5} (x+5) = 5 + 5 = 10$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\log_{3} 9 + \\log_{3} 1$ i\\u015fleminin sonucu kaçt\\u0131r?",
+    "options": [
+      "A) $3$",
+      "B) $3$",
+      "C) $2$",
+      "D) $1$",
+      "E) $9$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\log_{3} 9 = 2$ ve $\\log_{3} 1 = 0$ oldu\\u011fundan sonuç $2 + 0 = 2$ dir."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{3} + 2x^{1} + 4) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $x^{4} + x^{2} + 4x + C$",
+      "B) $x^{5} + x^{2} + 4x + C$",
+      "C) $x^{4} + 2x^{2} + 4x + C$",
+      "D) $x^{4} + x^{2} + C$",
+      "E) $x^{4} + x^{2} + 4x + C$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\int 4x^{3} dx = 1x^{4}$, $\\int + 2x^{1} dx = + 1x^{2}$, $\\int 4 dx = 4x$. Sonuç: $x^{4} + x^{2} + 4x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 2} \\frac{x^2 - 7x + 10}{x - 2}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-3$",
+      "B) $2$",
+      "C) $-2$",
+      "D) $-4$",
+      "E) $3$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Pay\\, $x^2 - 7x + 10 = (x-2)(x-5)$. $\\lim_{x \\to 2} \\frac{(x-2)(x-5)}{x-2} = \\lim_{x \\to 2} (x-5) = 2 - 5 = -3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z = 9 + 12i$ karma\\u015f\\u0131k say\\u0131s\\u0131n\\u0131n modülü kaçt\\u0131r?",
+    "options": [
+      "A) $15$",
+      "B) $9$",
+      "C) $21$",
+      "D) $14$",
+      "E) $16$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$|z| = \\sqrt{9^2 + 12^2} = \\sqrt{225} = 15$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{1} + 8x^{3} + 3) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $2x^{2} + 3x^{4} + 3x + C$",
+      "B) $2x^{2} + 2x^{4} + 3x + C$",
+      "C) $2x^{2} + 2x^{4} + C$",
+      "D) $3x^{2} + 2x^{4} + 3x + C$",
+      "E) $x^{3} + 2x^{4} + 3x + C$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\int 4x^{1} dx = 2x^{2}$, $\\int + 8x^{3} dx = + 2x^{4}$, $\\int 3 dx = 3x$. Sonuç: $2x^{2} + 2x^{4} + 3x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$cos x = \\frac{\\sqrt{2}}{2}$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $\\frac{\\pi}{2}$",
+      "B) $\\frac{2\\pi}{3}$",
+      "C) $\\frac{\\pi}{6}$",
+      "D) $\\frac{\\pi}{3}$",
+      "E) $\\frac{\\pi}{4}$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$cos x = \\frac{\\sqrt{2}}{2}$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü $x = \\frac{\\pi}{4}$ tir."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\log_{2} 4 + \\log_{2} 1$ i\\u015fleminin sonucu kaçt\\u0131r?",
+    "options": [
+      "A) $4$",
+      "B) $2$",
+      "C) $3$",
+      "D) $4$",
+      "E) $1$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\log_{2} 4 = 2$ ve $\\log_{2} 1 = 0$ oldu\\u011fundan sonuç $2 + 0 = 2$ dir."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = x^{2} - 6x + 1$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $4$",
+      "B) $4$",
+      "C) $2$",
+      "D) $-3$",
+      "E) $3$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 2x - 6$. $f'(x) = 0 \\implies 2x = 6 \\implies x = 3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{1} + 8x^{3} + 4) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $3x^{2} + 2x^{4} + 4x + C$",
+      "B) $2x^{2} + 3x^{4} + 4x + C$",
+      "C) $2x^{2} + 2x^{4} + C$",
+      "D) $x^{3} + 2x^{4} + 4x + C$",
+      "E) $2x^{2} + 2x^{4} + 4x + C$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\int 4x^{1} dx = 2x^{2}$, $\\int + 8x^{3} dx = + 2x^{4}$, $\\int 4 dx = 4x$. Sonuç: $2x^{2} + 2x^{4} + 4x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$P(6, 3)$ permütasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $120$",
+      "B) $6$",
+      "C) $60$",
+      "D) $720$",
+      "E) $129$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$P(6, 3) = \\frac{6!}{(6 - 3)!} = \\frac{720}{6} = 120$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 3x^{2} - 18x + 3$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-3$",
+      "B) $4$",
+      "C) $6$",
+      "D) $18$",
+      "E) $3$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 6x - 18$. $f'(x) = 0 \\implies 6x = 18 \\implies x = 3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 7, ortak fark\\u0131 6 olan bir aritmetik dizinin 8. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $56$",
+      "B) $42$",
+      "C) $49$",
+      "D) $55$",
+      "E) $43$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$a_8 = a_1 + (n-1)d = 7 + (8 - 1) \\cdot 6 = 7 + 42 = 49$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = x^{2} + 2x + 1$ oldu\\u011funa göre $f'(2)$ kaçt\\u0131r?",
+    "options": [
+      "A) $6$",
+      "B) $7$",
+      "C) $5$",
+      "D) $5$",
+      "E) $7$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$f'(x) = 2x^{1} + 2$ ise $f'(2) = 2 \\cdot 2^{1} + 2 = 6$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 10, ortak fark\\u0131 3 olan bir aritmetik dizinin 11. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $30$",
+      "B) $37$",
+      "C) $40$",
+      "D) $110$",
+      "E) $43$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$a_11 = a_1 + (n-1)d = 10 + (11 - 1) \\cdot 3 = 10 + 30 = 40$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 1 + 4i$ ve $z_2 = 2 - 3i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $4 + 1i$",
+      "B) $3 + 1i$",
+      "C) $3 + 7i$",
+      "D) $4 + 1i$",
+      "E) $3 + 2i$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$z_1 + z_2 = (1 + 2) + (4 + -3)i = 3 + 1i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (6x^{2} + 8x^{3} + 2) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $3x^{3} + 2x^{4} + 2x + C$",
+      "B) $2x^{3} + 3x^{4} + 2x + C$",
+      "C) $2x^{3} + 2x^{4} + 2x + C$",
+      "D) $x^{4} + 2x^{4} + 2x + C$",
+      "E) $2x^{3} + 2x^{4} + C$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\int 6x^{2} dx = 2x^{3}$, $\\int + 8x^{3} dx = + 2x^{4}$, $\\int 2 dx = 2x$. Sonuç: $2x^{3} + 2x^{4} + 2x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 4, ortak çarpan\\u0131 4 olan bir geometrik dizinin 6. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $12500$",
+      "B) $4097$",
+      "C) $1024$",
+      "D) $16384$",
+      "E) $4096$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$a_6 = a_1 \\cdot r^{n-1} = 4 \\cdot 4^{5} = 4096$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{3} + 6x^{2} + 4) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $x^{4} + 2x^{3} + 4x + C$",
+      "B) $x^{4} + 3x^{3} + 4x + C$",
+      "C) $x^{4} + 2x^{3} + 4x + C$",
+      "D) $x^{5} + 2x^{3} + 4x + C$",
+      "E) $x^{4} + 2x^{3} + C$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\int 4x^{3} dx = 1x^{4}$, $\\int + 6x^{2} dx = + 2x^{3}$, $\\int 4 dx = 4x$. Sonuç: $x^{4} + 2x^{3} + 4x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$cos x = \\frac{\\sqrt{3}}{2}$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $\\frac{2\\pi}{3}$",
+      "B) $\\frac{\\pi}{4}$",
+      "C) $\\frac{\\pi}{3}$",
+      "D) $\\frac{\\pi}{2}$",
+      "E) $\\frac{\\pi}{6}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$cos x = \\frac{\\sqrt{3}}{2}$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü $x = \\frac{\\pi}{3}$ tir."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$P(7, 4)$ permütasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $5040$",
+      "B) $6$",
+      "C) $840$",
+      "D) $858$",
+      "E) $210$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$P(7, 4) = \\frac{7!}{(7 - 4)!} = \\frac{5040}{6} = 840$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 3x^{3} - x - 1$ oldu\\u011funa göre $f'(1)$ kaçt\\u0131r?",
+    "options": [
+      "A) $7$",
+      "B) $8$",
+      "C) $-1$",
+      "D) $5$",
+      "E) $11$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$f'(x) = 9x^{2} - 1$ ise $f'(1) = 9 \\cdot 1^{2} - 1 = 8$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 1} \\frac{x^2 - 3x + 2}{x - 1}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-1$",
+      "B) $2$",
+      "C) $1$",
+      "D) $3$",
+      "E) $-2$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Pay\\, $x^2 - 3x + 2 = (x-1)(x-2)$. $\\lim_{x \\to 1} \\frac{(x-1)(x-2)}{x-1} = \\lim_{x \\to 1} (x-2) = 1 - 2 = -1$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(7, 2)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $42$",
+      "B) $32$",
+      "C) $21$",
+      "D) $32$",
+      "E) $2520$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$C(7, 2) = \\frac{7!}{2! \\cdot (7 - 2)!} = \\frac{5040}{2 \\cdot 120} = 21$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 6, ortak fark\\u0131 6 olan bir aritmetik dizinin 12. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $72$",
+      "B) $66$",
+      "C) $66$",
+      "D) $78$",
+      "E) $78$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$a_12 = a_1 + (n-1)d = 6 + (12 - 1) \\cdot 6 = 6 + 66 = 72$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{4x^2 + 3x - 3}{4x^2 - 5x - 5}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{4}{4}$",
+      "B) $\\frac{-3}{-5}$",
+      "C) $\\frac{4}{5}$",
+      "D) $\\frac{3}{-5}$",
+      "E) $\\frac{5}{4}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{4x^2}{4x^2} = \\frac{4}{4}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $1$",
+      "B) $5$",
+      "C) $4$",
+      "D) $3$",
+      "E) $2$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2} = \\lim_{x \\to 2} \\frac{(x-2)(x+2)}{x-2} = \\lim_{x \\to 2} (x+2) = 2 + 2 = 4$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 1 - 5i$ ve $z_2 = 4 - 2i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $6 - 7i$",
+      "B) $5 - 6i$",
+      "C) $-7 + 5i$",
+      "D) $5 - 7i$",
+      "E) $5 - 3i$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$z_1 + z_2 = (1 + 4) + (-5 + -2)i = 5 - 7i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\log_{4} 16 + \\log_{4} 1$ i\\u015fleminin sonucu kaçt\\u0131r?",
+    "options": [
+      "A) $2$",
+      "B) $1$",
+      "C) $3$",
+      "D) $4$",
+      "E) $4$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\log_{4} 16 = 2$ ve $\\log_{4} 1 = 0$ oldu\\u011fundan sonuç $2 + 0 = 2$ dir."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 1, ortak çarpan\\u0131 2 olan bir geometrik dizinin 7. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $2$",
+      "B) $64$",
+      "C) $729$",
+      "D) $128$",
+      "E) $32$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$a_7 = a_1 \\cdot r^{n-1} = 1 \\cdot 2^{6} = 64$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{3} + 2x - 3$ oldu\\u011funa göre $f'(2)$ kaçt\\u0131r?",
+    "options": [
+      "A) $24$",
+      "B) $26$",
+      "C) $28$",
+      "D) $25$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$f'(x) = 6x^{2} + 2$ ise $f'(2) = 6 \\cdot 2^{2} + 2 = 26$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (6x^{2} + 4x^{3} + 1) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $x^{4} + x^{4} + 1x + C$",
+      "B) $2x^{3} + 2x^{4} + 1x + C$",
+      "C) $2x^{3} + x^{4} + 1x + C$",
+      "D) $3x^{3} + x^{4} + 1x + C$",
+      "E) $2x^{3} + x^{4} + C$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\int 6x^{2} dx = 2x^{3}$, $\\int + 4x^{3} dx = + 1x^{4}$, $\\int 1 dx = 1x$. Sonuç: $2x^{3} + x^{4} + 1x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 4} \\frac{x^2 - 16}{x - 4}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $4$",
+      "B) $5$",
+      "C) $9$",
+      "D) $16$",
+      "E) $8$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\lim_{x \\to 4} \\frac{x^2 - 16}{x - 4} = \\lim_{x \\to 4} \\frac{(x-4)(x+4)}{x-4} = \\lim_{x \\to 4} (x+4) = 4 + 4 = 8$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{4x^2 + 4x + 2}{2x^2 - 3x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{4}{3}$",
+      "B) $\\frac{2}{-3}$",
+      "C) $\\frac{5}{2}$",
+      "D) $\\frac{2}{4}$",
+      "E) $\\frac{4}{2}$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{4x^2}{2x^2} = \\frac{4}{2}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 1 + 1i$ ve $z_2 = 4 - 4i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $6 - 3i$",
+      "B) $-3 + 5i$",
+      "C) $5 - 3i$",
+      "D) $1 + 1i$",
+      "E) $5 - 2i$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$z_1 + z_2 = (1 + 4) + (1 + -4)i = 5 - 3i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z = 8 + 15i$ karma\\u015f\\u0131k say\\u0131s\\u0131n\\u0131n modülü kaçt\\u0131r?",
+    "options": [
+      "A) $7$",
+      "B) $18$",
+      "C) $23$",
+      "D) $17$",
+      "E) $15$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$|z| = \\sqrt{8^2 + 15^2} = \\sqrt{289} = 17$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 3, ortak çarpan\\u0131 3 olan bir geometrik dizinin 5. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $243$",
+      "B) $768$",
+      "C) $81$",
+      "D) $244$",
+      "E) $729$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$a_5 = a_1 \\cdot r^{n-1} = 3 \\cdot 3^{4} = 243$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(6, 3)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $20$",
+      "B) $30$",
+      "C) $120$",
+      "D) $10$",
+      "E) $45$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$C(6, 3) = \\frac{6!}{3! \\cdot (6 - 3)!} = \\frac{720}{6 \\cdot 6} = 20$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 5 - 3i$ ve $z_2 = 2 + 5i$ ise $z_1 - z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $3 - 7i$",
+      "B) $7 - 8i$",
+      "C) $-8 + 3i$",
+      "D) $4 - 8i$",
+      "E) $3 - 8i$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$z_1 - z_2 = (5 - 2) + (-3 - 5)i = 3 - 8i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z = 5 + 12i$ karma\\u015f\\u0131k say\\u0131s\\u0131n\\u0131n modülü kaçt\\u0131r?",
+    "options": [
+      "A) $13$",
+      "B) $12$",
+      "C) $12$",
+      "D) $5$",
+      "E) $17$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$|z| = \\sqrt{5^2 + 12^2} = \\sqrt{169} = 13$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int_{0}^{4} 2x^{1} dx$ integralinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $17$",
+      "B) $15$",
+      "C) $8$",
+      "D) $16$",
+      "E) $32$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\int 2x^{1} dx = \\frac{2}{2} x^{2}$. $\\left[\\frac{2}{2} x^{2}\\right]_{0}^{4} = \\frac{2}{2} (4^{2} - 0^{2}) = 16$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\log_{5}(x^2 - 4) - \\log_{5}(x - 2) = 1$ ise $x$ kaçt\\u0131r?",
+    "options": [
+      "A) $5$",
+      "B) $3$",
+      "C) $2$",
+      "D) $7$",
+      "E) $4$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\log_{5} \\frac{x^2 - 4}{x - 2} = 1 \\implies \\log_{5} (x + 2) = 1 \\implies x + 2 = 5 \\implies x = 3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(11, 3)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $248$",
+      "B) $165$",
+      "C) $6652800$",
+      "D) $194$",
+      "E) $990$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$C(11, 3) = \\frac{11!}{3! \\cdot (11 - 3)!} = \\frac{39916800}{6 \\cdot 40320} = 165$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 9, ortak fark\\u0131 3 olan bir aritmetik dizinin 7. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $30$",
+      "B) $24$",
+      "C) $27$",
+      "D) $30$",
+      "E) $18$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$a_7 = a_1 + (n-1)d = 9 + (7 - 1) \\cdot 3 = 9 + 18 = 27$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{2} + 12x - 4$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-12$",
+      "B) $-4$",
+      "C) $-2$",
+      "D) $-5$",
+      "E) $-3$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 4x + 12$. $f'(x) = 0 \\implies 4x = 12 \\implies x = -3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 3} \\frac{x^2 - 8x + 15}{x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $5$",
+      "B) $-3$",
+      "C) $3$",
+      "D) $-2$",
+      "E) $2$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Pay\\, $x^2 - 8x + 15 = (x-3)(x-5)$. $\\lim_{x \\to 3} \\frac{(x-3)(x-5)}{x-3} = \\lim_{x \\to 3} (x-5) = 3 - 5 = -2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{1} + 3x^{2} + 3) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $2x^{2} + x^{3} + C$",
+      "B) $2x^{2} + x^{3} + 3x + C$",
+      "C) $2x^{2} + 2x^{3} + 3x + C$",
+      "D) $x^{3} + x^{3} + 3x + C$",
+      "E) $3x^{2} + x^{3} + 3x + C$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\int 4x^{1} dx = 2x^{2}$, $\\int + 3x^{2} dx = + 1x^{3}$, $\\int 3 dx = 3x$. Sonuç: $2x^{2} + x^{3} + 3x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(8, 3)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $84$",
+      "B) $6720$",
+      "C) $336$",
+      "D) $28$",
+      "E) $56$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$C(8, 3) = \\frac{8!}{3! \\cdot (8 - 3)!} = \\frac{40320}{6 \\cdot 120} = 56$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int_{0}^{2} 9x^{2} dx$ integralinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $23$",
+      "B) $25$",
+      "C) $27$",
+      "D) $24$",
+      "E) $12$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\int 9x^{2} dx = \\frac{9}{3} x^{3}$. $\\left[\\frac{9}{3} x^{3}\\right]_{0}^{2} = \\frac{9}{3} (2^{3} - 0^{3}) = 24$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{1x^2 + 5x + 0}{1x^2 - 5x + 4}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{0}{4}$",
+      "B) $\\frac{5}{-5}$",
+      "C) $\\frac{1}{1}$",
+      "D) $\\frac{1}{2}$",
+      "E) $\\frac{2}{1}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{1x^2}{1x^2} = \\frac{1}{1}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 5 + 5i$ ve $z_2 = 1 + 4i$ ise $z_1 - z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $6 + 1i$",
+      "B) $4 + 2i$",
+      "C) $1 + 4i$",
+      "D) $4 + 1i$",
+      "E) $5 + 5i$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$z_1 - z_2 = (5 - 1) + (5 - 4)i = 4 + 1i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 3} \\frac{x^2 - 1x - 6}{x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $4$",
+      "B) $5$",
+      "C) $3$",
+      "D) $-6$",
+      "E) $6$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Pay\\, $x^2 - 1x - 6 = (x-3)(x--2)$. $\\lim_{x \\to 3} \\frac{(x-3)(x--2)}{x-3} = \\lim_{x \\to 3} (x--2) = 3 - -2 = 5$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$P(8, 4)$ permütasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $1680$",
+      "B) $840$",
+      "C) $24$",
+      "D) $40320$",
+      "E) $1689$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$P(8, 4) = \\frac{8!}{(8 - 4)!} = \\frac{40320}{24} = 1680$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(12, 5)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $819$",
+      "B) $3991680$",
+      "C) $792$",
+      "D) $95040$",
+      "E) $1188$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$C(12, 5) = \\frac{12!}{5! \\cdot (12 - 5)!} = \\frac{479001600}{120 \\cdot 5040} = 792$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int_{0}^{3} 9x^{2} dx$ integralinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $80$",
+      "B) $84$",
+      "C) $82$",
+      "D) $162$",
+      "E) $81$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\int 9x^{2} dx = \\frac{9}{3} x^{3}$. $\\left[\\frac{9}{3} x^{3}\\right]_{0}^{3} = \\frac{9}{3} (3^{3} - 0^{3}) = 81$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(7, 4)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $53$",
+      "B) $46$",
+      "C) $210$",
+      "D) $18$",
+      "E) $35$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$C(7, 4) = \\frac{7!}{4! \\cdot (7 - 4)!} = \\frac{5040}{24 \\cdot 6} = 35$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$P(5, 3)$ permütasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $24$",
+      "B) $120$",
+      "C) $74$",
+      "D) $20$",
+      "E) $60$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$P(5, 3) = \\frac{5!}{(5 - 3)!} = \\frac{120}{2} = 60$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{3x^2 + 5x - 3}{3x^2 - 5x + 4}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{-3}{4}$",
+      "B) $\\frac{3}{4}$",
+      "C) $\\frac{4}{3}$",
+      "D) $\\frac{3}{3}$",
+      "E) $\\frac{5}{-5}$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{3x^2}{3x^2} = \\frac{3}{3}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{3} + 2x^{1} + 1) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $x^{5} + x^{2} + 1x + C$",
+      "B) $x^{4} + x^{2} + 1x + C$",
+      "C) $x^{4} + 2x^{2} + 1x + C$",
+      "D) $x^{4} + x^{2} + 1x + C$",
+      "E) $x^{4} + x^{2} + C$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\int 4x^{3} dx = 1x^{4}$, $\\int + 2x^{1} dx = + 1x^{2}$, $\\int 1 dx = 1x$. Sonuç: $x^{4} + x^{2} + 1x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{2} - 8x + 4$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $8$",
+      "B) $0$",
+      "C) $4$",
+      "D) $-2$",
+      "E) $2$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 4x - 8$. $f'(x) = 0 \\implies 4x = 8 \\implies x = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{1x^2 + 4x + 4}{3x^2 - 4x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{2}{3}$",
+      "B) $\\frac{3}{1}$",
+      "C) $\\frac{4}{-3}$",
+      "D) $\\frac{1}{3}$",
+      "E) $\\frac{1}{4}$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{1x^2}{3x^2} = \\frac{1}{3}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{1x^2 - 1x + 4}{2x^2 + 2x - 2}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{1}{3}$",
+      "B) $\\frac{2}{1}$",
+      "C) $\\frac{4}{-2}$",
+      "D) $\\frac{2}{2}$",
+      "E) $\\frac{1}{2}$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{1x^2}{2x^2} = \\frac{1}{2}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 3, ortak fark\\u0131 6 olan bir aritmetik dizinin 12. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $63$",
+      "B) $69$",
+      "C) $75$",
+      "D) $66$",
+      "E) $75$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$a_12 = a_1 + (n-1)d = 3 + (12 - 1) \\cdot 6 = 3 + 66 = 69$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 8, ortak fark\\u0131 2 olan bir aritmetik dizinin 14. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $34$",
+      "B) $36$",
+      "C) $36$",
+      "D) $112$",
+      "E) $26$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$a_14 = a_1 + (n-1)d = 8 + (14 - 1) \\cdot 2 = 8 + 26 = 34$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$C(9, 3)$ kombinasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $504$",
+      "B) $84$",
+      "C) $107$",
+      "D) $42$",
+      "E) $60480$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$C(9, 3) = \\frac{9!}{3! \\cdot (9 - 3)!} = \\frac{362880}{6 \\cdot 720} = 84$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 2, ortak fark\\u0131 3 olan bir aritmetik dizinin 15. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $41$",
+      "B) $42$",
+      "C) $30$",
+      "D) $44$",
+      "E) $47$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$a_15 = a_1 + (n-1)d = 2 + (15 - 1) \\cdot 3 = 2 + 42 = 44$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 1, ortak çarpan\\u0131 3 olan bir geometrik dizinin 5. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $256$",
+      "B) $3$",
+      "C) $81$",
+      "D) $27$",
+      "E) $82$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$a_5 = a_1 \\cdot r^{n-1} = 1 \\cdot 3^{4} = 81$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int_{0}^{3} 8x^{3} dx$ integralinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $162$",
+      "B) $161$",
+      "C) $324$",
+      "D) $163$",
+      "E) $81$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\int 8x^{3} dx = \\frac{8}{4} x^{4}$. $\\left[\\frac{8}{4} x^{4}\\right]_{0}^{3} = \\frac{8}{4} (3^{4} - 0^{4}) = 162$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z = 3 + 4i$ karma\\u015f\\u0131k say\\u0131s\\u0131n\\u0131n modülü kaçt\\u0131r?",
+    "options": [
+      "A) $4$",
+      "B) $6$",
+      "C) $5$",
+      "D) $7$",
+      "E) $4$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$|z| = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{2} - 8x - 3$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $3$",
+      "B) $2$",
+      "C) $4$",
+      "D) $1$",
+      "E) $-2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$f'(x) = 4x - 8$. $f'(x) = 0 \\implies 4x = 8 \\implies x = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$cos x = 0$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $0$",
+      "B) $\\frac{\\pi}{2}$",
+      "C) $\\pi$",
+      "D) $\\frac{\\pi}{6}$",
+      "E) $\\frac{\\pi}{4}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$cos x = 0$ denkleminin $[0, \\pi]$ aral\\u0131\\u011f\\u0131ndaki çözümü $x = \\pi$ tir."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 3, ortak fark\\u0131 2 olan bir aritmetik dizinin 9. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $21$",
+      "B) $17$",
+      "C) $16$",
+      "D) $19$",
+      "E) $27$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$a_9 = a_1 + (n-1)d = 3 + (9 - 1) \\cdot 2 = 3 + 16 = 19$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{2x^2 + 5x - 1}{4x^2 - 2x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{4}{2}$",
+      "B) $\\frac{-1}{-3}$",
+      "C) $\\frac{2}{5}$",
+      "D) $\\frac{3}{4}$",
+      "E) $\\frac{2}{4}$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{2x^2}{4x^2} = \\frac{2}{4}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{4x^2 - 2x - 3}{4x^2 + 5x + 4}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{5}{4}$",
+      "B) $\\frac{-3}{4}$",
+      "C) $\\frac{4}{4}$",
+      "D) $\\frac{4}{5}$",
+      "E) $\\frac{-2}{5}$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{4x^2}{4x^2} = \\frac{4}{4}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = x^{3} + 2x - 1$ oldu\\u011funa göre $f'(3)$ kaçt\\u0131r?",
+    "options": [
+      "A) $30$",
+      "B) $28$",
+      "C) $50$",
+      "D) $29$",
+      "E) $2$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$f'(x) = 3x^{2} + 2$ ise $f'(3) = 3 \\cdot 3^{2} + 2 = 29$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 1} \\frac{x^2 - 4x + 3}{x - 1}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $1$",
+      "B) $3$",
+      "C) $-1$",
+      "D) $-2$",
+      "E) $2$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Pay\\, $x^2 - 4x + 3 = (x-1)(x-3)$. $\\lim_{x \\to 1} \\frac{(x-1)(x-3)}{x-1} = \\lim_{x \\to 1} (x-3) = 1 - 3 = -2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\log_{3}(x^2 - 1) - \\log_{3}(x - 1) = 1$ ise $x$ kaçt\\u0131r?",
+    "options": [
+      "A) $3$",
+      "B) $5$",
+      "C) $1$",
+      "D) $4$",
+      "E) $2$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\log_{3} \\frac{x^2 - 1}{x - 1} = 1 \\implies \\log_{3} (x + 1) = 1 \\implies x + 1 = 3 \\implies x = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 3x^{2} - 2$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-3$",
+      "B) $-2$",
+      "C) $3$",
+      "D) $1$",
+      "E) $0$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 6x + 0$. $f'(x) = 0 \\implies 6x = 0 \\implies x = 0$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 3 - 1i$ ve $z_2 = 4$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $-1 + 7i$",
+      "B) $7$",
+      "C) $-1 + 3i$",
+      "D) $7 - 1i$",
+      "E) $8 - 1i$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$z_1 + z_2 = (3 + 4) + (-1 + 0)i = 7 - 1i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\sin^2 x + \\cos^2 x$ ifadesinin e\\u015fiti nedir?",
+    "options": [
+      "A) $$\\sin x + \\cos x$$",
+      "B) $$\\frac{1}{2}$$",
+      "C) $-1$",
+      "D) $0$",
+      "E) $1$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Temel trigonometrik özde\\u015fli\\u011fe göre $\\sin^2 x + \\cos^2 x = 1$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 10, ortak fark\\u0131 2 olan bir aritmetik dizinin 10. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $26$",
+      "B) $100$",
+      "C) $18$",
+      "D) $28$",
+      "E) $30$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$a_10 = a_1 + (n-1)d = 10 + (10 - 1) \\cdot 2 = 10 + 18 = 28$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$1 + \\tan^2 x$ ifadesinin e\\u015fiti nedir?",
+    "options": [
+      "A) $$\\sec^2 x$$",
+      "B) $$\\sin^2 x$$",
+      "C) $$\\cos^2 x$$",
+      "D) $$\\cot^2 x$$",
+      "E) $$\\csc^2 x$$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$1 + \\tan^2 x = \\sec^2 x = \\frac{1}{\\cos^2 x}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int_{0}^{2} 2x^{1} dx$ integralinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $3$",
+      "B) $2$",
+      "C) $5$",
+      "D) $6$",
+      "E) $4$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\int 2x^{1} dx = \\frac{2}{2} x^{2}$. $\\left[\\frac{2}{2} x^{2}\\right]_{0}^{2} = \\frac{2}{2} (2^{2} - 0^{2}) = 4$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (3x^{2} + 6x^{2} + 4) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $x^{3} + 2x^{3} + 4x + C$",
+      "B) $x^{3} + 3x^{3} + 4x + C$",
+      "C) $x^{4} + 2x^{3} + 4x + C$",
+      "D) $x^{3} + 2x^{3} + C$",
+      "E) $x^{3} + 2x^{3} + 4x + C$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\int 3x^{2} dx = 1x^{3}$, $\\int + 6x^{2} dx = + 2x^{3}$, $\\int 4 dx = 4x$. Sonuç: $x^{3} + 2x^{3} + 4x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int_{0}^{4} 4x^{3} dx$ integralinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $256$",
+      "B) $257$",
+      "C) $512$",
+      "D) $128$",
+      "E) $260$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\int 4x^{3} dx = \\frac{4}{4} x^{4}$. $\\left[\\frac{4}{4} x^{4}\\right]_{0}^{4} = \\frac{4}{4} (4^{4} - 0^{4}) = 256$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$P(9, 2)$ permütasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $72$",
+      "B) $56$",
+      "C) $181440$",
+      "D) $5040$",
+      "E) $82$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$P(9, 2) = \\frac{9!}{(9 - 2)!} = \\frac{362880}{5040} = 72$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{3} + x - 3$ oldu\\u011funa göre $f'(1)$ kaçt\\u0131r?",
+    "options": [
+      "A) $5$",
+      "B) $6$",
+      "C) $9$",
+      "D) $7$",
+      "E) $25$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$f'(x) = 6x^{2} + 1$ ise $f'(1) = 6 \\cdot 1^{2} + 1 = 7$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 4x^{3} + 2$ oldu\\u011funa göre $f'(3)$ kaçt\\u0131r?",
+    "options": [
+      "A) $104$",
+      "B) $109$",
+      "C) $107$",
+      "D) $112$",
+      "E) $108$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 12x^{2} + 0$ ise $f'(3) = 12 \\cdot 3^{2} + 0 = 108$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{1x^2 - 1x - 4}{2x^2 - 1x + 2}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{1}{2}$",
+      "B) $\\frac{-1}{-1}$",
+      "C) $\\frac{-4}{2}$",
+      "D) $\\frac{2}{2}$",
+      "E) $\\frac{2}{1}$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{1x^2}{2x^2} = \\frac{1}{2}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 4} \\frac{x^2 - 1x - 12}{x - 4}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-7$",
+      "B) $6$",
+      "C) $1$",
+      "D) $7$",
+      "E) $-3$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Pay\\, $x^2 - 1x - 12 = (x-4)(x--3)$. $\\lim_{x \\to 4} \\frac{(x-4)(x--3)}{x-4} = \\lim_{x \\to 4} (x--3) = 4 - -3 = 7$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{2} + 12x - 3$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $-12$",
+      "B) $-2$",
+      "C) $3$",
+      "D) $-3$",
+      "E) $-1$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$f'(x) = 4x + 12$. $f'(x) = 0 \\implies 4x = 12 \\implies x = -3$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 4 + 5i$ ve $z_2 = 5 - 4i$ ise $z_1 - z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $-1 + 9i$",
+      "B) $-1 + 10i$",
+      "C) $5 + 4i$",
+      "D) $9i$",
+      "E) $9 - 1i$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$z_1 - z_2 = (4 - 5) + (5 - -4)i = -1 + 9i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $6$",
+      "B) $3$",
+      "C) $7$",
+      "D) $4$",
+      "E) $9$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3} = \\lim_{x \\to 3} \\frac{(x-3)(x+3)}{x-3} = \\lim_{x \\to 3} (x+3) = 3 + 3 = 6$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 1 + 2i$ ve $z_2 = 4 - 2i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $2 + 1i$",
+      "B) $5i$",
+      "C) $5 + 1i$",
+      "D) $5$",
+      "E) $5 + 4i$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$z_1 + z_2 = (1 + 4) + (2 + -2)i = 5$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 4 - 3i$ ve $z_2 = 3 + 1i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $7 - 2i$",
+      "B) $-2 + 7i$",
+      "C) $8 - 2i$",
+      "D) $7 - 1i$",
+      "E) $7 - 4i$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$z_1 + z_2 = (4 + 3) + (-3 + 1)i = 7 - 2i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 5$ ve $z_2 = 3 - 5i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $8 - 5i$",
+      "B) $8 + 5i$",
+      "C) $5i$",
+      "D) $9 - 5i$",
+      "E) $8 - 4i$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$z_1 + z_2 = (5 + 3) + (0 + -5)i = 8 - 5i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 3 - 1i$ ve $z_2 = 1 - 1i$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $4 - 2i$",
+      "B) $4$",
+      "C) $-2 + 4i$",
+      "D) $4 - 1i$",
+      "E) $-1 + 3i$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$z_1 + z_2 = (3 + 1) + (-1 + -1)i = 4 - 2i$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = x^{2} + 4x + 2$ oldu\\u011funa göre $f'(3)$ kaçt\\u0131r?",
+    "options": [
+      "A) $12$",
+      "B) $9$",
+      "C) $11$",
+      "D) $4$",
+      "E) $10$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$f'(x) = 2x^{1} + 4$ ise $f'(3) = 2 \\cdot 3^{1} + 4 = 10$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$z_1 = 4$ ve $z_2 = 4$ ise $z_1 + z_2$ i\\u015fleminin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $8i$",
+      "B) $8$",
+      "C) $8 + 1i$",
+      "D) $4i$",
+      "E) $9$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$z_1 + z_2 = (4 + 4) + (0 + 0)i = 8$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{3x^2 - 1x - 2}{1x^2 + 0x - 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{1}{3}$",
+      "B) $\\frac{3}{1}$",
+      "C) $\\frac{4}{1}$",
+      "D) $\\frac{-2}{-3}$",
+      "E) $\\frac{3}{2}$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{3x^2}{1x^2} = \\frac{3}{1}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\int (4x^{3} + 4x^{1} + 1) dx$ integralinin sonucu a\\u015fa\\u011f\\u0131dakilerden hangisidir?",
+    "options": [
+      "A) $x^{5} + 2x^{2} + 1x + C$",
+      "B) $x^{4} + 2x^{2} + 1x + C$",
+      "C) $x^{4} + 2x^{2} + 1x + C$",
+      "D) $x^{4} + 2x^{2} + C$",
+      "E) $x^{4} + 3x^{2} + 1x + C$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\int 4x^{3} dx = 1x^{4}$, $\\int + 4x^{1} dx = + 2x^{2}$, $\\int 1 dx = 1x$. Sonuç: $x^{4} + 2x^{2} + 1x + C$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\log_{5}(x^2 - 9) - \\log_{5}(x - 3) = 1$ ise $x$ kaçt\\u0131r?",
+    "options": [
+      "A) $3$",
+      "B) $2$",
+      "C) $5$",
+      "D) $8$",
+      "E) $7$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\log_{5} \\frac{x^2 - 9}{x - 3} = 1 \\implies \\log_{5} (x + 3) = 1 \\implies x + 3 = 5 \\implies x = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 5, ortak fark\\u0131 3 olan bir aritmetik dizinin 14. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $70$",
+      "B) $47$",
+      "C) $44$",
+      "D) $47$",
+      "E) $41$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$a_14 = a_1 + (n-1)d = 5 + (14 - 1) \\cdot 3 = 5 + 39 = 44$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 2, ortak fark\\u0131 3 olan bir aritmetik dizinin 8. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $21$",
+      "B) $26$",
+      "C) $23$",
+      "D) $16$",
+      "E) $26$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$a_8 = a_1 + (n-1)d = 2 + (8 - 1) \\cdot 3 = 2 + 21 = 23$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$P(5, 4)$ permütasyonunun de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $5$",
+      "B) $1$",
+      "C) $24$",
+      "D) $126$",
+      "E) $120$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$P(5, 4) = \\frac{5!}{(5 - 4)!} = \\frac{120}{1} = 120$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$f(x) = 2x^{2} - 8x + 3$ fonksiyonunun $f'(x) = 0$ denklemini sa\\u011flayan $x$ de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $2$",
+      "B) $3$",
+      "C) $-2$",
+      "D) $8$",
+      "E) $0$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$f'(x) = 4x - 8$. $f'(x) = 0 \\implies 4x = 8 \\implies x = 2$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "\\u0130lk terimi 2, ortak çarpan\\u0131 2 olan bir geometrik dizinin 7. terimi kaçt\\u0131r?",
+    "options": [
+      "A) $129$",
+      "B) $128$",
+      "C) $1458$",
+      "D) $256$",
+      "E) $64$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$a_7 = a_1 \\cdot r^{n-1} = 2 \\cdot 2^{6} = 128$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to \\infty} \\frac{4x^2 - 5x - 3}{4x^2 - 3x + 3}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $\\frac{-3}{3}$",
+      "B) $\\frac{-5}{-3}$",
+      "C) $\\frac{5}{4}$",
+      "D) $\\frac{4}{4}$",
+      "E) $\\frac{4}{5}$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$x \\to \\infty$ için en büyük dereceli terimler öne ç\\u0131kar: $\\frac{4x^2}{4x^2} = \\frac{4}{4}$."
+  },
+  {
+    "sub_category": "matematik",
+    "question": "$\\lim_{x \\to 1} \\frac{x^2 - -2x - 3}{x - 1}$ limitinin de\\u011feri kaçt\\u0131r?",
+    "options": [
+      "A) $3$",
+      "B) $-2$",
+      "C) $1$",
+      "D) $5$",
+      "E) $4$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Pay\\, $x^2 - -2x - 3 = (x-1)(x--3)$. $\\lim_{x \\to 1} \\frac{(x-1)(x--3)}{x-1} = \\lim_{x \\to 1} (x--3) = 1 - -3 = 4$."
   }
 ]
