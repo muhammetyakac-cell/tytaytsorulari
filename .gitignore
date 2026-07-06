@@ -1,0 +1,7 @@
+node_modules/
+.env
+.DS_Store
+
+.vercel
+.next
+tyt_ayt_soru_bankas.tsx
