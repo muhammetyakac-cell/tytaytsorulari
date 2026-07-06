@@ -1335,5 +1335,5657 @@
     ],
     "correct_answer": 2,
     "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 4 = 8$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 17 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $17$",
+      "B) $24$",
+      "C) $34$",
+      "D) $2$",
+      "E) $18$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 17 \\cdot 1 = 17$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $30$ N",
+      "C) $30$ N",
+      "D) $2$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 10 \\cdot 1 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $7.5$ N",
+      "B) $9$ N",
+      "C) $30$ N",
+      "D) $54$ N",
+      "E) $45$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 6 \\cdot 1.5 = 45$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 20 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 30 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $60$",
+      "B) $90$",
+      "C) $12$",
+      "D) $20$",
+      "E) $30$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{60} = \\frac{1}{20} - \\frac{1}{30} \\implies d_i = 60$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $16$",
+      "B) $54$",
+      "C) $24$",
+      "D) $72$",
+      "E) $48$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 8 = 48$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 13 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $52$",
+      "B) $37$",
+      "C) $57$",
+      "D) $65$",
+      "E) $17$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 13 \\cdot 4 = 52$ N·m."
+  },
+  {
+    "sub_category": "biyoloji",
+    "question": "Fotosentezin \\u0131\\u015ftan ba\\ğ\\u0131ms\\u0131z tepkimeleri (Calvin döngüsü) nerede gerçekleşir?",
+    "options": [
+      "A) Stroma",
+      "B) Mitokondri",
+      "C) Klorofil",
+      "D) Granum",
+      "E) Tilakoid zar"
+    ],
+    "correct_answer": 0,
+    "explanation": "Calvin döngüsü kloroplast\\u0131n stromas\\u0131nda gerçekleşir."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 48 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $96$",
+      "B) $54$",
+      "C) $48$",
+      "D) $1$",
+      "E) $49$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 48 \\cdot 1 = 48$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $30$ N",
+      "B) $45$ N",
+      "C) $15$ N",
+      "D) $3$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 10 \\cdot 1.5 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $8$ N",
+      "B) $12$ N",
+      "C) $16$ N",
+      "D) $1$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 8 \\cdot 1 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 31 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $138$",
+      "B) $124$",
+      "C) $4$",
+      "D) $155$",
+      "E) $35$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 31 \\cdot 4 = 124$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $60$ N",
+      "C) $75$ N",
+      "D) $20$ N",
+      "E) $80$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 10 \\cdot 2 = 60$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $14$",
+      "B) $8$",
+      "C) $7$",
+      "D) $1$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 7 = 7$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 50 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $50$",
+      "B) $244$",
+      "C) $250$",
+      "D) $259$",
+      "E) $5$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 50 \\cdot 5 = 250$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $10$",
+      "B) $20$",
+      "C) $10$",
+      "D) $24$",
+      "E) $4$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 5 = 20$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $14$",
+      "B) $2$",
+      "C) $6$",
+      "D) $18$",
+      "E) $12$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 6 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 15 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 25 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $9.375$",
+      "B) $19$",
+      "C) $37.5$",
+      "D) $56$",
+      "E) $15$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{37.5} = \\frac{1}{15} - \\frac{1}{25} \\implies d_i = 37.5$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $64$ N",
+      "B) $80$ N",
+      "C) $8$ N",
+      "D) $80$ N",
+      "E) $32$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 8 \\cdot 2 = 64$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 47 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $141$",
+      "B) $50$",
+      "C) $148$",
+      "D) $130$",
+      "E) $188$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 47 \\cdot 3 = 141$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $9$ N",
+      "B) $12$ N",
+      "C) $6$ N",
+      "D) $1$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 6 \\cdot 1 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $16$ N",
+      "B) $48$ N",
+      "C) $32$ N",
+      "D) $16$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 8 \\cdot 2 = 32$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 45 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $193$",
+      "B) $225$",
+      "C) $4$",
+      "D) $49$",
+      "E) $180$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 45 \\cdot 4 = 180$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 49 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $147$",
+      "B) $98$",
+      "C) $51$",
+      "D) $109$",
+      "E) $88$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 49 \\cdot 2 = 98$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $3$ N",
+      "C) $0.5$ N",
+      "D) $1.5$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 3 \\cdot 0.5 = 1.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $35$ N",
+      "B) $2.5$ N",
+      "C) $17.5$ N",
+      "D) $21$ N",
+      "E) $3.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 7 \\cdot 0.5 = 17.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $17.5$ N",
+      "B) $7$ N",
+      "C) $14$ N",
+      "D) $2$ N",
+      "E) $28$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 7 \\cdot 2 = 14$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 27 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $27$",
+      "B) $135$",
+      "C) $4$",
+      "D) $108$",
+      "E) $123$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 27 \\cdot 4 = 108$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $7$",
+      "C) $3$",
+      "D) $21$",
+      "E) $42$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 7 = 21$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 24 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $96$",
+      "B) $24$",
+      "C) $108$",
+      "D) $28$",
+      "E) $4$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 24 \\cdot 4 = 96$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 34 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $68$",
+      "B) $34$",
+      "C) $35$",
+      "D) $42$",
+      "E) $1$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 34 \\cdot 1 = 34$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $16$",
+      "B) $4$",
+      "C) $8$",
+      "D) $2$",
+      "E) $10$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 4 = 8$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4.5$ N",
+      "B) $54$ N",
+      "C) $27$ N",
+      "D) $40.5$ N",
+      "E) $54$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 9 \\cdot 1.5 = 40.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $5$ N",
+      "B) $20$ N",
+      "C) $10$ N",
+      "D) $20$ N",
+      "E) $1$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 10 \\cdot 0.5 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $2$ N",
+      "C) $4$ N",
+      "D) $4$ N",
+      "E) $0.5$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 4 \\cdot 0.5 = 2$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $20$ N",
+      "B) $24$ N",
+      "C) $4$ N",
+      "D) $4$ N",
+      "E) $16$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 4 \\cdot 1 = 16$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $100$ N",
+      "B) $80$ N",
+      "C) $16$ N",
+      "D) $10$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 8 \\cdot 2 = 80$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $7$ N",
+      "B) $3.5$ N",
+      "C) $7$ N",
+      "D) $7$ N",
+      "E) $0.5$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 7 \\cdot 0.5 = 3.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $18$",
+      "B) $6$",
+      "C) $6$",
+      "D) $9$",
+      "E) $24$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 3 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $72$",
+      "B) $24$",
+      "C) $96$",
+      "D) $81$",
+      "E) $24$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 8 = 72$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 45 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $270$",
+      "B) $225$",
+      "C) $235$",
+      "D) $5$",
+      "E) $45$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 45 \\cdot 5 = 225$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $22.5$ N",
+      "B) $4.5$ N",
+      "C) $15$ N",
+      "D) $30$ N",
+      "E) $7.5$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 5 \\cdot 1.5 = 22.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 28 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $30$",
+      "B) $56$",
+      "C) $50$",
+      "D) $70$",
+      "E) $28$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 28 \\cdot 2 = 56$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $18$",
+      "C) $36$",
+      "D) $12$",
+      "E) $42$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 6 = 36$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $10$",
+      "B) $15$",
+      "C) $45$",
+      "D) $6$",
+      "E) $30$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 5 = 30$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $9$",
+      "C) $8$",
+      "D) $2$",
+      "E) $3$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 3 = 6$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 19 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $44$",
+      "B) $38$",
+      "C) $19$",
+      "D) $2$",
+      "E) $21$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 19 \\cdot 2 = 38$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 19 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $19$",
+      "B) $76$",
+      "C) $88$",
+      "D) $67$",
+      "E) $4$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 19 \\cdot 4 = 76$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $12$",
+      "B) $4$",
+      "C) $8$",
+      "D) $4$",
+      "E) $12$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 2 = 8$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 12 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $15$",
+      "B) $48$",
+      "C) $3$",
+      "D) $36$",
+      "E) $27$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 12 \\cdot 3 = 36$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 33 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $51$",
+      "B) $66$",
+      "C) $99$",
+      "D) $35$",
+      "E) $79$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 33 \\cdot 2 = 66$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $18$ N",
+      "B) $9$ N",
+      "C) $1.5$ N",
+      "D) $18$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 6 \\cdot 0.5 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $28$",
+      "B) $12$",
+      "C) $4$",
+      "D) $12$",
+      "E) $24$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 6 = 24$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 43 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $47$",
+      "B) $43$",
+      "C) $4$",
+      "D) $162$",
+      "E) $172$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 43 \\cdot 4 = 172$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $35$ N",
+      "B) $42$ N",
+      "C) $28$ N",
+      "D) $4$ N",
+      "E) $7$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 7 \\cdot 1 = 28$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $8$ N",
+      "C) $4$ N",
+      "D) $2$ N",
+      "E) $16$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 4 \\cdot 2 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $13.5$ N",
+      "B) $18$ N",
+      "C) $1$ N",
+      "D) $4.5$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 9 \\cdot 0.5 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $12$ N",
+      "C) $4.5$ N",
+      "D) $9$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 2 \\cdot 1.5 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 10 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $30$",
+      "B) $35$",
+      "C) $3$",
+      "D) $13$",
+      "E) $40$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 10 \\cdot 3 = 30$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $5$ N",
+      "C) $10$ N",
+      "D) $0.5$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 10 \\cdot 0.5 = 5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $15$",
+      "B) $5$",
+      "C) $2$",
+      "D) $12$",
+      "E) $10$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 5 = 10$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4.5$ N",
+      "B) $18$ N",
+      "C) $27$ N",
+      "D) $13.5$ N",
+      "E) $27$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 9 \\cdot 0.5 = 13.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $30$",
+      "B) $90$",
+      "C) $30$",
+      "D) $99$",
+      "E) $120$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 10 = 90$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 26 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $61$",
+      "B) $78$",
+      "C) $52$",
+      "D) $2$",
+      "E) $28$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 26 \\cdot 2 = 52$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $40$ N",
+      "B) $4$ N",
+      "C) $24$ N",
+      "D) $40$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 8 \\cdot 0.5 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 16 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $60$",
+      "B) $39$",
+      "C) $3$",
+      "D) $64$",
+      "E) $48$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 16 \\cdot 3 = 48$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $21$",
+      "B) $3$",
+      "C) $36$",
+      "D) $18$",
+      "E) $6$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 6 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 20 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $20$",
+      "B) $25$",
+      "C) $100$",
+      "D) $120$",
+      "E) $5$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 20 \\cdot 5 = 100$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 22 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $66$",
+      "B) $35$",
+      "C) $54$",
+      "D) $44$",
+      "E) $22$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 22 \\cdot 2 = 44$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 35 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $35$",
+      "B) $175$",
+      "C) $169$",
+      "D) $5$",
+      "E) $40$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 35 \\cdot 5 = 175$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $30$",
+      "B) $9$",
+      "C) $27$",
+      "D) $3$",
+      "E) $54$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 9 = 27$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $54$ N",
+      "B) $45$ N",
+      "C) $4$ N",
+      "D) $36$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 9 \\cdot 1 = 36$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $54$ N",
+      "B) $18$ N",
+      "C) $36$ N",
+      "D) $4$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 9 \\cdot 2 = 36$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $2.5$ N",
+      "B) $5$ N",
+      "C) $5$ N",
+      "D) $0.5$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 5 \\cdot 0.5 = 2.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $56$ N",
+      "B) $42$ N",
+      "C) $10.5$ N",
+      "D) $6$ N",
+      "E) $28$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 7 \\cdot 1.5 = 42$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $50$ N",
+      "B) $4$ N",
+      "C) $20$ N",
+      "D) $40$ N",
+      "E) $60$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 10 \\cdot 2 = 40$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $18$",
+      "B) $8$",
+      "C) $16$",
+      "D) $24$",
+      "E) $2$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 8 = 16$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 44 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $47$",
+      "B) $132$",
+      "C) $126$",
+      "D) $3$",
+      "E) $44$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 44 \\cdot 3 = 132$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 36 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $39$",
+      "B) $36$",
+      "C) $3$",
+      "D) $108$",
+      "E) $115$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 36 \\cdot 3 = 108$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $30$ N",
+      "B) $20$ N",
+      "C) $24$ N",
+      "D) $5$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 4 \\cdot 1 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 50 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $4$",
+      "B) $200$",
+      "C) $50$",
+      "D) $54$",
+      "E) $192$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 50 \\cdot 4 = 200$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $50$ N",
+      "C) $25$ N",
+      "D) $62.5$ N",
+      "E) $60$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 5 \\cdot 2 = 50$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $1$ N",
+      "C) $5$ N",
+      "D) $7.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 5 \\cdot 1 = 5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4.5$ N",
+      "B) $24$ N",
+      "C) $24$ N",
+      "D) $18$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 4 \\cdot 1.5 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $31.5$ N",
+      "B) $10.5$ N",
+      "C) $21$ N",
+      "D) $14$ N",
+      "E) $28$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 7 \\cdot 1.5 = 21$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $22.5$ N",
+      "B) $18$ N",
+      "C) $5$ N",
+      "D) $15$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 3 \\cdot 1 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $22.5$ N",
+      "B) $18$ N",
+      "C) $2$ N",
+      "D) $36$ N",
+      "E) $36$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 9 \\cdot 0.5 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $72$ N",
+      "C) $60$ N",
+      "D) $30$ N",
+      "E) $75$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 6 \\cdot 2 = 60$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 44 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $49$",
+      "B) $231$",
+      "C) $5$",
+      "D) $264$",
+      "E) $220$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 44 \\cdot 5 = 220$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $24$",
+      "C) $18$",
+      "D) $9$",
+      "E) $6$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 3 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 27 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $27$",
+      "B) $54$",
+      "C) $28$",
+      "D) $12$",
+      "E) $1$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 27 \\cdot 1 = 27$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $24$ N",
+      "C) $30$ N",
+      "D) $8$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 4 \\cdot 2 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $9$ N",
+      "C) $8$ N",
+      "D) $4$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 2 \\cdot 1.5 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 32 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $113$",
+      "B) $32$",
+      "C) $128$",
+      "D) $4$",
+      "E) $160$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 32 \\cdot 4 = 128$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 16 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $20$",
+      "B) $48$",
+      "C) $2$",
+      "D) $32$",
+      "E) $18$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 16 \\cdot 2 = 32$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $60$",
+      "B) $15$",
+      "C) $54$",
+      "D) $45$",
+      "E) $15$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 5 = 45$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 28 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $1$",
+      "B) $29$",
+      "C) $20$",
+      "D) $56$",
+      "E) $28$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 28 \\cdot 1 = 28$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $25$ N",
+      "B) $30$ N",
+      "C) $37.5$ N",
+      "D) $5$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 5 \\cdot 1 = 25$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $15$ N",
+      "B) $5$ N",
+      "C) $2$ N",
+      "D) $10$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 2 \\cdot 1 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 41 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $164$",
+      "B) $3$",
+      "C) $138$",
+      "D) $123$",
+      "E) $41$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 41 \\cdot 3 = 123$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $54$",
+      "B) $36$",
+      "C) $4$",
+      "D) $18$",
+      "E) $18$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 9 = 36$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $9$",
+      "C) $18$",
+      "D) $6$",
+      "E) $27$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 2 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $36$",
+      "B) $30$",
+      "C) $10$",
+      "D) $15$",
+      "E) $6$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 5 = 30$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 27 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $32$",
+      "B) $27$",
+      "C) $162$",
+      "D) $135$",
+      "E) $146$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 27 \\cdot 5 = 135$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $0.5$ N",
+      "B) $2$ N",
+      "C) $2$ N",
+      "D) $2$ N",
+      "E) $1$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 2 \\cdot 0.5 = 1$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 19 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $19$",
+      "B) $5$",
+      "C) $95$",
+      "D) $84$",
+      "E) $109$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 19 \\cdot 5 = 95$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $30$",
+      "B) $24$",
+      "C) $12$",
+      "D) $36$",
+      "E) $8$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 4 = 24$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 34 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $5$",
+      "B) $204$",
+      "C) $170$",
+      "D) $179$",
+      "E) $39$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 34 \\cdot 5 = 170$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 43 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $129$",
+      "B) $43$",
+      "C) $142$",
+      "D) $3$",
+      "E) $46$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 43 \\cdot 3 = 129$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $6$",
+      "C) $18$",
+      "D) $4$",
+      "E) $12$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 2 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 40 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $40$",
+      "B) $41$",
+      "C) $1$",
+      "D) $51$",
+      "E) $80$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 40 \\cdot 1 = 40$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $16$ N",
+      "C) $6$ N",
+      "D) $3$ N",
+      "E) $15$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 2 \\cdot 1.5 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10.5$ N",
+      "B) $7$ N",
+      "C) $14$ N",
+      "D) $1$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 7 \\cdot 1 = 7$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 40 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $45$",
+      "B) $40$",
+      "C) $5$",
+      "D) $212$",
+      "E) $200$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 40 \\cdot 5 = 200$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $8$",
+      "B) $32$",
+      "C) $2$",
+      "D) $16$",
+      "E) $18$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 8 = 16$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $1.5$ N",
+      "C) $16$ N",
+      "D) $4$ N",
+      "E) $24$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 8 \\cdot 0.5 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $14$",
+      "B) $42$",
+      "C) $6$",
+      "D) $63$",
+      "E) $21$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 7 = 42$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 13 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $26$",
+      "B) $39$",
+      "C) $13$",
+      "D) $13$",
+      "E) $37$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 13 \\cdot 2 = 26$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $8$ N",
+      "C) $0.5$ N",
+      "D) $8$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 8 \\cdot 0.5 = 4$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 26 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $26$",
+      "B) $104$",
+      "C) $91$",
+      "D) $29$",
+      "E) $78$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 26 \\cdot 3 = 78$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $54$ N",
+      "B) $13.5$ N",
+      "C) $72$ N",
+      "D) $6$ N",
+      "E) $36$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 9 \\cdot 1.5 = 54$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 34 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $38$",
+      "B) $4$",
+      "C) $136$",
+      "D) $170$",
+      "E) $129$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 34 \\cdot 4 = 136$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $64$ N",
+      "B) $48$ N",
+      "C) $6$ N",
+      "D) $12$ N",
+      "E) $60$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 8 \\cdot 1.5 = 48$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 18 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $31$",
+      "B) $1$",
+      "C) $18$",
+      "D) $36$",
+      "E) $9$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 18 \\cdot 1 = 18$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $8$ N",
+      "B) $2$ N",
+      "C) $12$ N",
+      "D) $1.5$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 4 \\cdot 0.5 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $12$",
+      "C) $2$",
+      "D) $14$",
+      "E) $6$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 6 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 22 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $88$",
+      "B) $71$",
+      "C) $66$",
+      "D) $22$",
+      "E) $25$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 22 \\cdot 3 = 66$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Odak uzaklı\\u011f\\u0131 15 cm olan ince kenarl\\u0131 bir mercekte cismin merceğe uzaklı\\u011f\\u0131 20 cm ise görüntünün merceğe uzaklı\\u011f\\u0131 kaç cm dir?",
+    "options": [
+      "A) $60$",
+      "B) $20$",
+      "C) $30$",
+      "D) $8.571428571428571$",
+      "E) $90$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\implies \\frac{1}{60} = \\frac{1}{15} - \\frac{1}{20} \\implies d_i = 60$ cm."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $20$",
+      "B) $18$",
+      "C) $36$",
+      "D) $9$",
+      "E) $2$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 9 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $32$",
+      "C) $24$",
+      "D) $27$",
+      "E) $8$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 8 = 24$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $12$",
+      "C) $4$",
+      "D) $15$",
+      "E) $16$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 4 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 31 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $50$",
+      "B) $93$",
+      "C) $2$",
+      "D) $62$",
+      "E) $72$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 31 \\cdot 2 = 62$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $18$",
+      "B) $12$",
+      "C) $3$",
+      "D) $9$",
+      "E) $3$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 3 = 9$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 43 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $43$",
+      "B) $78$",
+      "C) $86$",
+      "D) $45$",
+      "E) $129$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 43 \\cdot 2 = 86$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $4$",
+      "C) $2$",
+      "D) $1$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 2 = 2$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 42 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $153$",
+      "B) $168$",
+      "C) $4$",
+      "D) $46$",
+      "E) $210$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 42 \\cdot 4 = 168$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $20$",
+      "B) $40$",
+      "C) $44$",
+      "D) $60$",
+      "E) $4$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 10 = 40$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 50 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $41$",
+      "B) $50$",
+      "C) $1$",
+      "D) $100$",
+      "E) $59$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 50 \\cdot 1 = 50$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 13 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $39$",
+      "B) $16$",
+      "C) $3$",
+      "D) $52$",
+      "E) $31$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 13 \\cdot 3 = 39$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 34 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $36$",
+      "B) $102$",
+      "C) $79$",
+      "D) $68$",
+      "E) $2$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 34 \\cdot 2 = 68$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $18$ N",
+      "B) $72$ N",
+      "C) $36$ N",
+      "D) $90$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 9 \\cdot 2 = 72$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $20$ N",
+      "C) $10$ N",
+      "D) $24$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 2 \\cdot 2 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 14 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $19$",
+      "B) $84$",
+      "C) $70$",
+      "D) $5$",
+      "E) $63$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 14 \\cdot 5 = 70$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $40$ N",
+      "B) $80$ N",
+      "C) $60$ N",
+      "D) $7.5$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 8 \\cdot 1.5 = 60$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $5$",
+      "B) $20$",
+      "C) $2$",
+      "D) $12$",
+      "E) $10$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 5 = 10$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $11$",
+      "B) $10$",
+      "C) $20$",
+      "D) $1$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 10 = 10$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 21 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $49$",
+      "B) $36$",
+      "C) $2$",
+      "D) $42$",
+      "E) $21$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 21 \\cdot 2 = 42$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $16$ N",
+      "C) $24$ N",
+      "D) $20$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 4 \\cdot 2 = 16$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 29 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $42$",
+      "B) $29$",
+      "C) $1$",
+      "D) $20$",
+      "E) $58$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 29 \\cdot 1 = 29$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1$ N",
+      "B) $6$ N",
+      "C) $8$ N",
+      "D) $4$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 4 \\cdot 1 = 4$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $90$",
+      "C) $60$",
+      "D) $66$",
+      "E) $30$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 10 = 60$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 41 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $178$",
+      "B) $45$",
+      "C) $158$",
+      "D) $205$",
+      "E) $164$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 41 \\cdot 4 = 164$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 44 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $187$",
+      "B) $176$",
+      "C) $48$",
+      "D) $220$",
+      "E) $165$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 44 \\cdot 4 = 176$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $4$",
+      "B) $1$",
+      "C) $5$",
+      "D) $8$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 4 = 4$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $2.5$ N",
+      "B) $10$ N",
+      "C) $7.5$ N",
+      "D) $15$ N",
+      "E) $1.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 5 \\cdot 0.5 = 7.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $6$ N",
+      "C) $6$ N",
+      "D) $0.5$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 6 \\cdot 0.5 = 3$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $2$ N",
+      "C) $15$ N",
+      "D) $24$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 6 \\cdot 0.5 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $60$ N",
+      "B) $15$ N",
+      "C) $80$ N",
+      "D) $40$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 10 \\cdot 1.5 = 60$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $108$",
+      "B) $27$",
+      "C) $9$",
+      "D) $81$",
+      "E) $90$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 9 = 81$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $5$ N",
+      "B) $48$ N",
+      "C) $8$ N",
+      "D) $60$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 8 \\cdot 1 = 40$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $6$ N",
+      "C) $13.5$ N",
+      "D) $9$ N",
+      "E) $4.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 3 \\cdot 1.5 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $14$",
+      "B) $42$",
+      "C) $28$",
+      "D) $14$",
+      "E) $4$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 7 = 28$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 18 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $60$",
+      "B) $54$",
+      "C) $40$",
+      "D) $72$",
+      "E) $3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 18 \\cdot 3 = 54$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 29 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $105$",
+      "B) $116$",
+      "C) $4$",
+      "D) $29$",
+      "E) $33$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 29 \\cdot 4 = 116$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $4$ N",
+      "C) $4$ N",
+      "D) $8$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 2 \\cdot 2 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 14 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $56$",
+      "B) $17$",
+      "C) $14$",
+      "D) $42$",
+      "E) $54$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 14 \\cdot 3 = 42$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $2$ N",
+      "B) $16$ N",
+      "C) $20$ N",
+      "D) $4$ N",
+      "E) $32$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 8 \\cdot 0.5 = 16$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $21$",
+      "C) $6$",
+      "D) $18$",
+      "E) $3$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 6 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $27$ N",
+      "B) $13.5$ N",
+      "C) $36$ N",
+      "D) $40.5$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 9 \\cdot 1.5 = 27$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $32$",
+      "B) $30$",
+      "C) $8$",
+      "D) $24$",
+      "E) $12$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 4 = 24$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $72$",
+      "C) $60$",
+      "D) $18$",
+      "E) $54$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 9 = 54$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $24$ N",
+      "C) $36$ N",
+      "D) $4.5$ N",
+      "E) $48$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 8 \\cdot 1.5 = 36$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $15$ N",
+      "B) $5$ N",
+      "C) $2$ N",
+      "D) $10$ N",
+      "E) $15$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 5 \\cdot 1 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 37 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $23$",
+      "B) $48$",
+      "C) $37$",
+      "D) $38$",
+      "E) $1$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 37 \\cdot 1 = 37$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $6$",
+      "C) $1$",
+      "D) $4$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 3 = 3$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $30$ N",
+      "B) $15$ N",
+      "C) $1.5$ N",
+      "D) $10$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 10 \\cdot 1.5 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $5$",
+      "C) $1$",
+      "D) $10$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 5 = 5$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $32$ N",
+      "B) $48$ N",
+      "C) $8$ N",
+      "D) $40$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 8 \\cdot 1 = 32$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $1$",
+      "B) $9$",
+      "C) $8$",
+      "D) $16$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 8 = 8$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $6$",
+      "C) $12$",
+      "D) $4$",
+      "E) $18$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 2 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $50$ N",
+      "B) $8$ N",
+      "C) $40$ N",
+      "D) $50$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 5 \\cdot 2 = 40$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10.5$ N",
+      "B) $42$ N",
+      "C) $4.5$ N",
+      "D) $21$ N",
+      "E) $31.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 7 \\cdot 1.5 = 31.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 15 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $18$",
+      "B) $30$",
+      "C) $17$",
+      "D) $45$",
+      "E) $15$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 15 \\cdot 2 = 30$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $16$ N",
+      "B) $8$ N",
+      "C) $2$ N",
+      "D) $16$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 4 \\cdot 0.5 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 30 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $5$",
+      "B) $180$",
+      "C) $135$",
+      "D) $150$",
+      "E) $162$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 30 \\cdot 5 = 150$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $48$ N",
+      "C) $45$ N",
+      "D) $9$ N",
+      "E) $36$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 6 \\cdot 1.5 = 36$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $12$ N",
+      "C) $3$ N",
+      "D) $9$ N",
+      "E) $13.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 3 \\cdot 1 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $9$ N",
+      "B) $2$ N",
+      "C) $9$ N",
+      "D) $6$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 3 \\cdot 1 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 42 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $42$",
+      "B) $43$",
+      "C) $1$",
+      "D) $84$",
+      "E) $54$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 42 \\cdot 1 = 42$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $5$ N",
+      "C) $6$ N",
+      "D) $1$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 2 \\cdot 0.5 = 5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1$ N",
+      "B) $12$ N",
+      "C) $3$ N",
+      "D) $6$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 6 \\cdot 0.5 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 25 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $125$",
+      "B) $135$",
+      "C) $5$",
+      "D) $30$",
+      "E) $119$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 25 \\cdot 5 = 125$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $21$",
+      "B) $2$",
+      "C) $7$",
+      "D) $14$",
+      "E) $16$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 7 = 14$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $2$ N",
+      "C) $6$ N",
+      "D) $8$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 2 \\cdot 1 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 33 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $104$",
+      "B) $132$",
+      "C) $36$",
+      "D) $33$",
+      "E) $99$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 33 \\cdot 3 = 99$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $2$ N",
+      "B) $4$ N",
+      "C) $10$ N",
+      "D) $12$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 2 \\cdot 1 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 24 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $86$",
+      "B) $72$",
+      "C) $27$",
+      "D) $59$",
+      "E) $24$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 24 \\cdot 3 = 72$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $1.5$ N",
+      "C) $3$ N",
+      "D) $6$ N",
+      "E) $2$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 2 \\cdot 1.5 = 3$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 38 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $38$",
+      "B) $3$",
+      "C) $114$",
+      "D) $152$",
+      "E) $125$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 38 \\cdot 3 = 114$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $9$",
+      "B) $9$",
+      "C) $36$",
+      "D) $9$",
+      "E) $27$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 3 = 27$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $14$ N",
+      "B) $21$ N",
+      "C) $21$ N",
+      "D) $7$ N",
+      "E) $2$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 7 \\cdot 1 = 14$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $3$",
+      "B) $27$",
+      "C) $8$",
+      "D) $24$",
+      "E) $48$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 8 = 24$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $4$ N",
+      "C) $1$ N",
+      "D) $2$ N",
+      "E) $1$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 2 \\cdot 0.5 = 2$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3.5$ N",
+      "B) $21$ N",
+      "C) $21$ N",
+      "D) $14$ N",
+      "E) $10.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 7 \\cdot 0.5 = 10.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $24$ N",
+      "B) $3$ N",
+      "C) $16$ N",
+      "D) $32$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 8 \\cdot 1.5 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 8$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $64$",
+      "C) $16$",
+      "D) $54$",
+      "E) $48$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 8 = 48$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 12 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $36$",
+      "B) $14$",
+      "C) $24$",
+      "D) $34$",
+      "E) $14$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 12 \\cdot 2 = 24$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 46 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $106$",
+      "B) $92$",
+      "C) $138$",
+      "D) $2$",
+      "E) $46$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 46 \\cdot 2 = 92$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 32 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $192$",
+      "B) $5$",
+      "C) $149$",
+      "D) $173$",
+      "E) $160$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 32 \\cdot 5 = 160$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $18$ N",
+      "B) $12$ N",
+      "C) $22.5$ N",
+      "D) $24$ N",
+      "E) $4.5$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 3 \\cdot 1.5 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $4$ N",
+      "C) $20$ N",
+      "D) $30$ N",
+      "E) $25$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 5 \\cdot 2 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 37 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $126$",
+      "B) $105$",
+      "C) $3$",
+      "D) $148$",
+      "E) $111$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 37 \\cdot 3 = 111$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 16 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $21$",
+      "B) $86$",
+      "C) $80$",
+      "D) $96$",
+      "E) $16$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 16 \\cdot 5 = 80$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 28 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $71$",
+      "B) $98$",
+      "C) $31$",
+      "D) $84$",
+      "E) $112$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 28 \\cdot 3 = 84$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 29 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $31$",
+      "B) $2$",
+      "C) $45$",
+      "D) $58$",
+      "E) $73$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 29 \\cdot 2 = 58$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 23 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $92$",
+      "B) $4$",
+      "C) $99$",
+      "D) $79$",
+      "E) $23$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 23 \\cdot 4 = 92$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 12 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $72$",
+      "B) $60$",
+      "C) $17$",
+      "D) $52$",
+      "E) $12$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 12 \\cdot 5 = 60$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 32 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $32$",
+      "B) $35$",
+      "C) $96$",
+      "D) $104$",
+      "E) $89$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 32 \\cdot 3 = 96$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 39 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $54$",
+      "B) $39$",
+      "C) $28$",
+      "D) $78$",
+      "E) $1$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 39 \\cdot 1 = 39$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $40$",
+      "B) $10$",
+      "C) $3$",
+      "D) $33$",
+      "E) $30$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 10 = 30$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $21$",
+      "B) $63$",
+      "C) $84$",
+      "D) $21$",
+      "E) $72$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 7 = 63$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 48 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $144$",
+      "B) $48$",
+      "C) $153$",
+      "D) $135$",
+      "E) $3$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 48 \\cdot 3 = 144$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $100$ N",
+      "B) $100$ N",
+      "C) $80$ N",
+      "D) $8$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 10 \\cdot 2 = 80$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 30 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $54$",
+      "B) $60$",
+      "C) $90$",
+      "D) $2$",
+      "E) $67$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 30 \\cdot 2 = 60$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $8$ N",
+      "B) $40$ N",
+      "C) $8$ N",
+      "D) $32$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 4 \\cdot 2 = 32$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $7$ N",
+      "B) $14$ N",
+      "C) $1.5$ N",
+      "D) $21$ N",
+      "E) $10.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 7 \\cdot 1.5 = 10.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 48 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $192$",
+      "B) $205$",
+      "C) $52$",
+      "D) $187$",
+      "E) $48$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 48 \\cdot 4 = 192$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $18$",
+      "B) $10$",
+      "C) $1$",
+      "D) $9$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 1 \\cdot 9 = 9$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 17 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $62$",
+      "B) $68$",
+      "C) $51$",
+      "D) $17$",
+      "E) $20$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 17 \\cdot 3 = 51$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $16$ N",
+      "B) $64$ N",
+      "C) $6$ N",
+      "D) $48$ N",
+      "E) $60$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 8 \\cdot 2 = 48$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $25$ N",
+      "B) $25$ N",
+      "C) $2.5$ N",
+      "D) $2.5$ N",
+      "E) $12.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 5 \\cdot 0.5 = 12.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1$ N",
+      "B) $10$ N",
+      "C) $5$ N",
+      "D) $2.5$ N",
+      "E) $7.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 5 \\cdot 0.5 = 5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 39 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $41$",
+      "B) $70$",
+      "C) $117$",
+      "D) $2$",
+      "E) $78$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 39 \\cdot 2 = 78$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 23 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $3$",
+      "B) $26$",
+      "C) $57$",
+      "D) $23$",
+      "E) $69$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 23 \\cdot 3 = 69$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 36 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $86$",
+      "B) $72$",
+      "C) $38$",
+      "D) $36$",
+      "E) $66$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 36 \\cdot 2 = 72$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $42$ N",
+      "C) $35$ N",
+      "D) $28$ N",
+      "E) $14$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 7 \\cdot 2 = 28$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 29 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $158$",
+      "B) $34$",
+      "C) $140$",
+      "D) $145$",
+      "E) $29$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 29 \\cdot 5 = 145$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 38 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $50$",
+      "B) $1$",
+      "C) $38$",
+      "D) $76$",
+      "E) $23$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 38 \\cdot 1 = 38$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $3$ N",
+      "C) $9$ N",
+      "D) $1.5$ N",
+      "E) $4.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 3 \\cdot 1.5 = 4.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 25 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $100$",
+      "B) $88$",
+      "C) $4$",
+      "D) $125$",
+      "E) $29$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 25 \\cdot 4 = 100$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 20 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $4$",
+      "B) $73$",
+      "C) $100$",
+      "D) $80$",
+      "E) $20$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 20 \\cdot 4 = 80$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 42 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $168$",
+      "B) $3$",
+      "C) $126$",
+      "D) $42$",
+      "E) $45$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 42 \\cdot 3 = 126$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 13 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $2$",
+      "B) $26$",
+      "C) $14$",
+      "D) $28$",
+      "E) $13$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 13 \\cdot 1 = 13$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $24$ N",
+      "B) $16$ N",
+      "C) $6$ N",
+      "D) $32$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 4 \\cdot 1.5 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $2$",
+      "B) $4$",
+      "C) $6$",
+      "D) $2$",
+      "E) $8$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 2 = 4$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 30 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $104$",
+      "B) $90$",
+      "C) $30$",
+      "D) $33$",
+      "E) $3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 30 \\cdot 3 = 90$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $40$ N",
+      "B) $25$ N",
+      "C) $2$ N",
+      "D) $20$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 10 \\cdot 2 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 41 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $5$",
+      "B) $215$",
+      "C) $205$",
+      "D) $246$",
+      "E) $46$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 41 \\cdot 5 = 205$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $30$ N",
+      "B) $20$ N",
+      "C) $30$ N",
+      "D) $5$ N",
+      "E) $15$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 10 \\cdot 0.5 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $4$ N",
+      "C) $24$ N",
+      "D) $36$ N",
+      "E) $30$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 6 \\cdot 1 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $32$ N",
+      "B) $8$ N",
+      "C) $20$ N",
+      "D) $16$ N",
+      "E) $2$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 8 \\cdot 2 = 16$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 26 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $5$",
+      "B) $26$",
+      "C) $156$",
+      "D) $130$",
+      "E) $121$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 26 \\cdot 5 = 130$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 6$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $9$",
+      "B) $72$",
+      "C) $54$",
+      "D) $63$",
+      "E) $18$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 6 = 54$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 33 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $33$",
+      "B) $165$",
+      "C) $38$",
+      "D) $198$",
+      "E) $175$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 33 \\cdot 5 = 165$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 21 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $24$",
+      "B) $73$",
+      "C) $63$",
+      "D) $21$",
+      "E) $50$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 21 \\cdot 3 = 63$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 21 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $7$",
+      "B) $1$",
+      "C) $42$",
+      "D) $21$",
+      "E) $22$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 21 \\cdot 1 = 21$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $54$",
+      "B) $27$",
+      "C) $60$",
+      "D) $18$",
+      "E) $81$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 3 \\cdot 9 = 54$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 3$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $4$",
+      "B) $6$",
+      "C) $18$",
+      "D) $12$",
+      "E) $16$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 3 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 31 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $32$",
+      "B) $1$",
+      "C) $40$",
+      "D) $18$",
+      "E) $31$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 31 \\cdot 1 = 31$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $52.5$ N",
+      "B) $42$ N",
+      "C) $35$ N",
+      "D) $7$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 7 \\cdot 1 = 35$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $12$ N",
+      "C) $6$ N",
+      "D) $15$ N",
+      "E) $16$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 2 \\cdot 2 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $60$ N",
+      "C) $40$ N",
+      "D) $4$ N",
+      "E) $50$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 10 \\cdot 1 = 40$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $24$",
+      "B) $12$",
+      "C) $3$",
+      "D) $4$",
+      "E) $15$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 4 = 12$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $10$",
+      "B) $20$",
+      "C) $22$",
+      "D) $2$",
+      "E) $30$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 10 = 20$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $2$ N",
+      "C) $2.5$ N",
+      "D) $20$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 5 \\cdot 0.5 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $2$",
+      "B) $6$",
+      "C) $9$",
+      "D) $8$",
+      "E) $3$"
+    ],
+    "correct_answer": 1,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 1 \\cdot 2 = 6$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 44 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $88$",
+      "B) $56$",
+      "C) $29$",
+      "D) $45$",
+      "E) $44$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 44 \\cdot 1 = 44$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 45 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $147$",
+      "B) $130$",
+      "C) $48$",
+      "D) $135$",
+      "E) $45$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 45 \\cdot 3 = 135$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 47 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $47$",
+      "B) $99$",
+      "C) $2$",
+      "D) $94$",
+      "E) $49$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 47 \\cdot 2 = 94$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 24 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $42$",
+      "B) $63$",
+      "C) $24$",
+      "D) $26$",
+      "E) $48$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 24 \\cdot 2 = 48$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 46 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $276$",
+      "B) $230$",
+      "C) $237$",
+      "D) $46$",
+      "E) $51$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 46 \\cdot 5 = 230$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 10$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $80$",
+      "B) $30$",
+      "C) $66$",
+      "D) $6$",
+      "E) $60$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 10 = 60$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $36$ N",
+      "B) $24$ N",
+      "C) $32$ N",
+      "D) $8$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 8 \\cdot 1 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $6$ N",
+      "C) $4.5$ N",
+      "D) $6$ N",
+      "E) $1$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 3 \\cdot 0.5 = 3$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 10 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $23$",
+      "B) $11$",
+      "C) $20$",
+      "D) $1$",
+      "E) $10$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 10 \\cdot 1 = 10$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1$ N",
+      "B) $2$ N",
+      "C) $8$ N",
+      "D) $8$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 4 \\cdot 0.5 = 4$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $16$",
+      "B) $28$",
+      "C) $2$",
+      "D) $7$",
+      "E) $14$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 2 \\cdot 7 = 14$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $5$ N",
+      "C) $22.5$ N",
+      "D) $20$ N",
+      "E) $15$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 5 \\cdot 1 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $36$ N",
+      "B) $4.5$ N",
+      "C) $9$ N",
+      "D) $27$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 6 \\cdot 1.5 = 27$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $7.5$ N",
+      "B) $30$ N",
+      "C) $20$ N",
+      "D) $6$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 5 \\cdot 1.5 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $70$ N",
+      "B) $28$ N",
+      "C) $14$ N",
+      "D) $56$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 7 \\cdot 2 = 56$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 15 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $15$",
+      "B) $21$",
+      "C) $2$",
+      "D) $16$",
+      "E) $30$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 15 \\cdot 1 = 15$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 27 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $27$",
+      "B) $29$",
+      "C) $54$",
+      "D) $81$",
+      "E) $65$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 27 \\cdot 2 = 54$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 12 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $48$",
+      "B) $16$",
+      "C) $4$",
+      "D) $54$",
+      "E) $12$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 12 \\cdot 4 = 48$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 35 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $3$",
+      "B) $105$",
+      "C) $112$",
+      "D) $38$",
+      "E) $140$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 35 \\cdot 3 = 105$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 28 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $123$",
+      "B) $112$",
+      "C) $32$",
+      "D) $104$",
+      "E) $28$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 28 \\cdot 4 = 112$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 9$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $9$",
+      "B) $20$",
+      "C) $2$",
+      "D) $27$",
+      "E) $18$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 9 = 18$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 28 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $168$",
+      "B) $140$",
+      "C) $129$",
+      "D) $28$",
+      "E) $33$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 28 \\cdot 5 = 140$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $7.5$ N",
+      "B) $63$ N",
+      "C) $10.5$ N",
+      "D) $70$ N",
+      "E) $52.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 7 \\cdot 1.5 = 52.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $31.5$ N",
+      "B) $28$ N",
+      "C) $7$ N",
+      "D) $21$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 7 \\cdot 1 = 21$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $13.5$ N",
+      "B) $27$ N",
+      "C) $18$ N",
+      "D) $1.5$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 9 \\cdot 1.5 = 13.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 16 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $22$",
+      "B) $1$",
+      "C) $32$",
+      "D) $1$",
+      "E) $16$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 16 \\cdot 1 = 16$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 25 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $1$",
+      "B) $50$",
+      "C) $11$",
+      "D) $26$",
+      "E) $25$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 25 \\cdot 1 = 25$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4.5$ N",
+      "B) $2.5$ N",
+      "C) $45$ N",
+      "D) $22.5$ N",
+      "E) $45$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 9 \\cdot 0.5 = 22.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $20$ N",
+      "B) $15$ N",
+      "C) $1$ N",
+      "D) $10$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 10 \\cdot 1 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 43 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $44$",
+      "B) $1$",
+      "C) $43$",
+      "D) $35$",
+      "E) $56$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 43 \\cdot 1 = 43$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $15$ N",
+      "C) $6$ N",
+      "D) $6$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 3 \\cdot 2 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 38 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $228$",
+      "B) $43$",
+      "C) $177$",
+      "D) $190$",
+      "E) $5$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 38 \\cdot 5 = 190$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 25 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $3$",
+      "B) $28$",
+      "C) $75$",
+      "D) $100$",
+      "E) $25$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 25 \\cdot 3 = 75$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 18 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $80$",
+      "B) $90$",
+      "C) $18$",
+      "D) $108$",
+      "E) $5$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 18 \\cdot 5 = 90$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1.5$ N",
+      "B) $8$ N",
+      "C) $6$ N",
+      "D) $12$ N",
+      "E) $4$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 4 \\cdot 1.5 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $12$",
+      "B) $9$",
+      "C) $36$",
+      "D) $12$",
+      "E) $48$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 3 \\cdot 4 = 36$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $16$ N",
+      "B) $24$ N",
+      "C) $2$ N",
+      "D) $8$ N",
+      "E) $24$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 8 \\cdot 1 = 16$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 40 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $126$",
+      "B) $111$",
+      "C) $160$",
+      "D) $120$",
+      "E) $43$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 40 \\cdot 3 = 120$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $36$ N",
+      "B) $18$ N",
+      "C) $45$ N",
+      "D) $12$ N",
+      "E) $48$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 6 \\cdot 2 = 36$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 46 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $184$",
+      "B) $138$",
+      "C) $46$",
+      "D) $3$",
+      "E) $49$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 46 \\cdot 3 = 138$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 19 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $12$",
+      "B) $19$",
+      "C) $28$",
+      "D) $1$",
+      "E) $20$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 19 \\cdot 1 = 19$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 50 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $85$",
+      "B) $110$",
+      "C) $2$",
+      "D) $52$",
+      "E) $100$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 50 \\cdot 2 = 100$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $20$ N",
+      "B) $20$ N",
+      "C) $8$ N",
+      "D) $16$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 2 \\cdot 2 = 16$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $18$ N",
+      "C) $9$ N",
+      "D) $12$ N",
+      "E) $1.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 6 \\cdot 1.5 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 11 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $14$",
+      "B) $43$",
+      "C) $20$",
+      "D) $33$",
+      "E) $11$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 11 \\cdot 3 = 33$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 18 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $20$",
+      "B) $2$",
+      "C) $18$",
+      "D) $44$",
+      "E) $36$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 18 \\cdot 2 = 36$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 19 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $66$",
+      "B) $51$",
+      "C) $57$",
+      "D) $76$",
+      "E) $22$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 19 \\cdot 3 = 57$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1.5$ N",
+      "B) $16$ N",
+      "C) $8$ N",
+      "D) $24$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 8 \\cdot 1.5 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 42 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $99$",
+      "B) $77$",
+      "C) $2$",
+      "D) $126$",
+      "E) $84$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 42 \\cdot 2 = 84$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $20$ N",
+      "C) $10$ N",
+      "D) $15$ N",
+      "E) $7.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 5 \\cdot 1.5 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $8$ N",
+      "B) $20$ N",
+      "C) $50$ N",
+      "D) $48$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 4 \\cdot 2 = 40$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 24 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $35$",
+      "B) $25$",
+      "C) $1$",
+      "D) $24$",
+      "E) $48$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 24 \\cdot 1 = 24$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $9$ N",
+      "B) $4.5$ N",
+      "C) $9$ N",
+      "D) $0.5$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 9 \\cdot 0.5 = 4.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 22 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $22$",
+      "B) $1$",
+      "C) $44$",
+      "D) $16$",
+      "E) $35$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 22 \\cdot 1 = 22$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 29 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $29$",
+      "B) $87$",
+      "C) $73$",
+      "D) $116$",
+      "E) $97$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 29 \\cdot 3 = 87$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 4$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $8$",
+      "B) $8$",
+      "C) $24$",
+      "D) $4$",
+      "E) $16$"
+    ],
+    "correct_answer": 4,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 2 \\cdot 4 = 16$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 46 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $46$",
+      "B) $51$",
+      "C) $92$",
+      "D) $34$",
+      "E) $47$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 46 \\cdot 1 = 46$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 43 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $258$",
+      "B) $215$",
+      "C) $224$",
+      "D) $5$",
+      "E) $43$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 43 \\cdot 5 = 215$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 41 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $43$",
+      "B) $82$",
+      "C) $2$",
+      "D) $123$",
+      "E) $77$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 41 \\cdot 2 = 82$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 15 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $45$",
+      "B) $36$",
+      "C) $15$",
+      "D) $3$",
+      "E) $18$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 15 \\cdot 3 = 45$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 49 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $138$",
+      "B) $147$",
+      "C) $196$",
+      "D) $52$",
+      "E) $49$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 49 \\cdot 3 = 147$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $15$ N",
+      "B) $60$ N",
+      "C) $60$ N",
+      "D) $45$ N",
+      "E) $4.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 10 \\cdot 1.5 = 45$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 22 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $83$",
+      "B) $88$",
+      "C) $4$",
+      "D) $95$",
+      "E) $26$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 22 \\cdot 4 = 88$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 31 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $163$",
+      "B) $5$",
+      "C) $31$",
+      "D) $155$",
+      "E) $36$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 31 \\cdot 5 = 155$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $90$ N",
+      "B) $67.5$ N",
+      "C) $45$ N",
+      "D) $81$ N",
+      "E) $13.5$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 9 \\cdot 1.5 = 67.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1.5$ N",
+      "B) $9$ N",
+      "C) $1.5$ N",
+      "D) $9$ N",
+      "E) $4.5$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 3 \\cdot 0.5 = 4.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 13 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $78$",
+      "B) $18$",
+      "C) $13$",
+      "D) $65$",
+      "E) $55$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 13 \\cdot 5 = 65$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $15$ N",
+      "C) $12$ N",
+      "D) $4$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 3 \\cdot 1 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 48 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $2$",
+      "B) $48$",
+      "C) $82$",
+      "D) $96$",
+      "E) $50$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 48 \\cdot 2 = 96$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $72$ N",
+      "B) $54$ N",
+      "C) $18$ N",
+      "D) $67.5$ N",
+      "E) $27$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 9 \\cdot 2 = 54$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 22 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $102$",
+      "B) $132$",
+      "C) $5$",
+      "D) $121$",
+      "E) $110$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 22 \\cdot 5 = 110$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 39 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $117$",
+      "B) $39$",
+      "C) $125$",
+      "D) $156$",
+      "E) $3$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 39 \\cdot 3 = 117$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik hareket eden $L = 1$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $4$",
+      "B) $6$",
+      "C) $6$",
+      "D) $2$",
+      "E) $2$"
+    ],
+    "correct_answer": 0,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 2 \\cdot 1 \\cdot 2 = 4$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $5$ N",
+      "B) $9$ N",
+      "C) $54$ N",
+      "D) $45$ N",
+      "E) $67.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 9 \\cdot 1 = 45$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $15$ N",
+      "B) $2.5$ N",
+      "C) $30$ N",
+      "D) $30$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 6 \\cdot 0.5 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $90$ N",
+      "B) $45$ N",
+      "C) $112.5$ N",
+      "D) $108$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 9 \\cdot 2 = 90$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $36$ N",
+      "B) $40.5$ N",
+      "C) $27$ N",
+      "D) $3$ N",
+      "E) $9$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 9 \\cdot 1 = 27$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $13.5$ N",
+      "B) $9$ N",
+      "C) $18$ N",
+      "D) $1$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 9 \\cdot 1 = 9$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 31 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $124$",
+      "B) $34$",
+      "C) $3$",
+      "D) $93$",
+      "E) $80$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 31 \\cdot 3 = 93$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 2$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $9$",
+      "B) $3$",
+      "C) $12$",
+      "D) $6$",
+      "E) $2$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 2 = 6$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $27$ N",
+      "B) $24$ N",
+      "C) $3$ N",
+      "D) $6$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 6 \\cdot 1 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $15$ N",
+      "B) $75$ N",
+      "C) $90$ N",
+      "D) $50$ N",
+      "E) $100$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 10 \\cdot 1.5 = 75$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 24 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $120$",
+      "B) $5$",
+      "C) $110$",
+      "D) $126$",
+      "E) $144$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 24 \\cdot 5 = 120$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 33 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $37$",
+      "B) $132$",
+      "C) $145$",
+      "D) $4$",
+      "E) $165$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 33 \\cdot 4 = 132$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $12$ N",
+      "C) $4$ N",
+      "D) $18$ N",
+      "E) $16$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 4 \\cdot 1 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 50 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $3$",
+      "B) $53$",
+      "C) $200$",
+      "D) $150$",
+      "E) $157$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 50 \\cdot 3 = 150$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $37.5$ N",
+      "B) $6$ N",
+      "C) $30$ N",
+      "D) $15$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 3 \\cdot 2 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 21 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $26$",
+      "B) $90$",
+      "C) $126$",
+      "D) $21$",
+      "E) $105$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 21 \\cdot 5 = 105$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 34 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $94$",
+      "B) $37$",
+      "C) $102$",
+      "D) $34$",
+      "E) $136$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 34 \\cdot 3 = 102$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 49 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $5$",
+      "B) $245$",
+      "C) $54$",
+      "D) $49$",
+      "E) $294$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 49 \\cdot 5 = 245$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 36 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $180$",
+      "B) $36$",
+      "C) $174$",
+      "D) $41$",
+      "E) $190$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 36 \\cdot 5 = 180$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 27 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $30$",
+      "B) $108$",
+      "C) $81$",
+      "D) $76$",
+      "E) $3$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 27 \\cdot 3 = 81$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $20$ N",
+      "B) $2$ N",
+      "C) $10$ N",
+      "D) $2.5$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 4 \\cdot 0.5 = 10$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 20 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $40$",
+      "B) $20$",
+      "C) $2$",
+      "D) $60$",
+      "E) $22$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 20 \\cdot 2 = 40$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $52.5$ N",
+      "B) $21$ N",
+      "C) $56$ N",
+      "D) $14$ N",
+      "E) $42$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 7 \\cdot 2 = 42$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 47 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $47$",
+      "B) $5$",
+      "C) $235$",
+      "D) $248$",
+      "E) $223$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 47 \\cdot 5 = 235$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 37 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $42$",
+      "B) $171$",
+      "C) $185$",
+      "D) $5$",
+      "E) $222$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 37 \\cdot 5 = 185$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 47 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $51$",
+      "B) $4$",
+      "C) $188$",
+      "D) $47$",
+      "E) $203$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 47 \\cdot 4 = 188$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 44 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $103$",
+      "B) $88$",
+      "C) $80$",
+      "D) $2$",
+      "E) $44$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 44 \\cdot 2 = 88$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $6$ N",
+      "C) $2$ N",
+      "D) $2$ N",
+      "E) $6$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 2 \\cdot 1 = 4$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 37 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $148$",
+      "B) $185$",
+      "C) $37$",
+      "D) $41$",
+      "E) $4$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 37 \\cdot 4 = 148$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $2$ N",
+      "C) $4$ N",
+      "D) $12$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 4 \\cdot 1 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 11 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $11$",
+      "B) $22$",
+      "C) $21$",
+      "D) $12$",
+      "E) $1$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 11 \\cdot 1 = 11$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $16$ N",
+      "C) $3$ N",
+      "D) $6$ N",
+      "E) $8$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 4 \\cdot 1.5 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 36 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $24$",
+      "B) $36$",
+      "C) $72$",
+      "D) $48$",
+      "E) $37$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 36 \\cdot 1 = 36$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 8$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $1$ N",
+      "B) $8$ N",
+      "C) $16$ N",
+      "D) $4$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 8 \\cdot 0.5 = 8$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 45 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $90$",
+      "B) $46$",
+      "C) $1$",
+      "D) $34$",
+      "E) $45$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 45 \\cdot 1 = 45$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 48 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $240$",
+      "B) $48$",
+      "C) $231$",
+      "D) $288$",
+      "E) $53$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 48 \\cdot 5 = 240$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik hareket eden $L = 3$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 5$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $30$",
+      "B) $5$",
+      "C) $18$",
+      "D) $15$",
+      "E) $3$"
+    ],
+    "correct_answer": 3,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 1 \\cdot 3 \\cdot 5 = 15$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 20 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 3 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $55$",
+      "B) $23$",
+      "C) $80$",
+      "D) $60$",
+      "E) $3$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 20 \\cdot 3 = 60$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 39 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $156$",
+      "B) $142$",
+      "C) $168$",
+      "D) $4$",
+      "E) $43$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 39 \\cdot 4 = 156$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 32 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $34$",
+      "B) $64$",
+      "C) $96$",
+      "D) $2$",
+      "E) $32$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 32 \\cdot 2 = 64$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 35 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $39$",
+      "B) $4$",
+      "C) $35$",
+      "D) $140$",
+      "E) $134$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 35 \\cdot 4 = 140$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 41 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $46$",
+      "B) $1$",
+      "C) $82$",
+      "D) $32$",
+      "E) $41$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 41 \\cdot 1 = 41$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 14 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $28$",
+      "B) $16$",
+      "C) $33$",
+      "D) $2$",
+      "E) $42$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 14 \\cdot 2 = 28$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 9$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $9$ N",
+      "B) $22.5$ N",
+      "C) $2$ N",
+      "D) $18$ N",
+      "E) $36$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 9 \\cdot 2 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $20$ N",
+      "B) $7.5$ N",
+      "C) $15$ N",
+      "D) $3$ N",
+      "E) $18$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 2 \\cdot 1.5 = 15$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 12 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $3$",
+      "B) $1$",
+      "C) $12$",
+      "D) $13$",
+      "E) $26$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 12 \\cdot 1 = 12$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $84$ N",
+      "B) $70$ N",
+      "C) $14$ N",
+      "D) $35$ N",
+      "E) $87.5$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 7 \\cdot 2 = 70$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 25 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $50$",
+      "B) $75$",
+      "C) $25$",
+      "D) $2$",
+      "E) $56$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 25 \\cdot 2 = 50$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 35 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $70$",
+      "B) $35$",
+      "C) $45$",
+      "D) $1$",
+      "E) $26$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 35 \\cdot 1 = 35$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 46 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $184$",
+      "B) $4$",
+      "C) $50$",
+      "D) $46$",
+      "E) $172$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 46 \\cdot 4 = 184$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $13.5$ N",
+      "B) $18$ N",
+      "C) $9$ N",
+      "D) $18$ N",
+      "E) $4.5$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 3 \\cdot 1.5 = 13.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 23 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $25$",
+      "B) $46$",
+      "C) $34$",
+      "D) $69$",
+      "E) $23$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 23 \\cdot 2 = 46$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 49 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $188$",
+      "B) $53$",
+      "C) $49$",
+      "D) $201$",
+      "E) $196$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 49 \\cdot 4 = 196$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 17 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $4$",
+      "B) $68$",
+      "C) $21$",
+      "D) $17$",
+      "E) $85$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 17 \\cdot 4 = 68$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 30 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $110$",
+      "B) $4$",
+      "C) $150$",
+      "D) $131$",
+      "E) $120$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 30 \\cdot 4 = 120$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $40$ N",
+      "B) $20$ N",
+      "C) $40$ N",
+      "D) $2$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 10 \\cdot 0.5 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $50$ N",
+      "B) $30$ N",
+      "C) $25$ N",
+      "D) $2.5$ N",
+      "E) $50$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 10 \\cdot 0.5 = 25$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 32 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $64$",
+      "B) $33$",
+      "C) $1$",
+      "D) $32$",
+      "E) $43$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 32 \\cdot 1 = 32$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 14 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $15$",
+      "B) $27$",
+      "C) $14$",
+      "D) $1$",
+      "E) $28$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 14 \\cdot 1 = 14$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 7$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $14$ N",
+      "B) $3.5$ N",
+      "C) $1$ N",
+      "D) $7$ N",
+      "E) $10.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 7 \\cdot 0.5 = 7$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 10 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $20$",
+      "B) $30$",
+      "C) $12$",
+      "D) $32$",
+      "E) $2$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 10 \\cdot 2 = 20$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 38 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $145$",
+      "B) $42$",
+      "C) $152$",
+      "D) $190$",
+      "E) $4$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 38 \\cdot 4 = 152$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 47 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $94$",
+      "B) $48$",
+      "C) $47$",
+      "D) $1$",
+      "E) $40$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 47 \\cdot 1 = 47$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 11 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $55$",
+      "B) $11$",
+      "C) $51$",
+      "D) $15$",
+      "E) $44$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 11 \\cdot 4 = 44$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 23 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $1$",
+      "B) $46$",
+      "C) $24$",
+      "D) $23$",
+      "E) $34$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 23 \\cdot 1 = 23$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 35 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $105$",
+      "B) $2$",
+      "C) $37$",
+      "D) $70$",
+      "E) $57$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 35 \\cdot 2 = 70$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 42 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $252$",
+      "B) $210$",
+      "C) $47$",
+      "D) $224$",
+      "E) $5$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 42 \\cdot 5 = 210$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 15 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $90$",
+      "B) $75$",
+      "C) $61$",
+      "D) $5$",
+      "E) $20$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 15 \\cdot 5 = 75$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4.5$ N",
+      "B) $6$ N",
+      "C) $3$ N",
+      "D) $1$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 3 \\cdot 1 = 3$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $36$ N",
+      "B) $30$ N",
+      "C) $45$ N",
+      "D) $6$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 6 \\cdot 1 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 10 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $10$",
+      "B) $40$",
+      "C) $28$",
+      "D) $14$",
+      "E) $4$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 10 \\cdot 4 = 40$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $10$ N",
+      "B) $60$ N",
+      "C) $50$ N",
+      "D) $75$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 10 \\cdot 1 = 50$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 30 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $30$",
+      "B) $60$",
+      "C) $1$",
+      "D) $16$",
+      "E) $31$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 30 \\cdot 1 = 30$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $18$ N",
+      "B) $18$ N",
+      "C) $6$ N",
+      "D) $2$ N",
+      "E) $12$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 6 \\cdot 1 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 17 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $34$",
+      "B) $19$",
+      "C) $20$",
+      "D) $17$",
+      "E) $51$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 17 \\cdot 2 = 34$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $100$ N",
+      "B) $120$ N",
+      "C) $10$ N",
+      "D) $50$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 10 \\cdot 2 = 100$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $48$ N",
+      "B) $8$ N",
+      "C) $24$ N",
+      "D) $12$ N",
+      "E) $60$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 6 \\cdot 2 = 48$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 33 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $1$",
+      "B) $33$",
+      "C) $48$",
+      "D) $34$",
+      "E) $66$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 33 \\cdot 1 = 33$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 5$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 4$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $20$ N",
+      "B) $36$ N",
+      "C) $30$ N",
+      "D) $7.5$ N",
+      "E) $40$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 5 \\cdot 4 \\cdot 1.5 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 40 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $4$",
+      "B) $160$",
+      "C) $44$",
+      "D) $40$",
+      "E) $167$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 40 \\cdot 4 = 160$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $15$ N",
+      "B) $10$ N",
+      "C) $7.5$ N",
+      "D) $5$ N",
+      "E) $1.5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 5 \\cdot 1.5 = 7.5$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $37.5$ N",
+      "B) $6$ N",
+      "C) $30$ N",
+      "D) $10$ N",
+      "E) $15$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 5 \\cdot 2 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik hareket eden $L = 2$ m boyundaki bir iletkenin h\\u0131z\\u0131 $v = 7$ m/s ise uçlar\\u0131 aras\\u0131nda indüklenen emk kaç V tur?",
+    "options": [
+      "A) $6$",
+      "B) $21$",
+      "C) $42$",
+      "D) $56$",
+      "E) $48$"
+    ],
+    "correct_answer": 2,
+    "explanation": "$\\varepsilon = B \\cdot L \\cdot v = 3 \\cdot 2 \\cdot 7 = 42$ V."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $22.5$ N",
+      "B) $6$ N",
+      "C) $18$ N",
+      "D) $6$ N",
+      "E) $24$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 3 \\cdot 2 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $2$ N",
+      "C) $6$ N",
+      "D) $15$ N",
+      "E) $24$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 6 \\cdot 2 = 12$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $8$ N",
+      "B) $1$ N",
+      "C) $4$ N",
+      "D) $2$ N",
+      "E) $5$ N"
+    ],
+    "correct_answer": 2,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 2 \\cdot 0.5 = 4$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 5$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $30$ N",
+      "B) $25$ N",
+      "C) $5$ N",
+      "D) $4$ N",
+      "E) $20$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 5 \\cdot 1 = 20$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 17 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $5$",
+      "B) $90$",
+      "C) $102$",
+      "D) $17$",
+      "E) $85$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 17 \\cdot 5 = 85$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 20 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 1 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $34$",
+      "B) $20$",
+      "C) $40$",
+      "D) $1$",
+      "E) $21$"
+    ],
+    "correct_answer": 1,
+    "explanation": "Tork: $\\tau = F \\cdot d = 20 \\cdot 1 = 20$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 1$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $4$ N",
+      "B) $8$ N",
+      "C) $5$ N",
+      "D) $2$ N",
+      "E) $2$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 1 \\cdot 2 \\cdot 2 = 4$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 36 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 4 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $152$",
+      "B) $132$",
+      "C) $144$",
+      "D) $36$",
+      "E) $40$"
+    ],
+    "correct_answer": 2,
+    "explanation": "Tork: $\\tau = F \\cdot d = 36 \\cdot 4 = 144$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 2$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 6$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $18$ N",
+      "C) $9$ N",
+      "D) $24$ N",
+      "E) $27$ N"
+    ],
+    "correct_answer": 1,
+    "explanation": "$F = B \\cdot i \\cdot L = 2 \\cdot 6 \\cdot 1.5 = 18$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 10$ A ak\\u0131m ta\\u015f\\u0131yan $L = 1$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $3$ N",
+      "B) $40$ N",
+      "C) $45$ N",
+      "D) $30$ N",
+      "E) $10$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 10 \\cdot 1 = 30$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 3$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 2$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $6$ N",
+      "B) $1.5$ N",
+      "C) $4$ N",
+      "D) $1$ N",
+      "E) $3$ N"
+    ],
+    "correct_answer": 4,
+    "explanation": "$F = B \\cdot i \\cdot L = 3 \\cdot 2 \\cdot 0.5 = 3$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 2$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $24$ N",
+      "B) $8$ N",
+      "C) $30$ N",
+      "D) $6$ N",
+      "E) $30$ N"
+    ],
+    "correct_answer": 0,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 3 \\cdot 2 = 24$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 38 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $40$",
+      "B) $38$",
+      "C) $114$",
+      "D) $76$",
+      "E) $2$"
+    ],
+    "correct_answer": 3,
+    "explanation": "Tork: $\\tau = F \\cdot d = 38 \\cdot 2 = 76$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 23 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 5 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $129$",
+      "B) $138$",
+      "C) $28$",
+      "D) $100$",
+      "E) $115$"
+    ],
+    "correct_answer": 4,
+    "explanation": "Tork: $\\tau = F \\cdot d = 23 \\cdot 5 = 115$ N·m."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "$B = 4$ T manyetik alan içinde alana dik yerle\\u015ftirilen $i = 3$ A ak\\u0131m ta\\u015f\\u0131yan $L = 0.5$ m uzunlu\\u011fundaki tele etki eden manyetik kuvvet kaç N dur?",
+    "options": [
+      "A) $12$ N",
+      "B) $7.5$ N",
+      "C) $12$ N",
+      "D) $6$ N",
+      "E) $1.5$ N"
+    ],
+    "correct_answer": 3,
+    "explanation": "$F = B \\cdot i \\cdot L = 4 \\cdot 3 \\cdot 0.5 = 6$ N."
+  },
+  {
+    "sub_category": "fizik",
+    "question": "Bir cisme 37 N büyüklü\\u011fünde bir kuvvet, dönme noktas\\u0131ndan 2 m uzakl\\u0131\\u011fa dik olarak uygulan\\u0131yor. Buna göre tork kaç N·m dir?",
+    "options": [
+      "A) $74$",
+      "B) $37$",
+      "C) $39$",
+      "D) $79$",
+      "E) $62$"
+    ],
+    "correct_answer": 0,
+    "explanation": "Tork: $\\tau = F \\cdot d = 37 \\cdot 2 = 74$ N·m."
   }
 ]

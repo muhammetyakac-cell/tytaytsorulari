@@ -1101,5 +1101,83 @@
     ],
     "correct_answer": 0,
     "explanation": "Cümledeki nesne: \"güzel bir hikâye kitabı\""
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"büyük\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) dev",
+      "B) geniş",
+      "C) iri",
+      "D) küçük",
+      "E) kocaman"
+    ],
+    "correct_answer": 3,
+    "explanation": "\"büyük\" sözcüğünün zıt anlamlısı \"küçük\"dir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "Noktalama yanlışı olan cümle hangisidir? (Ahmet, Ali, ve Ayşe toplantıya katıldı.)",
+    "options": [
+      "A) \"Ahmet\"ten sonra virgül gereksizdir",
+      "B) Virgülden sonra \"ve\" kullanılmamalıdır",
+      "C) Cümlede noktalama yanlışı yoktur",
+      "D) Cümle sonunda soru işareti olmalıdır",
+      "E) \"Ali\"den sonra noktalı virgül olmalıdır"
+    ],
+    "correct_answer": 1,
+    "explanation": "\"Ahmet, Ali, ve Ayşe toplantıya katıldı.\" → Virgülden sonra \"ve\" kullanılmamalıdır"
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Akşam, güneş batarken eve döndük.\"\nAltı çizili \"Akşam\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) isim",
+      "B) zarf",
+      "C) zamir",
+      "D) fiil",
+      "E) sıfat"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"Akşam\" sözcüğü \"isim\" türündedir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Sana güveniyorum çünkü sen dürüstsün.\"\nAltı çizili \"çünkü\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) bağlaç",
+      "B) isim",
+      "C) zamir",
+      "D) edat",
+      "E) sıfat"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"çünkü\" sözcüğü \"bağlaç\" türündedir."
+  },
+  {
+    "sub_category": "dil-bilgisi",
+    "question": "\"Ahmet okula yeni bir çantayla geldi.\"\nAltı çizili \"yeni\" sözcüğünün türü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) zamir",
+      "B) isim",
+      "C) sıfat",
+      "D) fiil",
+      "E) zarf"
+    ],
+    "correct_answer": 2,
+    "explanation": "\"yeni\" sözcüğü \"sıfat\" türündedir."
+  },
+  {
+    "sub_category": "sozcuk-anlami",
+    "question": "Aşağıdakilerden hangisi \"kalın\" sözcüğünün zıt anlamlısıdır?",
+    "options": [
+      "A) ince",
+      "B) tok",
+      "C) yoğun",
+      "D) katı",
+      "E) kaba"
+    ],
+    "correct_answer": 0,
+    "explanation": "\"kalın\" sözcüğünün zıt anlamlısı \"ince\"dir."
   }
 ]

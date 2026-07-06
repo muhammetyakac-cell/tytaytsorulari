@@ -38,38 +38,37 @@ async function insertQuestions(categoryId, questions, dryRun = false) {
   let inserted = 0;
   let skipped = 0;
   let errors = 0;
+  const CHUNK = 100;
 
-  for (const q of questions) {
-    try {
-      // Create the options array with letter prefixes if not present
-      const options = q.options.map((opt, i) => {
-        const letter = String.fromCharCode(65 + i); // A, B, C, D, E
+  let existingSet = new Set();
+  if (!dryRun) {
+    const rows = await sql`SELECT question FROM questions WHERE category_id = ${categoryId}`;
+    for (const r of rows) existingSet.add(r.question);
+  }
+
+  for (let i = 0; i < questions.length; i += CHUNK) {
+    const chunk = questions.slice(i, i + CHUNK);
+    const promises = [];
+
+    for (const q of chunk) {
+      if (!dryRun && existingSet.has(q.question)) { skipped++; continue; }
+      const options = q.options.map((opt, j) => {
+        const letter = String.fromCharCode(65 + j);
         return opt.startsWith(`${letter}) `) ? opt : `${letter}) ${opt}`;
       });
-
       if (dryRun) {
         console.log(`  [DRY] ${q.sub_category}: ${q.question.substring(0, 60)}...`);
         inserted++;
-        continue;
+      } else {
+        promises.push(
+          sql`INSERT INTO questions (category_id, sub_category, question, options, correct_answer, explanation) VALUES (${categoryId}, ${q.sub_category}, ${q.question}, ${JSON.stringify(options)}, ${q.correct_answer}, ${q.explanation})`
+            .then(() => { inserted++; existingSet.add(q.question); })
+            .catch(err => { console.error(`  [ERROR] ${q.sub_category}: ${err.message}`); errors++; })
+        );
       }
-
-      // Check if question already exists by hash of question text
-      const existing = await sql`SELECT id FROM questions WHERE category_id = ${categoryId} AND question = ${q.question} LIMIT 1`;
-      
-      if (existing.length > 0) {
-        skipped++;
-        continue;
-      }
-
-      await sql`
-        INSERT INTO questions (category_id, sub_category, question, options, correct_answer, explanation)
-        VALUES (${categoryId}, ${q.sub_category}, ${q.question}, ${JSON.stringify(options)}, ${q.correct_answer}, ${q.explanation})
-      `;
-      inserted++;
-    } catch (err) {
-      console.error(`  [ERROR] ${q.sub_category}: ${err.message}`);
-      errors++;
     }
+
+    if (promises.length > 0) await Promise.all(promises);
   }
 
   return { inserted, skipped, errors };
