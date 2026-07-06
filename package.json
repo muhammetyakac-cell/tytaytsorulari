@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "soru-uret": "node scripts/bot-soru-uret.mjs",
+    "soru-ekle": "node scripts/bot-soru-ekle.mjs",
+    "db:seed": "node scripts/bot-soru-ekle.mjs"
   },
   "keywords": [],
   "author": "",
